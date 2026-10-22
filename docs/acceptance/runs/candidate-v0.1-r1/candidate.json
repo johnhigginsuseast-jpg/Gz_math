@@ -1,0 +1,107 @@
+[
+  {
+    "path": "启动几何实验室.cmd",
+    "sha256": "87826D32C20E089E88A1D906ECD36309188C54D6BF4BA82ED5714CDA538076BE",
+    "bytes": 252
+  },
+  {
+    "path": "docs/acceptance/criteria-v0.1.md",
+    "sha256": "EE0B5B4FCFAC722DA728C1261AE61669865E624094E9F122BFCCF8131423F249",
+    "bytes": 2534
+  },
+  {
+    "path": "docs/requirements/requirements-v0.1.md",
+    "sha256": "33F1C09A1E58C29920F8D5D5A8A381646FF8CDD0F8D10ABF1C4B87AB3FF42624",
+    "bytes": 3865
+  },
+  {
+    "path": "docs/template-guide.md",
+    "sha256": "2E94D1783D8E03ED6319A131922AFE065AD66B3A3009D9AEF6E92E2E24702C6D",
+    "bytes": 1570
+  },
+  {
+    "path": "docs/testing/test-cases.md",
+    "sha256": "C88C12DE5722C34729C20AE2B1AD705F4F78734B819246D5141B7B78F155B44B",
+    "bytes": 1436
+  },
+  {
+    "path": "docs/testing/test-data.md",
+    "sha256": "832A6A77395D3AD780284A1DA95787A5DC7594689C5C30EF649CEC40837ED55C",
+    "bytes": 695
+  },
+  {
+    "path": "docs/testing/test-plan.md",
+    "sha256": "9954A8A700A7E936C2D987CA2FC656770B190DE703649C9201FA40068196CAF8",
+    "bytes": 665
+  },
+  {
+    "path": "docs/testing/traceability.md",
+    "sha256": "28C530D146789190BC108B32F99109D9216E349955E0CA06B5F91044CA641535",
+    "bytes": 785
+  },
+  {
+    "path": "package.json",
+    "sha256": "494DB652775AC9B9CD437ED7A1CC9E51DA6817650E5ED2555CC4D9472CEC3274",
+    "bytes": 356
+  },
+  {
+    "path": "README.md",
+    "sha256": "0AEAF67C956377BDC4DC927661077D813EB55E8C5DBDC4BD1E3E11C0B20F7E4C",
+    "bytes": 1806
+  },
+  {
+    "path": "server.mjs",
+    "sha256": "E916D8DB6EA871ABC61B0F20BE59368CEC28203019F2A619CF975911F5155EDA",
+    "bytes": 2313
+  },
+  {
+    "path": "site/app.mjs",
+    "sha256": "7618A0A48B913D8FE5C1404F41F4743C5985FCAE0E03083F1C5792330BFACA1D",
+    "bytes": 37557
+  },
+  {
+    "path": "site/assets/logo.svg",
+    "sha256": "33502FB20CF08EFAF88D09A7418532FD497784A2268B1EEE38DBA8E46C52B740",
+    "bytes": 329
+  },
+  {
+    "path": "site/course.mjs",
+    "sha256": "4B018634A96E7D9955A23E2B6A50E9D398D60D6D75885DEFCBC3795F972B7954",
+    "bytes": 5557
+  },
+  {
+    "path": "site/index.html",
+    "sha256": "C7F7BE8F6C5F0C42384C4861A603A18C3E1660B56D577F72347F823E328B3ADD",
+    "bytes": 746
+  },
+  {
+    "path": "site/math.mjs",
+    "sha256": "E858A0769167F2500598340C0C6240BB8CF25D38C1BE2059365112B9F99BEFFE",
+    "bytes": 1768
+  },
+  {
+    "path": "site/state.mjs",
+    "sha256": "46C4656A612F3E77D51CA14AEC7AD60FCA958D92F7C2BB864DE28E8B4CE571D8",
+    "bytes": 4445
+  },
+  {
+    "path": "site/styles.css",
+    "sha256": "4F353D17D4772555A07D4FAEB210FE7B69247280764A5AD163702A8C86A0E5B8",
+    "bytes": 20519
+  },
+  {
+    "path": "tests/math.test.mjs",
+    "sha256": "2A0884CC683B74AB903135CCE58EA9EBC7F7BD19A63F81889E071133F139DF4E",
+    "bytes": 3905
+  },
+  {
+    "path": "tests/server.test.mjs",
+    "sha256": "97BC9F4F702718B3B3537D86A2DC1AEBDC1C123EAEC10ED119586846FCD329FA",
+    "bytes": 1628
+  },
+  {
+    "path": "tests/state.test.mjs",
+    "sha256": "C8DAECBC0AF22D8070D56FA62994A78C3A5B63978C84E4BA08006F5FF932218B",
+    "bytes": 3616
+  }
+]

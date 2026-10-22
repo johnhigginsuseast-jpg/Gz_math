@@ -1,0 +1,10 @@
+Command: cmd.exe /d /c .\启动几何实验室.cmd
+Working directory: D:\mycode\gz_math3
+Session: 75958
+Output observed:
+Open http://127.0.0.1:4175/ in your browser.
+几何实验室 v0.1
+Local: http://127.0.0.1:4175/
+按 Ctrl+C 停止服务。
+
+No command parsing errors. Subsequent GET / returned HTTP 200 (http-smoke.txt).

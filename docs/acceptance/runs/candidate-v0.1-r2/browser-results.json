@@ -1,0 +1,72 @@
+{
+  "candidate": "candidate-v0.1-r2",
+  "timezone": "Asia/Shanghai",
+  "checks": [
+    {
+      "id": "AC-001",
+      "result": "PASS",
+      "detail": "清空后从初始页重新预测；预测前无反馈；公园交点在边界上"
+    },
+    {
+      "id": "AC-002",
+      "result": "PASS",
+      "detail": "分步、播放、暂停、重播和公式延迟显示正确。自动等待曾超时，随后新DOM已是4/4完成状态，无控制台错误；不据此承诺动画耗时"
+    },
+    {
+      "id": "AC-003",
+      "result": "PASS",
+      "detail": "三轮重新执行，先预测后操作，错误观察/未到目标不能记录，2/1/0个公共点记录正确"
+    },
+    {
+      "id": "AC-004",
+      "result": "PASS",
+      "detail": "判据和一般距离公式含适用条件；答错不解锁，答对进入自由探索"
+    },
+    {
+      "id": "AC-005",
+      "result": "PASS",
+      "detail": "水平/斜线/竖直线、负偏移、d=0、半径边界、相切单点、相离无点、非法步长和重置均重验通过；数学不变量另见tests.txt"
+    },
+    {
+      "id": "AC-006",
+      "result": "PASS",
+      "detail": "两题8步逐一展开，结果和绝对值双分支解释正确"
+    },
+    {
+      "id": "AC-007",
+      "result": "PASS",
+      "detail": "六题逐一错答/修正，多选漏选不通过；重复提交不重复累计；六项错误历史在小结保留，6/6才可完成"
+    },
+    {
+      "id": "AC-008",
+      "result": "PASS",
+      "detail": "刷新恢复步骤/记录/答案；损坏JSON和模拟写入异常均提示且可学习，已恢复备份及撤除注入；清空确认已在本轮开始验证，取消/Escape保留进度"
+    },
+    {
+      "id": "AC-009",
+      "result": "PASS",
+      "detail": "三宽度八环节共24项无水平溢出，图形等比例，键盘操作与3px可见焦点通过；非手机实机测试"
+    },
+    {
+      "id": "AC-010",
+      "result": "PASS",
+      "detail": "HTTP隔离测试、响应头、loopback监听及源代码/当前DOM资源核对通过，所有资源本地"
+    },
+    {
+      "id": "AC-011",
+      "result": "PASS",
+      "detail": "Windows启动入口实际运行无解析错误、HTTP200，README和模板说明齐全"
+    },
+    {
+      "id": "AC-012",
+      "result": "PASS",
+      "detail": "14份必需资料齐全、21个候选文件校验一致、原始DOCX校验一致、4缺陷均关闭；delivery-audit.txt"
+    }
+  ],
+  "localAssets": [
+    "http://127.0.0.1:4175/assets/logo.svg",
+    "http://127.0.0.1:4175/styles.css",
+    "http://127.0.0.1:4175/app.mjs",
+    "http://127.0.0.1:4175/assets/logo.svg"
+  ]
+}

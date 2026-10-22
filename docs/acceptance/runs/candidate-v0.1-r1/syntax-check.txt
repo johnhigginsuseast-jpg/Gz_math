@@ -1,0 +1,4 @@
+
+> geometry-learning-lab@0.1.0 check
+> node --check site/app.mjs && node --check site/math.mjs && node --check site/course.mjs && node --check site/state.mjs && node --check server.mjs
+

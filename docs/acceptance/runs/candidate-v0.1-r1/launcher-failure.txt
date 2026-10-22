@@ -1,0 +1,12 @@
+Command: cmd.exe /d /c .\启动几何实验室.cmd
+Session: 48640
+Output observed:
+'�请先安装' is not recognized as an internal or external command,
+operable program or batch file.
+'/b' is not recognized as an internal or external command,
+operable program or batch file.
+'��览器打开' is not recognized as an internal or external command,
+operable program or batch file.
+几何实验室 v0.1
+Local: http://127.0.0.1:4175/
+按 Ctrl+C 停止服务。

@@ -1,0 +1,10 @@
+Observed command: netstat -ano -p tcp | Select-String ':4175\s'
+Observed output:
+TCP    127.0.0.1:4175    0.0.0.0:0    LISTENING    29992
+
+Source inspection:
+- HTML, CSS and JS have no external script, font or image URLs, fetch, XMLHttpRequest, WebSocket or @import.
+- SVG http://www.w3.org/2000/svg is an XML namespace, not a network resource request.
+- SVG url(#...) references are document-local clip paths/patterns.
+- Response CSP has connect-src 'none'.
+- Server resource isolation verified by tests/server.test.mjs using raw HTTP paths, including encoded traversal and DOCX.

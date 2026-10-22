@@ -1,0 +1,221 @@
+[
+  {
+    "stage": 1,
+    "client": 1425,
+    "plot": null,
+    "scroll": 1425,
+    "width": 1440,
+    "result": "PASS"
+  },
+  {
+    "stage": 2,
+    "client": 1425,
+    "plot": {
+      "h": 601.328125,
+      "w": 601.328125
+    },
+    "scroll": 1425,
+    "width": 1440,
+    "result": "PASS"
+  },
+  {
+    "stage": 3,
+    "client": 1425,
+    "plot": {
+      "h": 601.328125,
+      "w": 601.328125
+    },
+    "scroll": 1425,
+    "width": 1440,
+    "result": "PASS"
+  },
+  {
+    "stage": 4,
+    "client": 1425,
+    "plot": null,
+    "scroll": 1425,
+    "width": 1440,
+    "result": "PASS"
+  },
+  {
+    "stage": 5,
+    "client": 1425,
+    "plot": {
+      "h": 601.328125,
+      "w": 601.328125
+    },
+    "scroll": 1425,
+    "width": 1440,
+    "result": "PASS"
+  },
+  {
+    "stage": 6,
+    "client": 1425,
+    "plot": null,
+    "scroll": 1425,
+    "width": 1440,
+    "result": "PASS"
+  },
+  {
+    "stage": 7,
+    "client": 1425,
+    "plot": null,
+    "scroll": 1425,
+    "width": 1440,
+    "result": "PASS"
+  },
+  {
+    "stage": 8,
+    "client": 1425,
+    "plot": null,
+    "scroll": 1425,
+    "width": 1440,
+    "result": "PASS"
+  },
+  {
+    "stage": 1,
+    "client": 753,
+    "plot": null,
+    "scroll": 753,
+    "width": 768,
+    "result": "PASS"
+  },
+  {
+    "stage": 2,
+    "client": 753,
+    "plot": {
+      "h": 335.9375,
+      "w": 335.9375
+    },
+    "scroll": 753,
+    "width": 768,
+    "result": "PASS"
+  },
+  {
+    "stage": 3,
+    "client": 768,
+    "plot": {
+      "h": 343.796875,
+      "w": 343.796875
+    },
+    "scroll": 768,
+    "width": 768,
+    "result": "PASS"
+  },
+  {
+    "stage": 4,
+    "client": 753,
+    "plot": null,
+    "scroll": 753,
+    "width": 768,
+    "result": "PASS"
+  },
+  {
+    "stage": 5,
+    "client": 753,
+    "plot": {
+      "h": 335.9375305175781,
+      "w": 335.9375
+    },
+    "scroll": 753,
+    "width": 768,
+    "result": "PASS"
+  },
+  {
+    "stage": 6,
+    "client": 753,
+    "plot": null,
+    "scroll": 753,
+    "width": 768,
+    "result": "PASS"
+  },
+  {
+    "stage": 7,
+    "client": 753,
+    "plot": null,
+    "scroll": 753,
+    "width": 768,
+    "result": "PASS"
+  },
+  {
+    "stage": 8,
+    "client": 753,
+    "plot": null,
+    "scroll": 753,
+    "width": 768,
+    "result": "PASS"
+  },
+  {
+    "stage": 1,
+    "client": 375,
+    "plot": null,
+    "scroll": 375,
+    "width": 390,
+    "result": "PASS"
+  },
+  {
+    "stage": 2,
+    "client": 375,
+    "plot": {
+      "h": 318.9999694824219,
+      "w": 319
+    },
+    "scroll": 375,
+    "width": 390,
+    "result": "PASS"
+  },
+  {
+    "stage": 3,
+    "client": 375,
+    "plot": {
+      "h": 319,
+      "w": 319
+    },
+    "scroll": 375,
+    "width": 390,
+    "result": "PASS"
+  },
+  {
+    "stage": 4,
+    "client": 375,
+    "plot": null,
+    "scroll": 375,
+    "width": 390,
+    "result": "PASS"
+  },
+  {
+    "stage": 5,
+    "client": 375,
+    "plot": {
+      "h": 318.9999694824219,
+      "w": 319
+    },
+    "scroll": 375,
+    "width": 390,
+    "result": "PASS"
+  },
+  {
+    "stage": 6,
+    "client": 375,
+    "plot": null,
+    "scroll": 375,
+    "width": 390,
+    "result": "PASS"
+  },
+  {
+    "stage": 7,
+    "client": 375,
+    "plot": null,
+    "scroll": 375,
+    "width": 390,
+    "result": "PASS"
+  },
+  {
+    "stage": 8,
+    "client": 375,
+    "plot": null,
+    "scroll": 375,
+    "width": 390,
+    "result": "PASS"
+  }
+]
