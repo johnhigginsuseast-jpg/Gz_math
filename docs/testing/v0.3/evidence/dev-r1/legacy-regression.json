@@ -1,0 +1,10 @@
+{
+  "check": "legacy-regression",
+  "guidedRounds": 3,
+  "topics": 5,
+  "examples": 7,
+  "questions": 15,
+  "complete100": true,
+  "homeSixComplete": true,
+  "legacyBytesPreserved": true
+}

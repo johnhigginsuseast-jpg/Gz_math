@@ -1,0 +1,8 @@
+{
+  "failedCheck": "isVisible immediately after goto",
+  "url": "/?lesson=methods",
+  "width": 1440,
+  "subsequentAX": "button 清空本课进度",
+  "subsequentComputedDisplay": "block",
+  "resolution": "Wait for rendered reset button before checking visibility; product unchanged."
+}

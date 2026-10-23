@@ -1,0 +1,1007 @@
+[
+  {
+    "label": "knowledge",
+    "bodyFont": "18px",
+    "h1": "直线的方程",
+    "scroll": 1265,
+    "stage": "3 · 知识归纳",
+    "width": 1280
+  },
+  {
+    "label": "examples",
+    "bodyFont": "18px",
+    "h1": "直线的方程",
+    "scroll": 1265,
+    "stage": "4 · 例题拆解",
+    "width": 1280
+  },
+  {
+    "label": "practice",
+    "bodyFont": "18px",
+    "h1": "直线的方程",
+    "scroll": 1265,
+    "stage": "5 · 学以致用",
+    "width": 1280
+  },
+  {
+    "label": "knowledge",
+    "bodyFont": "18px",
+    "h1": "两直线的位置关系与距离",
+    "scroll": 1265,
+    "stage": "3 · 知识归纳",
+    "width": 1280
+  },
+  {
+    "label": "examples",
+    "bodyFont": "18px",
+    "h1": "两直线的位置关系与距离",
+    "scroll": 1265,
+    "stage": "4 · 例题拆解",
+    "width": 1280
+  },
+  {
+    "label": "practice",
+    "bodyFont": "18px",
+    "h1": "两直线的位置关系与距离",
+    "scroll": 1265,
+    "stage": "5 · 学以致用",
+    "width": 1280
+  },
+  {
+    "label": "knowledge",
+    "bodyFont": "18px",
+    "h1": "圆的方程",
+    "scroll": 1265,
+    "stage": "3 · 知识归纳",
+    "width": 1280
+  },
+  {
+    "label": "examples",
+    "bodyFont": "18px",
+    "h1": "圆的方程",
+    "scroll": 1265,
+    "stage": "4 · 例题拆解",
+    "width": 1280
+  },
+  {
+    "label": "practice",
+    "bodyFont": "18px",
+    "h1": "圆的方程",
+    "scroll": 1265,
+    "stage": "5 · 学以致用",
+    "width": 1280
+  },
+  {
+    "label": "knowledge",
+    "bodyFont": "18px",
+    "h1": "圆与圆的位置关系",
+    "scroll": 1265,
+    "stage": "3 · 知识归纳",
+    "width": 1280
+  },
+  {
+    "label": "examples",
+    "bodyFont": "18px",
+    "h1": "圆与圆的位置关系",
+    "scroll": 1265,
+    "stage": "4 · 例题拆解",
+    "width": 1280
+  },
+  {
+    "label": "practice",
+    "bodyFont": "18px",
+    "h1": "圆与圆的位置关系",
+    "scroll": 1265,
+    "stage": "5 · 学以致用",
+    "width": 1280
+  },
+  {
+    "label": "knowledge",
+    "bodyFont": "18px",
+    "h1": "对称、定点、圆系与轨迹",
+    "scroll": 1265,
+    "stage": "3 · 知识归纳",
+    "width": 1280
+  },
+  {
+    "label": "examples",
+    "bodyFont": "18px",
+    "h1": "对称、定点、圆系与轨迹",
+    "scroll": 1265,
+    "stage": "4 · 例题拆解",
+    "width": 1280
+  },
+  {
+    "label": "practice",
+    "bodyFont": "18px",
+    "h1": "对称、定点、圆系与轨迹",
+    "scroll": 1265,
+    "stage": "5 · 学以致用",
+    "width": 1280
+  },
+  {
+    "label": "home",
+    "bodyFont": "18px",
+    "h1": "直线与圆的方程",
+    "scroll": 1425,
+    "width": 1440
+  },
+  {
+    "label": "line-stage0",
+    "bodyFont": "18px",
+    "h1": "直线的方程",
+    "scroll": 1440,
+    "stage": "1 · 情景引入",
+    "width": 1440
+  },
+  {
+    "label": "line-stage1",
+    "bodyFont": "18px",
+    "h1": "直线的方程",
+    "scroll": 1425,
+    "stage": "2 · 动手实验",
+    "width": 1440
+  },
+  {
+    "label": "line-lab0",
+    "bodyFont": "18px",
+    "h1": "直线的方程",
+    "scroll": 1425,
+    "stage": "2 · 动手实验",
+    "width": 1440
+  },
+  {
+    "label": "line-lab1",
+    "bodyFont": "18px",
+    "h1": "直线的方程",
+    "scroll": 1425,
+    "stage": "2 · 动手实验",
+    "width": 1440
+  },
+  {
+    "label": "line-stage2",
+    "bodyFont": "18px",
+    "h1": "直线的方程",
+    "scroll": 1425,
+    "stage": "3 · 知识归纳",
+    "width": 1440
+  },
+  {
+    "label": "line-stage3",
+    "bodyFont": "18px",
+    "h1": "直线的方程",
+    "scroll": 1425,
+    "stage": "4 · 例题拆解",
+    "width": 1440
+  },
+  {
+    "label": "line-stage4",
+    "bodyFont": "18px",
+    "h1": "直线的方程",
+    "scroll": 1425,
+    "stage": "5 · 学以致用",
+    "width": 1440
+  },
+  {
+    "label": "lines-stage0",
+    "bodyFont": "18px",
+    "h1": "两直线的位置关系与距离",
+    "scroll": 1425,
+    "stage": "1 · 情景引入",
+    "width": 1440
+  },
+  {
+    "label": "lines-stage1",
+    "bodyFont": "18px",
+    "h1": "两直线的位置关系与距离",
+    "scroll": 1425,
+    "stage": "2 · 动手实验",
+    "width": 1440
+  },
+  {
+    "label": "lines-lab0",
+    "bodyFont": "18px",
+    "h1": "两直线的位置关系与距离",
+    "scroll": 1425,
+    "stage": "2 · 动手实验",
+    "width": 1440
+  },
+  {
+    "label": "lines-lab1",
+    "bodyFont": "18px",
+    "h1": "两直线的位置关系与距离",
+    "scroll": 1425,
+    "stage": "2 · 动手实验",
+    "width": 1440
+  },
+  {
+    "label": "lines-stage2",
+    "bodyFont": "18px",
+    "h1": "两直线的位置关系与距离",
+    "scroll": 1425,
+    "stage": "3 · 知识归纳",
+    "width": 1440
+  },
+  {
+    "label": "lines-stage3",
+    "bodyFont": "18px",
+    "h1": "两直线的位置关系与距离",
+    "scroll": 1425,
+    "stage": "4 · 例题拆解",
+    "width": 1440
+  },
+  {
+    "label": "lines-stage4",
+    "bodyFont": "18px",
+    "h1": "两直线的位置关系与距离",
+    "scroll": 1425,
+    "stage": "5 · 学以致用",
+    "width": 1440
+  },
+  {
+    "label": "circle-stage0",
+    "bodyFont": "18px",
+    "h1": "圆的方程",
+    "scroll": 1440,
+    "stage": "1 · 情景引入",
+    "width": 1440
+  },
+  {
+    "label": "circle-stage1",
+    "bodyFont": "18px",
+    "h1": "圆的方程",
+    "scroll": 1425,
+    "stage": "2 · 动手实验",
+    "width": 1440
+  },
+  {
+    "label": "circle-lab0",
+    "bodyFont": "18px",
+    "h1": "圆的方程",
+    "scroll": 1425,
+    "stage": "2 · 动手实验",
+    "width": 1440
+  },
+  {
+    "label": "circle-lab1",
+    "bodyFont": "18px",
+    "h1": "圆的方程",
+    "scroll": 1425,
+    "stage": "2 · 动手实验",
+    "width": 1440
+  },
+  {
+    "label": "circle-stage2",
+    "bodyFont": "18px",
+    "h1": "圆的方程",
+    "scroll": 1425,
+    "stage": "3 · 知识归纳",
+    "width": 1440
+  },
+  {
+    "label": "circle-stage3",
+    "bodyFont": "18px",
+    "h1": "圆的方程",
+    "scroll": 1425,
+    "stage": "4 · 例题拆解",
+    "width": 1440
+  },
+  {
+    "label": "circle-stage4",
+    "bodyFont": "18px",
+    "h1": "圆的方程",
+    "scroll": 1425,
+    "stage": "5 · 学以致用",
+    "width": 1440
+  },
+  {
+    "label": "circles-stage0",
+    "bodyFont": "18px",
+    "h1": "圆与圆的位置关系",
+    "scroll": 1440,
+    "stage": "1 · 情景引入",
+    "width": 1440
+  },
+  {
+    "label": "circles-stage1",
+    "bodyFont": "18px",
+    "h1": "圆与圆的位置关系",
+    "scroll": 1425,
+    "stage": "2 · 动手实验",
+    "width": 1440
+  },
+  {
+    "label": "circles-lab0",
+    "bodyFont": "18px",
+    "h1": "圆与圆的位置关系",
+    "scroll": 1425,
+    "stage": "2 · 动手实验",
+    "width": 1440
+  },
+  {
+    "label": "circles-stage2",
+    "bodyFont": "18px",
+    "h1": "圆与圆的位置关系",
+    "scroll": 1425,
+    "stage": "3 · 知识归纳",
+    "width": 1440
+  },
+  {
+    "label": "circles-stage3",
+    "bodyFont": "18px",
+    "h1": "圆与圆的位置关系",
+    "scroll": 1425,
+    "stage": "4 · 例题拆解",
+    "width": 1440
+  },
+  {
+    "label": "circles-stage4",
+    "bodyFont": "18px",
+    "h1": "圆与圆的位置关系",
+    "scroll": 1425,
+    "stage": "5 · 学以致用",
+    "width": 1440
+  },
+  {
+    "label": "methods-stage0",
+    "bodyFont": "18px",
+    "h1": "对称、定点、圆系与轨迹",
+    "scroll": 1425,
+    "stage": "1 · 情景引入",
+    "width": 1440
+  },
+  {
+    "label": "methods-stage1",
+    "bodyFont": "18px",
+    "h1": "对称、定点、圆系与轨迹",
+    "scroll": 1425,
+    "stage": "2 · 动手实验",
+    "width": 1440
+  },
+  {
+    "label": "methods-lab0",
+    "bodyFont": "18px",
+    "h1": "对称、定点、圆系与轨迹",
+    "scroll": 1425,
+    "stage": "2 · 动手实验",
+    "width": 1440
+  },
+  {
+    "label": "methods-lab1",
+    "bodyFont": "18px",
+    "h1": "对称、定点、圆系与轨迹",
+    "scroll": 1425,
+    "stage": "2 · 动手实验",
+    "width": 1440
+  },
+  {
+    "label": "methods-lab2",
+    "bodyFont": "18px",
+    "h1": "对称、定点、圆系与轨迹",
+    "scroll": 1425,
+    "stage": "2 · 动手实验",
+    "width": 1440
+  },
+  {
+    "label": "methods-lab3",
+    "bodyFont": "18px",
+    "h1": "对称、定点、圆系与轨迹",
+    "scroll": 1425,
+    "stage": "2 · 动手实验",
+    "width": 1440
+  },
+  {
+    "label": "methods-stage2",
+    "bodyFont": "18px",
+    "h1": "对称、定点、圆系与轨迹",
+    "scroll": 1425,
+    "stage": "3 · 知识归纳",
+    "width": 1440
+  },
+  {
+    "label": "methods-stage3",
+    "bodyFont": "18px",
+    "h1": "对称、定点、圆系与轨迹",
+    "scroll": 1425,
+    "stage": "4 · 例题拆解",
+    "width": 1440
+  },
+  {
+    "label": "methods-stage4",
+    "bodyFont": "18px",
+    "h1": "对称、定点、圆系与轨迹",
+    "scroll": 1425,
+    "stage": "5 · 学以致用",
+    "width": 1440
+  },
+  {
+    "label": "home",
+    "bodyFont": "18px",
+    "h1": "直线与圆的方程",
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "label": "line-stage0",
+    "bodyFont": "18px",
+    "h1": "直线的方程",
+    "scroll": 753,
+    "stage": "1 · 情景引入",
+    "width": 768
+  },
+  {
+    "label": "line-stage1",
+    "bodyFont": "18px",
+    "h1": "直线的方程",
+    "scroll": 753,
+    "stage": "2 · 动手实验",
+    "width": 768
+  },
+  {
+    "label": "line-lab0",
+    "bodyFont": "18px",
+    "h1": "直线的方程",
+    "scroll": 753,
+    "stage": "2 · 动手实验",
+    "width": 768
+  },
+  {
+    "label": "line-lab1",
+    "bodyFont": "18px",
+    "h1": "直线的方程",
+    "scroll": 753,
+    "stage": "2 · 动手实验",
+    "width": 768
+  },
+  {
+    "label": "line-stage2",
+    "bodyFont": "18px",
+    "h1": "直线的方程",
+    "scroll": 753,
+    "stage": "3 · 知识归纳",
+    "width": 768
+  },
+  {
+    "label": "line-stage3",
+    "bodyFont": "18px",
+    "h1": "直线的方程",
+    "scroll": 753,
+    "stage": "4 · 例题拆解",
+    "width": 768
+  },
+  {
+    "label": "line-stage4",
+    "bodyFont": "18px",
+    "h1": "直线的方程",
+    "scroll": 753,
+    "stage": "5 · 学以致用",
+    "width": 768
+  },
+  {
+    "label": "lines-stage0",
+    "bodyFont": "18px",
+    "h1": "两直线的位置关系与距离",
+    "scroll": 753,
+    "stage": "1 · 情景引入",
+    "width": 768
+  },
+  {
+    "label": "lines-stage1",
+    "bodyFont": "18px",
+    "h1": "两直线的位置关系与距离",
+    "scroll": 753,
+    "stage": "2 · 动手实验",
+    "width": 768
+  },
+  {
+    "label": "lines-lab0",
+    "bodyFont": "18px",
+    "h1": "两直线的位置关系与距离",
+    "scroll": 753,
+    "stage": "2 · 动手实验",
+    "width": 768
+  },
+  {
+    "label": "lines-lab1",
+    "bodyFont": "18px",
+    "h1": "两直线的位置关系与距离",
+    "scroll": 753,
+    "stage": "2 · 动手实验",
+    "width": 768
+  },
+  {
+    "label": "lines-stage2",
+    "bodyFont": "18px",
+    "h1": "两直线的位置关系与距离",
+    "scroll": 753,
+    "stage": "3 · 知识归纳",
+    "width": 768
+  },
+  {
+    "label": "lines-stage3",
+    "bodyFont": "18px",
+    "h1": "两直线的位置关系与距离",
+    "scroll": 753,
+    "stage": "4 · 例题拆解",
+    "width": 768
+  },
+  {
+    "label": "lines-stage4",
+    "bodyFont": "18px",
+    "h1": "两直线的位置关系与距离",
+    "scroll": 753,
+    "stage": "5 · 学以致用",
+    "width": 768
+  },
+  {
+    "label": "circle-stage0",
+    "bodyFont": "18px",
+    "h1": "圆的方程",
+    "scroll": 753,
+    "stage": "1 · 情景引入",
+    "width": 768
+  },
+  {
+    "label": "circle-stage1",
+    "bodyFont": "18px",
+    "h1": "圆的方程",
+    "scroll": 753,
+    "stage": "2 · 动手实验",
+    "width": 768
+  },
+  {
+    "label": "circle-lab0",
+    "bodyFont": "18px",
+    "h1": "圆的方程",
+    "scroll": 753,
+    "stage": "2 · 动手实验",
+    "width": 768
+  },
+  {
+    "label": "circle-lab1",
+    "bodyFont": "18px",
+    "h1": "圆的方程",
+    "scroll": 753,
+    "stage": "2 · 动手实验",
+    "width": 768
+  },
+  {
+    "label": "circle-stage2",
+    "bodyFont": "18px",
+    "h1": "圆的方程",
+    "scroll": 753,
+    "stage": "3 · 知识归纳",
+    "width": 768
+  },
+  {
+    "label": "circle-stage3",
+    "bodyFont": "18px",
+    "h1": "圆的方程",
+    "scroll": 753,
+    "stage": "4 · 例题拆解",
+    "width": 768
+  },
+  {
+    "label": "circle-stage4",
+    "bodyFont": "18px",
+    "h1": "圆的方程",
+    "scroll": 753,
+    "stage": "5 · 学以致用",
+    "width": 768
+  },
+  {
+    "label": "circles-stage0",
+    "bodyFont": "18px",
+    "h1": "圆与圆的位置关系",
+    "scroll": 753,
+    "stage": "1 · 情景引入",
+    "width": 768
+  },
+  {
+    "label": "circles-stage1",
+    "bodyFont": "18px",
+    "h1": "圆与圆的位置关系",
+    "scroll": 753,
+    "stage": "2 · 动手实验",
+    "width": 768
+  },
+  {
+    "label": "circles-lab0",
+    "bodyFont": "18px",
+    "h1": "圆与圆的位置关系",
+    "scroll": 753,
+    "stage": "2 · 动手实验",
+    "width": 768
+  },
+  {
+    "label": "circles-stage2",
+    "bodyFont": "18px",
+    "h1": "圆与圆的位置关系",
+    "scroll": 753,
+    "stage": "3 · 知识归纳",
+    "width": 768
+  },
+  {
+    "label": "circles-stage3",
+    "bodyFont": "18px",
+    "h1": "圆与圆的位置关系",
+    "scroll": 753,
+    "stage": "4 · 例题拆解",
+    "width": 768
+  },
+  {
+    "label": "circles-stage4",
+    "bodyFont": "18px",
+    "h1": "圆与圆的位置关系",
+    "scroll": 753,
+    "stage": "5 · 学以致用",
+    "width": 768
+  },
+  {
+    "label": "methods-stage0",
+    "bodyFont": "18px",
+    "h1": "对称、定点、圆系与轨迹",
+    "scroll": 753,
+    "stage": "1 · 情景引入",
+    "width": 768
+  },
+  {
+    "label": "methods-stage1",
+    "bodyFont": "18px",
+    "h1": "对称、定点、圆系与轨迹",
+    "scroll": 753,
+    "stage": "2 · 动手实验",
+    "width": 768
+  },
+  {
+    "label": "methods-lab0",
+    "bodyFont": "18px",
+    "h1": "对称、定点、圆系与轨迹",
+    "scroll": 753,
+    "stage": "2 · 动手实验",
+    "width": 768
+  },
+  {
+    "label": "methods-lab1",
+    "bodyFont": "18px",
+    "h1": "对称、定点、圆系与轨迹",
+    "scroll": 753,
+    "stage": "2 · 动手实验",
+    "width": 768
+  },
+  {
+    "label": "methods-lab2",
+    "bodyFont": "18px",
+    "h1": "对称、定点、圆系与轨迹",
+    "scroll": 753,
+    "stage": "2 · 动手实验",
+    "width": 768
+  },
+  {
+    "label": "methods-lab3",
+    "bodyFont": "18px",
+    "h1": "对称、定点、圆系与轨迹",
+    "scroll": 753,
+    "stage": "2 · 动手实验",
+    "width": 768
+  },
+  {
+    "label": "methods-stage2",
+    "bodyFont": "18px",
+    "h1": "对称、定点、圆系与轨迹",
+    "scroll": 753,
+    "stage": "3 · 知识归纳",
+    "width": 768
+  },
+  {
+    "label": "methods-stage3",
+    "bodyFont": "18px",
+    "h1": "对称、定点、圆系与轨迹",
+    "scroll": 753,
+    "stage": "4 · 例题拆解",
+    "width": 768
+  },
+  {
+    "label": "methods-stage4",
+    "bodyFont": "18px",
+    "h1": "对称、定点、圆系与轨迹",
+    "scroll": 753,
+    "stage": "5 · 学以致用",
+    "width": 768
+  },
+  {
+    "label": "home",
+    "bodyFont": "18px",
+    "h1": "直线与圆的方程",
+    "scroll": 375,
+    "width": 390
+  },
+  {
+    "label": "line-stage0",
+    "bodyFont": "18px",
+    "h1": "直线的方程",
+    "scroll": 375,
+    "stage": "1 · 情景引入",
+    "width": 390
+  },
+  {
+    "label": "line-stage1",
+    "bodyFont": "18px",
+    "h1": "直线的方程",
+    "scroll": 375,
+    "stage": "2 · 动手实验",
+    "width": 390
+  },
+  {
+    "label": "line-lab0",
+    "bodyFont": "18px",
+    "h1": "直线的方程",
+    "scroll": 375,
+    "stage": "2 · 动手实验",
+    "width": 390
+  },
+  {
+    "label": "line-lab1",
+    "bodyFont": "18px",
+    "h1": "直线的方程",
+    "scroll": 375,
+    "stage": "2 · 动手实验",
+    "width": 390
+  },
+  {
+    "label": "line-stage2",
+    "bodyFont": "18px",
+    "h1": "直线的方程",
+    "scroll": 375,
+    "stage": "3 · 知识归纳",
+    "width": 390
+  },
+  {
+    "label": "line-stage3",
+    "bodyFont": "18px",
+    "h1": "直线的方程",
+    "scroll": 375,
+    "stage": "4 · 例题拆解",
+    "width": 390
+  },
+  {
+    "label": "line-stage4",
+    "bodyFont": "18px",
+    "h1": "直线的方程",
+    "scroll": 375,
+    "stage": "5 · 学以致用",
+    "width": 390
+  },
+  {
+    "label": "lines-stage0",
+    "bodyFont": "18px",
+    "h1": "两直线的位置关系与距离",
+    "scroll": 375,
+    "stage": "1 · 情景引入",
+    "width": 390
+  },
+  {
+    "label": "lines-stage1",
+    "bodyFont": "18px",
+    "h1": "两直线的位置关系与距离",
+    "scroll": 375,
+    "stage": "2 · 动手实验",
+    "width": 390
+  },
+  {
+    "label": "lines-lab0",
+    "bodyFont": "18px",
+    "h1": "两直线的位置关系与距离",
+    "scroll": 375,
+    "stage": "2 · 动手实验",
+    "width": 390
+  },
+  {
+    "label": "lines-lab1",
+    "bodyFont": "18px",
+    "h1": "两直线的位置关系与距离",
+    "scroll": 375,
+    "stage": "2 · 动手实验",
+    "width": 390
+  },
+  {
+    "label": "lines-stage2",
+    "bodyFont": "18px",
+    "h1": "两直线的位置关系与距离",
+    "scroll": 375,
+    "stage": "3 · 知识归纳",
+    "width": 390
+  },
+  {
+    "label": "lines-stage3",
+    "bodyFont": "18px",
+    "h1": "两直线的位置关系与距离",
+    "scroll": 375,
+    "stage": "4 · 例题拆解",
+    "width": 390
+  },
+  {
+    "label": "lines-stage4",
+    "bodyFont": "18px",
+    "h1": "两直线的位置关系与距离",
+    "scroll": 375,
+    "stage": "5 · 学以致用",
+    "width": 390
+  },
+  {
+    "label": "circle-stage0",
+    "bodyFont": "18px",
+    "h1": "圆的方程",
+    "scroll": 375,
+    "stage": "1 · 情景引入",
+    "width": 390
+  },
+  {
+    "label": "circle-stage1",
+    "bodyFont": "18px",
+    "h1": "圆的方程",
+    "scroll": 375,
+    "stage": "2 · 动手实验",
+    "width": 390
+  },
+  {
+    "label": "circle-lab0",
+    "bodyFont": "18px",
+    "h1": "圆的方程",
+    "scroll": 375,
+    "stage": "2 · 动手实验",
+    "width": 390
+  },
+  {
+    "label": "circle-lab1",
+    "bodyFont": "18px",
+    "h1": "圆的方程",
+    "scroll": 375,
+    "stage": "2 · 动手实验",
+    "width": 390
+  },
+  {
+    "label": "circle-stage2",
+    "bodyFont": "18px",
+    "h1": "圆的方程",
+    "scroll": 375,
+    "stage": "3 · 知识归纳",
+    "width": 390
+  },
+  {
+    "label": "circle-stage3",
+    "bodyFont": "18px",
+    "h1": "圆的方程",
+    "scroll": 375,
+    "stage": "4 · 例题拆解",
+    "width": 390
+  },
+  {
+    "label": "circle-stage4",
+    "bodyFont": "18px",
+    "h1": "圆的方程",
+    "scroll": 375,
+    "stage": "5 · 学以致用",
+    "width": 390
+  },
+  {
+    "label": "circles-stage0",
+    "bodyFont": "18px",
+    "h1": "圆与圆的位置关系",
+    "scroll": 375,
+    "stage": "1 · 情景引入",
+    "width": 390
+  },
+  {
+    "label": "circles-stage1",
+    "bodyFont": "18px",
+    "h1": "圆与圆的位置关系",
+    "scroll": 375,
+    "stage": "2 · 动手实验",
+    "width": 390
+  },
+  {
+    "label": "circles-lab0",
+    "bodyFont": "18px",
+    "h1": "圆与圆的位置关系",
+    "scroll": 375,
+    "stage": "2 · 动手实验",
+    "width": 390
+  },
+  {
+    "label": "circles-stage2",
+    "bodyFont": "18px",
+    "h1": "圆与圆的位置关系",
+    "scroll": 375,
+    "stage": "3 · 知识归纳",
+    "width": 390
+  },
+  {
+    "label": "circles-stage3",
+    "bodyFont": "18px",
+    "h1": "圆与圆的位置关系",
+    "scroll": 375,
+    "stage": "4 · 例题拆解",
+    "width": 390
+  },
+  {
+    "label": "circles-stage4",
+    "bodyFont": "18px",
+    "h1": "圆与圆的位置关系",
+    "scroll": 375,
+    "stage": "5 · 学以致用",
+    "width": 390
+  },
+  {
+    "label": "methods-stage0",
+    "bodyFont": "18px",
+    "h1": "对称、定点、圆系与轨迹",
+    "scroll": 375,
+    "stage": "1 · 情景引入",
+    "width": 390
+  },
+  {
+    "label": "methods-stage1",
+    "bodyFont": "18px",
+    "h1": "对称、定点、圆系与轨迹",
+    "scroll": 375,
+    "stage": "2 · 动手实验",
+    "width": 390
+  },
+  {
+    "label": "methods-lab0",
+    "bodyFont": "18px",
+    "h1": "对称、定点、圆系与轨迹",
+    "scroll": 375,
+    "stage": "2 · 动手实验",
+    "width": 390
+  },
+  {
+    "label": "methods-lab1",
+    "bodyFont": "18px",
+    "h1": "对称、定点、圆系与轨迹",
+    "scroll": 375,
+    "stage": "2 · 动手实验",
+    "width": 390
+  },
+  {
+    "label": "methods-lab2",
+    "bodyFont": "18px",
+    "h1": "对称、定点、圆系与轨迹",
+    "scroll": 375,
+    "stage": "2 · 动手实验",
+    "width": 390
+  },
+  {
+    "label": "methods-lab3",
+    "bodyFont": "18px",
+    "h1": "对称、定点、圆系与轨迹",
+    "scroll": 375,
+    "stage": "2 · 动手实验",
+    "width": 390
+  },
+  {
+    "label": "methods-stage2",
+    "bodyFont": "18px",
+    "h1": "对称、定点、圆系与轨迹",
+    "scroll": 375,
+    "stage": "3 · 知识归纳",
+    "width": 390
+  },
+  {
+    "label": "methods-stage3",
+    "bodyFont": "18px",
+    "h1": "对称、定点、圆系与轨迹",
+    "scroll": 375,
+    "stage": "4 · 例题拆解",
+    "width": 390
+  },
+  {
+    "label": "methods-stage4",
+    "bodyFont": "18px",
+    "h1": "对称、定点、圆系与轨迹",
+    "scroll": 375,
+    "stage": "5 · 学以致用",
+    "width": 390
+  }
+]

@@ -1,0 +1,19 @@
+ M AI_CHANGELOG.md
+ M README.md
+ M docs/project-status.md
+ M docs/template-guide.md
+ M package.json
+ M server.mjs
+ M site/app.mjs
+ M site/course.mjs
+ M site/index.html
+ M site/math.mjs
+ M site/state.mjs
+ M site/styles.css
+ M tests/math.test.mjs
+ M tests/state.test.mjs
+?? docs/acceptance/criteria-v0.2.md
+?? docs/acceptance/runs/candidate-v0.2-r1/
+?? docs/requirements/requirements-v0.2.md
+?? docs/testing/v0.2/
+?? tests/topics.test.mjs

@@ -1,0 +1,51 @@
+[
+  {
+    "path": "/",
+    "font": "18px",
+    "scroll": 375,
+    "title": "高中数学学习地图",
+    "width": 390
+  },
+  {
+    "path": "/?module=solid",
+    "font": "18px",
+    "scroll": 375,
+    "title": "立体几何",
+    "width": 390
+  },
+  {
+    "path": "/?module=lines",
+    "font": "18px",
+    "scroll": 375,
+    "title": "直线与圆的方程",
+    "width": 390
+  },
+  {
+    "path": "/?module=conics",
+    "font": "18px",
+    "scroll": 375,
+    "title": "圆锥曲线",
+    "width": 390
+  },
+  {
+    "path": "/?module=solid&lesson=space-constructions",
+    "font": "18px",
+    "scroll": 375,
+    "title": "截面、翻折、展开与球",
+    "width": 390
+  },
+  {
+    "path": "/?module=conics&lesson=conic-methods",
+    "font": "18px",
+    "scroll": 375,
+    "title": "定点、定值、最值与存在性",
+    "width": 390
+  },
+  {
+    "path": "/?lesson=line-circle",
+    "font": "18px",
+    "scroll": 375,
+    "title": "直线与圆",
+    "width": 390
+  }
+]

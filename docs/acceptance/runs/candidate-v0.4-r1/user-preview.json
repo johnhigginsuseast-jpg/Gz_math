@@ -1,0 +1,9 @@
+{
+  "url": "http://127.0.0.1:4175/",
+  "threeSiblingModules": [
+    "?module=solid",
+    "?module=lines",
+    "?module=conics"
+  ],
+  "learningStorageBytesUnchanged": true
+}

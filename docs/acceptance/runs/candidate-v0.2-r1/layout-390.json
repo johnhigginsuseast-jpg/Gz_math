@@ -1,0 +1,257 @@
+[
+  {
+    "stage": 0,
+    "topic": null,
+    "client": 375,
+    "plot": null,
+    "scroll": 375,
+    "width": 390,
+    "bodyMin": 18,
+    "controlMin": 16,
+    "result": "PASS"
+  },
+  {
+    "stage": 1,
+    "topic": null,
+    "client": 375,
+    "plot": {
+      "font": "30px",
+      "h": 319,
+      "w": 319,
+      "physicalFont": 15.95
+    },
+    "scroll": 375,
+    "width": 390,
+    "bodyMin": 18,
+    "controlMin": 16,
+    "result": "PASS"
+  },
+  {
+    "stage": 2,
+    "topic": null,
+    "client": 375,
+    "plot": {
+      "font": "30px",
+      "h": 319.0000305175781,
+      "w": 319,
+      "physicalFont": 15.95
+    },
+    "scroll": 375,
+    "width": 390,
+    "bodyMin": 18,
+    "controlMin": 16,
+    "result": "PASS"
+  },
+  {
+    "stage": 3,
+    "topic": null,
+    "client": 375,
+    "plot": null,
+    "scroll": 375,
+    "width": 390,
+    "bodyMin": 18,
+    "controlMin": 16,
+    "result": "PASS"
+  },
+  {
+    "stage": 4,
+    "topic": "position",
+    "client": 375,
+    "plot": {
+      "font": "30px",
+      "h": 319,
+      "w": 319,
+      "physicalFont": 15.95
+    },
+    "scroll": 375,
+    "width": 390,
+    "bodyMin": 18,
+    "controlMin": 16,
+    "result": "PASS"
+  },
+  {
+    "stage": 4,
+    "topic": "chord",
+    "client": 375,
+    "plot": {
+      "font": "30px",
+      "h": 319,
+      "w": 319,
+      "physicalFont": 15.95
+    },
+    "scroll": 375,
+    "width": 390,
+    "bodyMin": 18,
+    "controlMin": 16,
+    "result": "PASS"
+  },
+  {
+    "stage": 4,
+    "topic": "extrema",
+    "client": 375,
+    "plot": {
+      "font": "30px",
+      "h": 319,
+      "w": 319,
+      "physicalFont": 15.95
+    },
+    "scroll": 375,
+    "width": 390,
+    "bodyMin": 18,
+    "controlMin": 16,
+    "result": "PASS"
+  },
+  {
+    "stage": 4,
+    "topic": "moving",
+    "client": 375,
+    "plot": {
+      "font": "30px",
+      "h": 319,
+      "w": 319,
+      "physicalFont": 15.95
+    },
+    "scroll": 375,
+    "width": 390,
+    "bodyMin": 18,
+    "controlMin": 16,
+    "result": "PASS"
+  },
+  {
+    "stage": 4,
+    "topic": "tangent",
+    "client": 375,
+    "plot": {
+      "font": "30px",
+      "h": 319,
+      "w": 319,
+      "physicalFont": 15.95
+    },
+    "scroll": 375,
+    "width": 390,
+    "bodyMin": 18,
+    "controlMin": 16,
+    "result": "PASS"
+  },
+  {
+    "stage": 5,
+    "topic": "position",
+    "client": 375,
+    "plot": null,
+    "scroll": 375,
+    "width": 390,
+    "bodyMin": 18,
+    "controlMin": 16,
+    "result": "PASS"
+  },
+  {
+    "stage": 5,
+    "topic": "chord",
+    "client": 375,
+    "plot": null,
+    "scroll": 375,
+    "width": 390,
+    "bodyMin": 18,
+    "controlMin": 16,
+    "result": "PASS"
+  },
+  {
+    "stage": 5,
+    "topic": "extrema",
+    "client": 375,
+    "plot": null,
+    "scroll": 375,
+    "width": 390,
+    "bodyMin": 18,
+    "controlMin": 16,
+    "result": "PASS"
+  },
+  {
+    "stage": 5,
+    "topic": "moving",
+    "client": 375,
+    "plot": null,
+    "scroll": 375,
+    "width": 390,
+    "bodyMin": 18,
+    "controlMin": 16,
+    "result": "PASS"
+  },
+  {
+    "stage": 5,
+    "topic": "tangent",
+    "client": 375,
+    "plot": null,
+    "scroll": 375,
+    "width": 390,
+    "bodyMin": 18,
+    "controlMin": 16,
+    "result": "PASS"
+  },
+  {
+    "stage": 6,
+    "topic": "position",
+    "client": 375,
+    "plot": null,
+    "scroll": 375,
+    "width": 390,
+    "bodyMin": 18,
+    "controlMin": 16,
+    "result": "PASS"
+  },
+  {
+    "stage": 6,
+    "topic": "chord",
+    "client": 375,
+    "plot": null,
+    "scroll": 375,
+    "width": 390,
+    "bodyMin": 18,
+    "controlMin": 16,
+    "result": "PASS"
+  },
+  {
+    "stage": 6,
+    "topic": "extrema",
+    "client": 375,
+    "plot": null,
+    "scroll": 375,
+    "width": 390,
+    "bodyMin": 18,
+    "controlMin": 16,
+    "result": "PASS"
+  },
+  {
+    "stage": 6,
+    "topic": "moving",
+    "client": 375,
+    "plot": null,
+    "scroll": 375,
+    "width": 390,
+    "bodyMin": 18,
+    "controlMin": 16,
+    "result": "PASS"
+  },
+  {
+    "stage": 6,
+    "topic": "tangent",
+    "client": 375,
+    "plot": null,
+    "scroll": 375,
+    "width": 390,
+    "bodyMin": 18,
+    "controlMin": 16,
+    "result": "PASS"
+  },
+  {
+    "stage": 7,
+    "topic": null,
+    "client": 375,
+    "plot": null,
+    "scroll": 375,
+    "width": 390,
+    "bodyMin": 18,
+    "controlMin": 16,
+    "result": "PASS"
+  }
+]

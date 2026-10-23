@@ -1,0 +1,68 @@
+
+> geometry-learning-lab@0.3.0 test
+> node --test tests/*.test.mjs
+
+✔ 水平线：0、2、±3、4的公共点和距离 (3.0819ms)
+✔ 252组独立几何不变量：交点在圆和直线上，垂足距离正确 (6.2248ms)
+✔ 竖直线、负偏移、旋转两端的语义 (1.573ms)
+✔ 相切容差不产生重复点或NaN，显示舍入不用于判别 (0.8497ms)
+✔ 两道例题：斜线判断、平移圆与相切参数的两个分支 (0.9073ms)
+✔ 圆和直线的非法参数在边界拒绝 (2.0684ms)
+✔ 课程内容与明确答案一致，多选不接受漏选或多选 (1.4312ms)
+✔ 两点定线含水平竖直；同点拒绝；方程归一化与倍乘不改关系和距离 (5.6129ms)
+✔ 配方表示实圆、点、空集，读中心与半径一致 (3.2152ms)
+✔ 两圆七种情况、内外切唯一点，重合不能当内切 (0.7016ms)
+✖ 240组平移和交换后的两圆交点满足原方程与根轴，弦长等于端点距离 (7.3392ms)
+✔ 反射保持轴上任一点距离，对合回原点；最短路取到三角不等式下界 (0.6904ms)
+✔ 阿波罗尼斯轨迹上的采样点满足原距离比，λ=1退化垂直平分线 (0.8612ms)
+✔ 五个新课进度隔离、未知/损坏记录安全恢复，答题正确不等于所有环节完成 (9.0376ms)
+✔ 完整新课可刷新恢复，记录与订正历史保留，旧课键不复用 (1.4354ms)
+✔ 本地服务只公开网站资源，拒绝项目资料和路径穿越 (198.6371ms)
+✔ 引导实验必须先预测、到目标并观察正确，才能写入下一行 (2.9715ms)
+✔ 正确、错误、重复提交与错误历史分开计算 (0.7453ms)
+✔ 完整进度刷新恢复，并保留回看重推和未提交修改 (1.3628ms)
+✔ 损坏、旧版本与不完整记录安全恢复，合法值被规范化 (0.7998ms)
+✔ 弦长：已知答案、直径最大值、退化点与无弦，以及真实端点距离 (3.1306ms)
+✔ 距离最值：相离、相交、相切、两侧直线，并以圆周采样独立验证 (20.369ms)
+✔ 动直线恒过F(4,0)，包含竖直线与两条临界切线 (4.1213ms)
+✔ 切线：圆内0条、圆上1条、圆外2条，不漏竖直切线 (0.6626ms)
+✔ 平移圆的切线同时满足过已知点、切点在圆上和半径垂直 (2.3112ms)
+✔ 连续构造在每个阶段存在中间状态，边界连续且公式最后出现 (3.917ms)
+✔ v0.1旧记录迁移保留三轮与原六题，新题未完成，不冒充新版100% (1.9472ms)
+✔ 五题型、七例题、十五练习都有对应内容，旧题答案不变 (0.6259ms)
+ℹ tests 28
+ℹ suites 0
+ℹ pass 27
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 750.5746
+
+✖ failing tests:
+
+test at tests\module.test.mjs:51:1
+✖ 240组平移和交换后的两圆交点满足原方程与根轴，弦长等于端点距离 (7.3392ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  1 !== 2
+  
+      at TestContext.<anonymous> (file:///D:/mycode/gz_math3/tests/module.test.mjs:56:49)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 1,
+    expected: 2,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+npm notice
+npm notice New major version of npm available! 11.19.0 -> 12.2.1
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.1
+npm notice To update run: npm install -g npm@12.2.1
+npm notice

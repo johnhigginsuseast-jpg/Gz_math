@@ -1,0 +1,50 @@
+ M AI_CHANGELOG.md
+ M README.md
+ M docs/project-status.md
+ M docs/template-guide.md
+ M package.json
+ M server.mjs
+ M site/app.mjs
+ M site/course.mjs
+ M site/index.html
+ M site/math.mjs
+ M site/state.mjs
+ M site/styles.css
+ M tests/math.test.mjs
+ M tests/server.test.mjs
+ M tests/state.test.mjs
+?? docs/acceptance/criteria-v0.2.md
+?? docs/acceptance/criteria-v0.3.md
+?? docs/acceptance/criteria-v0.4.md
+?? docs/acceptance/runs/candidate-v0.2-r1/
+?? docs/acceptance/runs/candidate-v0.3-r1/
+?? docs/acceptance/runs/candidate-v0.4-r1/
+?? docs/delivery/preview-v0.2.jpg
+?? docs/delivery/preview-v0.3-viewport.jpg
+?? docs/delivery/preview-v0.3.jpg
+?? docs/delivery/v0.2.md
+?? docs/delivery/v0.3.md
+?? docs/phases/v0.2-report.md
+?? docs/phases/v0.3-report.md
+?? docs/requirements/requirements-v0.2.md
+?? docs/requirements/requirements-v0.3.md
+?? docs/requirements/requirements-v0.4.md
+?? docs/requirements/source-map-v0.3.md
+?? docs/requirements/source-map-v0.4.md
+?? docs/testing/v0.2/
+?? docs/testing/v0.3/
+?? docs/testing/v0.4/
+?? site/advanced-labs.mjs
+?? site/advanced-math.mjs
+?? site/boot.mjs
+?? site/conic-course.mjs
+?? site/lesson-data.mjs
+?? site/module-app.mjs
+?? site/module-course.mjs
+?? site/module-math.mjs
+?? site/module.css
+?? site/solid-course.mjs
+?? tests/advanced.test.mjs
+?? tests/module.test.mjs
+?? tests/topics.test.mjs
+?? "\351\253\230\344\272\214\344\270\212\346\225\260\345\255\246_\347\253\213\344\275\223\345\207\240\344\275\225_\347\233\264\347\272\277\344\270\216\345\234\206_\345\234\206\351\224\245\346\233\262\347\272\277\350\200\203\347\202\271.docx"

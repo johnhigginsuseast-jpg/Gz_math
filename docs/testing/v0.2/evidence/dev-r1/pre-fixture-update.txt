@@ -1,0 +1,156 @@
+
+> geometry-learning-lab@0.2.0 test
+> node --test tests/*.test.mjs
+
+✔ 水平线：0、2、±3、4的公共点和距离 (4.4947ms)
+✔ 252组独立几何不变量：交点在圆和直线上，垂足距离正确 (3.516ms)
+✔ 竖直线、负偏移、旋转两端的语义 (0.323ms)
+✔ 相切容差不产生重复点或NaN，显示舍入不用于判别 (0.3262ms)
+✔ 两道例题：斜线判断、平移圆与相切参数的两个分支 (0.5861ms)
+✔ 圆和直线的非法参数在边界拒绝 (0.9064ms)
+✖ 课程内容与明确答案一致，多选不接受漏选或多选 (1.9115ms)
+✔ 本地服务只公开网站资源，拒绝项目资料和路径穿越 (69.6099ms)
+✔ 引导实验必须先预测、到目标并观察正确，才能写入下一行 (3.1096ms)
+✖ 正确、错误、重复提交与错误历史分开计算 (2.1905ms)
+✖ 完整进度刷新恢复，并保留回看重推和未提交修改 (5.5657ms)
+✖ 损坏、旧版本与不完整记录安全恢复，合法值被规范化 (2.3471ms)
+ℹ tests 12
+ℹ suites 0
+ℹ pass 8
+ℹ fail 4
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 314.3065
+
+✖ failing tests:
+
+test at tests\math.test.mjs:72:1
+✖ 课程内容与明确答案一致，多选不接受漏选或多选 (1.9115ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  7 !== 2
+  
+      at TestContext.<anonymous> (file:///D:/mycode/gz_math3/tests/math.test.mjs:74:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 7,
+    expected: 2,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests\state.test.mjs:31:1
+✖ 正确、错误、重复提交与错误历史分开计算 (2.1905ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  15 !== 6
+  
+      at TestContext.<anonymous> (file:///D:/mycode/gz_math3/tests/state.test.mjs:47:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:387:3) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 15,
+    expected: 6,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests\state.test.mjs:50:1
+✖ 完整进度刷新恢复，并保留回看重推和未提交修改 (5.5657ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:
+  + actual - expected
+  ... Skipped lines
+  
+    {
+      answers: {
+        q1: {
+          correct: true,
+          hadError: true,
+  ...
+        4,
+  +     0,
+  +     0,
+  +     0,
+  +     0,
+  +     0
+      ],
+      free: {
+        angle: 0,
+        externalX: 5,
+        offset: 2,
+  
+      at TestContext.<anonymous> (file:///D:/mycode/gz_math3/tests/state.test.mjs:54:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: {
+      version: 1,
+      revision: 2,
+      stage: 7,
+      unlocked: 7,
+      completed: [ 0, 1, 2, 3, 4, 5 ],
+      prediction: 1,
+      construction: 4,
+      guess: null,
+      observation: null,
+      t: 0,
+      records: [ [Object], [Object], [Object] ],
+      ruleAnswer: 1,
+      topic: 'position',
+      free: { radius: 3, offset: 2, angle: 0, pointAngle: 0, externalX: 5, tangentMode: 'on' },
+      exampleSteps: [
+        4, 4, 0, 0,
+        0, 0, 0
+      ],
+      answers: { q1: [Object] }
+    },
+    expected: { version: 1, revision: 2, stage: 7, unlocked: 7, completed: [ 0, 1, 2, 3, 4, 5 ], prediction: 1, construction: 4, guess: null, observation: null, t: 0, records: [ [Object], [Object], [Object] ], ruleAnswer: 1, topic: 'position', free: { radius: 3, offset: 2, angle: 0, pointAngle: 0, externalX: 5, tangentMode: 'on' }, exampleSteps: [ 4, 4 ], answers: { q1: [Object] } },
+    operator: 'deepStrictEqual',
+    diff: 'simple'
+  }
+
+test at tests\state.test.mjs:63:1
+✖ 损坏、旧版本与不完整记录安全恢复，合法值被规范化 (2.3471ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:
+  + actual - expected
+  
+    {
+      angle: 0,
+  +   externalX: 5,
+      offset: 2,
+  +   pointAngle: 0,
+      radius: 3,
+  +   tangentMode: 'on'
+    }
+  
+      at TestContext.<anonymous> (file:///D:/mycode/gz_math3/tests/state.test.mjs:69:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: { radius: 3, offset: 2, angle: 0, pointAngle: 0, externalX: 5, tangentMode: 'on' },
+    expected: { radius: 3, offset: 2, angle: 0 },
+    operator: 'deepStrictEqual',
+    diff: 'simple'
+  }

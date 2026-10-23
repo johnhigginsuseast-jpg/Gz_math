@@ -1,0 +1,50 @@
+{
+  "version": "0.3.0",
+  "candidate": "v0.3-r1",
+  "requirements": "FR-019-FR-024",
+  "frozenFileCount": 27,
+  "changedFrozenFiles": [],
+  "documentsChecked": 17,
+  "missingDocuments": [],
+  "freshCourses": 5,
+  "freshExamples": 20.0,
+  "freshQuizzes": 30.0,
+  "layoutCount": 111,
+  "overflowFailures": 0,
+  "safetyFailures": 0,
+  "consoleErrors": 0,
+  "unitTestsPass": true,
+  "sourceIntegrity": true,
+  "userPreview": true,
+  "acceptance": [
+    {
+      "id": "AC-023",
+      "status": "PASS"
+    },
+    {
+      "id": "AC-024",
+      "status": "PASS"
+    },
+    {
+      "id": "AC-025",
+      "status": "PASS"
+    },
+    {
+      "id": "AC-026",
+      "status": "PASS"
+    },
+    {
+      "id": "AC-027",
+      "status": "PASS"
+    },
+    {
+      "id": "AC-028",
+      "status": "PASS"
+    },
+    {
+      "id": "AC-029",
+      "status": "PASS"
+    }
+  ],
+  "excluded": "solid geometry, conics, live deployment, real-device and student learning study"
+}

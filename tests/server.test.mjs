@@ -16,8 +16,8 @@ test('本地服务只公开网站资源，拒绝项目资料和路径穿越', as
         response.on('end', () => resolve({ status: response.statusCode, headers: response.headers, body }));
       }).on('error', reject);
     });
-    for (const resource of ['/', '/app.mjs', '/math.mjs', '/course.mjs', '/state.mjs', '/styles.css', '/assets/logo.svg']) assert.equal((await request(resource)).status, 200, resource);
-    for (const resource of ['/README.md', '/package.json', '/.git/config', '/docs/requirements/requirements-v0.1.md', '/' + encodeURIComponent('高中数学知识点详解.docx'), '/../package.json', '/%2e%2e/package.json', '/%2e%2e%5cpackage.json', '/%00', '/%XX']) assert.equal((await request(resource)).status, 404, resource);
+    for (const resource of ['/', '/?module=solid', '/?module=lines', '/?module=conics', '/?lesson=line', '/?lesson=line-circle', '/advanced-math.mjs', '/advanced-labs.mjs', '/solid-course.mjs', '/conic-course.mjs', '/lesson-data.mjs', '/boot.mjs', '/module-app.mjs', '/module-course.mjs', '/module-math.mjs', '/module.css', '/app.mjs', '/math.mjs', '/course.mjs', '/state.mjs', '/styles.css', '/assets/logo.svg']) assert.equal((await request(resource)).status, 200, resource);
+    for (const resource of ['/README.md', '/package.json', '/.git/config', '/docs/requirements/requirements-v0.1.md', '/' + encodeURIComponent('高中数学知识点详解.docx'), '/' + encodeURIComponent('高二上数学_立体几何_直线与圆_圆锥曲线考点.docx'), '/../package.json', '/%2e%2e/package.json', '/%2e%2e%5cpackage.json', '/%00', '/%XX']) assert.equal((await request(resource)).status, 404, resource);
     const page = await request('/');
     assert.match(page.headers['content-security-policy'], /connect-src 'none'/);
     assert.equal(page.headers['x-content-type-options'], 'nosniff');

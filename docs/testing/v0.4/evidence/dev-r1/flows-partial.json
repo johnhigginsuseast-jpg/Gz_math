@@ -1,0 +1,93 @@
+[
+  {
+    "id": "space-vectors",
+    "labs": 2,
+    "examples": 3,
+    "questions": 5,
+    "complete": true
+  },
+  {
+    "id": "space-relations",
+    "labs": 3,
+    "examples": 3,
+    "questions": 5,
+    "complete": true
+  },
+  {
+    "id": "space-angles",
+    "labs": 3,
+    "examples": 3,
+    "questions": 5,
+    "complete": true
+  },
+  {
+    "id": "space-distance",
+    "labs": 2,
+    "examples": 3,
+    "questions": 5,
+    "complete": true
+  },
+  {
+    "id": "space-solids",
+    "labs": 2,
+    "examples": 3,
+    "questions": 5,
+    "complete": true
+  },
+  {
+    "id": "space-constructions",
+    "labs": 3,
+    "examples": 3,
+    "questions": 5,
+    "complete": true
+  },
+  {
+    "id": "ellipse",
+    "labs": 2,
+    "examples": 3,
+    "questions": 5,
+    "complete": true
+  },
+  {
+    "id": "hyperbola",
+    "labs": 2,
+    "examples": 3,
+    "questions": 5,
+    "complete": true
+  },
+  {
+    "id": "parabola",
+    "labs": 2,
+    "examples": 3,
+    "questions": 5,
+    "complete": true
+  },
+  {
+    "id": "conic-focus",
+    "labs": 3,
+    "examples": 4,
+    "questions": 6,
+    "complete": true
+  },
+  {
+    "id": "conic-intersections",
+    "labs": 2,
+    "examples": 3,
+    "questions": 5,
+    "complete": true
+  },
+  {
+    "id": "conic-midpoint",
+    "labs": 2,
+    "examples": 3,
+    "questions": 5,
+    "complete": true
+  },
+  {
+    "id": "conic-methods",
+    "labs": 3,
+    "examples": 4,
+    "questions": 6,
+    "complete": true
+  }
+]

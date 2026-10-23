@@ -1,0 +1,112 @@
+[
+  {
+    "path": "启动几何实验室.cmd",
+    "sha256": "F54E04757BCAF6EAEA50EE61FFFA9BE4AB0A99E59D339E868A544425C5E57342",
+    "bytes": 219
+  },
+  {
+    "path": "docs/acceptance/criteria-v0.2.md",
+    "sha256": "DC8B1BFB9E6B3957D7A164311D447CC729DC3B0504ED2E807DB34B5BD0CA766A",
+    "bytes": 2027
+  },
+  {
+    "path": "docs/requirements/requirements-v0.2.md",
+    "sha256": "33608841A550B7C4E470E463F5A1CBAE538B2F4BF77F0FCF660BB7BE1E221AC1",
+    "bytes": 2447
+  },
+  {
+    "path": "docs/template-guide.md",
+    "sha256": "9C53F007DC9BF93FFAA9A6141DAD0C4BD0A0AA5D1F5080DAEA6C0B43EE227384",
+    "bytes": 2154
+  },
+  {
+    "path": "docs/testing/v0.2/test-cases.md",
+    "sha256": "43C87027BB0494DBAF8E13A86C59FF758CE187AC13291723808448C5FD483BD5",
+    "bytes": 861
+  },
+  {
+    "path": "docs/testing/v0.2/test-data.md",
+    "sha256": "9C96EBF848AB0E8A73F6B9DBF054C71730022130AA84A866ADA483E978FD5BBD",
+    "bytes": 773
+  },
+  {
+    "path": "docs/testing/v0.2/test-plan.md",
+    "sha256": "7FF1807A75768A8077CF9E2ABD6B6028799C657DD0B9768BE5054C3C413266D0",
+    "bytes": 525
+  },
+  {
+    "path": "docs/testing/v0.2/traceability.md",
+    "sha256": "98F95086488BC6FD85429FCC5F2DA5330D0DAD2F44481F1955978995D826233D",
+    "bytes": 836
+  },
+  {
+    "path": "package.json",
+    "sha256": "A7788A5F5F24B7C085915809BB198DCB964CA7C39F74E5AD23ADFBF9EC5C4712",
+    "bytes": 356
+  },
+  {
+    "path": "README.md",
+    "sha256": "C9E72C4466F67B074040267FB39DA38FF891156C5183596029FD1D99A366C978",
+    "bytes": 2695
+  },
+  {
+    "path": "server.mjs",
+    "sha256": "85140E00E8FF18D2072E41696710552AF07BA73EC1F52A0FB89AC92C61449DBA",
+    "bytes": 2313
+  },
+  {
+    "path": "site/app.mjs",
+    "sha256": "8F6BEA5B01E362C79CB15F90F47D12DA42D6839E5D32A000BCC2FF52CA526794",
+    "bytes": 51333
+  },
+  {
+    "path": "site/assets/logo.svg",
+    "sha256": "33502FB20CF08EFAF88D09A7418532FD497784A2268B1EEE38DBA8E46C52B740",
+    "bytes": 329
+  },
+  {
+    "path": "site/course.mjs",
+    "sha256": "685A0F90621FDE0012733EE76D6ADB1F0C73A794A5DAC39BB18871269DEB641B",
+    "bytes": 15019
+  },
+  {
+    "path": "site/index.html",
+    "sha256": "79E7D0E0A577E212E4152198D0F09BC56AD1A445A5C5CDC96EADC6345BAC41A7",
+    "bytes": 779
+  },
+  {
+    "path": "site/math.mjs",
+    "sha256": "0E2FAC2235CB0E0D973E1FA343BA79F7DFE062572526C3B3CEC9AAB735E1D8DB",
+    "bytes": 3938
+  },
+  {
+    "path": "site/state.mjs",
+    "sha256": "4B7E6B7EEEF01AE91914D82286B9F2A34F24FA81CA23D36331669DEA022E6A92",
+    "bytes": 5108
+  },
+  {
+    "path": "site/styles.css",
+    "sha256": "9FC199643AE5FD2054755A1AB931225DFFCF248C037D94FA32B4DD35D494EC32",
+    "bytes": 27478
+  },
+  {
+    "path": "tests/math.test.mjs",
+    "sha256": "DAE36B3A6933C7B911C916B44750A3A9872779975DA82B1BF0A48D7F7CBC234F",
+    "bytes": 3917
+  },
+  {
+    "path": "tests/server.test.mjs",
+    "sha256": "97BC9F4F702718B3B3537D86A2DC1AEBDC1C123EAEC10ED119586846FCD329FA",
+    "bytes": 1628
+  },
+  {
+    "path": "tests/state.test.mjs",
+    "sha256": "2D616FABACF2176E00B73F5A621D316E01520B9588577C1013E412584BB1BC15",
+    "bytes": 3632
+  },
+  {
+    "path": "tests/topics.test.mjs",
+    "sha256": "FACCC8370125C50AC6C8BD8E82B433790F5191FE8FF4AF93ABA9BE3314360CD7",
+    "bytes": 8001
+  }
+]

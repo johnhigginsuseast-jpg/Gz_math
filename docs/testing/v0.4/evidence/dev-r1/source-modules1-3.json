@@ -1,0 +1,1082 @@
+{
+  "source": "高二上数学_立体几何_直线与圆_圆锥曲线考点.docx",
+  "sha256": "2D070B664A5B88C86CDAF9D79DB39B4E0098599F407C389DC76A01B90BFE6CBF",
+  "paragraphs": [
+    {
+      "paragraph": 15,
+      "text": "模块一 空间向量与立体几何"
+    },
+    {
+      "paragraph": 16,
+      "text": "1. 空间直角坐标系与空间向量"
+    },
+    {
+      "paragraph": 17,
+      "text": "建立空间直角坐标系的原则：优先选取互相垂直且已知的棱/高/对称轴为坐标轴；把动点坐标用参数表示；能设“棱长为 a 或 1”时先无量纲化。"
+    },
+    {
+      "paragraph": 18,
+      "text": "基础公式"
+    },
+    {
+      "paragraph": 19,
+      "text": "点 P(x,y,z)，A(x1,y1,z1)，B(x2,y2,z2)"
+    },
+    {
+      "paragraph": 20,
+      "text": "向量 AB=(x2-x1, y2-y1, z2-z1)；模 |a|=√(x²+y²+z²)"
+    },
+    {
+      "paragraph": 21,
+      "text": "a±b=(x1±x2, y1±y2, z1±z2)，λa=(λx,λy,λz)"
+    },
+    {
+      "paragraph": 22,
+      "text": "数量积 a·b=x1x2+y1y2+z1z2=|a||b|cosθ，a⊥b ⇔ a·b=0"
+    },
+    {
+      "paragraph": 23,
+      "text": "夹角 cosθ=(a·b)/(|a||b|)；单位向量 e=a/|a|"
+    },
+    {
+      "paragraph": 24,
+      "text": "共线：b=λa；共面：p=xa+yb（或混合积 [a b p]=0）"
+    },
+    {
+      "paragraph": 25,
+      "text": ""
+    },
+    {
+      "paragraph": 26,
+      "text": "2. 空间线面位置关系：判定与性质"
+    },
+    {
+      "paragraph": 27,
+      "text": "关系"
+    },
+    {
+      "paragraph": 28,
+      "text": "传统判定思路"
+    },
+    {
+      "paragraph": 29,
+      "text": "向量翻译"
+    },
+    {
+      "paragraph": 30,
+      "text": "书写关键词"
+    },
+    {
+      "paragraph": 31,
+      "text": "线∥线"
+    },
+    {
+      "paragraph": 32,
+      "text": "同平行于一条直线；或同垂直于一个平面"
+    },
+    {
+      "paragraph": 33,
+      "text": "方向向量 u1∥u2"
+    },
+    {
+      "paragraph": 34,
+      "text": "找/作平行线，说明无公共点"
+    },
+    {
+      "paragraph": 35,
+      "text": "线∥面"
+    },
+    {
+      "paragraph": 36,
+      "text": "面外直线平行于面内一条直线"
+    },
+    {
+      "paragraph": 37,
+      "text": "u·n=0 且点不在面内"
+    },
+    {
+      "paragraph": 38,
+      "text": "在面内找一条线平行已知线"
+    },
+    {
+      "paragraph": 39,
+      "text": "面∥面"
+    },
+    {
+      "paragraph": 40,
+      "text": "一个面内两相交直线分别平行另一平面"
+    },
+    {
+      "paragraph": 41,
+      "text": "n1∥n2"
+    },
+    {
+      "paragraph": 42,
+      "text": "“两条相交直线”缺一不可"
+    },
+    {
+      "paragraph": 43,
+      "text": "线⊥线"
+    },
+    {
+      "paragraph": 44,
+      "text": "所成角为 90°（含异面垂直）"
+    },
+    {
+      "paragraph": 45,
+      "text": "u1·u2=0"
+    },
+    {
+      "paragraph": 46,
+      "text": "平移成相交角或直接用方向向量"
+    },
+    {
+      "paragraph": 47,
+      "text": "线⊥面"
+    },
+    {
+      "paragraph": 48,
+      "text": "垂直于平面内两条相交直线"
+    },
+    {
+      "paragraph": 49,
+      "text": "u∥n"
+    },
+    {
+      "paragraph": 50,
+      "text": "找平面内两条相交线均垂直"
+    },
+    {
+      "paragraph": 51,
+      "text": "面⊥面"
+    },
+    {
+      "paragraph": 52,
+      "text": "一个面经过另一个面的一条垂线"
+    },
+    {
+      "paragraph": 53,
+      "text": "n1·n2=0"
+    },
+    {
+      "paragraph": 54,
+      "text": "先证线⊥面，再得二面角为直二面角"
+    },
+    {
+      "paragraph": 55,
+      "text": ""
+    },
+    {
+      "paragraph": 56,
+      "text": "核心提醒：平行与垂直的证明都要防止“只找一个条件”。面∥面必须两条相交直线；线⊥面必须两条相交直线；异面直线垂直用数量积最稳。"
+    },
+    {
+      "paragraph": 57,
+      "text": "3. 三种空间角：范围、公式与识别"
+    },
+    {
+      "paragraph": 58,
+      "text": "角"
+    },
+    {
+      "paragraph": 59,
+      "text": "范围"
+    },
+    {
+      "paragraph": 60,
+      "text": "向量公式"
+    },
+    {
+      "paragraph": 61,
+      "text": "识别与注意"
+    },
+    {
+      "paragraph": 62,
+      "text": "异面直线所成角 θ"
+    },
+    {
+      "paragraph": 63,
+      "text": "(0, π/2]"
+    },
+    {
+      "paragraph": 64,
+      "text": "cosθ=|u·v|/(|u||v|)"
+    },
+    {
+      "paragraph": 65,
+      "text": "取绝对值；范围不能写 (0,π)"
+    },
+    {
+      "paragraph": 66,
+      "text": "直线与平面所成角 φ"
+    },
+    {
+      "paragraph": 67,
+      "text": "[0, π/2]"
+    },
+    {
+      "paragraph": 68,
+      "text": "sinφ=|u·n|/(|u||n|)，cosφ=|u·n_perp|/(...)"
+    },
+    {
+      "paragraph": 69,
+      "text": "φ 与 u、n 夹角互余，故用 sin"
+    },
+    {
+      "paragraph": 70,
+      "text": "二面角 α-l-β 的平面角 θ"
+    },
+    {
+      "paragraph": 71,
+      "text": "[0, π]"
+    },
+    {
+      "paragraph": 72,
+      "text": "|cosθ|=|n1·n2|/(|n1||n2|)"
+    },
+    {
+      "paragraph": 73,
+      "text": "需判断钝锐：看图/法向量同向/异侧定号"
+    },
+    {
+      "paragraph": 74,
+      "text": ""
+    },
+    {
+      "paragraph": 75,
+      "text": "二面角定号"
+    },
+    {
+      "paragraph": 76,
+      "text": "二面角平面角：在棱 l 上取 O，作 OA⊥l 于 α 内，OB⊥l 于 β 内，∠AOB 即平面角。"
+    },
+    {
+      "paragraph": 77,
+      "text": "二面角取值技巧：若两半平面法向量 n1,n2 同时指向二面角内部或外部，cosθ = - n1·n2/(|n1||n2|)；一内一外则取正。"
+    },
+    {
+      "paragraph": 78,
+      "text": "答题写：由图可知二面角为锐/钝，故 θ=arccos(±...)。"
+    },
+    {
+      "paragraph": 79,
+      "text": ""
+    },
+    {
+      "paragraph": 80,
+      "text": "4. 距离问题：向量法与等体积法"
+    },
+    {
+      "paragraph": 81,
+      "text": "距离公式"
+    },
+    {
+      "paragraph": 82,
+      "text": "点 A 到平面 α 距离：d=|n·AB|/|n|（B 为 α 内任一点，n 为法向量）"
+    },
+    {
+      "paragraph": 83,
+      "text": "平行线到平面、平行平面间距离：转化为点到平面距离"
+    },
+    {
+      "paragraph": 84,
+      "text": "异面直线 a,b 距离：取 A∈a,B∈b，公垂向量 n=u_a×u_b，d=|n·AB|/|n|；若题中能找公垂线优先几何法"
+    },
+    {
+      "paragraph": 85,
+      "text": "等体积法：V=(1/3)S_底 h，常用三棱锥换底求高"
+    },
+    {
+      "paragraph": 86,
+      "text": "球：半径 R，球心 O；球面距离为圆心角×R；球心到截面圆心距离 d，截面半径 r=√(R²-d²)"
+    },
+    {
+      "paragraph": 87,
+      "text": ""
+    },
+    {
+      "paragraph": 88,
+      "text": "5. 常见几何体度量公式"
+    },
+    {
+      "paragraph": 89,
+      "text": "几何体"
+    },
+    {
+      "paragraph": 90,
+      "text": "侧面积/表面积"
+    },
+    {
+      "paragraph": 91,
+      "text": "体积"
+    },
+    {
+      "paragraph": 92,
+      "text": "关键量"
+    },
+    {
+      "paragraph": 93,
+      "text": "棱柱"
+    },
+    {
+      "paragraph": 94,
+      "text": "S侧=直截面周长×侧棱；直棱柱 S侧=底周长×h"
+    },
+    {
+      "paragraph": 95,
+      "text": "V=S底 h"
+    },
+    {
+      "paragraph": 96,
+      "text": "直棱柱侧棱⊥底面；斜棱柱用直截面"
+    },
+    {
+      "paragraph": 97,
+      "text": "棱锥"
+    },
+    {
+      "paragraph": 98,
+      "text": "正棱锥 S侧=(1/2)C底×斜高 h′"
+    },
+    {
+      "paragraph": 99,
+      "text": "V=(1/3)S底 h"
+    },
+    {
+      "paragraph": 100,
+      "text": "三棱锥可任意换底"
+    },
+    {
+      "paragraph": 101,
+      "text": "棱台"
+    },
+    {
+      "paragraph": 102,
+      "text": "S侧=(1/2)(C上+C下)×斜高"
+    },
+    {
+      "paragraph": 103,
+      "text": "V=(1/3)h(S上+S下+√S上S下)"
+    },
+    {
+      "paragraph": 104,
+      "text": "由平行于底面的截面截锥得到"
+    },
+    {
+      "paragraph": 105,
+      "text": "圆柱"
+    },
+    {
+      "paragraph": 106,
+      "text": "S侧=2πrh，S表=2πrh+2πr²"
+    },
+    {
+      "paragraph": 107,
+      "text": "V=πr²h"
+    },
+    {
+      "paragraph": 108,
+      "text": "轴截面为矩形"
+    },
+    {
+      "paragraph": 109,
+      "text": "圆锥"
+    },
+    {
+      "paragraph": 110,
+      "text": "S侧=πrl，S表=πrl+πr²"
+    },
+    {
+      "paragraph": 111,
+      "text": "V=(1/3)πr²h"
+    },
+    {
+      "paragraph": 112,
+      "text": "l 为母线；轴截面等腰三角形"
+    },
+    {
+      "paragraph": 113,
+      "text": "圆台"
+    },
+    {
+      "paragraph": 114,
+      "text": "S侧=π(R+r)l"
+    },
+    {
+      "paragraph": 115,
+      "text": "V=(1/3)πh(R²+Rr+r²)"
+    },
+    {
+      "paragraph": 116,
+      "text": "补成圆锥常好用"
+    },
+    {
+      "paragraph": 117,
+      "text": "球"
+    },
+    {
+      "paragraph": 118,
+      "text": "S=4πR²"
+    },
+    {
+      "paragraph": 119,
+      "text": "V=(4/3)πR³"
+    },
+    {
+      "paragraph": 120,
+      "text": "球缺/球冠按题给公式"
+    },
+    {
+      "paragraph": 121,
+      "text": ""
+    },
+    {
+      "paragraph": 122,
+      "text": "6. 立体几何高频题型模板"
+    },
+    {
+      "paragraph": 123,
+      "text": "6.1 证明平行/垂直"
+    },
+    {
+      "paragraph": 124,
+      "text": "建系：写“以 ... 为原点，分别以 ... 为 x,y,z 轴建立空间直角坐标系”；给出各点坐标。"
+    },
+    {
+      "paragraph": 125,
+      "text": "设方向向量/法向量：直线用 u，平面设法向量 n=(x,y,z)，令 n 垂直平面内两条不共线向量，取整数解。"
+    },
+    {
+      "paragraph": 126,
+      "text": "翻译结论：线线平行 u1=λu2；线面平行 u·n=0 且线不在面内；线线垂直 u·v=0；线面垂直 u∥n。"
+    },
+    {
+      "paragraph": 127,
+      "text": "收尾：写“故 …”，不要只停在向量关系。"
+    },
+    {
+      "paragraph": 128,
+      "text": "6.2 求角"
+    },
+    {
+      "paragraph": 129,
+      "text": "选向量：异面直线用方向向量；线面角用方向向量与法向量，结果取 sin；二面角用法向量并判号。"
+    },
+    {
+      "paragraph": 130,
+      "text": "算长度：分母 |u||n| 不要丢；根式化简要准确。"
+    },
+    {
+      "paragraph": 131,
+      "text": "回代几何意义：若求 tan，再由 sin/cos 转化；若求二面角平面角，必须说明锐/钝。"
+    },
+    {
+      "paragraph": 132,
+      "text": "6.3 探索性/存在性问题"
+    },
+    {
+      "paragraph": 133,
+      "text": "设参数：动点 P 在线段/棱上，用 P=A+t(B-A), t∈[0,1] 表示坐标。"
+    },
+    {
+      "paragraph": 134,
+      "text": "列方程：由垂直/平行/角/距离条件列关于 t 的方程。"
+    },
+    {
+      "paragraph": 135,
+      "text": "检验范围：解出的 t 必须满足 t∈[0,1]、点在对应面内、判别式等条件；满足即存在并求位置，否则不存在。"
+    },
+    {
+      "paragraph": 136,
+      "text": "6.4 截面、翻折、展开与球"
+    },
+    {
+      "paragraph": 137,
+      "text": "截面：利用“平面与平面交线平行”“过已知点作平行线找交点”，必要时补体（把三棱柱补成平行六面体，把台体补成锥体）。"
+    },
+    {
+      "paragraph": 138,
+      "text": "翻折：同一半平面内长度、角度不变；翻折前后垂直关系要重新证明；抓住“折痕”为公共边。"
+    },
+    {
+      "paragraph": 139,
+      "text": "展开：求表面最短路径，把相邻面展开到同一平面；注意展开方式有多种，取最小。"
+    },
+    {
+      "paragraph": 140,
+      "text": "球接切：外接球抓球心到各顶点距离相等；内切球抓球心到各面距离相等且体积 V=(1/3)S表 r；直棱柱外接球半径 R=√(r底²+(h/2)²)（底面外接圆半径 r底）。"
+    },
+    {
+      "paragraph": 141,
+      "text": "7. 立体几何易错清单"
+    },
+    {
+      "paragraph": 142,
+      "text": "异面直线所成角只能取锐角或直角，余弦加绝对值。"
+    },
+    {
+      "paragraph": 143,
+      "text": "线面角与“方向向量和法向量夹角”互余，公式中是 sinφ 而非 cosφ。"
+    },
+    {
+      "paragraph": 144,
+      "text": "二面角可以是钝角；用法向量求出 |cos| 后必须判断符号。"
+    },
+    {
+      "paragraph": 145,
+      "text": "“线面平行”要说明直线不在平面内；否则线可能在面内。"
+    },
+    {
+      "paragraph": 146,
+      "text": "法向量取 (1,y,z) 时会漏掉 x=0 的情况；列方程用点积为 0 更稳。"
+    },
+    {
+      "paragraph": 147,
+      "text": "距离公式中 AB 的点积若符号错，结果会错；取绝对值。"
+    },
+    {
+      "paragraph": 148,
+      "text": "台体体积中第三项是 √(S上S下)，不是 √(S上+S下)。"
+    },
+    {
+      "paragraph": 149,
+      "text": "球截面问题：截面圆圆心、球心、截面半径构成直角三角形，半径关系 r²+d²=R²。"
+    },
+    {
+      "paragraph": 253,
+      "text": "模块三 圆锥曲线"
+    },
+    {
+      "paragraph": 254,
+      "text": "1. 定义、标准方程与基本量"
+    },
+    {
+      "paragraph": 255,
+      "text": "定义与关系"
+    },
+    {
+      "paragraph": 256,
+      "text": "椭圆：|PF1|+|PF2|=2a (2a>|F1F2|)；a²=b²+c²；e=c/a∈(0,1)"
+    },
+    {
+      "paragraph": 257,
+      "text": "双曲线：||PF1|-|PF2||=2a (0<2a<|F1F2|)；c²=a²+b²；e=c/a>1"
+    },
+    {
+      "paragraph": 258,
+      "text": "抛物线：|PF|=d(P,l)；标准式 y²=2px (p>0) 焦点 (p/2,0)，准线 x=-p/2；注意有的教材写 y²=4ax，则焦点 (a,0)"
+    },
+    {
+      "paragraph": 259,
+      "text": "第二定义（部分题目）：|PF|/d(P,准线)=e；椭圆 0<e<1，双曲线 e>1，抛物线 e=1"
+    },
+    {
+      "paragraph": 260,
+      "text": "焦点位置判断：椭圆看分母大小（x²/a²+y²/b²=1 中 a>b）；双曲线看系数正负（x²/a²-y²/b²=1 焦点在 x 轴）"
+    },
+    {
+      "paragraph": 261,
+      "text": ""
+    },
+    {
+      "paragraph": 262,
+      "text": "2. 圆锥曲线性质总表"
+    },
+    {
+      "paragraph": 263,
+      "text": "曲线"
+    },
+    {
+      "paragraph": 264,
+      "text": "标准方程"
+    },
+    {
+      "paragraph": 265,
+      "text": "焦点"
+    },
+    {
+      "paragraph": 266,
+      "text": "顶点"
+    },
+    {
+      "paragraph": 267,
+      "text": "轴/实虚轴"
+    },
+    {
+      "paragraph": 268,
+      "text": "离心率"
+    },
+    {
+      "paragraph": 269,
+      "text": "渐近线/准线"
+    },
+    {
+      "paragraph": 270,
+      "text": "椭圆 x 轴"
+    },
+    {
+      "paragraph": 271,
+      "text": "x²/a²+y²/b²=1 (a>b>0)"
+    },
+    {
+      "paragraph": 272,
+      "text": "(±c,0), c²=a²-b²"
+    },
+    {
+      "paragraph": 273,
+      "text": "(±a,0),(0,±b)"
+    },
+    {
+      "paragraph": 274,
+      "text": "长轴 2a，短轴 2b"
+    },
+    {
+      "paragraph": 275,
+      "text": "e=c/a"
+    },
+    {
+      "paragraph": 276,
+      "text": "准线 x=±a²/c（若学）"
+    },
+    {
+      "paragraph": 277,
+      "text": "椭圆 y 轴"
+    },
+    {
+      "paragraph": 278,
+      "text": "y²/a²+x²/b²=1 (a>b>0)"
+    },
+    {
+      "paragraph": 279,
+      "text": "(0,±c)"
+    },
+    {
+      "paragraph": 280,
+      "text": "(0,±a),(±b,0)"
+    },
+    {
+      "paragraph": 281,
+      "text": "长轴 2a，短轴 2b"
+    },
+    {
+      "paragraph": 282,
+      "text": "e=c/a"
+    },
+    {
+      "paragraph": 283,
+      "text": "准线 y=±a²/c"
+    },
+    {
+      "paragraph": 284,
+      "text": "双曲线 x 轴"
+    },
+    {
+      "paragraph": 285,
+      "text": "x²/a²-y²/b²=1"
+    },
+    {
+      "paragraph": 286,
+      "text": "(±c,0), c²=a²+b²"
+    },
+    {
+      "paragraph": 287,
+      "text": "(±a,0)"
+    },
+    {
+      "paragraph": 288,
+      "text": "实轴 2a，虚轴 2b"
+    },
+    {
+      "paragraph": 289,
+      "text": "e=c/a"
+    },
+    {
+      "paragraph": 290,
+      "text": "渐近线 y=±(b/a)x"
+    },
+    {
+      "paragraph": 291,
+      "text": "双曲线 y 轴"
+    },
+    {
+      "paragraph": 292,
+      "text": "y²/a²-x²/b²=1"
+    },
+    {
+      "paragraph": 293,
+      "text": "(0,±c)"
+    },
+    {
+      "paragraph": 294,
+      "text": "(0,±a)"
+    },
+    {
+      "paragraph": 295,
+      "text": "实轴 2a，虚轴 2b"
+    },
+    {
+      "paragraph": 296,
+      "text": "e=c/a"
+    },
+    {
+      "paragraph": 297,
+      "text": "渐近线 y=±(a/b)x"
+    },
+    {
+      "paragraph": 298,
+      "text": "抛物线右开口"
+    },
+    {
+      "paragraph": 299,
+      "text": "y²=2px (p>0)"
+    },
+    {
+      "paragraph": 300,
+      "text": "(p/2,0)"
+    },
+    {
+      "paragraph": 301,
+      "text": "O(0,0)"
+    },
+    {
+      "paragraph": 302,
+      "text": "对称轴 x 轴"
+    },
+    {
+      "paragraph": 303,
+      "text": "e=1"
+    },
+    {
+      "paragraph": 304,
+      "text": "准线 x=-p/2"
+    },
+    {
+      "paragraph": 305,
+      "text": "抛物线上/下开口"
+    },
+    {
+      "paragraph": 306,
+      "text": "x²=2py"
+    },
+    {
+      "paragraph": 307,
+      "text": "(0,p/2) 或 (0,-p/2) 视符号"
+    },
+    {
+      "paragraph": 308,
+      "text": "O"
+    },
+    {
+      "paragraph": 309,
+      "text": "对称轴 y 轴"
+    },
+    {
+      "paragraph": 310,
+      "text": "e=1"
+    },
+    {
+      "paragraph": 311,
+      "text": "准线 y=-p/2 或 y=p/2"
+    },
+    {
+      "paragraph": 312,
+      "text": ""
+    },
+    {
+      "paragraph": 313,
+      "text": "3. 焦点三角形与高频二级结论"
+    },
+    {
+      "paragraph": 314,
+      "text": "结论"
+    },
+    {
+      "paragraph": 315,
+      "text": "椭圆焦点三角形 PF1F2：设 |PF1|=m, |PF2|=n，m+n=2a，|F1F2|=2c。"
+    },
+    {
+      "paragraph": 316,
+      "text": "椭圆焦点三角形面积：S=b²·tan(θ/2)，其中 θ=∠F1PF2（可由余弦定理推出）。"
+    },
+    {
+      "paragraph": 317,
+      "text": "双曲线焦点三角形：|m-n|=2a；S=b²·cot(θ/2)（焦点在 x 轴同样适用，与 b 有关）。"
+    },
+    {
+      "paragraph": 318,
+      "text": "椭圆通径长：2b²/a；双曲线通径长：2b²/a；抛物线通径长 2p（y²=2px 中过焦点且垂直轴的弦长）。"
+    },
+    {
+      "paragraph": 319,
+      "text": "抛物线焦半径（y²=2px）：|PF|=x0+p/2；左/上/下开口类推。"
+    },
+    {
+      "paragraph": 320,
+      "text": "抛物线过焦点弦 AB（y²=2px）：若弦所在直线倾斜角 α，|AB|=2p/sin²α；x1x2=p²/4，y1y2=-p²；1/|AF|+1/|BF|=2/p。"
+    },
+    {
+      "paragraph": 321,
+      "text": "椭圆/双曲线中点弦（点差法结论）：椭圆 x²/a²+y²/b²=1 的弦中点 M(x0,y0)，斜率 k= -b²x0/(a²y0)；双曲线 x²/a²-y²/b²=1：k= b²x0/(a²y0)。使用前提是斜率存在且弦真实存在。"
+    },
+    {
+      "paragraph": 322,
+      "text": ""
+    },
+    {
+      "paragraph": 323,
+      "text": "4. 求标准方程与离心率"
+    },
+    {
+      "paragraph": 324,
+      "text": "定位：由焦点/渐近线/开口先定曲线类型与焦点所在轴，再设标准式。"
+    },
+    {
+      "paragraph": 325,
+      "text": "列关系：椭圆用 a²=b²+c²；双曲线用 c²=a²+b²；抛物线用 p 的几何意义（焦点到准线距离）。"
+    },
+    {
+      "paragraph": 326,
+      "text": "代入条件：过点、焦距、轴长、渐近线、离心率、通径、焦点三角形面积等。"
+    },
+    {
+      "paragraph": 327,
+      "text": "离心率：椭圆 e=√(1-b²/a²)；双曲线 e=√(1+b²/a²)；若给渐近线 y=kx，x 轴双曲线 e=√(1+k²)。"
+    },
+    {
+      "paragraph": 328,
+      "text": "检验：椭圆 a>b>0；双曲线 a>0,b>0；抛物线 p>0（符号决定开口）。"
+    },
+    {
+      "paragraph": 329,
+      "text": "高频小结论：椭圆中“以焦点为圆心的圆”或“焦点弦”常与 a±ex0 相关；双曲线渐近线相同即 a:b 相同，c/e 按同一比例变。"
+    },
+    {
+      "paragraph": 330,
+      "text": "5. 直线与圆锥曲线联立通法"
+    },
+    {
+      "paragraph": 331,
+      "text": "联立公式"
+    },
+    {
+      "paragraph": 332,
+      "text": "设直线：优先 y=kx+m；过 x 轴上点 (t,0) 可设 x=ny+t 避免斜率不存在与减少分数。设 x=my+n 对开口向右抛物线也常用。"
+    },
+    {
+      "paragraph": 333,
+      "text": "联立：代入消元得 Ax²+Bx+C=0 或 Ay²+By+C=0；相交需 Δ>0（相切 Δ=0）。"
+    },
+    {
+      "paragraph": 334,
+      "text": "韦达：x1+x2=-B/A，x1x2=C/A；y1+y2、y1y2 由直线关系或再代入得到。"
+    },
+    {
+      "paragraph": 335,
+      "text": "弦长：|AB|=√(1+k²)|x1-x2|=√(1+k²)√[(x1+x2)²-4x1x2]；若用 x=my+n，则 |AB|=√(1+m²)|y1-y2|。"
+    },
+    {
+      "paragraph": 336,
+      "text": "面积：S=(1/2)|AB|d（点到直线距离）或坐标行列式；共底三角形面积比常化为高之比。"
+    },
+    {
+      "paragraph": 337,
+      "text": "斜率：k_AB=(y1-y2)/(x1-x2)；k_OA+k_OB、k_PA·k_PB 等翻译为对称式后用韦达。"
+    },
+    {
+      "paragraph": 338,
+      "text": "中点：x_M=(x1+x2)/2；中点在某直线/曲线内则列关系。"
+    },
+    {
+      "paragraph": 339,
+      "text": ""
+    },
+    {
+      "paragraph": 340,
+      "text": "先几何后代数：抛物线焦半径、椭圆/双曲线定义可先把 |PF| 转为坐标，减少根号。"
+    },
+    {
+      "paragraph": 341,
+      "text": "消元选择：抛物线 y²=2px 联立 y=kx+m 后关于 y 的方程可能更简单；椭圆/双曲线常消 y。"
+    },
+    {
+      "paragraph": 342,
+      "text": "设而不求：核心是出现对称式 x1+x2、x1x2；目标式必须能化为这些。"
+    },
+    {
+      "paragraph": 343,
+      "text": "必要检验：求出参数后回代 Δ>0 与范围；定点定值题要取特殊位置猜结论，再一般证明。"
+    },
+    {
+      "paragraph": 344,
+      "text": "6. 点差法与中点弦"
+    },
+    {
+      "paragraph": 345,
+      "text": "点差法"
+    },
+    {
+      "paragraph": 346,
+      "text": "椭圆 x²/a²+y²/b²=1，弦端点 A(x1,y1),B(x2,y2)，中点 M(x0,y0)。"
+    },
+    {
+      "paragraph": 347,
+      "text": "两式相减：(x1-x2)(x1+x2)/a² + (y1-y2)(y1+y2)/b²=0。"
+    },
+    {
+      "paragraph": 348,
+      "text": "斜率 k=(y1-y2)/(x1-x2)= - b²(x1+x2) / [a²(y1+y2)] = - b²x0/(a²y0)。"
+    },
+    {
+      "paragraph": 349,
+      "text": "双曲线 x²/a²-y²/b²=1：k= b²x0/(a²y0)；抛物线 y²=2px：k=p/y0（y0≠0）。"
+    },
+    {
+      "paragraph": 350,
+      "text": "适用：已知中点求弦所在直线/斜率；已知斜率求中点轨迹。不能替代 Δ>0 与“弦存在”的检验。"
+    },
+    {
+      "paragraph": 351,
+      "text": ""
+    },
+    {
+      "paragraph": 352,
+      "text": "7. 定值定点与最值范围"
+    },
+    {
+      "paragraph": 353,
+      "text": "定值：先把目标量用 k,m 表示，利用直线过定点/曲线条件消去一个参数；常取斜率不存在、水平、垂直等特殊位置猜值。"
+    },
+    {
+      "paragraph": 354,
+      "text": "定点：把含 k 的表达式整理成 A(x,y)+kB(x,y)=0 对所有 k 成立，解 A=B=0。"
+    },
+    {
+      "paragraph": 355,
+      "text": "最值：弦长、面积、距离先化为单变量函数（常用 t=k² 或点坐标），注意定义域；分式可用换元、基本不等式或导数。"
+    },
+    {
+      "paragraph": 356,
+      "text": "范围：由 Δ>0、点在曲线内部/外部、角度锐钝、斜率存在得到参数范围；多约束取交集。"
+    },
+    {
+      "paragraph": 357,
+      "text": "存在性：设参数→列方程→判别式与范围；能证存在要给出取值或位置。"
+    },
+    {
+      "paragraph": 358,
+      "text": "仿射/参数方程：椭圆可用 x=a cosθ,y=b sinθ；抛物线 y²=2px 可设 (y0²/2p,y0) 或参数 (2pt²,2pt)。"
+    },
+    {
+      "paragraph": 359,
+      "text": "8. 抛物线专题：p 的意义与焦点弦"
+    },
+    {
+      "paragraph": 360,
+      "text": "抛物线结论"
+    },
+    {
+      "paragraph": 361,
+      "text": "y²=2px (p>0)：焦点 F(p/2,0)，准线 x=-p/2；p 是焦点到准线距离。"
+    },
+    {
+      "paragraph": 362,
+      "text": "点 P(x0,y0) 在抛物线上：|PF|=x0+p/2；开口向上 x²=2py：|PF|=y0+p/2。"
+    },
+    {
+      "paragraph": 363,
+      "text": "过焦点直线交抛物线于 A(x1,y1),B(x2,y2)：x1x2=p²/4，y1y2=-p²；|AB|=x1+x2+p；倾斜角 α 时 |AB|=2p/sin²α。"
+    },
+    {
+      "paragraph": 364,
+      "text": "切线：抛物线 y²=2px 在点 (x0,y0) 处切线 y0y=p(x+x0)；过焦点的弦端点切线交点在准线上且互相垂直（光学性质相关）。"
+    },
+    {
+      "paragraph": 365,
+      "text": ""
+    },
+    {
+      "paragraph": 366,
+      "text": "9. 圆锥曲线易错清单"
+    },
+    {
+      "paragraph": 367,
+      "text": "椭圆 c²=a²-b²；双曲线 c²=a²+b²，符号最易反。"
+    },
+    {
+      "paragraph": 368,
+      "text": "双曲线渐近线：x 轴焦点 y=±(b/a)x；y 轴焦点 y=±(a/b)x，不要机械套 b/a。"
+    },
+    {
+      "paragraph": 369,
+      "text": "离心率：椭圆 0<e<1，双曲线 e>1；若算得 e=1.2 放到椭圆必错。"
+    },
+    {
+      "paragraph": 370,
+      "text": "抛物线 y²=2px 的焦点是 (p/2,0)，不是 (p,0)；若题写 y²=4ax，则焦点 (a,0)。"
+    },
+    {
+      "paragraph": 371,
+      "text": "焦点位置不确定时要分类：x²/m+y²/n=1 表示椭圆/双曲线取决于 m,n 符号与大小。"
+    },
+    {
+      "paragraph": 372,
+      "text": "过焦点的直线要考虑斜率不存在；设 x=my+n 可规避竖直直线但不能表示水平线 y=0 的退化（按题检验）。"
+    },
+    {
+      "paragraph": 373,
+      "text": "联立后忘记 Δ>0；切线、相交、相离分别对应 Δ=0,>0,<0。"
+    },
+    {
+      "paragraph": 374,
+      "text": "点差法结论只在弦中点存在且 x1≠x2,y0≠0 时直接可用；斜率不存在的中点弦不能用公式斜率。"
+    },
+    {
+      "paragraph": 375,
+      "text": "焦点三角形面积公式中的 θ 是顶角 ∠F1PF2，不是底角。"
+    },
+    {
+      "paragraph": 376,
+      "text": "“以焦点弦为直径的圆与准线相切”等结论要先记适用曲线与开口方向，不能跨曲线乱用。"
+    },
+    {
+      "paragraph": 377,
+      "text": "附录A 考前 Checklist"
+    },
+    {
+      "paragraph": 378,
+      "text": "能默写：空间向量平行垂直条件；异面/线面/二面角公式；点面距离；棱柱锥台球体积表面积。"
+    },
+    {
+      "paragraph": 379,
+      "text": "能默写：斜率与五种直线方程；点线距离、平行线距离；切线长、弦长、两圆位置关系。"
+    },
+    {
+      "paragraph": 380,
+      "text": "能默写：椭圆/双曲线/抛物线定义、a,b,c,p,e 关系、渐近线、通径、焦半径、焦点弦结论。"
+    },
+    {
+      "paragraph": 381,
+      "text": "会做：线面角/二面角定号；直线含参分类；圆中最值；中点弦点差法；联立韦达求弦长面积；定点定值猜证。"
+    },
+    {
+      "paragraph": 382,
+      "text": "检查：斜率是否存在；焦点在 x/y 轴；Δ>0；参数范围取交；二面角钝锐；体积公式第三项。"
+    },
+    {
+      "paragraph": 383,
+      "text": "附录B 符号与约定"
+    },
+    {
+      "paragraph": 384,
+      "text": "椭圆/双曲线默认 a>0,b>0；椭圆 a>b；双曲线 c²=a²+b²。抛物线本文采用 y²=2px，若教材使用 y²=4ax，则 p=2a，焦点 (a,0)。"
+    },
+    {
+      "paragraph": 385,
+      "text": "θ 常表示异面直线所成角、二面角平面角或焦点三角形顶角，结合上下文判断；线面角用 φ 区分。"
+    },
+    {
+      "paragraph": 386,
+      "text": "联立消元后以 x 为例，若消 y 则相应替换；弦长公式两种形式按所消变量选择。"
+    }
+  ]
+}

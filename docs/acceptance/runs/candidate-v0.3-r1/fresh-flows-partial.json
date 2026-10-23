@@ -1,0 +1,25 @@
+[
+  {
+    "lesson": "line",
+    "examples": 3,
+    "quizzes": 5,
+    "knowledgeLength": 481,
+    "complete": true,
+    "formulaInitiallyHidden": true,
+    "duplicateRecordDoesNotInflate": true
+  },
+  {
+    "lesson": "lines",
+    "examples": 4,
+    "quizzes": 6,
+    "knowledgeLength": 508,
+    "complete": true
+  },
+  {
+    "lesson": "circle",
+    "examples": 3,
+    "quizzes": 5,
+    "knowledgeLength": 397,
+    "complete": true
+  }
+]

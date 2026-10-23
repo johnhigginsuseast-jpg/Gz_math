@@ -71,8 +71,8 @@ test('圆和直线的非法参数在边界拒绝', () => {
 
 test('课程内容与明确答案一致，多选不接受漏选或多选', () => {
   assert.equal(course.stages.length, 8);
-  assert.equal(course.examples.length, 2);
-  assert.deepEqual(exercises.map(question => question.answer), [[0], [1], [2], [0], [0, 1], [1]]);
+  assert.equal(course.examples.length, 7);
+  assert.deepEqual(exercises.slice(0, 6).map(question => question.answer), [[0], [1], [2], [0], [0, 1], [1]]);
   assert.equal(checkAnswer(exercises[4], [0]), false);
   assert.equal(checkAnswer(exercises[4], [0, 1, 2]), false);
   assert.equal(checkAnswer(exercises[4], [1, 0]), true);

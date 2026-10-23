@@ -1,0 +1,1 @@
+Reflection preset t=-3: initial browser test expected 8.325 (incorrect). Actual 2+sqrt(34)=7.8309519 -> 7.831, verified independently; corrected test expectation only, no product change.

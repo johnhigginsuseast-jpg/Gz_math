@@ -1,0 +1,11 @@
+{
+  "noDuplicateScore": true,
+  "changedAnswerRevokesCompletion": true,
+  "dialogKeyboardAndCancel": true,
+  "resetOnlyCurrentCourse": true,
+  "legacyBytesUnaffected": true,
+  "corruptRecovery": true,
+  "invalidInputAndKeyboard": true,
+  "storageFailureSessionUsable": true,
+  "injectionRestored": true
+}

@@ -1,0 +1,420 @@
+{
+  "source": "高二上数学_立体几何_直线与圆_圆锥曲线考点.docx",
+  "hash": "2D070B664A5B88C86CDAF9D79DB39B4E0098599F407C389DC76A01B90BFE6CBF",
+  "scope": "module2-only",
+  "paragraphs": [
+    {
+      "paragraph": 150,
+      "text": "模块二 直线与圆的方程"
+    },
+    {
+      "paragraph": 151,
+      "text": "1. 直线的倾斜角与斜率"
+    },
+    {
+      "paragraph": 152,
+      "text": "基础公式"
+    },
+    {
+      "paragraph": 153,
+      "text": "倾斜角 α∈[0,π)；斜率 k=tanα（α≠π/2）；α=π/2 时斜率不存在"
+    },
+    {
+      "paragraph": 154,
+      "text": "过 A(x1,y1),B(x2,y2)：k=(y2-y1)/(x2-x1)（x1≠x2）"
+    },
+    {
+      "paragraph": 155,
+      "text": "方向向量：直线可取 (1,k) 或 (B_x-A_x, B_y-A_y)；法向量可取 (A,B)（对一般式 Ax+By+C=0）"
+    },
+    {
+      "paragraph": 156,
+      "text": "注意：竖直直线没有斜率，但方程存在：x=x0；含参直线要先讨论斜率是否存在。"
+    },
+    {
+      "paragraph": 157,
+      "text": ""
+    },
+    {
+      "paragraph": 158,
+      "text": "2. 直线五类方程与适用场景"
+    },
+    {
+      "paragraph": 159,
+      "text": "方程"
+    },
+    {
+      "paragraph": 160,
+      "text": "形式"
+    },
+    {
+      "paragraph": 161,
+      "text": "优点"
+    },
+    {
+      "paragraph": 162,
+      "text": "限制/易错"
+    },
+    {
+      "paragraph": 163,
+      "text": "点斜式"
+    },
+    {
+      "paragraph": 164,
+      "text": "y-y0=k(x-x0)"
+    },
+    {
+      "paragraph": 165,
+      "text": "最常用"
+    },
+    {
+      "paragraph": 166,
+      "text": "斜率不存在时不能用"
+    },
+    {
+      "paragraph": 167,
+      "text": "斜截式"
+    },
+    {
+      "paragraph": 168,
+      "text": "y=kx+b"
+    },
+    {
+      "paragraph": 169,
+      "text": "直观"
+    },
+    {
+      "paragraph": 170,
+      "text": "不能表示竖直线"
+    },
+    {
+      "paragraph": 171,
+      "text": "两点式"
+    },
+    {
+      "paragraph": 172,
+      "text": "(y-y1)/(y2-y1)=(x-x1)/(x2-x1)"
+    },
+    {
+      "paragraph": 173,
+      "text": "过两点"
+    },
+    {
+      "paragraph": 174,
+      "text": "两点横/纵坐标相等时变形"
+    },
+    {
+      "paragraph": 175,
+      "text": "截距式"
+    },
+    {
+      "paragraph": 176,
+      "text": "x/a+y/b=1"
+    },
+    {
+      "paragraph": 177,
+      "text": "看截距"
+    },
+    {
+      "paragraph": 178,
+      "text": "过原点或平行轴时不能用"
+    },
+    {
+      "paragraph": 179,
+      "text": "一般式"
+    },
+    {
+      "paragraph": 180,
+      "text": "Ax+By+C=0"
+    },
+    {
+      "paragraph": 181,
+      "text": "可表示所有直线"
+    },
+    {
+      "paragraph": 182,
+      "text": "A,B 不同时为 0；法向量 (A,B)"
+    },
+    {
+      "paragraph": 183,
+      "text": ""
+    },
+    {
+      "paragraph": 184,
+      "text": "3. 两直线位置关系与距离"
+    },
+    {
+      "paragraph": 185,
+      "text": "位置关系与距离"
+    },
+    {
+      "paragraph": 186,
+      "text": "l1: y=k1x+b1，l2: y=k2x+b2：平行 ⇔ k1=k2 且 b1≠b2；垂直 ⇔ k1k2=-1（斜率存在）"
+    },
+    {
+      "paragraph": 187,
+      "text": "l1: A1x+B1y+C1=0，l2: A2x+B2y+C2=0：平行 ⇔ A1B2-A2B1=0 且 A1C2-A2C1≠0（或 B1C2-B2C1≠0）；垂直 ⇔ A1A2+B1B2=0"
+    },
+    {
+      "paragraph": 188,
+      "text": "一般式斜率（B≠0）：k=-A/B；竖直线 x=m 与水平线 y=n 互相垂直。"
+    },
+    {
+      "paragraph": 189,
+      "text": "点 P(x0,y0) 到直线 Ax+By+C=0：d=|Ax0+By0+C|/√(A²+B²)"
+    },
+    {
+      "paragraph": 190,
+      "text": "平行线 Ax+By+C1=0 与 Ax+By+C2=0：d=|C1-C2|/√(A²+B²)"
+    },
+    {
+      "paragraph": 191,
+      "text": "A,B 中点：((x1+x2)/2,(y1+y2)/2)；分点 λ：P=((x1+λx2)/(1+λ),(y1+λy2)/(1+λ))"
+    },
+    {
+      "paragraph": 192,
+      "text": ""
+    },
+    {
+      "paragraph": 193,
+      "text": "4. 对称、定点、恒过与最值"
+    },
+    {
+      "paragraph": 194,
+      "text": "常用模型"
+    },
+    {
+      "paragraph": 195,
+      "text": "点关于直线对称：PQ 中点在 l 上且 PQ⊥l；斜率不存在/水平线单独算。"
+    },
+    {
+      "paragraph": 196,
+      "text": "特殊对称：关于 x 轴 (x,-y)；关于 y 轴 (-x,y)；关于原点 (-x,-y)；关于 y=x：(y,x)；关于 y=-x：(-y,-x)。"
+    },
+    {
+      "paragraph": 197,
+      "text": "恒过定点：把含参方程整理成 f(x,y)+λg(x,y)=0，解 f=0,g=0；或验证定点坐标使参数项消失。"
+    },
+    {
+      "paragraph": 198,
+      "text": "到两定点距离和差最值：用三角形不等式或将军饮马作对称。"
+    },
+    {
+      "paragraph": 199,
+      "text": "斜率最值：式子 (y-b)/(x-a) 看作点 (x,y) 与 (a,b) 连线的斜率，结合可行域切线求范围。"
+    },
+    {
+      "paragraph": 200,
+      "text": ""
+    },
+    {
+      "paragraph": 201,
+      "text": "5. 圆的方程与位置关系"
+    },
+    {
+      "paragraph": 202,
+      "text": "核心公式"
+    },
+    {
+      "paragraph": 203,
+      "text": "标准方程：(x-a)²+(y-b)²=r²，圆心 C(a,b)，半径 r"
+    },
+    {
+      "paragraph": 204,
+      "text": "一般方程：x²+y²+Dx+Ey+F=0；配方：(x+D/2)²+(y+E/2)²=(D²+E²-4F)/4；表示圆 ⇔ D²+E²-4F>0"
+    },
+    {
+      "paragraph": 205,
+      "text": "点 P 与圆：d=PC；d>r 外，d=r 上，d<r 内"
+    },
+    {
+      "paragraph": 206,
+      "text": "直线与圆：圆心到直线距离 d；d>r 相离，d=r 相切，d<r 相交"
+    },
+    {
+      "paragraph": 207,
+      "text": "两圆：圆心距 d，半径 r1,r2；外离 d>r1+r2，外切 d=r1+r2，相交 |r1-r2|<d<r1+r2，内切 d=|r1-r2|，内含 d<|r1-r2|"
+    },
+    {
+      "paragraph": 208,
+      "text": "弦长：l=2√(r²-d²)；垂径定理：半弦、半径、弦心距成直角三角形"
+    },
+    {
+      "paragraph": 209,
+      "text": ""
+    },
+    {
+      "paragraph": 210,
+      "text": "切线类型"
+    },
+    {
+      "paragraph": 211,
+      "text": "结论/公式"
+    },
+    {
+      "paragraph": 212,
+      "text": "注意"
+    },
+    {
+      "paragraph": 213,
+      "text": "圆上点 P(x0,y0) 的切线"
+    },
+    {
+      "paragraph": 214,
+      "text": "(x0-a)(x-a)+(y0-b)(y-b)=r²"
+    },
+    {
+      "paragraph": 215,
+      "text": "把平方项中的一个 x,y 换成 x0,y0"
+    },
+    {
+      "paragraph": 216,
+      "text": "圆 x²+y²=r² 上点切线"
+    },
+    {
+      "paragraph": 217,
+      "text": "x0x+y0y=r²"
+    },
+    {
+      "paragraph": 218,
+      "text": "仅在圆上成立"
+    },
+    {
+      "paragraph": 219,
+      "text": "圆外点切线长"
+    },
+    {
+      "paragraph": 220,
+      "text": "L=√(PC²-r²)|P 为外点"
+    },
+    {
+      "paragraph": 221,
+      "text": "构成直角三角形 P-C-切点"
+    },
+    {
+      "paragraph": 222,
+      "text": "过圆外点两条切线/切点弦"
+    },
+    {
+      "paragraph": 223,
+      "text": "以 PC 为直径的圆与原圆交于切点；切点弦可用极线"
+    },
+    {
+      "paragraph": 224,
+      "text": "切点弦常考"
+    },
+    {
+      "paragraph": 225,
+      "text": "已知斜率 k 的切线"
+    },
+    {
+      "paragraph": 226,
+      "text": "设 y=kx+m，用 d=r 解 m；竖直切线 x=a±r 单独讨论"
+    },
+    {
+      "paragraph": 227,
+      "text": "斜率存在性"
+    },
+    {
+      "paragraph": 228,
+      "text": ""
+    },
+    {
+      "paragraph": 229,
+      "text": "6. 圆中最值与圆系、轨迹"
+    },
+    {
+      "paragraph": 230,
+      "text": "圆上点到直线距离最值：max=d_C+r，min=|d_C-r|；到圆外定点最值：PC±r。"
+    },
+    {
+      "paragraph": 231,
+      "text": "形如 (x-a)²+(y-b)² 的最值：转化为圆上点到定点 (a,b) 距离平方。"
+    },
+    {
+      "paragraph": 232,
+      "text": "形如 (y-b)/(x-a)、x+y、2x+y 的圆上最值：分别看斜率、直线截距、线性目标；相切时取最值。"
+    },
+    {
+      "paragraph": 233,
+      "text": "圆系：过直线 l:Ax+By+C=0 与圆 F=0 交点的圆系：F+λ(Ax+By+C)=0（λ 为参数；不含圆 F 本身，需单独检验）。"
+    },
+    {
+      "paragraph": 234,
+      "text": "两圆公共弦：两圆方程相减得公共弦所在直线；公共弦长用弦长公式。"
+    },
+    {
+      "paragraph": 235,
+      "text": "阿波罗尼斯圆：到两定点距离之比为常数 λ(λ≠1) 的轨迹是圆；可用于隐性圆识别。"
+    },
+    {
+      "paragraph": 236,
+      "text": "轨迹：直接法（设 P(x,y)，列等量关系）、定义法（到定点/定直线/两定点关系）、相关点法（主动点代入）、参数法。"
+    },
+    {
+      "paragraph": 237,
+      "text": "7. 直线与圆常考题型模板"
+    },
+    {
+      "paragraph": 238,
+      "text": "相切求参：几何法优先，d=r；代数法 Δ=0 仅作检验。圆外一点切线常有两条，记得斜率不存在情形。"
+    },
+    {
+      "paragraph": 239,
+      "text": "相交弦：算圆心到直线距离 d，用 l=2√(r²-d²)；若给弦中点，用垂径定理，弦所在直线与圆心—中点连线垂直。"
+    },
+    {
+      "paragraph": 240,
+      "text": "相离/半圆/优弧劣弧：画图定圆心角；劣弧对应弦心距较大，优弧对应圆心角 >π。"
+    },
+    {
+      "paragraph": 241,
+      "text": "过定点直线被圆截得弦长范围：固定圆，动直线过点 P；当直线过圆心时弦长最大=2r；当直线⊥CP 时弦长最小。"
+    },
+    {
+      "paragraph": 242,
+      "text": "含参直线与圆恒相交：若直线恒过圆内定点，则必相交；若用 d<r 求参，注意二次项系数为 0 的退化情形。"
+    },
+    {
+      "paragraph": 243,
+      "text": "圆与向量结合：直径端点 A,B，圆上点 P 有 PA·PB=0（以 AB 为直径）；OA·OB 用坐标或极化恒等式。"
+    },
+    {
+      "paragraph": 244,
+      "text": "8. 直线与圆易错清单"
+    },
+    {
+      "paragraph": 245,
+      "text": "斜率不存在必须单独讨论；一般式更能避免漏解。"
+    },
+    {
+      "paragraph": 246,
+      "text": "两直线垂直的一般条件是 A1A2+B1B2=0，不要只背 k1k2=-1。"
+    },
+    {
+      "paragraph": 247,
+      "text": "平行条件要排除重合：比例相等还不够，常数项不能同比。"
+    },
+    {
+      "paragraph": 248,
+      "text": "点到直线距离公式分子是绝对值；平行线距离必须先把 x,y 系数化成相同。"
+    },
+    {
+      "paragraph": 249,
+      "text": "圆的一般方程表示圆要先验 D²+E²-4F>0。"
+    },
+    {
+      "paragraph": 250,
+      "text": "两圆相交条件 |r1-r2|<d<r1+r2；相切分内切、外切。"
+    },
+    {
+      "paragraph": 251,
+      "text": "切线长公式中的点必须在圆外；圆内点无切线。"
+    },
+    {
+      "paragraph": 252,
+      "text": "直线与圆相交的判别式法要配 d 的几何意义，计算量大时优先几何法。"
+    }
+  ],
+  "ommlCount": 0
+}

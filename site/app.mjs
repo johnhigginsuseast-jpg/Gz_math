@@ -1,21 +1,23 @@
-import { course, exercises } from './course.mjs';
-import { experiment, relations, format } from './math.mjs';
+import { course, exercises, topics } from './course.mjs';
+import { experiment, relations, format, lineCircle, movingLine, distanceExtrema, tangentLines, constructionSnapshot } from './math.mjs';
 import { STORAGE_KEY, initialState, restoreState, canRecord, recordObservation, submitAnswer, practiceProgress } from './state.mjs';
 
 const app = document.querySelector('#app');
+document.title = '直线与圆的位置关系 · 几何实验室';
 let storageNotice = '';
 let storageWritable = true;
 let restored;
 try {
   restored = restoreState(localStorage.getItem(STORAGE_KEY));
   if (restored.recovered) storageNotice = '原来的学习记录无法读取，已从新的一课开始。';
+  if (restored.upgraded) storageNotice = '课程已升级：原实验和已答题目已保留，新增四个专题还需要继续探索。';
 } catch {
   restored = { state: initialState() };
   storageWritable = false;
   storageNotice = '浏览器无法使用本地存储。本次仍可学习，关闭页面后进度可能丢失。';
 }
 let state = restored.state;
-let constructionFrame = state.construction;
+let constructionProgress = state.construction;
 let constructionTimer = null;
 let resetDialog = false;
 
@@ -40,6 +42,9 @@ const paths = {
 function icon(name, extra = '') {
   return `<svg class="icon ${extra}" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="${paths[name] || paths.spark}"/></svg>`;
 }
+function escapeText(value) {
+  return value.replaceAll('&', '&amp;').replaceAll('<', '&lt;').replaceAll('>', '&gt;');
+}
 function button(label, action, disabled = false, style = '', extra = '') {
   return `<button type="button" class="button ${style}" data-action="${action}" ${disabled ? 'disabled' : ''} ${extra}>${label}</button>`;
 }
@@ -56,14 +61,38 @@ function save() {
   }
 }
 function stopConstruction() {
-  clearInterval(constructionTimer);
+  cancelAnimationFrame(constructionTimer);
   constructionTimer = null;
+}
+function animateConstruction(target) {
+  stopConstruction();
+  const start = constructionProgress;
+  const duration = matchMedia('(prefers-reduced-motion: reduce)').matches ? 100 : (target - start) * 1400;
+  let started;
+  const tick = now => {
+    started ??= now;
+    const elapsed = duration > 0 ? Math.min(1, (now - started) / duration) : 1;
+    constructionProgress = start + (target - start) * elapsed;
+    state.construction = Math.max(state.construction, Math.floor(constructionProgress + 1e-8));
+    const plotElement = document.querySelector('#plot');
+    if (!plotElement || state.stage !== 1) return stopConstruction();
+    plotElement.innerHTML = plot({ progress: constructionProgress, offset: 0, details: false, intersections: false });
+    document.querySelector('#construction-counter').textContent = `${Math.floor(constructionProgress)} / 4`;
+    document.querySelectorAll('.construction-list li').forEach((item, index) => item.classList.toggle('shown', constructionProgress >= index + 1));
+    if (elapsed < 1) constructionTimer = requestAnimationFrame(tick);
+    else {
+      stopConstruction();
+      save();
+      render();
+    }
+  };
+  constructionTimer = requestAnimationFrame(tick);
 }
 function navigate(stage) {
   if (stage > state.unlocked) return;
   stopConstruction();
   state.stage = stage;
-  constructionFrame = state.construction;
+  constructionProgress = state.construction;
   save();
   render();
   document.querySelector('#lesson').focus({ preventScroll: true });
@@ -72,6 +101,7 @@ function navigate(stage) {
 function advance() {
   if (!state.completed.includes(state.stage)) state.completed.push(state.stage);
   state.unlocked = Math.max(state.unlocked, Math.min(7, state.stage + 1));
+  if (state.stage === 5) state.topic = 'position';
   navigate(Math.min(7, state.stage + 1));
 }
 function choices(options, selected, action, { multiple = false, extra = '', count = false } = {}) {
@@ -102,29 +132,32 @@ function parkArt() {
   <rect x="317" y="63" width="70" height="25" rx="12" fill="#fff" transform="rotate(9 352 76)"/><text x="329" y="80" font-size="10" fill="#8d7bad" transform="rotate(9 352 76)">试着想一想</text>
   </svg><span class="art-caption">生活里的问题，也可以用数学来回答。</span></div>`;
 }
-function plot({ radius = 3, offset = 2, angle = 0, level = 4, details = true, intersections = true } = {}) {
-  const result = experiment(radius, offset, angle);
+function plot({ radius = 3, offset = 2, angle = 0, level = 4, progress = null, details = true, intersections = true, geometry = null, overlay = '', chord = false, hideLine = false, hideRadius = false, distanceLabel = 'd', description = '' } = {}) {
+  const result = geometry || experiment(radius, offset, angle);
+  const frame = progress === null ? constructionSnapshot(level) : constructionSnapshot(progress);
   const point = (x, y) => [300 + x * 42, 300 - y * 42];
   const [hx, hy] = point(result.foot.x, result.foot.y);
-  const theta = angle * Math.PI / 180;
-  const originOnLine = { x: -Math.sin(theta) * offset, y: Math.cos(theta) * offset };
-  const from = point(originOnLine.x - 15 * Math.cos(theta), originOnLine.y - 15 * Math.sin(theta));
-  const to = point(originOnLine.x + 15 * Math.cos(theta), originOnLine.y + 15 * Math.sin(theta));
-  const tickLabels = [-4, -2, 2, 4].map(n => `<text x="${300 + n * 42}" y="319" text-anchor="middle">${n}</text><text x="284" y="${304 - n * 42}" text-anchor="end">${n}</text>`).join('');
-  const intersectionMarks = level >= 4 && intersections ? result.points.map((p, index) => {
+  const direction = result.direction;
+  const from = point(result.foot.x - 9 * direction.x * frame.line, result.foot.y - 9 * direction.y * frame.line);
+  const to = point(result.foot.x + 9 * direction.x * frame.line, result.foot.y + 9 * direction.y * frame.line);
+  const tickLabels = [-4, -2, 2, 4].map(n => `<text x="${300 + n * 42}" y="328" text-anchor="middle">${n}</text><text x="284" y="${304 - n * 42}" text-anchor="end">${n}</text>`).join('');
+  const intersectionMarks = frame.line === 1 && intersections ? result.points.map((p, index) => {
     const [x, y] = point(p.x, p.y);
-    return `<circle cx="${x}" cy="${y}" r="5.3" fill="#7655d9" stroke="white" stroke-width="2"/><text x="${x + 10}" y="${y - 10}" fill="#7555dc" font-size="14">${result.count === 1 ? 'T' : index === 0 ? 'P' : 'Q'}</text>`;
+    return `<circle cx="${x}" cy="${y}" r="5.3" fill="#7655d9" stroke="white" stroke-width="2"/><text x="${x + 10}" y="${y - 10}" fill="#7555dc" font-size="17">${result.count === 1 ? 'T' : index === 0 ? 'P' : 'Q'}</text>`;
   }).join('') : '';
-  return `<svg viewBox="0 0 600 600" role="img" aria-labelledby="graph-title"><title id="graph-title">${level >= 4 && details ? `半径${format(radius)}，圆心到直线距离${format(result.distance)}，${relations[result.kind].label}，${result.count}个公共点` : '直角坐标系中的圆与直线，按步骤观察图形'}</title>
+  const chordPath = chord && result.count === 2 ? `<path d="M300 300L${hx} ${hy}L${point(result.points[0].x, result.points[0].y).join(' ')}Z" fill="#f5ce80" fill-opacity=".25"/><path d="M${point(result.points[0].x, result.points[0].y).join(' ')}L${point(result.points[1].x, result.points[1].y).join(' ')}" stroke="#c67d2b" stroke-width="6" stroke-linecap="round"/>` : '';
+  const circumference = 2 * Math.PI * radius * 42;
+  const tracer = point(radius * Math.cos(Math.PI / 2 - frame.circle * Math.PI * 2), radius * Math.sin(Math.PI / 2 - frame.circle * Math.PI * 2));
+  return `<svg viewBox="0 0 600 600" role="img" aria-labelledby="graph-title" data-construction-progress="${progress ?? 4}"><title id="graph-title">${description || (frame.line === 1 && details ? `半径${format(radius)}，圆心到直线距离${format(result.distance)}，${relations[result.kind].label}，${result.count}个公共点` : '直角坐标系中的圆与直线，按步骤观察图形')}</title>
   <defs><pattern id="graph-grid" width="42" height="42" x="48" y="48" patternUnits="userSpaceOnUse"><path d="M42 0H0V42" fill="none" stroke="#e9e7f1" stroke-width="1"/></pattern><clipPath id="graph-clip"><rect x="42" y="42" width="516" height="516" rx="6"/></clipPath></defs>
   <rect x="48" y="48" width="504" height="504" fill="url(#graph-grid)"/><path d="M48 300H557M300 552V42" stroke="#bab7cc" stroke-width="1.3"/><path d="m550 296 7 4-7 4m-254-255 4-7 4 7" fill="none" stroke="#bab7cc" stroke-width="1.3"/>
-  <g font-size="12" fill="#a29eb4" font-family="Segoe UI,sans-serif">${tickLabels}<text x="564" y="306">x</text><text x="308" y="39">y</text></g>
-  <g clip-path="url(#graph-clip)">${level >= 3 ? `<circle cx="300" cy="300" r="${radius * 42}" fill="#eee8fd" fill-opacity=".65" stroke="#8666df" stroke-width="2.8"/>` : ''}
-  ${level >= 2 ? `<path d="M300 300 ${300 + radius * 42 / Math.sqrt(2)} ${300 - radius * 42 / Math.sqrt(2)}" stroke="#dca14b" stroke-width="2"/><text x="${310 + radius * 20 / Math.sqrt(2)}" y="${286 - radius * 20 / Math.sqrt(2)}" fill="#bd893e" font-size="15">r = ${format(radius)}</text>` : ''}
-  ${level >= 4 ? `<path d="M${from[0]} ${from[1]}L${to[0]} ${to[1]}" stroke="#348b76" stroke-width="3"/>` : ''}
-  ${level >= 4 && details ? `<path d="M300 300L${hx} ${hy}" stroke="#d89a3f" stroke-width="2.2" stroke-dasharray="6 5"/><circle cx="${hx}" cy="${hy}" r="3" fill="#d89a3f"/><text x="${(300 + hx) / 2 + 12}" y="${(300 + hy) / 2 + (offset < 0 ? 17 : -7)}" fill="#ac782d" font-size="14">d = ${format(result.distance)}</text>${result.distance > .15 ? `<text x="${hx + 10}" y="${hy + 18}" fill="#a97c36" font-size="13">H</text>` : ''}` : ''}
-  ${intersectionMarks}</g>
-  ${level >= 1 ? '<circle cx="300" cy="300" r="4.2" fill="#545068"/><text x="308" y="322" fill="#69617d" font-size="14">O</text>' : ''}
+  <g font-size="16" fill="#8c889f" font-family="Segoe UI,sans-serif">${tickLabels}<text x="564" y="306">x</text><text x="308" y="39">y</text></g>
+  <g clip-path="url(#graph-clip)">${frame.circle > 0 ? `<circle class="constructed-circle" cx="300" cy="300" r="${radius * 42}" fill="#eee8fd" fill-opacity="${.65 * frame.circle}" stroke="#8666df" stroke-width="2.8" stroke-dasharray="${circumference}" stroke-dashoffset="${circumference * (1 - frame.circle)}" transform="rotate(-90 300 300)"/>${frame.circle < 1 ? `<circle cx="${tracer[0]}" cy="${tracer[1]}" r="5" fill="#7555dc"/>` : ''}` : ''}
+  ${frame.radius > 0 && !hideRadius ? `<path d="M300 300 ${300 + radius * 42 * frame.radius / Math.sqrt(2)} ${300 - radius * 42 * frame.radius / Math.sqrt(2)}" stroke="#dca14b" stroke-width="2.5"/>${frame.radius > .95 ? `<text x="${310 + radius * 42 / Math.sqrt(2)}" y="${290 - radius * 42 / Math.sqrt(2)}" fill="#bd893e" font-size="18">r</text>` : ''}` : ''}
+  ${frame.line > 0 && !hideLine ? `<path d="M${from[0]} ${from[1]}L${to[0]} ${to[1]}" stroke="#348b76" stroke-width="3"/>` : ''}
+  ${frame.line === 1 && details ? `<path d="M300 300L${hx} ${hy}" stroke="#d89a3f" stroke-width="2.2" stroke-dasharray="6 5"/><circle cx="${hx}" cy="${hy}" r="3" fill="#d89a3f"/><text x="${(300 + hx) / 2 + 12}" y="${(300 + hy) / 2 + (offset < 0 ? 17 : -7)}" fill="#ac782d" font-size="17">${distanceLabel} = ${format(result.distance)}</text>${result.distance > .15 ? `<text x="${hx + 10}" y="${hy + 18}" fill="#a97c36" font-size="17">H</text>` : ''}` : ''}
+  ${chordPath}${intersectionMarks}${overlay}</g>
+  ${frame.center > 0 ? `<g opacity="${frame.center}"><circle cx="300" cy="300" r="${4.2 * frame.center}" fill="#545068"/><text x="308" y="322" fill="#69617d" font-size="17">O</text></g>` : ''}
   </svg>`;
 }
 function plotCard(options, label = '几何观察窗') {
@@ -145,11 +178,12 @@ function scenario() {
   <div class="objectives">${course.objectives.map((text, i) => `<div class="objective"><span class="icon-box">${icon(['orbit', 'bulb', 'pen'][i])}</span><span><strong>0${i + 1}</strong>${text}</span></div>`).join('')}</div>`;
 }
 function construction() {
+  const frame = Math.floor(constructionProgress);
   const labels = ['确定圆心 O，建立位置的参照。', '从圆心出发，取长度为3的半径。', '与圆心距离为3的所有点，组成圆周。', '放入一条直线，准备观察它与圆周的相遇。'];
-  return `<div class="workspace fade-in">${plotCard({ level: constructionFrame, offset: 0, details: false, intersections: false }, '图形是这样构造的')}<div class="card"><div class="eyebrow">BUILD THE GEOMETRY <span class="step-counter">${constructionFrame} / 4</span></div><h2>先有图形，再有表达式</h2><p class="subtext">每一步都看清楚：哪些是固定的，哪些即将改变。</p><ol class="construction-list">${labels.map((label, i) => `<li class="${constructionFrame > i ? 'shown' : ''}"><span>${constructionFrame > i ? '✓' : i + 1}</span>${label}</li>`).join('')}</ol>
-  <div class="toolbar">${button(icon(constructionTimer ? 'pause' : 'play') + (constructionTimer ? '暂停' : constructionFrame === 4 ? '再演示一遍' : '播放构造'), 'play-construction', false, 'small')}${button('下一步', 'construction-step', constructionFrame === 4 || constructionTimer !== null, 'secondary small')}${button(icon('refresh') + '重播', 'construction-replay', false, 'quiet small')}</div>
-  ${constructionFrame === 4 ? '<div class="formula mt">x² + y² = 9<br>y = t<small>圆心 (0, 0)，半径3；直线的位置由 t 决定。</small></div>' : '<p class="control-note mt">构造完成后，我们再用方程描述它。</p>'}
-  <div class="bottom-actions"><p>先固定圆，只移动直线。</p>${button('进入动手实验 ' + icon('arrow'), 'next', constructionFrame < 4)}</div></div></div>`;
+  return `<div class="workspace fade-in">${plotCard({ progress: constructionProgress, offset: 0, details: false, intersections: false }, '跟着轨迹，看图形慢慢形成')}<div class="card"><div class="eyebrow">BUILD THE GEOMETRY <span class="step-counter" id="construction-counter">${frame} / 4</span></div><h2>先看图形怎样生成</h2><p class="subtext">半径慢慢伸展，圆周沿轨迹描出，再把直线放进来。你可以随时暂停，或只看下一小步。</p><ol class="construction-list">${labels.map((label, i) => `<li class="${frame > i ? 'shown' : ''}"><span>${frame > i ? '✓' : i + 1}</span>${label}</li>`).join('')}</ol>
+  <div class="toolbar">${button(icon(constructionTimer ? 'pause' : 'play') + (constructionTimer ? '暂停' : frame === 4 ? '再演示一遍' : constructionProgress > 0 ? '继续播放' : '播放构造'), 'play-construction', false, 'small')}${button('下一小步', 'construction-step', frame === 4 || constructionTimer !== null, 'secondary small')}${button(icon('refresh') + '重播', 'construction-replay', false, 'quiet small')}</div>
+  ${frame === 4 ? '<div class="formula mt">x² + y² = 9<br>y = t<small>圆心 (0, 0)，半径3；直线的位置由 t 决定。</small></div>' : '<div class="key-question mt"><strong>观察重点</strong><p>圆周上的每一点，到圆心的距离始终是3。</p></div>'}
+  <div class="bottom-actions"><p>构造完成后，再用方程描述它。</p>${button('进入动手实验 ' + icon('arrow'), 'next', frame < 4)}</div></div></div>`;
 }
 function guided() {
   const round = course.rounds[state.records.length];
@@ -177,23 +211,101 @@ function rule() {
   ${state.ruleAnswer !== null ? `<p class="feedback ${state.ruleAnswer === 1 ? 'success' : 'warning'}" role="status">${state.ruleAnswer === 1 ? '正是这样！接下来改变直线方向和圆的大小，看看规律能否继续成立。' : '回看三次记录：每次比较的是圆心到直线的垂直距离和固定半径。再想一想。'}</p>` : ''}
   <div class="bottom-actions"><p>把观察变成可以迁移的结论。</p>${button('解锁自由探索 ' + icon('arrow'), 'next', state.ruleAnswer !== 1)}</div></div>`;
 }
+function topicTabs() {
+  return `<nav class="topic-tabs" aria-label="题型选择">${topics.map(topic => `<button type="button" class="topic-tab ${state.topic === topic.id ? 'active' : ''}" data-action="topic" data-topic="${topic.id}" aria-pressed="${state.topic === topic.id}">${topic.label}</button>`).join('')}</nav>`;
+}
+function nextTopicButton() {
+  const next = topics[(topics.findIndex(topic => topic.id === state.topic) + 1) % topics.length];
+  return button(`下一题型：${next.label} ${icon('arrow')}`, 'topic', false, 'secondary small', `data-topic="${next.id}"`);
+}
+function diagramPoint(point, label, color = '#c37e2f') {
+  return `<circle cx="${300 + point.x * 42}" cy="${300 - point.y * 42}" r="6" fill="${color}" stroke="white" stroke-width="2"/><text x="${300 + point.x * 42 + (point.x > 3.5 ? -12 : 10)}" y="${288 - point.y * 42}" text-anchor="${point.x > 3.5 ? 'end' : 'start'}" font-size="18" fill="${color}">${label}</text>`;
+}
+function diagramSegment(from, to, dashed = false) {
+  return `<path d="M${300 + from.x * 42} ${300 - from.y * 42}L${300 + to.x * 42} ${300 - to.y * 42}" fill="none" stroke="#ce8a30" stroke-width="2.5" ${dashed ? 'stroke-dasharray="6 4"' : ''}/>`;
+}
+function lineEquation(line) {
+  const norm = Math.hypot(line.A, line.B);
+  let values = [line.A / norm, line.B / norm, -line.C / norm];
+  if (values[0] < -1e-9 || Math.abs(values[0]) < 1e-9 && values[1] < 0) values = values.map(value => -value);
+  let exact = false;
+  for (let scale = 1; scale <= 20; scale++) {
+    const scaled = values.map(value => value * scale);
+    if (scaled.every(value => Math.abs(value - Math.round(value)) < 1e-8)) {
+      values = scaled.map(Math.round);
+      exact = true;
+      break;
+    }
+  }
+  const [A, B, C] = values;
+  const term = (value, symbol) => `${Math.abs(value) === 1 ? '' : format(Math.abs(value), 3)}${symbol}`;
+  const left = [Math.abs(A) > 1e-9 ? term(A, 'x') : '', Math.abs(B) > 1e-9 ? `${Math.abs(A) > 1e-9 ? B < 0 ? ' − ' : ' + ' : B < 0 ? '−' : ''}${term(B, 'y')}` : ''].join('');
+  return `${left} ${exact ? '=' : '≈'} ${format(C, 3)}`;
+}
+function labModel() {
+  const { radius, offset, angle, pointAngle, externalX, tangentMode, extremaMode } = state.free;
+  if (state.topic === 'position') return { options: { radius, offset, angle }, metrics: metrics() };
+  if (state.topic === 'chord') {
+    const result = experiment(radius, offset, 0);
+    return { options: { radius, offset, chord: true }, metrics: `<div class="status-row"><div class="metric"><span>半径 r</span><strong>${format(radius)}</strong></div><div class="metric"><span>圆心距 d</span><strong>${format(result.distance)}</strong></div><div class="metric"><span>弦长 L</span><strong>${result.chordLength === null ? '不存在' : format(result.chordLength)}</strong></div></div><div class="live-result" role="status"><strong>${result.kind === 'intersect' ? `弦长 L ≈ ${format(result.chordLength)}` : result.kind === 'tangent' ? '相切：弦退化为一个点' : '相离：没有弦'}</strong><p>${result.kind === 'intersect' ? '橙色线段是整条弦。圆心到弦的垂线，将它分成相等的两半。' : '弦长公式不能把负数开平方；先判断直线与圆的位置关系。'}</p></div>` };
+  }
+  if (state.topic === 'extrema') {
+    const radians = pointAngle * Math.PI / 180;
+    const P = { x: radius * Math.cos(radians), y: radius * Math.sin(radians) };
+    const target = extremaMode === 'point' ? { x: externalX, y: 0 } : { x: P.x, y: offset };
+    const D = extremaMode === 'point' ? externalX : Math.abs(offset);
+    const extrema = distanceExtrema(radius, D, extremaMode);
+    const distance = Math.hypot(P.x - target.x, P.y - target.y);
+    const targetLabel = extremaMode === 'point' ? 'E' : 'J';
+    const markers = distance < 1e-8 ? diagramPoint(P, `P=${targetLabel}`) : diagramPoint(P, 'P') + diagramPoint(target, targetLabel);
+    return { options: { radius, offset: extremaMode === 'point' ? 0 : offset, distanceLabel: 'D', hideLine: extremaMode === 'point', details: extremaMode === 'line', hideRadius: true, intersections: false, overlay: diagramSegment(P, target) + diagramSegment({ x: 0, y: 0 }, P, true) + markers, description: `圆上动点P到${extremaMode === 'point' ? '定点E' : '直线'}的距离${format(distance)}，最小${format(extrema.min)}，最大${format(extrema.max)}` }, metrics: `<div class="status-row"><div class="metric"><span>当前距离 P${targetLabel}</span><strong>${format(distance)}</strong></div><div class="metric"><span>最小距离</span><strong>${format(extrema.min)}</strong></div><div class="metric"><span>最大距离</span><strong>${format(extrema.max)}</strong></div></div><div class="live-result" role="status"><strong>${extremaMode === 'point' ? 'OE' : '圆心距 D'} = ${format(D)}，半径 r = ${format(radius)}</strong><p>${extremaMode === 'point' ? '这是到定点的距离，最小值为|OE−r|；定点在圆内时通常也不为0。' : Math.abs(offset) < radius ? '直线穿过圆，动点到达交点时距离为0。最近点不一定在过圆心的垂线上。' : '沿圆周移动P，对比最近与最远位置。圆心距不能代替动点到直线的距离。'}</p></div>` };
+  }
+  if (state.topic === 'moving') {
+    const result = movingLine(3, angle);
+    return { options: { radius: 3, angle, geometry: result, overlay: diagramPoint({ x: 4, y: 0 }, 'F(4,0)') }, metrics: `<div class="live-result" role="status"><strong>不变的点：F(4,0)</strong><p>当前圆心距 d ≈ ${format(result.distance)}，直线与圆${relations[result.kind].label}，有${result.count}个公共点。</p><p>${lineEquation(result.line)}</p></div><p class="control-note">直线族：sinθ(x−4)−cosθ·y=0。θ=90°时为x=4；有限k的y=k(x−4)不含这条竖直线。</p>` };
+  }
+  const radians = pointAngle * Math.PI / 180;
+  const known = tangentMode === 'on' ? { x: 3 * Math.cos(radians), y: 3 * Math.sin(radians) } : { x: externalX, y: 0 };
+  const tangents = tangentLines({ r: 3 }, known);
+  let overlay = diagramPoint(known, tangentMode === 'on' ? 'T' : 'E');
+  for (const [index, tangent] of tangents.entries()) {
+    const norm = Math.hypot(tangent.line.A, tangent.line.B);
+    const dx = -tangent.line.B / norm * 15;
+    const dy = tangent.line.A / norm * 15;
+    overlay += `<path d="M${300 + (tangent.point.x - dx) * 42} ${300 - (tangent.point.y - dy) * 42}L${300 + (tangent.point.x + dx) * 42} ${300 - (tangent.point.y + dy) * 42}" stroke="#348b76" stroke-width="3"/>`;
+    overlay += diagramSegment({ x: 0, y: 0 }, tangent.point, true);
+    if (tangentMode === 'through') overlay += diagramPoint(tangent.point, `T${index + 1}`, '#7555dc');
+  }
+  return { options: { radius: 3, hideLine: true, hideRadius: true, details: false, intersections: false, overlay, description: `已知点(${format(known.x)},${format(known.y)})，共有${tangents.length}条切线，圆的半径3` }, metrics: `<div class="live-result" role="status"><strong>${tangents.length}条切线</strong><p>已知点 ${tangentMode === 'on' ? 'T' : 'E'}： (${format(known.x)}, ${format(known.y)})</p>${tangents.length ? tangents.map(tangent => `<div class="live-equation">${lineEquation(tangent.line)}</div>`).join('') : '<p>已知点在圆内，经过它的直线都会穿过圆，因此没有切线。</p>'}</div><p class="control-note">实线是切线，虚线是对应半径，二者互相垂直。“≈”表示方程系数仅作近似展示，计算使用未舍入值。</p>` };
+}
 function freeExplore() {
-  return `<div class="workspace fade-in">${plotCard({ radius: state.free.radius, offset: state.free.offset, angle: state.free.angle }, '你的几何实验台')}<div class="card"><div class="eyebrow">YOUR TURN TO EXPLORE</div><h2>换个方向，规律还在吗？</h2><p class="subtext">先固定距离与半径，只转动直线。再任选一个量改变，观察什么时候发生临界变化。</p>${control('angle', '直线旋转角 θ（度）', state.free.angle, 0, 180, 1)}${control('offset', '有向平移量 s', state.free.offset, -5, 5, .1)}${control('radius', '圆的半径 r', state.free.radius, 1, 4, .1)}<p id="input-error" class="control-note" role="status"></p><p class="control-note">d = |s|。这里 θ 是旋转角；0°与180°在 s ≠ 0 时对应不同的直线。</p><div id="metrics">${metrics()}</div><div class="toolbar mt">${button(icon('refresh') + '恢复初始状态', 'reset-free', false, 'secondary small') }${button('去看看怎样解题 ' + icon('arrow'), 'next', false, 'small')}</div></div></div>`;
+  const topic = topics.find(item => item.id === state.topic);
+  const model = labModel();
+  let controls = '';
+  if (state.topic === 'position') controls += control('angle', '直线旋转角 θ（度）', state.free.angle, 0, 180, 1);
+  if (['position', 'chord'].includes(state.topic) || state.topic === 'extrema' && state.free.extremaMode === 'line') controls += control('offset', '直线位置 s（圆心距为|s|）', state.free.offset, -5, 5, .1);
+  if (['position', 'chord', 'extrema'].includes(state.topic)) controls += control('radius', '圆的半径 r', state.free.radius, 1, 4, .1);
+  if (state.topic === 'extrema') controls = `<div class="toolbar tangent-modes">${button('到定直线', 'extrema-mode', false, state.free.extremaMode === 'line' ? 'small' : 'secondary small', 'data-mode="line"')}${button('到定点E', 'extrema-mode', false, state.free.extremaMode === 'point' ? 'small' : 'secondary small', 'data-mode="point"')}</div>` + control('pointAngle', '动点P沿圆周的位置（度）', state.free.pointAngle, 0, 360, 'any') + `<div class="toolbar">${button('移动到最近位置', 'nearest', false, 'secondary small')}${button('移动到最远位置', 'farthest', false, 'secondary small')}</div>` + (state.free.extremaMode === 'point' ? control('externalX', '定点E的横坐标（纵坐标为0）', state.free.externalX, 0, 6, .1) : '') + controls;
+  if (state.topic === 'moving') controls = control('angle', '绕固定点F旋转（度）', state.free.angle, 0, 180, 1);
+  if (state.topic === 'tangent') controls = `<div class="toolbar tangent-modes">${button('已知切点', 'tangent-mode', false, state.free.tangentMode === 'on' ? 'small' : 'secondary small', 'data-mode="on"')}${button('过已知点', 'tangent-mode', false, state.free.tangentMode === 'through' ? 'small' : 'secondary small', 'data-mode="through"')}</div>` + (state.free.tangentMode === 'on' ? control('pointAngle', '切点T沿圆周的位置（度）', state.free.pointAngle, 0, 360, 'any') : control('externalX', '已知点E的横坐标（纵坐标为0）', state.free.externalX, 0, 6, .1));
+  return `${topicTabs()}<div class="key-question"><strong>这次只想清楚一个问题</strong><h2>${topic.question}</h2></div><div class="workspace fade-in">${plotCard(model.options, topic.label + ' · 几何观察窗')}<div class="card"><div class="eyebrow">动手改一改，观察图形</div>${['moving', 'tangent'].includes(state.topic) ? '<p class="subtext">固定圆：x²+y²=9，半径 r=3。</p>' : ''}${controls}<p id="input-error" class="control-note" role="status"></p><div id="metrics">${model.metrics}</div><details class="method-details" ${state.topic === 'position' ? 'open' : ''}><summary>观察之后，查看重点结论与方法</summary><div class="key-takeaway"><strong>${topic.takeaway}</strong><p>${escapeText(topic.method)}</p></div></details><div class="toolbar mt">${button(icon('refresh') + '恢复初始状态', 'reset-free', false, 'secondary small')}${nextTopicButton()}</div></div></div><div class="bottom-actions"><p>五类问题都可以切换探索，再用例题把方法串起来。</p>${button('进入分题型例题 ' + icon('arrow'), 'next')}</div>`;
 }
 function examples() {
-  return `<div class="chapter-intro">${icon('book')}<div><h2>从“看得见”，走到“算得出”</h2><p>每次只展开一步。先在心里想一想，再看这一小步的解释。</p></div></div><div class="example-list">${course.examples.map((example, index) => `<div class="card"><div class="eyebrow">${example.tag}</div><div class="example-head"><h2>${example.title}</h2><span class="step-counter">${state.exampleSteps[index]} / 4</span></div><div class="example-question">${example.question}</div><ol class="solution">${example.steps.slice(0, state.exampleSteps[index]).map(([title, text], i) => `<li><span>${i + 1}</span><div><h3>${title}</h3><p>${text}</p></div></li>`).join('')}</ol><div class="toolbar">${button(state.exampleSteps[index] === 4 ? icon('check') + '已学完这道例题' : `展开第${state.exampleSteps[index] + 1}步 ${icon('arrow')}`, 'example-step', state.exampleSteps[index] === 4, 'small', `data-example="${index}"`)}${button('重新推一遍', 'example-reset', state.exampleSteps[index] === 0, 'quiet small', `data-example="${index}"`)}</div></div>`).join('')}</div><div class="bottom-actions"><p>相切参数题别漏掉绝对值的另一个分支。</p>${button('自己试一试 ' + icon('arrow'), 'next', !state.exampleSteps.every(value => value === 4))}</div>`;
+  const completed = state.exampleSteps.filter(value => value === 4).length;
+  return `<div class="chapter-intro">${icon('book')}<div><h2>按题型，把解题方法看清楚</h2><p>已学完 ${completed} / ${course.examples.length} 道例题。每次先想一小步，再展开解释。</p></div></div>${topicTabs()}<div class="example-list">${course.examples.map((example, index) => example.topic !== state.topic ? '' : `<div class="card"><div class="eyebrow">${example.tag}</div><div class="example-head"><h2>${example.title}</h2><span class="step-counter">${state.exampleSteps[index]} / 4</span></div><div class="example-question">${example.question}</div><ol class="solution">${example.steps.slice(0, state.exampleSteps[index]).map(([title, text], i) => `<li><span>${i + 1}</span><div><h3>${title}</h3><p>${text}</p></div></li>`).join('')}</ol><div class="toolbar">${button(state.exampleSteps[index] === 4 ? icon('check') + '已学完这道例题' : `展开第${state.exampleSteps[index] + 1}步 ${icon('arrow')}`, 'example-step', state.exampleSteps[index] === 4, 'small', `data-example="${index}"`)}${button('重新推一遍', 'example-reset', state.exampleSteps[index] === 0, 'quiet small', `data-example="${index}"`)}</div></div>`).join('')}</div><div class="toolbar mt">${nextTopicButton()}</div><div class="bottom-actions"><p>五类题型，各有方法；别漏掉绝对值的两个分支和竖直切线。</p>${button('自己试一试 ' + icon('arrow'), 'next', completed !== course.examples.length)}</div>`;
 }
 function practice() {
-  return `<div class="chapter-intro">${icon('pen')}<div><h2>把发现变成自己的本领</h2><p>已答对 ${practiceProgress(state)} / 6 题。可以重试，理解每次错误比一次选对更重要。</p></div></div><div class="quiz-list">${exercises.map((question, i) => {
+  return `<div class="chapter-intro">${icon('pen')}<div><h2>分题型练习，知道自己掌握了什么</h2><p>全部题型已答对 ${practiceProgress(state)} / ${exercises.length} 题。错了可以重试，小结会保留你的复习点。</p></div></div>${topicTabs()}<div class="quiz-list">${exercises.map((question, i) => {
+    if ((question.topic || 'position') !== state.topic) return '';
     const answer = state.answers[question.id] || { selected: [], submitted: false };
-    return `<section class="card quiz-card" aria-labelledby="${question.id}-title"><div class="question-title"><span class="quiz-number">0${i + 1}</span><div><div class="quiz-meta">${question.tag} · ${question.multiple ? '多选题' : '单选题'}</div><h2 id="${question.id}-title">${question.question}</h2></div></div>${choices(question.options, answer.selected, 'quiz-choice', { multiple: question.multiple, extra: `data-question="${question.id}"` })}${answer.submitted ? `<p class="feedback ${answer.correct ? 'success' : 'warning'}" role="status">${answer.correct ? '✓ 回答正确。' + question.explanation : '还差一点。' + question.mistake}</p>` : ''}<div class="quiz-controls"><span>${answer.submitted && answer.correct ? '这道题已经掌握' : question.multiple ? '请选出全部正确项后提交' : '选择后提交，看看你的思路'}</span>${button(answer.submitted ? '再次核对' : '提交答案', 'submit-quiz', answer.selected.length === 0, 'secondary small', `data-question="${question.id}"`)}</div></section>`;
-  }).join('')}</div><div class="bottom-actions"><p>每道题回答一次后，可以查看学习小结。</p>${button('查看学习小结 ' + icon('arrow'), 'practice-next', !exercises.every(question => state.answers[question.id]?.submitted))}</div>`;
+    return `<section class="card quiz-card" aria-labelledby="${question.id}-title"><div class="question-title"><span class="quiz-number">${String(i + 1).padStart(2, '0')}</span><div><div class="quiz-meta">${question.tag} · ${question.multiple ? '多选题' : '单选题'}</div><h2 id="${question.id}-title">${question.question}</h2></div></div>${choices(question.options, answer.selected, 'quiz-choice', { multiple: question.multiple, extra: `data-question="${question.id}"` })}${answer.submitted ? `<p class="feedback ${answer.correct ? 'success' : 'warning'}" role="status">${answer.correct ? '✓ 回答正确。' + question.explanation : '还差一点。' + question.mistake}</p>` : ''}<div class="quiz-controls"><span>${answer.submitted && answer.correct ? '这道题已经掌握' : question.multiple ? '请选出全部正确项后提交' : '选择后提交，看看你的思路'}</span>${button(answer.submitted ? '再次核对' : '提交答案', 'submit-quiz', answer.selected.length === 0, 'secondary small', `data-question="${question.id}"`)}</div></section>`;
+  }).join('')}</div><div class="toolbar mt">${nextTopicButton()}</div><div class="bottom-actions"><p>五类题型的每道题回答一次后，可查看完整小结。</p>${button('查看学习小结 ' + icon('arrow'), 'practice-next', !exercises.every(question => state.answers[question.id]?.submitted))}</div>`;
 }
 function summary() {
   const correct = practiceProgress(state);
   const reviews = exercises.filter(question => !state.answers[question.id]?.correct || state.answers[question.id]?.hadError);
-  return `<div class="summary-hero"><div class="summary-icon">${icon(correct === 6 ? 'flag' : 'bulb')}</div><h2>${correct === 6 ? '你发现了直线与圆的相遇规律' : '已经走完一圈，再巩固一点点'}</h2><p>从生活问题出发，用自己的观察走到数学结论。</p><div class="summary-stats"><div><strong>3</strong><span>次实验记录</span></div><div><strong>${correct} / 6</strong><span>练习已答对</span></div><div><strong>2</strong><span>道分步例题</span></div></div></div>
-  <div class="summary-grid"><div class="card"><h3>带走这张记忆卡</h3><div class="formula">d &lt; r → 相交 → 2个公共点<br>d = r → 相切 → 1个公共点<br>d &gt; r → 相离 → 0个公共点</div><p class="subtext mt">先找圆心和半径，再求垂直距离，最后比较。换方向，也不改变这个判断方法。</p></div><div class="card"><h3>${reviews.length ? '值得再看一眼的地方' : '你的基础已经很扎实'}</h3>${reviews.length ? `<ul class="review-list">${reviews.map(question => `<li>${question.review}${state.answers[question.id]?.correct ? '（已经修正）' : '（还需练习）'}</li>`).join('')}</ul>` : '<p class="review-complete">六道题全部掌握。试着不用看公式，向同学解释为什么 d = r 时只有一个公共点。</p>'}<p class="subtext">进度保存在当前浏览器；清除浏览器数据后会丢失。</p>${button(correct === 6 ? '再做一次巩固' : '回到练习继续巩固', 'go-practice', false, 'secondary small')}</div></div><div class="bottom-actions"><p>${state.completed.includes(7) ? '本课已完成，可以随时回看各环节。' : '理解了规律，才算真正学会。'}</p>${button(state.completed.includes(7) ? icon('check') + '本课已完成' : '完成这节课 ' + icon('check'), 'finish', correct < 6 || state.completed.includes(7))}</div>`;
+  return `<div class="summary-hero"><div class="summary-icon">${icon(correct === exercises.length ? 'flag' : 'bulb')}</div><h2>${correct === exercises.length ? '已完成直线与圆的五类问题' : '看看哪些方法还值得巩固'}</h2><p>从生活问题出发，用自己的观察走到数学结论。</p><div class="summary-stats"><div><strong>5</strong><span>类典型问题</span></div><div><strong>${correct} / ${exercises.length}</strong><span>练习已答对</span></div><div><strong>${course.examples.length}</strong><span>道分步例题</span></div></div></div>
+  <div class="summary-grid"><div class="card"><h3>五类方法，放在一起记</h3><div class="topic-recap">${topics.map(topic => `<div><strong>${topic.label}</strong><p>${escapeText(topic.method)}</p></div>`).join('')}</div></div><div class="card"><h3>${reviews.length ? '值得再看一眼的地方' : '这次的练习全部完成'}</h3>${reviews.length ? `<ul class="review-list">${reviews.map(question => `<li>${question.review}${state.answers[question.id]?.correct ? '（已经修正）' : '（还需练习）'}</li>`).join('')}</ul>` : '<p class="review-complete">试着不看公式，分别解释：弦为什么会变短、最近距离为什么可能是0、切线为什么不能漏掉竖直线。</p>'}<p class="subtext">进度保存在当前浏览器；清除浏览器数据后会丢失。</p>${button(correct === exercises.length ? '再做一次巩固' : '回到练习继续巩固', 'go-practice', false, 'secondary small')}</div></div><div class="bottom-actions"><p>${state.completed.includes(7) ? '本课已完成，可以随时回看各环节。' : '理解了规律，才算真正学会。'}</p>${button(state.completed.includes(7) ? icon('check') + '本课已完成' : '完成这节课 ' + icon('check'), 'finish', correct < exercises.length || state.completed.includes(7))}</div>`;
 }
 function dialog() {
   return `<div class="dialog-backdrop"><section class="dialog" role="dialog" aria-modal="true" aria-labelledby="reset-title" aria-describedby="reset-description"><h2 id="reset-title">从头再学一遍？</h2><p id="reset-description">这会清除本课在当前浏览器中的学习进度、实验记录和练习答案。</p><div class="dialog-actions">${button('保留进度', 'cancel-reset', false, 'secondary', 'id="cancel-reset"')}${button('清空并重新开始', 'confirm-reset', false, '', 'id="confirm-reset"')}</div></section></div>`;
@@ -201,16 +313,17 @@ function dialog() {
 function render() {
   const stage = course.stages[state.stage];
   const percent = Math.round(state.completed.length / 8 * 100);
-  app.innerHTML = `<div class="shell"><aside class="sidebar" aria-label="课程导航"><a class="brand" href="#lesson" aria-label="几何实验室，跳到学习内容"><img src="./assets/logo.svg" alt=""><div><strong>几何实验室</strong><small>GEOMETRY LAB</small></div></a><p class="sidebar-label">MY LEARNING JOURNEY</p><p class="chapter-label">直线与圆的位置关系</p><nav class="steps" aria-label="学习步骤">${course.stages.map(([name, description, symbol], index) => `<button type="button" class="step ${state.stage === index ? 'active' : ''} ${state.completed.includes(index) ? 'done' : ''}" data-action="navigate" data-stage="${index}" ${index > state.unlocked ? 'disabled' : ''} ${state.stage === index ? 'aria-current="step"' : ''} title="${description}">${icon(symbol)}<span>${name}</span><span class="step-number">${state.completed.includes(index) ? '✓' : String(index + 1).padStart(2, '0')}</span></button>`).join('')}</nav><div class="sidebar-bottom"><div class="sidebar-note"><strong>${icon('leaf')} 学习，是一场小小的探索</strong>不急着记住答案，先亲手发现规律。</div><button type="button" class="reset" data-action="open-reset">清空进度，重新学习</button></div></aside>
-  <main class="main"><header class="topbar"><div class="crumb"><span>高中数学</span><span>/</span><strong>解析几何</strong></div><div class="top-right"><button type="button" class="button quiet small reset-mobile" data-action="open-reset" aria-label="清空进度，重新学习">${icon('refresh')}</button><span class="local-badge">${storageWritable ? '本地学习 · 自动保存' : '本地学习 · 临时会话'}</span><span class="avatar" aria-hidden="true">数</span></div></header>
-  <div class="course-header"><div><div class="eyebrow"><span class="pill">探究课 01</span> ANALYTIC GEOMETRY</div><h1>${course.title}</h1><p>先猜想，再验证。让抽象的数学，变成看得见的发现。</p></div><div class="course-progress"><div class="progress-caption"><span>本课学习进度</span><span>${percent}%</span></div><div class="progress-track" role="progressbar" aria-label="本课学习进度" aria-valuemin="0" aria-valuemax="100" aria-valuenow="${percent}"><span style="width:${percent}%"></span></div></div></div>
+  app.innerHTML = `<div class="shell"><aside class="sidebar" aria-label="课程导航"><a class="brand" href="#lesson" aria-label="几何实验室，跳到学习内容"><img src="./assets/logo.svg" alt=""><div><strong>几何实验室</strong><small>GEOMETRY LAB</small></div></a><p class="sidebar-label">MY LEARNING JOURNEY</p><p class="chapter-label">直线与圆 · 五类问题</p><nav class="steps" aria-label="学习步骤">${course.stages.map(([name, description, symbol], index) => `<button type="button" class="step ${state.stage === index ? 'active' : ''} ${state.completed.includes(index) ? 'done' : ''}" data-action="navigate" data-stage="${index}" ${index > state.unlocked ? 'disabled' : ''} ${state.stage === index ? 'aria-current="step"' : ''} title="${description}">${icon(symbol)}<span>${name}</span><span class="step-number">${state.completed.includes(index) ? '✓' : String(index + 1).padStart(2, '0')}</span></button>`).join('')}</nav><div class="sidebar-bottom"><div class="sidebar-note"><strong>${icon('leaf')} 学习，是一场小小的探索</strong>不急着记住答案，先亲手发现规律。</div><button type="button" class="reset" data-action="open-reset">清空进度，重新学习</button></div></aside>
+  <main class="main"><header class="topbar"><div class="crumb"><a href="./">全部模块</a><span>/</span><a href="?module=lines">← 本模块</a></div><div class="top-right"><button type="button" class="button quiet small reset-mobile" data-action="open-reset" aria-label="清空进度，重新学习">${icon('refresh')}</button><span class="local-badge">${storageWritable ? '本地学习 · 自动保存' : '本地学习 · 临时会话'}</span><span class="avatar" aria-hidden="true">数</span></div></header>
+  <div class="course-header"><div><div class="eyebrow"><span class="pill">探究课 01</span> ANALYTIC GEOMETRY</div><h1>${course.title}</h1><p>位置关系 · 弦长 · 最值 · 动直线与定点 · 切线方程</p></div><div class="course-progress"><div class="progress-caption"><span>本课学习进度</span><span>${percent}%</span></div><div class="progress-track" role="progressbar" aria-label="本课学习进度" aria-valuemin="0" aria-valuemax="100" aria-valuenow="${percent}"><span style="width:${percent}%"></span></div></div></div>
   <div id="storage-notice" class="notice" role="status" ${storageNotice ? '' : 'hidden'}>${storageNotice}</div><div class="stage-banner"><span class="stage-dot"></span><strong>STEP ${String(state.stage + 1).padStart(2, '0')} · ${stage[0]}</strong><span class="line"></span><span>${stage[1]}</span></div><section id="lesson" tabindex="-1" aria-label="${stage[0]}">${[scenario, construction, guided, rule, freeExplore, examples, practice, summary][state.stage]()}</section>
-  <footer class="lesson-footer"><span><span class="dot">✦</span>每一个“为什么”，都是发现的开始。</span><span>基础样板课 v0.1 · 数据仅保存在当前浏览器</span></footer></main></div>${resetDialog ? dialog() : ''}`;
+  <footer class="lesson-footer"><span><span class="dot">✦</span>每一个“为什么”，都是发现的开始。</span><span>典型题型课 v0.2 · 数据仅保存在当前浏览器</span></footer></main></div>${resetDialog ? dialog() : ''}`;
 }
 function refreshPlot() {
   const target = document.querySelector('#plot');
-  if (target) target.innerHTML = plot(state.stage === 4 ? { radius: state.free.radius, offset: state.free.offset, angle: state.free.angle } : { offset: state.t, details: state.guess !== null, intersections: state.guess !== null });
-  if (state.stage === 4) document.querySelector('#metrics').innerHTML = metrics();
+  const model = state.stage === 4 ? labModel() : null;
+  if (target) target.innerHTML = plot(model ? model.options : { offset: state.t, details: state.guess !== null, intersections: state.guess !== null });
+  if (model) document.querySelector('#metrics').innerHTML = model.metrics;
   if (state.stage === 2) {
     document.querySelector('#guided-feedback').innerHTML = guidedFeedback();
     document.querySelector('#record-button').disabled = !canRecord(state);
@@ -219,12 +332,12 @@ function refreshPlot() {
 app.addEventListener('input', event => {
   const controlName = event.target.dataset.control;
   if (!controlName) return;
-  const limits = { t: [-5, 5], angle: [0, 180], offset: [-5, 5], radius: [1, 4] };
+  const limits = { t: [-5, 5], angle: [0, 180], offset: [-5, 5], radius: [1, 4], pointAngle: [0, 360], externalX: [0, 6] };
   const value = event.target.value === '' ? NaN : Number(event.target.value);
   const [min, max] = limits[controlName];
   const valid = Number.isFinite(value) && value >= min && value <= max && !event.target.validity.stepMismatch;
   event.target.setAttribute('aria-invalid', String(!valid));
-  document.querySelector('#input-error').textContent = valid ? '' : `请输入${min}到${max}之间、步长为${event.target.step}的数值，图形暂时保留上次有效状态。`;
+  document.querySelector('#input-error').textContent = valid ? '' : `请输入${min}到${max}之间${event.target.step === 'any' ? '的有效数值' : `、步长为${event.target.step}的数值`}，图形暂时保留上次有效状态。`;
   if (!valid) return;
   if (controlName === 't') {
     if (state.guess === null) return;
@@ -256,21 +369,14 @@ app.addEventListener('click', event => {
   if (action === 'play-construction') {
     if (constructionTimer) stopConstruction();
     else {
-      if (constructionFrame === 4) constructionFrame = 0;
-      constructionTimer = setInterval(() => {
-        constructionFrame++;
-        state.construction = Math.max(state.construction, constructionFrame);
-        if (constructionFrame >= 4) stopConstruction();
-        save();
-        render();
-      }, 900);
+      if (constructionProgress >= 4) constructionProgress = 0;
+      animateConstruction(4);
     }
   }
   if (action === 'construction-step') {
-    constructionFrame = Math.min(4, constructionFrame + 1);
-    state.construction = Math.max(state.construction, constructionFrame);
+    animateConstruction(Math.min(4, Math.floor(constructionProgress) + 1));
   }
-  if (action === 'construction-replay') { stopConstruction(); constructionFrame = 0; }
+  if (action === 'construction-replay') { stopConstruction(); constructionProgress = 0; animateConstruction(4); }
   if (action === 'guess') state.guess = index;
   if (action === 'observation' && state.guess !== null) state.observation = index;
   if (action === 'target') {
@@ -279,7 +385,15 @@ app.addEventListener('click', event => {
   }
   if (action === 'record') recordObservation(state);
   if (action === 'rule-answer') state.ruleAnswer = index;
-  if (action === 'reset-free') state.free = { radius: 3, offset: 2, angle: 0 };
+  if (action === 'reset-free') state.free = initialState().free;
+  if (action === 'topic' && topics.some(topic => topic.id === target.dataset.topic)) state.topic = target.dataset.topic;
+  if (action === 'tangent-mode') state.free.tangentMode = target.dataset.mode;
+  if (action === 'extrema-mode') state.free.extremaMode = target.dataset.mode;
+  if (action === 'nearest' || action === 'farthest') {
+    const { radius, offset } = state.free;
+    const angle = state.free.extremaMode === 'point' ? action === 'nearest' ? 0 : 180 : action === 'nearest' ? Math.abs(offset) <= radius ? Math.asin(offset / radius) * 180 / Math.PI : offset >= 0 ? 90 : 270 : offset >= 0 ? 270 : 90;
+    state.free.pointAngle = (angle + 360) % 360;
+  }
   if (action === 'example-step') state.exampleSteps[Number(target.dataset.example)] = Math.min(4, state.exampleSteps[Number(target.dataset.example)] + 1);
   if (action === 'example-reset') state.exampleSteps[Number(target.dataset.example)] = 0;
   if (action === 'quiz-choice') {
@@ -292,12 +406,12 @@ app.addEventListener('click', event => {
   }
   if (action === 'submit-quiz') submitAnswer(state, target.dataset.question);
   if (action === 'practice-next') {
-    if (practiceProgress(state) === 6 && !state.completed.includes(6)) state.completed.push(6);
+    if (practiceProgress(state) === exercises.length && !state.completed.includes(6)) state.completed.push(6);
     state.unlocked = 7;
     return navigate(7);
   }
   if (action === 'go-practice') return navigate(6);
-  if (action === 'finish' && practiceProgress(state) === 6) {
+  if (action === 'finish' && practiceProgress(state) === exercises.length) {
     state.completed = [...new Set([...state.completed, 6, 7])];
   }
   if (action === 'open-reset') { resetDialog = true; stopConstruction(); }
@@ -305,7 +419,7 @@ app.addEventListener('click', event => {
   if (action === 'confirm-reset') {
     stopConstruction();
     state = initialState();
-    constructionFrame = 0;
+    constructionProgress = 0;
     resetDialog = false;
   }
   save();
@@ -314,7 +428,7 @@ app.addEventListener('click', event => {
   else if (action === 'cancel-reset') document.querySelector('[data-action="open-reset"]').focus();
   else if (action === 'confirm-reset') { document.querySelector('#lesson').focus(); window.scrollTo({ top: 0 }); }
   else {
-    const matching = [...document.querySelectorAll('[data-action]')].find(el => el.dataset.action === action && (!target.hasAttribute('data-index') || el.dataset.index === target.dataset.index) && (!target.hasAttribute('data-example') || el.dataset.example === target.dataset.example) && (!target.hasAttribute('data-question') || el.dataset.question === target.dataset.question));
+    const matching = [...document.querySelectorAll('[data-action]')].find(el => el.dataset.action === action && (!target.hasAttribute('data-index') || el.dataset.index === target.dataset.index) && (!target.hasAttribute('data-example') || el.dataset.example === target.dataset.example) && (!target.hasAttribute('data-question') || el.dataset.question === target.dataset.question) && (!target.hasAttribute('data-topic') || el.dataset.topic === target.dataset.topic) && (!target.hasAttribute('data-mode') || el.dataset.mode === target.dataset.mode));
     if (matching && !matching.disabled) matching.focus({ preventScroll: true });
   }
 });

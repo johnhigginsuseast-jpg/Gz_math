@@ -1,0 +1,10 @@
+{
+  "check": "reset-input-keyboard",
+  "mobileResetVisible": true,
+  "escapePreserves": true,
+  "tabTrap": true,
+  "onlyCurrentReset": true,
+  "coincidentPointsRejected": true,
+  "outOfRangeRejected": true,
+  "emptyRejected": true
+}

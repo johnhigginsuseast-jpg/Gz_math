@@ -1,0 +1,11 @@
+{
+  "resetCancel": true,
+  "keyboardTrap": true,
+  "resetOnlyCurrent": true,
+  "legacyBytesPreserved": true,
+  "keyboardAndInvalidInput": true,
+  "corruptRecovery": true,
+  "writeFailureAndRestored": true,
+  "duplicateSubmitDoesNotInflate": true,
+  "changedAnswerRevokesCompletion": true
+}

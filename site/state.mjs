@@ -1,11 +1,11 @@
-import { course, exercises, checkAnswer } from './course.mjs';
+import { course, exercises, topics, checkAnswer } from './course.mjs';
 
 export const STORAGE_KEY = 'geometry-lab-v1';
 const integer = (value, low, high) => Number.isInteger(value) && value >= low && value <= high;
 const bounded = (value, low, high, fallback) => Number.isFinite(value) && value >= low && value <= high ? value : fallback;
 
 export function initialState() {
-  return { version: 1, stage: 0, unlocked: 0, completed: [], prediction: null, construction: 0, guess: null, observation: null, t: 0, records: [], ruleAnswer: null, free: { radius: 3, offset: 2, angle: 0 }, exampleSteps: [0, 0], answers: {} };
+  return { version: 1, revision: 2, stage: 0, unlocked: 0, completed: [], prediction: null, construction: 0, guess: null, observation: null, t: 0, records: [], ruleAnswer: null, topic: 'position', free: { radius: 3, offset: 2, angle: 0, pointAngle: 0, externalX: 5, tangentMode: 'on', extremaMode: 'line' }, exampleSteps: course.examples.map(() => 0), answers: {} };
 }
 
 export function restoreState(raw) {
@@ -30,7 +30,8 @@ export function restoreState(raw) {
       }
     }
     state.ruleAnswer = integer(saved.ruleAnswer, 0, 2) ? saved.ruleAnswer : null;
-    state.free = { radius: bounded(saved.free?.radius, 1, 4, 3), offset: bounded(saved.free?.offset, -5, 5, 2), angle: bounded(saved.free?.angle, 0, 180, 0) };
+    state.topic = topics.some(topic => topic.id === saved.topic) ? saved.topic : 'position';
+    state.free = { radius: bounded(saved.free?.radius, 1, 4, 3), offset: bounded(saved.free?.offset, -5, 5, 2), angle: bounded(saved.free?.angle, 0, 180, 0), pointAngle: bounded(saved.free?.pointAngle, 0, 360, 0), externalX: bounded(saved.free?.externalX, 0, 6, 5), tangentMode: saved.free?.tangentMode === 'through' ? 'through' : 'on', extremaMode: saved.free?.extremaMode === 'point' ? 'point' : 'line' };
     state.exampleSteps = course.examples.map((_, index) => integer(saved.exampleSteps?.[index], 0, 4) ? saved.exampleSteps[index] : 0);
     for (const question of exercises) {
       const answer = saved.answers?.[question.id];
@@ -45,7 +46,12 @@ export function restoreState(raw) {
     if (state.unlocked >= 2 && state.construction !== 4) throw new Error('构造未完成');
     if (state.unlocked >= 3 && state.records.length !== 3) throw new Error('实验记录不完整');
     // 已解锁步骤保留；学生回看时可以重推例题或修改尚未提交的答案。
-    return { state, recovered: false };
+    const upgraded = saved.revision !== 2;
+    if (upgraded) {
+      state.completed = state.completed.filter(stage => stage < 4);
+      if (state.stage > 4) state.stage = 4;
+    }
+    return { state, recovered: false, upgraded };
   } catch {
     return { state: initialState(), recovered: true };
   }

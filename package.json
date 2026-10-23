@@ -1,11 +1,11 @@
 {
   "name": "geometry-learning-lab",
-  "version": "0.1.0",
+  "version": "0.4.0",
   "private": true,
   "type": "module",
   "scripts": {
     "start": "node server.mjs",
     "test": "node --test tests/*.test.mjs",
-    "check": "node --check site/app.mjs && node --check site/math.mjs && node --check site/course.mjs && node --check site/state.mjs && node --check server.mjs"
+    "check": "node --check site/advanced-math.mjs && node --check site/advanced-labs.mjs && node --check site/solid-course.mjs && node --check site/conic-course.mjs && node --check site/lesson-data.mjs && node --check site/boot.mjs && node --check site/module-app.mjs && node --check site/module-course.mjs && node --check site/module-math.mjs && node --check site/app.mjs && node --check site/math.mjs && node --check site/course.mjs && node --check site/state.mjs && node --check server.mjs"
   }
 }

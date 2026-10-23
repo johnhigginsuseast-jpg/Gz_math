@@ -1,0 +1,49 @@
+{
+  "version": "0.4.0",
+  "candidate": "v0.4-r1",
+  "frozenFiles": 36,
+  "changedFrozenFiles": [],
+  "documentsChecked": 17,
+  "missingDocuments": [],
+  "newCourses": 13,
+  "newLabs": 32.0,
+  "newExamples": 42.0,
+  "newQuizzes": 68.0,
+  "experimentalCases": 134,
+  "rotationChecks": 15,
+  "layoutCount": 480,
+  "uniqueLayouts": 480,
+  "overflowFailures": 0,
+  "consoleErrors": 0,
+  "safetyChecks": 9,
+  "safetyFailures": 0,
+  "unitTestsPass": true,
+  "sourceIntegrity": true,
+  "userStorageUnchanged": true,
+  "acceptance": [
+    {
+      "id": "AC-030",
+      "status": "PASS"
+    },
+    {
+      "id": "AC-031",
+      "status": "PASS"
+    },
+    {
+      "id": "AC-032",
+      "status": "PASS"
+    },
+    {
+      "id": "AC-033",
+      "status": "PASS"
+    },
+    {
+      "id": "AC-034",
+      "status": "PASS"
+    },
+    {
+      "id": "AC-035",
+      "status": "PASS"
+    }
+  ]
+}

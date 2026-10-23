@@ -1,0 +1,92 @@
+[
+  {
+    "lesson": "space-vectors",
+    "lab": 0,
+    "numericInvariant": true,
+    "keyboardFocus": true
+  },
+  {
+    "lesson": "space-vectors",
+    "lab": 1,
+    "numericInvariant": true,
+    "keyboardFocus": true
+  },
+  {
+    "lesson": "space-relations",
+    "lab": 0,
+    "numericInvariant": true,
+    "keyboardFocus": true
+  },
+  {
+    "lesson": "space-relations",
+    "lab": 1,
+    "numericInvariant": true,
+    "keyboardFocus": true
+  },
+  {
+    "lesson": "space-relations",
+    "lab": 2,
+    "numericInvariant": true,
+    "keyboardFocus": true
+  },
+  {
+    "lesson": "space-angles",
+    "lab": 0,
+    "numericInvariant": true,
+    "keyboardFocus": true
+  },
+  {
+    "lesson": "space-angles",
+    "lab": 1,
+    "numericInvariant": true,
+    "keyboardFocus": true
+  },
+  {
+    "lesson": "space-angles",
+    "lab": 2,
+    "numericInvariant": true,
+    "keyboardFocus": true
+  },
+  {
+    "lesson": "space-distance",
+    "lab": 0,
+    "numericInvariant": true,
+    "keyboardFocus": true
+  },
+  {
+    "lesson": "space-distance",
+    "lab": 1,
+    "numericInvariant": true,
+    "keyboardFocus": true
+  },
+  {
+    "lesson": "space-solids",
+    "lab": 0,
+    "numericInvariant": true,
+    "keyboardFocus": true
+  },
+  {
+    "lesson": "space-solids",
+    "lab": 1,
+    "numericInvariant": true,
+    "keyboardFocus": true
+  },
+  {
+    "lesson": "space-constructions",
+    "lab": 0,
+    "numericInvariant": true,
+    "keyboardFocus": true
+  },
+  {
+    "lesson": "space-constructions",
+    "lab": 1,
+    "numericInvariant": true,
+    "keyboardFocus": true
+  },
+  {
+    "lesson": "space-constructions",
+    "lab": 3,
+    "numericInvariant": true,
+    "keyboardFocus": true
+  }
+]

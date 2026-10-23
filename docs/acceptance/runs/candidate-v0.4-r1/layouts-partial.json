@@ -1,0 +1,3173 @@
+[
+  {
+    "label": "space-vectors-stage0",
+    "font": "18px",
+    "scroll": 1425,
+    "title": "空间坐标与向量",
+    "width": 1440
+  },
+  {
+    "label": "space-vectors-stage1",
+    "font": "18px",
+    "scroll": 1425,
+    "title": "空间坐标与向量",
+    "width": 1440
+  },
+  {
+    "label": "space-vectors-lab0",
+    "font": "18px",
+    "scroll": 1425,
+    "title": "空间坐标与向量",
+    "width": 1440
+  },
+  {
+    "label": "space-vectors-lab1",
+    "font": "18px",
+    "scroll": 1425,
+    "title": "空间坐标与向量",
+    "width": 1440
+  },
+  {
+    "label": "space-vectors-stage2",
+    "font": "18px",
+    "scroll": 1425,
+    "title": "空间坐标与向量",
+    "width": 1440
+  },
+  {
+    "label": "space-vectors-stage3",
+    "font": "18px",
+    "scroll": 1425,
+    "title": "空间坐标与向量",
+    "width": 1440
+  },
+  {
+    "label": "space-vectors-stage4",
+    "font": "18px",
+    "scroll": 1425,
+    "title": "空间坐标与向量",
+    "width": 1440
+  },
+  {
+    "label": "space-relations-stage0",
+    "font": "18px",
+    "scroll": 1425,
+    "title": "空间位置关系",
+    "width": 1440
+  },
+  {
+    "label": "space-relations-stage1",
+    "font": "18px",
+    "scroll": 1425,
+    "title": "空间位置关系",
+    "width": 1440
+  },
+  {
+    "label": "space-relations-lab0",
+    "font": "18px",
+    "scroll": 1425,
+    "title": "空间位置关系",
+    "width": 1440
+  },
+  {
+    "label": "space-relations-lab1",
+    "font": "18px",
+    "scroll": 1425,
+    "title": "空间位置关系",
+    "width": 1440
+  },
+  {
+    "label": "space-relations-lab2",
+    "font": "18px",
+    "scroll": 1425,
+    "title": "空间位置关系",
+    "width": 1440
+  },
+  {
+    "label": "space-relations-stage2",
+    "font": "18px",
+    "scroll": 1425,
+    "title": "空间位置关系",
+    "width": 1440
+  },
+  {
+    "label": "space-relations-stage3",
+    "font": "18px",
+    "scroll": 1425,
+    "title": "空间位置关系",
+    "width": 1440
+  },
+  {
+    "label": "space-relations-stage4",
+    "font": "18px",
+    "scroll": 1425,
+    "title": "空间位置关系",
+    "width": 1440
+  },
+  {
+    "label": "space-angles-stage0",
+    "font": "18px",
+    "scroll": 1425,
+    "title": "三种空间角",
+    "width": 1440
+  },
+  {
+    "label": "space-angles-stage1",
+    "font": "18px",
+    "scroll": 1425,
+    "title": "三种空间角",
+    "width": 1440
+  },
+  {
+    "label": "space-angles-lab0",
+    "font": "18px",
+    "scroll": 1425,
+    "title": "三种空间角",
+    "width": 1440
+  },
+  {
+    "label": "space-angles-lab1",
+    "font": "18px",
+    "scroll": 1425,
+    "title": "三种空间角",
+    "width": 1440
+  },
+  {
+    "label": "space-angles-lab2",
+    "font": "18px",
+    "scroll": 1425,
+    "title": "三种空间角",
+    "width": 1440
+  },
+  {
+    "label": "space-angles-stage2",
+    "font": "18px",
+    "scroll": 1425,
+    "title": "三种空间角",
+    "width": 1440
+  },
+  {
+    "label": "space-angles-stage3",
+    "font": "18px",
+    "scroll": 1425,
+    "title": "三种空间角",
+    "width": 1440
+  },
+  {
+    "label": "space-angles-stage4",
+    "font": "18px",
+    "scroll": 1425,
+    "title": "三种空间角",
+    "width": 1440
+  },
+  {
+    "label": "space-distance-stage0",
+    "font": "18px",
+    "scroll": 1425,
+    "title": "空间距离与等体积法",
+    "width": 1440
+  },
+  {
+    "label": "space-distance-stage1",
+    "font": "18px",
+    "scroll": 1425,
+    "title": "空间距离与等体积法",
+    "width": 1440
+  },
+  {
+    "label": "space-distance-lab0",
+    "font": "18px",
+    "scroll": 1425,
+    "title": "空间距离与等体积法",
+    "width": 1440
+  },
+  {
+    "label": "space-distance-lab1",
+    "font": "18px",
+    "scroll": 1425,
+    "title": "空间距离与等体积法",
+    "width": 1440
+  },
+  {
+    "label": "space-distance-stage2",
+    "font": "18px",
+    "scroll": 1425,
+    "title": "空间距离与等体积法",
+    "width": 1440
+  },
+  {
+    "label": "space-distance-stage3",
+    "font": "18px",
+    "scroll": 1425,
+    "title": "空间距离与等体积法",
+    "width": 1440
+  },
+  {
+    "label": "space-distance-stage4",
+    "font": "18px",
+    "scroll": 1425,
+    "title": "空间距离与等体积法",
+    "width": 1440
+  },
+  {
+    "label": "space-solids-stage0",
+    "font": "18px",
+    "scroll": 1425,
+    "title": "几何体的面积与体积",
+    "width": 1440
+  },
+  {
+    "label": "space-solids-stage1",
+    "font": "18px",
+    "scroll": 1425,
+    "title": "几何体的面积与体积",
+    "width": 1440
+  },
+  {
+    "label": "space-solids-lab0",
+    "font": "18px",
+    "scroll": 1425,
+    "title": "几何体的面积与体积",
+    "width": 1440
+  },
+  {
+    "label": "space-solids-lab1",
+    "font": "18px",
+    "scroll": 1425,
+    "title": "几何体的面积与体积",
+    "width": 1440
+  },
+  {
+    "label": "space-solids-stage2",
+    "font": "18px",
+    "scroll": 1425,
+    "title": "几何体的面积与体积",
+    "width": 1440
+  },
+  {
+    "label": "space-solids-stage3",
+    "font": "18px",
+    "scroll": 1425,
+    "title": "几何体的面积与体积",
+    "width": 1440
+  },
+  {
+    "label": "space-solids-stage4",
+    "font": "18px",
+    "scroll": 1425,
+    "title": "几何体的面积与体积",
+    "width": 1440
+  },
+  {
+    "label": "space-constructions-stage0",
+    "font": "18px",
+    "scroll": 1425,
+    "title": "截面、翻折、展开与球",
+    "width": 1440
+  },
+  {
+    "label": "space-constructions-stage1",
+    "font": "18px",
+    "scroll": 1425,
+    "title": "截面、翻折、展开与球",
+    "width": 1440
+  },
+  {
+    "label": "space-constructions-lab0",
+    "font": "18px",
+    "scroll": 1425,
+    "title": "截面、翻折、展开与球",
+    "width": 1440
+  },
+  {
+    "label": "space-constructions-lab1",
+    "font": "18px",
+    "scroll": 1425,
+    "title": "截面、翻折、展开与球",
+    "width": 1440
+  },
+  {
+    "label": "space-constructions-lab2",
+    "font": "18px",
+    "scroll": 1425,
+    "title": "截面、翻折、展开与球",
+    "width": 1440
+  },
+  {
+    "label": "space-constructions-lab3",
+    "font": "18px",
+    "scroll": 1425,
+    "title": "截面、翻折、展开与球",
+    "width": 1440
+  },
+  {
+    "label": "space-constructions-stage2",
+    "font": "18px",
+    "scroll": 1425,
+    "title": "截面、翻折、展开与球",
+    "width": 1440
+  },
+  {
+    "label": "space-constructions-stage3",
+    "font": "18px",
+    "scroll": 1425,
+    "title": "截面、翻折、展开与球",
+    "width": 1440
+  },
+  {
+    "label": "space-constructions-stage4",
+    "font": "18px",
+    "scroll": 1425,
+    "title": "截面、翻折、展开与球",
+    "width": 1440
+  },
+  {
+    "label": "ellipse-stage0",
+    "font": "18px",
+    "scroll": 1425,
+    "title": "椭圆的定义与方程",
+    "width": 1440
+  },
+  {
+    "label": "ellipse-stage1",
+    "font": "18px",
+    "scroll": 1425,
+    "title": "椭圆的定义与方程",
+    "width": 1440
+  },
+  {
+    "label": "ellipse-lab0",
+    "font": "18px",
+    "scroll": 1425,
+    "title": "椭圆的定义与方程",
+    "width": 1440
+  },
+  {
+    "label": "ellipse-lab1",
+    "font": "18px",
+    "scroll": 1425,
+    "title": "椭圆的定义与方程",
+    "width": 1440
+  },
+  {
+    "label": "ellipse-stage2",
+    "font": "18px",
+    "scroll": 1425,
+    "title": "椭圆的定义与方程",
+    "width": 1440
+  },
+  {
+    "label": "ellipse-stage3",
+    "font": "18px",
+    "scroll": 1425,
+    "title": "椭圆的定义与方程",
+    "width": 1440
+  },
+  {
+    "label": "ellipse-stage4",
+    "font": "18px",
+    "scroll": 1425,
+    "title": "椭圆的定义与方程",
+    "width": 1440
+  },
+  {
+    "label": "hyperbola-stage0",
+    "font": "18px",
+    "scroll": 1425,
+    "title": "双曲线的定义与方程",
+    "width": 1440
+  },
+  {
+    "label": "hyperbola-stage1",
+    "font": "18px",
+    "scroll": 1425,
+    "title": "双曲线的定义与方程",
+    "width": 1440
+  },
+  {
+    "label": "hyperbola-lab0",
+    "font": "18px",
+    "scroll": 1425,
+    "title": "双曲线的定义与方程",
+    "width": 1440
+  },
+  {
+    "label": "hyperbola-lab1",
+    "font": "18px",
+    "scroll": 1425,
+    "title": "双曲线的定义与方程",
+    "width": 1440
+  },
+  {
+    "label": "hyperbola-stage2",
+    "font": "18px",
+    "scroll": 1425,
+    "title": "双曲线的定义与方程",
+    "width": 1440
+  },
+  {
+    "label": "hyperbola-stage3",
+    "font": "18px",
+    "scroll": 1425,
+    "title": "双曲线的定义与方程",
+    "width": 1440
+  },
+  {
+    "label": "hyperbola-stage4",
+    "font": "18px",
+    "scroll": 1425,
+    "title": "双曲线的定义与方程",
+    "width": 1440
+  },
+  {
+    "label": "parabola-stage0",
+    "font": "18px",
+    "scroll": 1425,
+    "title": "抛物线的定义与切线",
+    "width": 1440
+  },
+  {
+    "label": "parabola-stage1",
+    "font": "18px",
+    "scroll": 1425,
+    "title": "抛物线的定义与切线",
+    "width": 1440
+  },
+  {
+    "label": "parabola-lab0",
+    "font": "18px",
+    "scroll": 1425,
+    "title": "抛物线的定义与切线",
+    "width": 1440
+  },
+  {
+    "label": "parabola-lab1",
+    "font": "18px",
+    "scroll": 1425,
+    "title": "抛物线的定义与切线",
+    "width": 1440
+  },
+  {
+    "label": "parabola-stage2",
+    "font": "18px",
+    "scroll": 1425,
+    "title": "抛物线的定义与切线",
+    "width": 1440
+  },
+  {
+    "label": "parabola-stage3",
+    "font": "18px",
+    "scroll": 1425,
+    "title": "抛物线的定义与切线",
+    "width": 1440
+  },
+  {
+    "label": "parabola-stage4",
+    "font": "18px",
+    "scroll": 1425,
+    "title": "抛物线的定义与切线",
+    "width": 1440
+  },
+  {
+    "label": "conic-focus-stage0",
+    "font": "18px",
+    "scroll": 1425,
+    "title": "焦点三角形与焦点弦",
+    "width": 1440
+  },
+  {
+    "label": "conic-focus-stage1",
+    "font": "18px",
+    "scroll": 1425,
+    "title": "焦点三角形与焦点弦",
+    "width": 1440
+  },
+  {
+    "label": "conic-focus-lab0",
+    "font": "18px",
+    "scroll": 1425,
+    "title": "焦点三角形与焦点弦",
+    "width": 1440
+  },
+  {
+    "label": "conic-focus-lab1",
+    "font": "18px",
+    "scroll": 1425,
+    "title": "焦点三角形与焦点弦",
+    "width": 1440
+  },
+  {
+    "label": "conic-focus-lab2",
+    "font": "18px",
+    "scroll": 1425,
+    "title": "焦点三角形与焦点弦",
+    "width": 1440
+  },
+  {
+    "label": "conic-focus-stage2",
+    "font": "18px",
+    "scroll": 1425,
+    "title": "焦点三角形与焦点弦",
+    "width": 1440
+  },
+  {
+    "label": "conic-focus-stage3",
+    "font": "18px",
+    "scroll": 1425,
+    "title": "焦点三角形与焦点弦",
+    "width": 1440
+  },
+  {
+    "label": "conic-focus-stage4",
+    "font": "18px",
+    "scroll": 1425,
+    "title": "焦点三角形与焦点弦",
+    "width": 1440
+  },
+  {
+    "label": "conic-intersections-stage0",
+    "font": "18px",
+    "scroll": 1425,
+    "title": "直线与圆锥曲线联立",
+    "width": 1440
+  },
+  {
+    "label": "conic-intersections-stage1",
+    "font": "18px",
+    "scroll": 1425,
+    "title": "直线与圆锥曲线联立",
+    "width": 1440
+  },
+  {
+    "label": "conic-intersections-lab0",
+    "font": "18px",
+    "scroll": 1425,
+    "title": "直线与圆锥曲线联立",
+    "width": 1440
+  },
+  {
+    "label": "conic-intersections-lab1",
+    "font": "18px",
+    "scroll": 1425,
+    "title": "直线与圆锥曲线联立",
+    "width": 1440
+  },
+  {
+    "label": "conic-intersections-stage2",
+    "font": "18px",
+    "scroll": 1425,
+    "title": "直线与圆锥曲线联立",
+    "width": 1440
+  },
+  {
+    "label": "conic-intersections-stage3",
+    "font": "18px",
+    "scroll": 1425,
+    "title": "直线与圆锥曲线联立",
+    "width": 1440
+  },
+  {
+    "label": "conic-intersections-stage4",
+    "font": "18px",
+    "scroll": 1425,
+    "title": "直线与圆锥曲线联立",
+    "width": 1440
+  },
+  {
+    "label": "conic-midpoint-stage0",
+    "font": "18px",
+    "scroll": 1425,
+    "title": "点差法与中点弦",
+    "width": 1440
+  },
+  {
+    "label": "conic-midpoint-stage1",
+    "font": "18px",
+    "scroll": 1425,
+    "title": "点差法与中点弦",
+    "width": 1440
+  },
+  {
+    "label": "conic-midpoint-lab0",
+    "font": "18px",
+    "scroll": 1425,
+    "title": "点差法与中点弦",
+    "width": 1440
+  },
+  {
+    "label": "conic-midpoint-lab1",
+    "font": "18px",
+    "scroll": 1425,
+    "title": "点差法与中点弦",
+    "width": 1440
+  },
+  {
+    "label": "conic-midpoint-stage2",
+    "font": "18px",
+    "scroll": 1425,
+    "title": "点差法与中点弦",
+    "width": 1440
+  },
+  {
+    "label": "conic-midpoint-stage3",
+    "font": "18px",
+    "scroll": 1425,
+    "title": "点差法与中点弦",
+    "width": 1440
+  },
+  {
+    "label": "conic-midpoint-stage4",
+    "font": "18px",
+    "scroll": 1425,
+    "title": "点差法与中点弦",
+    "width": 1440
+  },
+  {
+    "label": "conic-methods-stage0",
+    "font": "18px",
+    "scroll": 1425,
+    "title": "定点、定值、最值与存在性",
+    "width": 1440
+  },
+  {
+    "label": "conic-methods-stage1",
+    "font": "18px",
+    "scroll": 1425,
+    "title": "定点、定值、最值与存在性",
+    "width": 1440
+  },
+  {
+    "label": "conic-methods-lab0",
+    "font": "18px",
+    "scroll": 1425,
+    "title": "定点、定值、最值与存在性",
+    "width": 1440
+  },
+  {
+    "label": "conic-methods-lab1",
+    "font": "18px",
+    "scroll": 1425,
+    "title": "定点、定值、最值与存在性",
+    "width": 1440
+  },
+  {
+    "label": "conic-methods-lab2",
+    "font": "18px",
+    "scroll": 1425,
+    "title": "定点、定值、最值与存在性",
+    "width": 1440
+  },
+  {
+    "label": "conic-methods-stage2",
+    "font": "18px",
+    "scroll": 1425,
+    "title": "定点、定值、最值与存在性",
+    "width": 1440
+  },
+  {
+    "label": "conic-methods-stage3",
+    "font": "18px",
+    "scroll": 1425,
+    "title": "定点、定值、最值与存在性",
+    "width": 1440
+  },
+  {
+    "label": "conic-methods-stage4",
+    "font": "18px",
+    "scroll": 1425,
+    "title": "定点、定值、最值与存在性",
+    "width": 1440
+  },
+  {
+    "label": "line-stage0",
+    "font": "18px",
+    "scroll": 1425,
+    "title": "直线的方程",
+    "width": 1440
+  },
+  {
+    "label": "line-stage1",
+    "font": "18px",
+    "scroll": 1425,
+    "title": "直线的方程",
+    "width": 1440
+  },
+  {
+    "label": "line-lab0",
+    "font": "18px",
+    "scroll": 1425,
+    "title": "直线的方程",
+    "width": 1440
+  },
+  {
+    "label": "line-lab1",
+    "font": "18px",
+    "scroll": 1425,
+    "title": "直线的方程",
+    "width": 1440
+  },
+  {
+    "label": "line-stage2",
+    "font": "18px",
+    "scroll": 1425,
+    "title": "直线的方程",
+    "width": 1440
+  },
+  {
+    "label": "line-stage3",
+    "font": "18px",
+    "scroll": 1425,
+    "title": "直线的方程",
+    "width": 1440
+  },
+  {
+    "label": "line-stage4",
+    "font": "18px",
+    "scroll": 1425,
+    "title": "直线的方程",
+    "width": 1440
+  },
+  {
+    "label": "lines-stage0",
+    "font": "18px",
+    "scroll": 1425,
+    "title": "两直线的位置关系与距离",
+    "width": 1440
+  },
+  {
+    "label": "lines-stage1",
+    "font": "18px",
+    "scroll": 1425,
+    "title": "两直线的位置关系与距离",
+    "width": 1440
+  },
+  {
+    "label": "lines-lab0",
+    "font": "18px",
+    "scroll": 1425,
+    "title": "两直线的位置关系与距离",
+    "width": 1440
+  },
+  {
+    "label": "lines-lab1",
+    "font": "18px",
+    "scroll": 1425,
+    "title": "两直线的位置关系与距离",
+    "width": 1440
+  },
+  {
+    "label": "lines-stage2",
+    "font": "18px",
+    "scroll": 1425,
+    "title": "两直线的位置关系与距离",
+    "width": 1440
+  },
+  {
+    "label": "lines-stage3",
+    "font": "18px",
+    "scroll": 1425,
+    "title": "两直线的位置关系与距离",
+    "width": 1440
+  },
+  {
+    "label": "lines-stage4",
+    "font": "18px",
+    "scroll": 1425,
+    "title": "两直线的位置关系与距离",
+    "width": 1440
+  },
+  {
+    "label": "circle-stage0",
+    "font": "18px",
+    "scroll": 1425,
+    "title": "圆的方程",
+    "width": 1440
+  },
+  {
+    "label": "circle-stage1",
+    "font": "18px",
+    "scroll": 1425,
+    "title": "圆的方程",
+    "width": 1440
+  },
+  {
+    "label": "circle-lab0",
+    "font": "18px",
+    "scroll": 1425,
+    "title": "圆的方程",
+    "width": 1440
+  },
+  {
+    "label": "circle-lab1",
+    "font": "18px",
+    "scroll": 1425,
+    "title": "圆的方程",
+    "width": 1440
+  },
+  {
+    "label": "circle-stage2",
+    "font": "18px",
+    "scroll": 1425,
+    "title": "圆的方程",
+    "width": 1440
+  },
+  {
+    "label": "circle-stage3",
+    "font": "18px",
+    "scroll": 1425,
+    "title": "圆的方程",
+    "width": 1440
+  },
+  {
+    "label": "circle-stage4",
+    "font": "18px",
+    "scroll": 1425,
+    "title": "圆的方程",
+    "width": 1440
+  },
+  {
+    "label": "circles-stage0",
+    "font": "18px",
+    "scroll": 1425,
+    "title": "圆与圆的位置关系",
+    "width": 1440
+  },
+  {
+    "label": "circles-stage1",
+    "font": "18px",
+    "scroll": 1425,
+    "title": "圆与圆的位置关系",
+    "width": 1440
+  },
+  {
+    "label": "circles-lab0",
+    "font": "18px",
+    "scroll": 1425,
+    "title": "圆与圆的位置关系",
+    "width": 1440
+  },
+  {
+    "label": "circles-stage2",
+    "font": "18px",
+    "scroll": 1425,
+    "title": "圆与圆的位置关系",
+    "width": 1440
+  },
+  {
+    "label": "circles-stage3",
+    "font": "18px",
+    "scroll": 1425,
+    "title": "圆与圆的位置关系",
+    "width": 1440
+  },
+  {
+    "label": "circles-stage4",
+    "font": "18px",
+    "scroll": 1425,
+    "title": "圆与圆的位置关系",
+    "width": 1440
+  },
+  {
+    "label": "methods-stage0",
+    "font": "18px",
+    "scroll": 1425,
+    "title": "对称、定点、圆系与轨迹",
+    "width": 1440
+  },
+  {
+    "label": "methods-stage1",
+    "font": "18px",
+    "scroll": 1425,
+    "title": "对称、定点、圆系与轨迹",
+    "width": 1440
+  },
+  {
+    "label": "methods-lab0",
+    "font": "18px",
+    "scroll": 1425,
+    "title": "对称、定点、圆系与轨迹",
+    "width": 1440
+  },
+  {
+    "label": "methods-lab1",
+    "font": "18px",
+    "scroll": 1425,
+    "title": "对称、定点、圆系与轨迹",
+    "width": 1440
+  },
+  {
+    "label": "methods-lab2",
+    "font": "18px",
+    "scroll": 1425,
+    "title": "对称、定点、圆系与轨迹",
+    "width": 1440
+  },
+  {
+    "label": "methods-lab3",
+    "font": "18px",
+    "scroll": 1425,
+    "title": "对称、定点、圆系与轨迹",
+    "width": 1440
+  },
+  {
+    "label": "methods-stage2",
+    "font": "18px",
+    "scroll": 1425,
+    "title": "对称、定点、圆系与轨迹",
+    "width": 1440
+  },
+  {
+    "label": "methods-stage3",
+    "font": "18px",
+    "scroll": 1425,
+    "title": "对称、定点、圆系与轨迹",
+    "width": 1440
+  },
+  {
+    "label": "methods-stage4",
+    "font": "18px",
+    "scroll": 1425,
+    "title": "对称、定点、圆系与轨迹",
+    "width": 1440
+  },
+  {
+    "label": "line-circle-stage0",
+    "font": "18px",
+    "scroll": 1425,
+    "title": "直线与圆",
+    "width": 1440
+  },
+  {
+    "label": "line-circle-stage1",
+    "font": "18px",
+    "scroll": 1425,
+    "title": "直线与圆",
+    "width": 1440
+  },
+  {
+    "label": "line-circle-stage2",
+    "font": "18px",
+    "scroll": 1425,
+    "title": "直线与圆",
+    "width": 1440
+  },
+  {
+    "label": "line-circle-stage3",
+    "font": "18px",
+    "scroll": 1425,
+    "title": "直线与圆",
+    "width": 1440
+  },
+  {
+    "label": "line-circle-stage4",
+    "font": "18px",
+    "scroll": 1425,
+    "title": "直线与圆",
+    "width": 1440
+  },
+  {
+    "label": "line-circle-stage4-position",
+    "font": "18px",
+    "scroll": 1425,
+    "title": "直线与圆",
+    "width": 1440
+  },
+  {
+    "label": "line-circle-stage4-chord",
+    "font": "18px",
+    "scroll": 1425,
+    "title": "直线与圆",
+    "width": 1440
+  },
+  {
+    "label": "line-circle-stage4-extrema",
+    "font": "18px",
+    "scroll": 1425,
+    "title": "直线与圆",
+    "width": 1440
+  },
+  {
+    "label": "line-circle-stage4-moving",
+    "font": "18px",
+    "scroll": 1425,
+    "title": "直线与圆",
+    "width": 1440
+  },
+  {
+    "label": "line-circle-stage4-tangent",
+    "font": "18px",
+    "scroll": 1425,
+    "title": "直线与圆",
+    "width": 1440
+  },
+  {
+    "label": "line-circle-stage5",
+    "font": "18px",
+    "scroll": 1425,
+    "title": "直线与圆",
+    "width": 1440
+  },
+  {
+    "label": "line-circle-stage5-position",
+    "font": "18px",
+    "scroll": 1425,
+    "title": "直线与圆",
+    "width": 1440
+  },
+  {
+    "label": "line-circle-stage5-chord",
+    "font": "18px",
+    "scroll": 1425,
+    "title": "直线与圆",
+    "width": 1440
+  },
+  {
+    "label": "line-circle-stage5-extrema",
+    "font": "18px",
+    "scroll": 1425,
+    "title": "直线与圆",
+    "width": 1440
+  },
+  {
+    "label": "line-circle-stage5-moving",
+    "font": "18px",
+    "scroll": 1425,
+    "title": "直线与圆",
+    "width": 1440
+  },
+  {
+    "label": "line-circle-stage5-tangent",
+    "font": "18px",
+    "scroll": 1425,
+    "title": "直线与圆",
+    "width": 1440
+  },
+  {
+    "label": "line-circle-stage6",
+    "font": "18px",
+    "scroll": 1425,
+    "title": "直线与圆",
+    "width": 1440
+  },
+  {
+    "label": "line-circle-stage6-position",
+    "font": "18px",
+    "scroll": 1425,
+    "title": "直线与圆",
+    "width": 1440
+  },
+  {
+    "label": "line-circle-stage6-chord",
+    "font": "18px",
+    "scroll": 1425,
+    "title": "直线与圆",
+    "width": 1440
+  },
+  {
+    "label": "line-circle-stage6-extrema",
+    "font": "18px",
+    "scroll": 1425,
+    "title": "直线与圆",
+    "width": 1440
+  },
+  {
+    "label": "line-circle-stage6-moving",
+    "font": "18px",
+    "scroll": 1425,
+    "title": "直线与圆",
+    "width": 1440
+  },
+  {
+    "label": "line-circle-stage6-tangent",
+    "font": "18px",
+    "scroll": 1425,
+    "title": "直线与圆",
+    "width": 1440
+  },
+  {
+    "label": "line-circle-stage7",
+    "font": "18px",
+    "scroll": 1425,
+    "title": "直线与圆",
+    "width": 1440
+  },
+  {
+    "label": "map/",
+    "font": "18px",
+    "scroll": 1425,
+    "title": "高中数学学习地图",
+    "width": 1440
+  },
+  {
+    "label": "map/?module=solid",
+    "font": "18px",
+    "scroll": 1425,
+    "title": "立体几何",
+    "width": 1440
+  },
+  {
+    "label": "map/?module=lines",
+    "font": "18px",
+    "scroll": 1425,
+    "title": "直线与圆的方程",
+    "width": 1440
+  },
+  {
+    "label": "map/?module=conics",
+    "font": "18px",
+    "scroll": 1425,
+    "title": "圆锥曲线",
+    "width": 1440
+  },
+  {
+    "label": "space-vectors-stage0",
+    "font": "18px",
+    "scroll": 753,
+    "title": "空间坐标与向量",
+    "width": 768
+  },
+  {
+    "label": "space-vectors-stage1",
+    "font": "18px",
+    "scroll": 753,
+    "title": "空间坐标与向量",
+    "width": 768
+  },
+  {
+    "label": "space-vectors-lab0",
+    "font": "18px",
+    "scroll": 753,
+    "title": "空间坐标与向量",
+    "width": 768
+  },
+  {
+    "label": "space-vectors-lab1",
+    "font": "18px",
+    "scroll": 753,
+    "title": "空间坐标与向量",
+    "width": 768
+  },
+  {
+    "label": "space-vectors-stage2",
+    "font": "18px",
+    "scroll": 753,
+    "title": "空间坐标与向量",
+    "width": 768
+  },
+  {
+    "label": "space-vectors-stage3",
+    "font": "18px",
+    "scroll": 753,
+    "title": "空间坐标与向量",
+    "width": 768
+  },
+  {
+    "label": "space-vectors-stage4",
+    "font": "18px",
+    "scroll": 753,
+    "title": "空间坐标与向量",
+    "width": 768
+  },
+  {
+    "label": "space-relations-stage0",
+    "font": "18px",
+    "scroll": 753,
+    "title": "空间位置关系",
+    "width": 768
+  },
+  {
+    "label": "space-relations-stage1",
+    "font": "18px",
+    "scroll": 753,
+    "title": "空间位置关系",
+    "width": 768
+  },
+  {
+    "label": "space-relations-lab0",
+    "font": "18px",
+    "scroll": 753,
+    "title": "空间位置关系",
+    "width": 768
+  },
+  {
+    "label": "space-relations-lab1",
+    "font": "18px",
+    "scroll": 753,
+    "title": "空间位置关系",
+    "width": 768
+  },
+  {
+    "label": "space-relations-lab2",
+    "font": "18px",
+    "scroll": 753,
+    "title": "空间位置关系",
+    "width": 768
+  },
+  {
+    "label": "space-relations-stage2",
+    "font": "18px",
+    "scroll": 753,
+    "title": "空间位置关系",
+    "width": 768
+  },
+  {
+    "label": "space-relations-stage3",
+    "font": "18px",
+    "scroll": 753,
+    "title": "空间位置关系",
+    "width": 768
+  },
+  {
+    "label": "space-relations-stage4",
+    "font": "18px",
+    "scroll": 753,
+    "title": "空间位置关系",
+    "width": 768
+  },
+  {
+    "label": "space-angles-stage0",
+    "font": "18px",
+    "scroll": 753,
+    "title": "三种空间角",
+    "width": 768
+  },
+  {
+    "label": "space-angles-stage1",
+    "font": "18px",
+    "scroll": 753,
+    "title": "三种空间角",
+    "width": 768
+  },
+  {
+    "label": "space-angles-lab0",
+    "font": "18px",
+    "scroll": 753,
+    "title": "三种空间角",
+    "width": 768
+  },
+  {
+    "label": "space-angles-lab1",
+    "font": "18px",
+    "scroll": 753,
+    "title": "三种空间角",
+    "width": 768
+  },
+  {
+    "label": "space-angles-lab2",
+    "font": "18px",
+    "scroll": 753,
+    "title": "三种空间角",
+    "width": 768
+  },
+  {
+    "label": "space-angles-stage2",
+    "font": "18px",
+    "scroll": 753,
+    "title": "三种空间角",
+    "width": 768
+  },
+  {
+    "label": "space-angles-stage3",
+    "font": "18px",
+    "scroll": 753,
+    "title": "三种空间角",
+    "width": 768
+  },
+  {
+    "label": "space-angles-stage4",
+    "font": "18px",
+    "scroll": 753,
+    "title": "三种空间角",
+    "width": 768
+  },
+  {
+    "label": "space-distance-stage0",
+    "font": "18px",
+    "scroll": 753,
+    "title": "空间距离与等体积法",
+    "width": 768
+  },
+  {
+    "label": "space-distance-stage1",
+    "font": "18px",
+    "scroll": 753,
+    "title": "空间距离与等体积法",
+    "width": 768
+  },
+  {
+    "label": "space-distance-lab0",
+    "font": "18px",
+    "scroll": 753,
+    "title": "空间距离与等体积法",
+    "width": 768
+  },
+  {
+    "label": "space-distance-lab1",
+    "font": "18px",
+    "scroll": 753,
+    "title": "空间距离与等体积法",
+    "width": 768
+  },
+  {
+    "label": "space-distance-stage2",
+    "font": "18px",
+    "scroll": 753,
+    "title": "空间距离与等体积法",
+    "width": 768
+  },
+  {
+    "label": "space-distance-stage3",
+    "font": "18px",
+    "scroll": 753,
+    "title": "空间距离与等体积法",
+    "width": 768
+  },
+  {
+    "label": "space-distance-stage4",
+    "font": "18px",
+    "scroll": 753,
+    "title": "空间距离与等体积法",
+    "width": 768
+  },
+  {
+    "label": "space-solids-stage0",
+    "font": "18px",
+    "scroll": 753,
+    "title": "几何体的面积与体积",
+    "width": 768
+  },
+  {
+    "label": "space-solids-stage1",
+    "font": "18px",
+    "scroll": 753,
+    "title": "几何体的面积与体积",
+    "width": 768
+  },
+  {
+    "label": "space-solids-lab0",
+    "font": "18px",
+    "scroll": 753,
+    "title": "几何体的面积与体积",
+    "width": 768
+  },
+  {
+    "label": "space-solids-lab1",
+    "font": "18px",
+    "scroll": 753,
+    "title": "几何体的面积与体积",
+    "width": 768
+  },
+  {
+    "label": "space-solids-stage2",
+    "font": "18px",
+    "scroll": 753,
+    "title": "几何体的面积与体积",
+    "width": 768
+  },
+  {
+    "label": "space-solids-stage3",
+    "font": "18px",
+    "scroll": 753,
+    "title": "几何体的面积与体积",
+    "width": 768
+  },
+  {
+    "label": "space-solids-stage4",
+    "font": "18px",
+    "scroll": 753,
+    "title": "几何体的面积与体积",
+    "width": 768
+  },
+  {
+    "label": "space-constructions-stage0",
+    "font": "18px",
+    "scroll": 753,
+    "title": "截面、翻折、展开与球",
+    "width": 768
+  },
+  {
+    "label": "space-constructions-stage1",
+    "font": "18px",
+    "scroll": 753,
+    "title": "截面、翻折、展开与球",
+    "width": 768
+  },
+  {
+    "label": "space-constructions-lab0",
+    "font": "18px",
+    "scroll": 753,
+    "title": "截面、翻折、展开与球",
+    "width": 768
+  },
+  {
+    "label": "space-constructions-lab1",
+    "font": "18px",
+    "scroll": 753,
+    "title": "截面、翻折、展开与球",
+    "width": 768
+  },
+  {
+    "label": "space-constructions-lab2",
+    "font": "18px",
+    "scroll": 753,
+    "title": "截面、翻折、展开与球",
+    "width": 768
+  },
+  {
+    "label": "space-constructions-lab3",
+    "font": "18px",
+    "scroll": 753,
+    "title": "截面、翻折、展开与球",
+    "width": 768
+  },
+  {
+    "label": "space-constructions-stage2",
+    "font": "18px",
+    "scroll": 753,
+    "title": "截面、翻折、展开与球",
+    "width": 768
+  },
+  {
+    "label": "space-constructions-stage3",
+    "font": "18px",
+    "scroll": 753,
+    "title": "截面、翻折、展开与球",
+    "width": 768
+  },
+  {
+    "label": "space-constructions-stage4",
+    "font": "18px",
+    "scroll": 753,
+    "title": "截面、翻折、展开与球",
+    "width": 768
+  },
+  {
+    "label": "ellipse-stage0",
+    "font": "18px",
+    "scroll": 753,
+    "title": "椭圆的定义与方程",
+    "width": 768
+  },
+  {
+    "label": "ellipse-stage1",
+    "font": "18px",
+    "scroll": 753,
+    "title": "椭圆的定义与方程",
+    "width": 768
+  },
+  {
+    "label": "ellipse-lab0",
+    "font": "18px",
+    "scroll": 753,
+    "title": "椭圆的定义与方程",
+    "width": 768
+  },
+  {
+    "label": "ellipse-lab1",
+    "font": "18px",
+    "scroll": 753,
+    "title": "椭圆的定义与方程",
+    "width": 768
+  },
+  {
+    "label": "ellipse-stage2",
+    "font": "18px",
+    "scroll": 753,
+    "title": "椭圆的定义与方程",
+    "width": 768
+  },
+  {
+    "label": "ellipse-stage3",
+    "font": "18px",
+    "scroll": 753,
+    "title": "椭圆的定义与方程",
+    "width": 768
+  },
+  {
+    "label": "ellipse-stage4",
+    "font": "18px",
+    "scroll": 753,
+    "title": "椭圆的定义与方程",
+    "width": 768
+  },
+  {
+    "label": "hyperbola-stage0",
+    "font": "18px",
+    "scroll": 753,
+    "title": "双曲线的定义与方程",
+    "width": 768
+  },
+  {
+    "label": "hyperbola-stage1",
+    "font": "18px",
+    "scroll": 753,
+    "title": "双曲线的定义与方程",
+    "width": 768
+  },
+  {
+    "label": "hyperbola-lab0",
+    "font": "18px",
+    "scroll": 753,
+    "title": "双曲线的定义与方程",
+    "width": 768
+  },
+  {
+    "label": "hyperbola-lab1",
+    "font": "18px",
+    "scroll": 753,
+    "title": "双曲线的定义与方程",
+    "width": 768
+  },
+  {
+    "label": "hyperbola-stage2",
+    "font": "18px",
+    "scroll": 753,
+    "title": "双曲线的定义与方程",
+    "width": 768
+  },
+  {
+    "label": "hyperbola-stage3",
+    "font": "18px",
+    "scroll": 753,
+    "title": "双曲线的定义与方程",
+    "width": 768
+  },
+  {
+    "label": "hyperbola-stage4",
+    "font": "18px",
+    "scroll": 753,
+    "title": "双曲线的定义与方程",
+    "width": 768
+  },
+  {
+    "label": "parabola-stage0",
+    "font": "18px",
+    "scroll": 753,
+    "title": "抛物线的定义与切线",
+    "width": 768
+  },
+  {
+    "label": "parabola-stage1",
+    "font": "18px",
+    "scroll": 753,
+    "title": "抛物线的定义与切线",
+    "width": 768
+  },
+  {
+    "label": "parabola-lab0",
+    "font": "18px",
+    "scroll": 753,
+    "title": "抛物线的定义与切线",
+    "width": 768
+  },
+  {
+    "label": "parabola-lab1",
+    "font": "18px",
+    "scroll": 753,
+    "title": "抛物线的定义与切线",
+    "width": 768
+  },
+  {
+    "label": "parabola-stage2",
+    "font": "18px",
+    "scroll": 753,
+    "title": "抛物线的定义与切线",
+    "width": 768
+  },
+  {
+    "label": "parabola-stage3",
+    "font": "18px",
+    "scroll": 753,
+    "title": "抛物线的定义与切线",
+    "width": 768
+  },
+  {
+    "label": "parabola-stage4",
+    "font": "18px",
+    "scroll": 753,
+    "title": "抛物线的定义与切线",
+    "width": 768
+  },
+  {
+    "label": "conic-focus-stage0",
+    "font": "18px",
+    "scroll": 753,
+    "title": "焦点三角形与焦点弦",
+    "width": 768
+  },
+  {
+    "label": "conic-focus-stage1",
+    "font": "18px",
+    "scroll": 753,
+    "title": "焦点三角形与焦点弦",
+    "width": 768
+  },
+  {
+    "label": "conic-focus-lab0",
+    "font": "18px",
+    "scroll": 753,
+    "title": "焦点三角形与焦点弦",
+    "width": 768
+  },
+  {
+    "label": "conic-focus-lab1",
+    "font": "18px",
+    "scroll": 753,
+    "title": "焦点三角形与焦点弦",
+    "width": 768
+  },
+  {
+    "label": "conic-focus-lab2",
+    "font": "18px",
+    "scroll": 753,
+    "title": "焦点三角形与焦点弦",
+    "width": 768
+  },
+  {
+    "label": "conic-focus-stage2",
+    "font": "18px",
+    "scroll": 753,
+    "title": "焦点三角形与焦点弦",
+    "width": 768
+  },
+  {
+    "label": "conic-focus-stage3",
+    "font": "18px",
+    "scroll": 753,
+    "title": "焦点三角形与焦点弦",
+    "width": 768
+  },
+  {
+    "label": "conic-focus-stage4",
+    "font": "18px",
+    "scroll": 753,
+    "title": "焦点三角形与焦点弦",
+    "width": 768
+  },
+  {
+    "label": "conic-intersections-stage0",
+    "font": "18px",
+    "scroll": 753,
+    "title": "直线与圆锥曲线联立",
+    "width": 768
+  },
+  {
+    "label": "conic-intersections-stage1",
+    "font": "18px",
+    "scroll": 753,
+    "title": "直线与圆锥曲线联立",
+    "width": 768
+  },
+  {
+    "label": "conic-intersections-lab0",
+    "font": "18px",
+    "scroll": 753,
+    "title": "直线与圆锥曲线联立",
+    "width": 768
+  },
+  {
+    "label": "conic-intersections-lab1",
+    "font": "18px",
+    "scroll": 753,
+    "title": "直线与圆锥曲线联立",
+    "width": 768
+  },
+  {
+    "label": "conic-intersections-stage2",
+    "font": "18px",
+    "scroll": 753,
+    "title": "直线与圆锥曲线联立",
+    "width": 768
+  },
+  {
+    "label": "conic-intersections-stage3",
+    "font": "18px",
+    "scroll": 753,
+    "title": "直线与圆锥曲线联立",
+    "width": 768
+  },
+  {
+    "label": "conic-intersections-stage4",
+    "font": "18px",
+    "scroll": 753,
+    "title": "直线与圆锥曲线联立",
+    "width": 768
+  },
+  {
+    "label": "conic-midpoint-stage0",
+    "font": "18px",
+    "scroll": 753,
+    "title": "点差法与中点弦",
+    "width": 768
+  },
+  {
+    "label": "conic-midpoint-stage1",
+    "font": "18px",
+    "scroll": 753,
+    "title": "点差法与中点弦",
+    "width": 768
+  },
+  {
+    "label": "conic-midpoint-lab0",
+    "font": "18px",
+    "scroll": 753,
+    "title": "点差法与中点弦",
+    "width": 768
+  },
+  {
+    "label": "conic-midpoint-lab1",
+    "font": "18px",
+    "scroll": 753,
+    "title": "点差法与中点弦",
+    "width": 768
+  },
+  {
+    "label": "conic-midpoint-stage2",
+    "font": "18px",
+    "scroll": 753,
+    "title": "点差法与中点弦",
+    "width": 768
+  },
+  {
+    "label": "conic-midpoint-stage3",
+    "font": "18px",
+    "scroll": 753,
+    "title": "点差法与中点弦",
+    "width": 768
+  },
+  {
+    "label": "conic-midpoint-stage4",
+    "font": "18px",
+    "scroll": 753,
+    "title": "点差法与中点弦",
+    "width": 768
+  },
+  {
+    "label": "conic-methods-stage0",
+    "font": "18px",
+    "scroll": 753,
+    "title": "定点、定值、最值与存在性",
+    "width": 768
+  },
+  {
+    "label": "conic-methods-stage1",
+    "font": "18px",
+    "scroll": 753,
+    "title": "定点、定值、最值与存在性",
+    "width": 768
+  },
+  {
+    "label": "conic-methods-lab0",
+    "font": "18px",
+    "scroll": 753,
+    "title": "定点、定值、最值与存在性",
+    "width": 768
+  },
+  {
+    "label": "conic-methods-lab1",
+    "font": "18px",
+    "scroll": 753,
+    "title": "定点、定值、最值与存在性",
+    "width": 768
+  },
+  {
+    "label": "conic-methods-lab2",
+    "font": "18px",
+    "scroll": 753,
+    "title": "定点、定值、最值与存在性",
+    "width": 768
+  },
+  {
+    "label": "conic-methods-stage2",
+    "font": "18px",
+    "scroll": 753,
+    "title": "定点、定值、最值与存在性",
+    "width": 768
+  },
+  {
+    "label": "conic-methods-stage3",
+    "font": "18px",
+    "scroll": 753,
+    "title": "定点、定值、最值与存在性",
+    "width": 768
+  },
+  {
+    "label": "conic-methods-stage4",
+    "font": "18px",
+    "scroll": 753,
+    "title": "定点、定值、最值与存在性",
+    "width": 768
+  },
+  {
+    "label": "line-stage0",
+    "font": "18px",
+    "scroll": 753,
+    "title": "直线的方程",
+    "width": 768
+  },
+  {
+    "label": "line-stage1",
+    "font": "18px",
+    "scroll": 753,
+    "title": "直线的方程",
+    "width": 768
+  },
+  {
+    "label": "line-lab0",
+    "font": "18px",
+    "scroll": 753,
+    "title": "直线的方程",
+    "width": 768
+  },
+  {
+    "label": "line-lab1",
+    "font": "18px",
+    "scroll": 753,
+    "title": "直线的方程",
+    "width": 768
+  },
+  {
+    "label": "line-stage2",
+    "font": "18px",
+    "scroll": 753,
+    "title": "直线的方程",
+    "width": 768
+  },
+  {
+    "label": "line-stage3",
+    "font": "18px",
+    "scroll": 753,
+    "title": "直线的方程",
+    "width": 768
+  },
+  {
+    "label": "line-stage4",
+    "font": "18px",
+    "scroll": 753,
+    "title": "直线的方程",
+    "width": 768
+  },
+  {
+    "label": "lines-stage0",
+    "font": "18px",
+    "scroll": 753,
+    "title": "两直线的位置关系与距离",
+    "width": 768
+  },
+  {
+    "label": "lines-stage1",
+    "font": "18px",
+    "scroll": 753,
+    "title": "两直线的位置关系与距离",
+    "width": 768
+  },
+  {
+    "label": "lines-lab0",
+    "font": "18px",
+    "scroll": 753,
+    "title": "两直线的位置关系与距离",
+    "width": 768
+  },
+  {
+    "label": "lines-lab1",
+    "font": "18px",
+    "scroll": 753,
+    "title": "两直线的位置关系与距离",
+    "width": 768
+  },
+  {
+    "label": "lines-stage2",
+    "font": "18px",
+    "scroll": 753,
+    "title": "两直线的位置关系与距离",
+    "width": 768
+  },
+  {
+    "label": "lines-stage3",
+    "font": "18px",
+    "scroll": 753,
+    "title": "两直线的位置关系与距离",
+    "width": 768
+  },
+  {
+    "label": "lines-stage4",
+    "font": "18px",
+    "scroll": 753,
+    "title": "两直线的位置关系与距离",
+    "width": 768
+  },
+  {
+    "label": "circle-stage0",
+    "font": "18px",
+    "scroll": 753,
+    "title": "圆的方程",
+    "width": 768
+  },
+  {
+    "label": "circle-stage1",
+    "font": "18px",
+    "scroll": 753,
+    "title": "圆的方程",
+    "width": 768
+  },
+  {
+    "label": "circle-lab0",
+    "font": "18px",
+    "scroll": 753,
+    "title": "圆的方程",
+    "width": 768
+  },
+  {
+    "label": "circle-lab1",
+    "font": "18px",
+    "scroll": 753,
+    "title": "圆的方程",
+    "width": 768
+  },
+  {
+    "label": "circle-stage2",
+    "font": "18px",
+    "scroll": 753,
+    "title": "圆的方程",
+    "width": 768
+  },
+  {
+    "label": "circle-stage3",
+    "font": "18px",
+    "scroll": 753,
+    "title": "圆的方程",
+    "width": 768
+  },
+  {
+    "label": "circle-stage4",
+    "font": "18px",
+    "scroll": 753,
+    "title": "圆的方程",
+    "width": 768
+  },
+  {
+    "label": "circles-stage0",
+    "font": "18px",
+    "scroll": 753,
+    "title": "圆与圆的位置关系",
+    "width": 768
+  },
+  {
+    "label": "circles-stage1",
+    "font": "18px",
+    "scroll": 753,
+    "title": "圆与圆的位置关系",
+    "width": 768
+  },
+  {
+    "label": "circles-lab0",
+    "font": "18px",
+    "scroll": 753,
+    "title": "圆与圆的位置关系",
+    "width": 768
+  },
+  {
+    "label": "circles-stage2",
+    "font": "18px",
+    "scroll": 753,
+    "title": "圆与圆的位置关系",
+    "width": 768
+  },
+  {
+    "label": "circles-stage3",
+    "font": "18px",
+    "scroll": 753,
+    "title": "圆与圆的位置关系",
+    "width": 768
+  },
+  {
+    "label": "circles-stage4",
+    "font": "18px",
+    "scroll": 753,
+    "title": "圆与圆的位置关系",
+    "width": 768
+  },
+  {
+    "label": "methods-stage0",
+    "font": "18px",
+    "scroll": 753,
+    "title": "对称、定点、圆系与轨迹",
+    "width": 768
+  },
+  {
+    "label": "methods-stage1",
+    "font": "18px",
+    "scroll": 753,
+    "title": "对称、定点、圆系与轨迹",
+    "width": 768
+  },
+  {
+    "label": "methods-lab0",
+    "font": "18px",
+    "scroll": 753,
+    "title": "对称、定点、圆系与轨迹",
+    "width": 768
+  },
+  {
+    "label": "methods-lab1",
+    "font": "18px",
+    "scroll": 753,
+    "title": "对称、定点、圆系与轨迹",
+    "width": 768
+  },
+  {
+    "label": "methods-lab2",
+    "font": "18px",
+    "scroll": 753,
+    "title": "对称、定点、圆系与轨迹",
+    "width": 768
+  },
+  {
+    "label": "methods-lab3",
+    "font": "18px",
+    "scroll": 753,
+    "title": "对称、定点、圆系与轨迹",
+    "width": 768
+  },
+  {
+    "label": "methods-stage2",
+    "font": "18px",
+    "scroll": 753,
+    "title": "对称、定点、圆系与轨迹",
+    "width": 768
+  },
+  {
+    "label": "methods-stage3",
+    "font": "18px",
+    "scroll": 753,
+    "title": "对称、定点、圆系与轨迹",
+    "width": 768
+  },
+  {
+    "label": "methods-stage4",
+    "font": "18px",
+    "scroll": 753,
+    "title": "对称、定点、圆系与轨迹",
+    "width": 768
+  },
+  {
+    "label": "line-circle-stage0",
+    "font": "18px",
+    "scroll": 753,
+    "title": "直线与圆",
+    "width": 768
+  },
+  {
+    "label": "line-circle-stage1",
+    "font": "18px",
+    "scroll": 753,
+    "title": "直线与圆",
+    "width": 768
+  },
+  {
+    "label": "line-circle-stage2",
+    "font": "18px",
+    "scroll": 753,
+    "title": "直线与圆",
+    "width": 768
+  },
+  {
+    "label": "line-circle-stage3",
+    "font": "18px",
+    "scroll": 753,
+    "title": "直线与圆",
+    "width": 768
+  },
+  {
+    "label": "line-circle-stage4",
+    "font": "18px",
+    "scroll": 753,
+    "title": "直线与圆",
+    "width": 768
+  },
+  {
+    "label": "line-circle-stage4-position",
+    "font": "18px",
+    "scroll": 753,
+    "title": "直线与圆",
+    "width": 768
+  },
+  {
+    "label": "line-circle-stage4-chord",
+    "font": "18px",
+    "scroll": 753,
+    "title": "直线与圆",
+    "width": 768
+  },
+  {
+    "label": "line-circle-stage4-extrema",
+    "font": "18px",
+    "scroll": 753,
+    "title": "直线与圆",
+    "width": 768
+  },
+  {
+    "label": "line-circle-stage4-moving",
+    "font": "18px",
+    "scroll": 753,
+    "title": "直线与圆",
+    "width": 768
+  },
+  {
+    "label": "line-circle-stage4-tangent",
+    "font": "18px",
+    "scroll": 753,
+    "title": "直线与圆",
+    "width": 768
+  },
+  {
+    "label": "line-circle-stage5",
+    "font": "18px",
+    "scroll": 753,
+    "title": "直线与圆",
+    "width": 768
+  },
+  {
+    "label": "line-circle-stage5-position",
+    "font": "18px",
+    "scroll": 753,
+    "title": "直线与圆",
+    "width": 768
+  },
+  {
+    "label": "line-circle-stage5-chord",
+    "font": "18px",
+    "scroll": 753,
+    "title": "直线与圆",
+    "width": 768
+  },
+  {
+    "label": "line-circle-stage5-extrema",
+    "font": "18px",
+    "scroll": 753,
+    "title": "直线与圆",
+    "width": 768
+  },
+  {
+    "label": "line-circle-stage5-moving",
+    "font": "18px",
+    "scroll": 753,
+    "title": "直线与圆",
+    "width": 768
+  },
+  {
+    "label": "line-circle-stage5-tangent",
+    "font": "18px",
+    "scroll": 753,
+    "title": "直线与圆",
+    "width": 768
+  },
+  {
+    "label": "line-circle-stage6",
+    "font": "18px",
+    "scroll": 753,
+    "title": "直线与圆",
+    "width": 768
+  },
+  {
+    "label": "line-circle-stage6-position",
+    "font": "18px",
+    "scroll": 753,
+    "title": "直线与圆",
+    "width": 768
+  },
+  {
+    "label": "line-circle-stage6-chord",
+    "font": "18px",
+    "scroll": 753,
+    "title": "直线与圆",
+    "width": 768
+  },
+  {
+    "label": "line-circle-stage6-extrema",
+    "font": "18px",
+    "scroll": 753,
+    "title": "直线与圆",
+    "width": 768
+  },
+  {
+    "label": "line-circle-stage6-moving",
+    "font": "18px",
+    "scroll": 753,
+    "title": "直线与圆",
+    "width": 768
+  },
+  {
+    "label": "line-circle-stage6-tangent",
+    "font": "18px",
+    "scroll": 753,
+    "title": "直线与圆",
+    "width": 768
+  },
+  {
+    "label": "line-circle-stage7",
+    "font": "18px",
+    "scroll": 753,
+    "title": "直线与圆",
+    "width": 768
+  },
+  {
+    "label": "map/",
+    "font": "18px",
+    "scroll": 753,
+    "title": "高中数学学习地图",
+    "width": 768
+  },
+  {
+    "label": "map/?module=solid",
+    "font": "18px",
+    "scroll": 753,
+    "title": "立体几何",
+    "width": 768
+  },
+  {
+    "label": "map/?module=lines",
+    "font": "18px",
+    "scroll": 753,
+    "title": "直线与圆的方程",
+    "width": 768
+  },
+  {
+    "label": "map/?module=conics",
+    "font": "18px",
+    "scroll": 753,
+    "title": "圆锥曲线",
+    "width": 768
+  },
+  {
+    "label": "space-vectors-stage0",
+    "font": "18px",
+    "scroll": 375,
+    "title": "空间坐标与向量",
+    "width": 390
+  },
+  {
+    "label": "space-vectors-stage1",
+    "font": "18px",
+    "scroll": 375,
+    "title": "空间坐标与向量",
+    "width": 390
+  },
+  {
+    "label": "space-vectors-lab0",
+    "font": "18px",
+    "scroll": 375,
+    "title": "空间坐标与向量",
+    "width": 390
+  },
+  {
+    "label": "space-vectors-lab1",
+    "font": "18px",
+    "scroll": 375,
+    "title": "空间坐标与向量",
+    "width": 390
+  },
+  {
+    "label": "space-vectors-stage2",
+    "font": "18px",
+    "scroll": 375,
+    "title": "空间坐标与向量",
+    "width": 390
+  },
+  {
+    "label": "space-vectors-stage3",
+    "font": "18px",
+    "scroll": 375,
+    "title": "空间坐标与向量",
+    "width": 390
+  },
+  {
+    "label": "space-vectors-stage4",
+    "font": "18px",
+    "scroll": 375,
+    "title": "空间坐标与向量",
+    "width": 390
+  },
+  {
+    "label": "space-relations-stage0",
+    "font": "18px",
+    "scroll": 375,
+    "title": "空间位置关系",
+    "width": 390
+  },
+  {
+    "label": "space-relations-stage1",
+    "font": "18px",
+    "scroll": 375,
+    "title": "空间位置关系",
+    "width": 390
+  },
+  {
+    "label": "space-relations-lab0",
+    "font": "18px",
+    "scroll": 375,
+    "title": "空间位置关系",
+    "width": 390
+  },
+  {
+    "label": "space-relations-lab1",
+    "font": "18px",
+    "scroll": 375,
+    "title": "空间位置关系",
+    "width": 390
+  },
+  {
+    "label": "space-relations-lab2",
+    "font": "18px",
+    "scroll": 375,
+    "title": "空间位置关系",
+    "width": 390
+  },
+  {
+    "label": "space-relations-stage2",
+    "font": "18px",
+    "scroll": 375,
+    "title": "空间位置关系",
+    "width": 390
+  },
+  {
+    "label": "space-relations-stage3",
+    "font": "18px",
+    "scroll": 375,
+    "title": "空间位置关系",
+    "width": 390
+  },
+  {
+    "label": "space-relations-stage4",
+    "font": "18px",
+    "scroll": 375,
+    "title": "空间位置关系",
+    "width": 390
+  },
+  {
+    "label": "space-angles-stage0",
+    "font": "18px",
+    "scroll": 375,
+    "title": "三种空间角",
+    "width": 390
+  },
+  {
+    "label": "space-angles-stage1",
+    "font": "18px",
+    "scroll": 375,
+    "title": "三种空间角",
+    "width": 390
+  },
+  {
+    "label": "space-angles-lab0",
+    "font": "18px",
+    "scroll": 375,
+    "title": "三种空间角",
+    "width": 390
+  },
+  {
+    "label": "space-angles-lab1",
+    "font": "18px",
+    "scroll": 375,
+    "title": "三种空间角",
+    "width": 390
+  },
+  {
+    "label": "space-angles-lab2",
+    "font": "18px",
+    "scroll": 375,
+    "title": "三种空间角",
+    "width": 390
+  },
+  {
+    "label": "space-angles-stage2",
+    "font": "18px",
+    "scroll": 375,
+    "title": "三种空间角",
+    "width": 390
+  },
+  {
+    "label": "space-angles-stage3",
+    "font": "18px",
+    "scroll": 375,
+    "title": "三种空间角",
+    "width": 390
+  },
+  {
+    "label": "space-angles-stage4",
+    "font": "18px",
+    "scroll": 375,
+    "title": "三种空间角",
+    "width": 390
+  },
+  {
+    "label": "space-distance-stage0",
+    "font": "18px",
+    "scroll": 375,
+    "title": "空间距离与等体积法",
+    "width": 390
+  },
+  {
+    "label": "space-distance-stage1",
+    "font": "18px",
+    "scroll": 375,
+    "title": "空间距离与等体积法",
+    "width": 390
+  },
+  {
+    "label": "space-distance-lab0",
+    "font": "18px",
+    "scroll": 375,
+    "title": "空间距离与等体积法",
+    "width": 390
+  },
+  {
+    "label": "space-distance-lab1",
+    "font": "18px",
+    "scroll": 375,
+    "title": "空间距离与等体积法",
+    "width": 390
+  },
+  {
+    "label": "space-distance-stage2",
+    "font": "18px",
+    "scroll": 375,
+    "title": "空间距离与等体积法",
+    "width": 390
+  },
+  {
+    "label": "space-distance-stage3",
+    "font": "18px",
+    "scroll": 375,
+    "title": "空间距离与等体积法",
+    "width": 390
+  },
+  {
+    "label": "space-distance-stage4",
+    "font": "18px",
+    "scroll": 375,
+    "title": "空间距离与等体积法",
+    "width": 390
+  },
+  {
+    "label": "space-solids-stage0",
+    "font": "18px",
+    "scroll": 375,
+    "title": "几何体的面积与体积",
+    "width": 390
+  },
+  {
+    "label": "space-solids-stage1",
+    "font": "18px",
+    "scroll": 375,
+    "title": "几何体的面积与体积",
+    "width": 390
+  },
+  {
+    "label": "space-solids-lab0",
+    "font": "18px",
+    "scroll": 375,
+    "title": "几何体的面积与体积",
+    "width": 390
+  },
+  {
+    "label": "space-solids-lab1",
+    "font": "18px",
+    "scroll": 375,
+    "title": "几何体的面积与体积",
+    "width": 390
+  },
+  {
+    "label": "space-solids-stage2",
+    "font": "18px",
+    "scroll": 375,
+    "title": "几何体的面积与体积",
+    "width": 390
+  },
+  {
+    "label": "space-solids-stage3",
+    "font": "18px",
+    "scroll": 375,
+    "title": "几何体的面积与体积",
+    "width": 390
+  },
+  {
+    "label": "space-solids-stage4",
+    "font": "18px",
+    "scroll": 375,
+    "title": "几何体的面积与体积",
+    "width": 390
+  },
+  {
+    "label": "space-constructions-stage0",
+    "font": "18px",
+    "scroll": 375,
+    "title": "截面、翻折、展开与球",
+    "width": 390
+  },
+  {
+    "label": "space-constructions-stage1",
+    "font": "18px",
+    "scroll": 375,
+    "title": "截面、翻折、展开与球",
+    "width": 390
+  },
+  {
+    "label": "space-constructions-lab0",
+    "font": "18px",
+    "scroll": 375,
+    "title": "截面、翻折、展开与球",
+    "width": 390
+  },
+  {
+    "label": "space-constructions-lab1",
+    "font": "18px",
+    "scroll": 375,
+    "title": "截面、翻折、展开与球",
+    "width": 390
+  },
+  {
+    "label": "space-constructions-lab2",
+    "font": "18px",
+    "scroll": 375,
+    "title": "截面、翻折、展开与球",
+    "width": 390
+  },
+  {
+    "label": "space-constructions-lab3",
+    "font": "18px",
+    "scroll": 375,
+    "title": "截面、翻折、展开与球",
+    "width": 390
+  },
+  {
+    "label": "space-constructions-stage2",
+    "font": "18px",
+    "scroll": 375,
+    "title": "截面、翻折、展开与球",
+    "width": 390
+  },
+  {
+    "label": "space-constructions-stage3",
+    "font": "18px",
+    "scroll": 375,
+    "title": "截面、翻折、展开与球",
+    "width": 390
+  },
+  {
+    "label": "space-constructions-stage4",
+    "font": "18px",
+    "scroll": 375,
+    "title": "截面、翻折、展开与球",
+    "width": 390
+  },
+  {
+    "label": "ellipse-stage0",
+    "font": "18px",
+    "scroll": 375,
+    "title": "椭圆的定义与方程",
+    "width": 390
+  },
+  {
+    "label": "ellipse-stage1",
+    "font": "18px",
+    "scroll": 375,
+    "title": "椭圆的定义与方程",
+    "width": 390
+  },
+  {
+    "label": "ellipse-lab0",
+    "font": "18px",
+    "scroll": 375,
+    "title": "椭圆的定义与方程",
+    "width": 390
+  },
+  {
+    "label": "ellipse-lab1",
+    "font": "18px",
+    "scroll": 375,
+    "title": "椭圆的定义与方程",
+    "width": 390
+  },
+  {
+    "label": "ellipse-stage2",
+    "font": "18px",
+    "scroll": 375,
+    "title": "椭圆的定义与方程",
+    "width": 390
+  },
+  {
+    "label": "ellipse-stage3",
+    "font": "18px",
+    "scroll": 375,
+    "title": "椭圆的定义与方程",
+    "width": 390
+  },
+  {
+    "label": "ellipse-stage4",
+    "font": "18px",
+    "scroll": 375,
+    "title": "椭圆的定义与方程",
+    "width": 390
+  },
+  {
+    "label": "hyperbola-stage0",
+    "font": "18px",
+    "scroll": 375,
+    "title": "双曲线的定义与方程",
+    "width": 390
+  },
+  {
+    "label": "hyperbola-stage1",
+    "font": "18px",
+    "scroll": 375,
+    "title": "双曲线的定义与方程",
+    "width": 390
+  },
+  {
+    "label": "hyperbola-lab0",
+    "font": "18px",
+    "scroll": 375,
+    "title": "双曲线的定义与方程",
+    "width": 390
+  },
+  {
+    "label": "hyperbola-lab1",
+    "font": "18px",
+    "scroll": 375,
+    "title": "双曲线的定义与方程",
+    "width": 390
+  },
+  {
+    "label": "hyperbola-stage2",
+    "font": "18px",
+    "scroll": 375,
+    "title": "双曲线的定义与方程",
+    "width": 390
+  },
+  {
+    "label": "hyperbola-stage3",
+    "font": "18px",
+    "scroll": 375,
+    "title": "双曲线的定义与方程",
+    "width": 390
+  },
+  {
+    "label": "hyperbola-stage4",
+    "font": "18px",
+    "scroll": 375,
+    "title": "双曲线的定义与方程",
+    "width": 390
+  },
+  {
+    "label": "parabola-stage0",
+    "font": "18px",
+    "scroll": 375,
+    "title": "抛物线的定义与切线",
+    "width": 390
+  },
+  {
+    "label": "parabola-stage1",
+    "font": "18px",
+    "scroll": 375,
+    "title": "抛物线的定义与切线",
+    "width": 390
+  },
+  {
+    "label": "parabola-lab0",
+    "font": "18px",
+    "scroll": 375,
+    "title": "抛物线的定义与切线",
+    "width": 390
+  },
+  {
+    "label": "parabola-lab1",
+    "font": "18px",
+    "scroll": 375,
+    "title": "抛物线的定义与切线",
+    "width": 390
+  },
+  {
+    "label": "parabola-stage2",
+    "font": "18px",
+    "scroll": 375,
+    "title": "抛物线的定义与切线",
+    "width": 390
+  },
+  {
+    "label": "parabola-stage3",
+    "font": "18px",
+    "scroll": 375,
+    "title": "抛物线的定义与切线",
+    "width": 390
+  },
+  {
+    "label": "parabola-stage4",
+    "font": "18px",
+    "scroll": 375,
+    "title": "抛物线的定义与切线",
+    "width": 390
+  },
+  {
+    "label": "conic-focus-stage0",
+    "font": "18px",
+    "scroll": 375,
+    "title": "焦点三角形与焦点弦",
+    "width": 390
+  },
+  {
+    "label": "conic-focus-stage1",
+    "font": "18px",
+    "scroll": 375,
+    "title": "焦点三角形与焦点弦",
+    "width": 390
+  },
+  {
+    "label": "conic-focus-lab0",
+    "font": "18px",
+    "scroll": 375,
+    "title": "焦点三角形与焦点弦",
+    "width": 390
+  },
+  {
+    "label": "conic-focus-lab1",
+    "font": "18px",
+    "scroll": 375,
+    "title": "焦点三角形与焦点弦",
+    "width": 390
+  },
+  {
+    "label": "conic-focus-lab2",
+    "font": "18px",
+    "scroll": 375,
+    "title": "焦点三角形与焦点弦",
+    "width": 390
+  },
+  {
+    "label": "conic-focus-stage2",
+    "font": "18px",
+    "scroll": 375,
+    "title": "焦点三角形与焦点弦",
+    "width": 390
+  },
+  {
+    "label": "conic-focus-stage3",
+    "font": "18px",
+    "scroll": 375,
+    "title": "焦点三角形与焦点弦",
+    "width": 390
+  },
+  {
+    "label": "conic-focus-stage4",
+    "font": "18px",
+    "scroll": 375,
+    "title": "焦点三角形与焦点弦",
+    "width": 390
+  },
+  {
+    "label": "conic-intersections-stage0",
+    "font": "18px",
+    "scroll": 375,
+    "title": "直线与圆锥曲线联立",
+    "width": 390
+  },
+  {
+    "label": "conic-intersections-stage1",
+    "font": "18px",
+    "scroll": 375,
+    "title": "直线与圆锥曲线联立",
+    "width": 390
+  },
+  {
+    "label": "conic-intersections-lab0",
+    "font": "18px",
+    "scroll": 375,
+    "title": "直线与圆锥曲线联立",
+    "width": 390
+  },
+  {
+    "label": "conic-intersections-lab1",
+    "font": "18px",
+    "scroll": 375,
+    "title": "直线与圆锥曲线联立",
+    "width": 390
+  },
+  {
+    "label": "conic-intersections-stage2",
+    "font": "18px",
+    "scroll": 375,
+    "title": "直线与圆锥曲线联立",
+    "width": 390
+  },
+  {
+    "label": "conic-intersections-stage3",
+    "font": "18px",
+    "scroll": 375,
+    "title": "直线与圆锥曲线联立",
+    "width": 390
+  },
+  {
+    "label": "conic-intersections-stage4",
+    "font": "18px",
+    "scroll": 375,
+    "title": "直线与圆锥曲线联立",
+    "width": 390
+  },
+  {
+    "label": "conic-midpoint-stage0",
+    "font": "18px",
+    "scroll": 375,
+    "title": "点差法与中点弦",
+    "width": 390
+  },
+  {
+    "label": "conic-midpoint-stage1",
+    "font": "18px",
+    "scroll": 375,
+    "title": "点差法与中点弦",
+    "width": 390
+  },
+  {
+    "label": "conic-midpoint-lab0",
+    "font": "18px",
+    "scroll": 375,
+    "title": "点差法与中点弦",
+    "width": 390
+  },
+  {
+    "label": "conic-midpoint-lab1",
+    "font": "18px",
+    "scroll": 375,
+    "title": "点差法与中点弦",
+    "width": 390
+  },
+  {
+    "label": "conic-midpoint-stage2",
+    "font": "18px",
+    "scroll": 375,
+    "title": "点差法与中点弦",
+    "width": 390
+  },
+  {
+    "label": "conic-midpoint-stage3",
+    "font": "18px",
+    "scroll": 375,
+    "title": "点差法与中点弦",
+    "width": 390
+  },
+  {
+    "label": "conic-midpoint-stage4",
+    "font": "18px",
+    "scroll": 375,
+    "title": "点差法与中点弦",
+    "width": 390
+  },
+  {
+    "label": "conic-methods-stage0",
+    "font": "18px",
+    "scroll": 375,
+    "title": "定点、定值、最值与存在性",
+    "width": 390
+  },
+  {
+    "label": "conic-methods-stage1",
+    "font": "18px",
+    "scroll": 375,
+    "title": "定点、定值、最值与存在性",
+    "width": 390
+  },
+  {
+    "label": "conic-methods-lab0",
+    "font": "18px",
+    "scroll": 375,
+    "title": "定点、定值、最值与存在性",
+    "width": 390
+  },
+  {
+    "label": "conic-methods-lab1",
+    "font": "18px",
+    "scroll": 375,
+    "title": "定点、定值、最值与存在性",
+    "width": 390
+  },
+  {
+    "label": "conic-methods-lab2",
+    "font": "18px",
+    "scroll": 375,
+    "title": "定点、定值、最值与存在性",
+    "width": 390
+  },
+  {
+    "label": "conic-methods-stage2",
+    "font": "18px",
+    "scroll": 375,
+    "title": "定点、定值、最值与存在性",
+    "width": 390
+  },
+  {
+    "label": "conic-methods-stage3",
+    "font": "18px",
+    "scroll": 375,
+    "title": "定点、定值、最值与存在性",
+    "width": 390
+  },
+  {
+    "label": "conic-methods-stage4",
+    "font": "18px",
+    "scroll": 375,
+    "title": "定点、定值、最值与存在性",
+    "width": 390
+  },
+  {
+    "label": "line-stage0",
+    "font": "18px",
+    "scroll": 375,
+    "title": "直线的方程",
+    "width": 390
+  },
+  {
+    "label": "line-stage1",
+    "font": "18px",
+    "scroll": 375,
+    "title": "直线的方程",
+    "width": 390
+  },
+  {
+    "label": "line-lab0",
+    "font": "18px",
+    "scroll": 375,
+    "title": "直线的方程",
+    "width": 390
+  },
+  {
+    "label": "line-lab1",
+    "font": "18px",
+    "scroll": 375,
+    "title": "直线的方程",
+    "width": 390
+  },
+  {
+    "label": "line-stage2",
+    "font": "18px",
+    "scroll": 375,
+    "title": "直线的方程",
+    "width": 390
+  },
+  {
+    "label": "line-stage3",
+    "font": "18px",
+    "scroll": 375,
+    "title": "直线的方程",
+    "width": 390
+  },
+  {
+    "label": "line-stage4",
+    "font": "18px",
+    "scroll": 375,
+    "title": "直线的方程",
+    "width": 390
+  },
+  {
+    "label": "lines-stage0",
+    "font": "18px",
+    "scroll": 375,
+    "title": "两直线的位置关系与距离",
+    "width": 390
+  },
+  {
+    "label": "lines-stage1",
+    "font": "18px",
+    "scroll": 375,
+    "title": "两直线的位置关系与距离",
+    "width": 390
+  },
+  {
+    "label": "lines-lab0",
+    "font": "18px",
+    "scroll": 375,
+    "title": "两直线的位置关系与距离",
+    "width": 390
+  },
+  {
+    "label": "lines-lab1",
+    "font": "18px",
+    "scroll": 375,
+    "title": "两直线的位置关系与距离",
+    "width": 390
+  },
+  {
+    "label": "lines-stage2",
+    "font": "18px",
+    "scroll": 375,
+    "title": "两直线的位置关系与距离",
+    "width": 390
+  },
+  {
+    "label": "lines-stage3",
+    "font": "18px",
+    "scroll": 375,
+    "title": "两直线的位置关系与距离",
+    "width": 390
+  },
+  {
+    "label": "lines-stage4",
+    "font": "18px",
+    "scroll": 375,
+    "title": "两直线的位置关系与距离",
+    "width": 390
+  },
+  {
+    "label": "circle-stage0",
+    "font": "18px",
+    "scroll": 375,
+    "title": "圆的方程",
+    "width": 390
+  },
+  {
+    "label": "circle-stage1",
+    "font": "18px",
+    "scroll": 375,
+    "title": "圆的方程",
+    "width": 390
+  },
+  {
+    "label": "circle-lab0",
+    "font": "18px",
+    "scroll": 375,
+    "title": "圆的方程",
+    "width": 390
+  },
+  {
+    "label": "circle-lab1",
+    "font": "18px",
+    "scroll": 375,
+    "title": "圆的方程",
+    "width": 390
+  },
+  {
+    "label": "circle-stage2",
+    "font": "18px",
+    "scroll": 375,
+    "title": "圆的方程",
+    "width": 390
+  },
+  {
+    "label": "circle-stage3",
+    "font": "18px",
+    "scroll": 375,
+    "title": "圆的方程",
+    "width": 390
+  },
+  {
+    "label": "circle-stage4",
+    "font": "18px",
+    "scroll": 375,
+    "title": "圆的方程",
+    "width": 390
+  },
+  {
+    "label": "circles-stage0",
+    "font": "18px",
+    "scroll": 375,
+    "title": "圆与圆的位置关系",
+    "width": 390
+  },
+  {
+    "label": "circles-stage1",
+    "font": "18px",
+    "scroll": 375,
+    "title": "圆与圆的位置关系",
+    "width": 390
+  },
+  {
+    "label": "circles-lab0",
+    "font": "18px",
+    "scroll": 375,
+    "title": "圆与圆的位置关系",
+    "width": 390
+  },
+  {
+    "label": "circles-stage2",
+    "font": "18px",
+    "scroll": 375,
+    "title": "圆与圆的位置关系",
+    "width": 390
+  },
+  {
+    "label": "circles-stage3",
+    "font": "18px",
+    "scroll": 375,
+    "title": "圆与圆的位置关系",
+    "width": 390
+  },
+  {
+    "label": "circles-stage4",
+    "font": "18px",
+    "scroll": 375,
+    "title": "圆与圆的位置关系",
+    "width": 390
+  },
+  {
+    "label": "methods-stage0",
+    "font": "18px",
+    "scroll": 375,
+    "title": "对称、定点、圆系与轨迹",
+    "width": 390
+  },
+  {
+    "label": "methods-stage1",
+    "font": "18px",
+    "scroll": 375,
+    "title": "对称、定点、圆系与轨迹",
+    "width": 390
+  },
+  {
+    "label": "methods-lab0",
+    "font": "18px",
+    "scroll": 375,
+    "title": "对称、定点、圆系与轨迹",
+    "width": 390
+  },
+  {
+    "label": "methods-lab1",
+    "font": "18px",
+    "scroll": 375,
+    "title": "对称、定点、圆系与轨迹",
+    "width": 390
+  },
+  {
+    "label": "methods-lab2",
+    "font": "18px",
+    "scroll": 375,
+    "title": "对称、定点、圆系与轨迹",
+    "width": 390
+  },
+  {
+    "label": "methods-lab3",
+    "font": "18px",
+    "scroll": 375,
+    "title": "对称、定点、圆系与轨迹",
+    "width": 390
+  },
+  {
+    "label": "methods-stage2",
+    "font": "18px",
+    "scroll": 375,
+    "title": "对称、定点、圆系与轨迹",
+    "width": 390
+  },
+  {
+    "label": "methods-stage3",
+    "font": "18px",
+    "scroll": 375,
+    "title": "对称、定点、圆系与轨迹",
+    "width": 390
+  },
+  {
+    "label": "methods-stage4",
+    "font": "18px",
+    "scroll": 375,
+    "title": "对称、定点、圆系与轨迹",
+    "width": 390
+  }
+]

@@ -1,0 +1,743 @@
+[
+  {
+    "label": "home",
+    "font": "18px",
+    "scroll": 1425,
+    "width": 1440
+  },
+  {
+    "label": "line-stage0",
+    "buttonFont": "16px",
+    "font": "18px",
+    "scroll": 1440,
+    "width": 1440
+  },
+  {
+    "label": "line-stage1",
+    "buttonFont": "16px",
+    "font": "18px",
+    "scroll": 1425,
+    "width": 1440
+  },
+  {
+    "label": "line-lab0",
+    "scroll": 1425,
+    "svgDescription": "经过P的直线倾斜角135度",
+    "width": 1440
+  },
+  {
+    "label": "line-lab1",
+    "scroll": 1425,
+    "svgDescription": "过A和B的一般斜线",
+    "width": 1440
+  },
+  {
+    "label": "line-stage2",
+    "buttonFont": "16px",
+    "font": "18px",
+    "scroll": 1425,
+    "width": 1440
+  },
+  {
+    "label": "line-stage3",
+    "buttonFont": "16px",
+    "font": "18px",
+    "scroll": 1425,
+    "width": 1440
+  },
+  {
+    "label": "line-stage4",
+    "buttonFont": "16px",
+    "font": "18px",
+    "scroll": 1425,
+    "width": 1440
+  },
+  {
+    "label": "lines-stage0",
+    "buttonFont": "16px",
+    "font": "18px",
+    "scroll": 1425,
+    "width": 1440
+  },
+  {
+    "label": "lines-stage1",
+    "buttonFont": "16px",
+    "font": "18px",
+    "scroll": 1425,
+    "width": 1440
+  },
+  {
+    "label": "lines-lab0",
+    "scroll": 1425,
+    "svgDescription": "紫线y=x与绿线普通相交",
+    "width": 1440
+  },
+  {
+    "label": "lines-lab1",
+    "scroll": 1425,
+    "svgDescription": "点P到绿线的垂线段，以及两条水平线",
+    "width": 1440
+  },
+  {
+    "label": "lines-stage2",
+    "buttonFont": "16px",
+    "font": "18px",
+    "scroll": 1425,
+    "width": 1440
+  },
+  {
+    "label": "lines-stage3",
+    "buttonFont": "16px",
+    "font": "18px",
+    "scroll": 1425,
+    "width": 1440
+  },
+  {
+    "label": "lines-stage4",
+    "buttonFont": "16px",
+    "font": "18px",
+    "scroll": 1425,
+    "width": 1440
+  },
+  {
+    "label": "circle-stage0",
+    "buttonFont": "16px",
+    "font": "18px",
+    "scroll": 1440,
+    "width": 1440
+  },
+  {
+    "label": "circle-stage1",
+    "buttonFont": "16px",
+    "font": "18px",
+    "scroll": 1425,
+    "width": 1440
+  },
+  {
+    "label": "circle-lab0",
+    "scroll": 1425,
+    "svgDescription": "一般方程配方后表示没有实点",
+    "width": 1440
+  },
+  {
+    "label": "circle-lab1",
+    "scroll": 1425,
+    "svgDescription": "P位于圆外",
+    "width": 1440
+  },
+  {
+    "label": "circle-stage2",
+    "buttonFont": "16px",
+    "font": "18px",
+    "scroll": 1425,
+    "width": 1440
+  },
+  {
+    "label": "circle-stage3",
+    "buttonFont": "16px",
+    "font": "18px",
+    "scroll": 1425,
+    "width": 1440
+  },
+  {
+    "label": "circle-stage4",
+    "buttonFont": "16px",
+    "font": "18px",
+    "scroll": 1425,
+    "width": 1440
+  },
+  {
+    "label": "circles-stage0",
+    "buttonFont": "16px",
+    "font": "18px",
+    "scroll": 1440,
+    "width": 1440
+  },
+  {
+    "label": "circles-stage1",
+    "buttonFont": "16px",
+    "font": "18px",
+    "scroll": 1425,
+    "width": 1440
+  },
+  {
+    "label": "circles-lab0",
+    "scroll": 1425,
+    "svgDescription": "两个圆重合，无数个公共点",
+    "width": 1440
+  },
+  {
+    "label": "circles-stage2",
+    "buttonFont": "16px",
+    "font": "18px",
+    "scroll": 1425,
+    "width": 1440
+  },
+  {
+    "label": "circles-stage3",
+    "buttonFont": "16px",
+    "font": "18px",
+    "scroll": 1425,
+    "width": 1440
+  },
+  {
+    "label": "circles-stage4",
+    "buttonFont": "16px",
+    "font": "18px",
+    "scroll": 1425,
+    "width": 1440
+  },
+  {
+    "label": "methods-stage0",
+    "buttonFont": "16px",
+    "font": "18px",
+    "scroll": 1425,
+    "width": 1440
+  },
+  {
+    "label": "methods-stage1",
+    "buttonFont": "16px",
+    "font": "18px",
+    "scroll": 1425,
+    "width": 1440
+  },
+  {
+    "label": "methods-lab0",
+    "scroll": 1425,
+    "svgDescription": "河岸x轴上的动点M，以及反射后的折线",
+    "width": 1440
+  },
+  {
+    "label": "methods-lab1",
+    "scroll": 1425,
+    "svgDescription": "绕固定点F旋转的含参直线",
+    "width": 1440
+  },
+  {
+    "label": "methods-lab2",
+    "scroll": 1425,
+    "svgDescription": "过直线x=1与原圆两交点的动圆",
+    "width": 1440
+  },
+  {
+    "label": "methods-lab3",
+    "scroll": 1425,
+    "svgDescription": "到A和B距离比为给定常数的点的轨迹",
+    "width": 1440
+  },
+  {
+    "label": "methods-stage2",
+    "buttonFont": "16px",
+    "font": "18px",
+    "scroll": 1425,
+    "width": 1440
+  },
+  {
+    "label": "methods-stage3",
+    "buttonFont": "16px",
+    "font": "18px",
+    "scroll": 1425,
+    "width": 1440
+  },
+  {
+    "label": "methods-stage4",
+    "buttonFont": "16px",
+    "font": "18px",
+    "scroll": 1425,
+    "width": 1440
+  },
+  {
+    "label": "home",
+    "font": "18px",
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "label": "line-stage0",
+    "buttonFont": "16px",
+    "font": "18px",
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "label": "line-stage1",
+    "buttonFont": "16px",
+    "font": "18px",
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "label": "line-lab0",
+    "scroll": 753,
+    "svgDescription": "经过P的直线倾斜角135度",
+    "width": 768
+  },
+  {
+    "label": "line-lab1",
+    "scroll": 753,
+    "svgDescription": "过A和B的一般斜线",
+    "width": 768
+  },
+  {
+    "label": "line-stage2",
+    "buttonFont": "16px",
+    "font": "18px",
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "label": "line-stage3",
+    "buttonFont": "16px",
+    "font": "18px",
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "label": "line-stage4",
+    "buttonFont": "16px",
+    "font": "18px",
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "label": "lines-stage0",
+    "buttonFont": "16px",
+    "font": "18px",
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "label": "lines-stage1",
+    "buttonFont": "16px",
+    "font": "18px",
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "label": "lines-lab0",
+    "scroll": 753,
+    "svgDescription": "紫线y=x与绿线普通相交",
+    "width": 768
+  },
+  {
+    "label": "lines-lab1",
+    "scroll": 753,
+    "svgDescription": "点P到绿线的垂线段，以及两条水平线",
+    "width": 768
+  },
+  {
+    "label": "lines-stage2",
+    "buttonFont": "16px",
+    "font": "18px",
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "label": "lines-stage3",
+    "buttonFont": "16px",
+    "font": "18px",
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "label": "lines-stage4",
+    "buttonFont": "16px",
+    "font": "18px",
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "label": "circle-stage0",
+    "buttonFont": "16px",
+    "font": "18px",
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "label": "circle-stage1",
+    "buttonFont": "16px",
+    "font": "18px",
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "label": "circle-lab0",
+    "scroll": 753,
+    "svgDescription": "一般方程配方后表示没有实点",
+    "width": 768
+  },
+  {
+    "label": "circle-lab1",
+    "scroll": 753,
+    "svgDescription": "P位于圆外",
+    "width": 768
+  },
+  {
+    "label": "circle-stage2",
+    "buttonFont": "16px",
+    "font": "18px",
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "label": "circle-stage3",
+    "buttonFont": "16px",
+    "font": "18px",
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "label": "circle-stage4",
+    "buttonFont": "16px",
+    "font": "18px",
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "label": "circles-stage0",
+    "buttonFont": "16px",
+    "font": "18px",
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "label": "circles-stage1",
+    "buttonFont": "16px",
+    "font": "18px",
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "label": "circles-lab0",
+    "scroll": 753,
+    "svgDescription": "两个圆重合，无数个公共点",
+    "width": 768
+  },
+  {
+    "label": "circles-stage2",
+    "buttonFont": "16px",
+    "font": "18px",
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "label": "circles-stage3",
+    "buttonFont": "16px",
+    "font": "18px",
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "label": "circles-stage4",
+    "buttonFont": "16px",
+    "font": "18px",
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "label": "methods-stage0",
+    "buttonFont": "16px",
+    "font": "18px",
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "label": "methods-stage1",
+    "buttonFont": "16px",
+    "font": "18px",
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "label": "methods-lab0",
+    "scroll": 753,
+    "svgDescription": "河岸x轴上的动点M，以及反射后的折线",
+    "width": 768
+  },
+  {
+    "label": "methods-lab1",
+    "scroll": 753,
+    "svgDescription": "绕固定点F旋转的含参直线",
+    "width": 768
+  },
+  {
+    "label": "methods-lab2",
+    "scroll": 753,
+    "svgDescription": "过直线x=1与原圆两交点的动圆",
+    "width": 768
+  },
+  {
+    "label": "methods-lab3",
+    "scroll": 753,
+    "svgDescription": "到A和B距离比为给定常数的点的轨迹",
+    "width": 768
+  },
+  {
+    "label": "methods-stage2",
+    "buttonFont": "16px",
+    "font": "18px",
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "label": "methods-stage3",
+    "buttonFont": "16px",
+    "font": "18px",
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "label": "methods-stage4",
+    "buttonFont": "16px",
+    "font": "18px",
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "label": "home",
+    "font": "18px",
+    "scroll": 375,
+    "width": 390
+  },
+  {
+    "label": "line-stage0",
+    "buttonFont": "16px",
+    "font": "18px",
+    "scroll": 375,
+    "width": 390
+  },
+  {
+    "label": "line-stage1",
+    "buttonFont": "16px",
+    "font": "18px",
+    "scroll": 375,
+    "width": 390
+  },
+  {
+    "label": "line-lab0",
+    "scroll": 375,
+    "svgDescription": "经过P的直线倾斜角135度",
+    "width": 390
+  },
+  {
+    "label": "line-lab1",
+    "scroll": 375,
+    "svgDescription": "过A和B的一般斜线",
+    "width": 390
+  },
+  {
+    "label": "line-stage2",
+    "buttonFont": "16px",
+    "font": "18px",
+    "scroll": 375,
+    "width": 390
+  },
+  {
+    "label": "line-stage3",
+    "buttonFont": "16px",
+    "font": "18px",
+    "scroll": 375,
+    "width": 390
+  },
+  {
+    "label": "line-stage4",
+    "buttonFont": "16px",
+    "font": "18px",
+    "scroll": 375,
+    "width": 390
+  },
+  {
+    "label": "lines-stage0",
+    "buttonFont": "16px",
+    "font": "18px",
+    "scroll": 375,
+    "width": 390
+  },
+  {
+    "label": "lines-stage1",
+    "buttonFont": "16px",
+    "font": "18px",
+    "scroll": 375,
+    "width": 390
+  },
+  {
+    "label": "lines-lab0",
+    "scroll": 375,
+    "svgDescription": "紫线y=x与绿线普通相交",
+    "width": 390
+  },
+  {
+    "label": "lines-lab1",
+    "scroll": 375,
+    "svgDescription": "点P到绿线的垂线段，以及两条水平线",
+    "width": 390
+  },
+  {
+    "label": "lines-stage2",
+    "buttonFont": "16px",
+    "font": "18px",
+    "scroll": 375,
+    "width": 390
+  },
+  {
+    "label": "lines-stage3",
+    "buttonFont": "16px",
+    "font": "18px",
+    "scroll": 375,
+    "width": 390
+  },
+  {
+    "label": "lines-stage4",
+    "buttonFont": "16px",
+    "font": "18px",
+    "scroll": 375,
+    "width": 390
+  },
+  {
+    "label": "circle-stage0",
+    "buttonFont": "16px",
+    "font": "18px",
+    "scroll": 375,
+    "width": 390
+  },
+  {
+    "label": "circle-stage1",
+    "buttonFont": "16px",
+    "font": "18px",
+    "scroll": 375,
+    "width": 390
+  },
+  {
+    "label": "circle-lab0",
+    "scroll": 375,
+    "svgDescription": "一般方程配方后表示没有实点",
+    "width": 390
+  },
+  {
+    "label": "circle-lab1",
+    "scroll": 375,
+    "svgDescription": "P位于圆外",
+    "width": 390
+  },
+  {
+    "label": "circle-stage2",
+    "buttonFont": "16px",
+    "font": "18px",
+    "scroll": 375,
+    "width": 390
+  },
+  {
+    "label": "circle-stage3",
+    "buttonFont": "16px",
+    "font": "18px",
+    "scroll": 375,
+    "width": 390
+  },
+  {
+    "label": "circle-stage4",
+    "buttonFont": "16px",
+    "font": "18px",
+    "scroll": 375,
+    "width": 390
+  },
+  {
+    "label": "circles-stage0",
+    "buttonFont": "16px",
+    "font": "18px",
+    "scroll": 375,
+    "width": 390
+  },
+  {
+    "label": "circles-stage1",
+    "buttonFont": "16px",
+    "font": "18px",
+    "scroll": 375,
+    "width": 390
+  },
+  {
+    "label": "circles-lab0",
+    "scroll": 375,
+    "svgDescription": "两个圆重合，无数个公共点",
+    "width": 390
+  },
+  {
+    "label": "circles-stage2",
+    "buttonFont": "16px",
+    "font": "18px",
+    "scroll": 375,
+    "width": 390
+  },
+  {
+    "label": "circles-stage3",
+    "buttonFont": "16px",
+    "font": "18px",
+    "scroll": 375,
+    "width": 390
+  },
+  {
+    "label": "circles-stage4",
+    "buttonFont": "16px",
+    "font": "18px",
+    "scroll": 375,
+    "width": 390
+  },
+  {
+    "label": "methods-stage0",
+    "buttonFont": "16px",
+    "font": "18px",
+    "scroll": 375,
+    "width": 390
+  },
+  {
+    "label": "methods-stage1",
+    "buttonFont": "16px",
+    "font": "18px",
+    "scroll": 375,
+    "width": 390
+  },
+  {
+    "label": "methods-lab0",
+    "scroll": 375,
+    "svgDescription": "河岸x轴上的动点M，以及反射后的折线",
+    "width": 390
+  },
+  {
+    "label": "methods-lab1",
+    "scroll": 375,
+    "svgDescription": "绕固定点F旋转的含参直线",
+    "width": 390
+  },
+  {
+    "label": "methods-lab2",
+    "scroll": 375,
+    "svgDescription": "过直线x=1与原圆两交点的动圆",
+    "width": 390
+  },
+  {
+    "label": "methods-lab3",
+    "scroll": 375,
+    "svgDescription": "到A和B距离比为给定常数的点的轨迹",
+    "width": 390
+  },
+  {
+    "label": "methods-stage2",
+    "buttonFont": "16px",
+    "font": "18px",
+    "scroll": 375,
+    "width": 390
+  },
+  {
+    "label": "methods-stage3",
+    "buttonFont": "16px",
+    "font": "18px",
+    "scroll": 375,
+    "width": 390
+  },
+  {
+    "label": "methods-stage4",
+    "buttonFont": "16px",
+    "font": "18px",
+    "scroll": 375,
+    "width": 390
+  }
+]

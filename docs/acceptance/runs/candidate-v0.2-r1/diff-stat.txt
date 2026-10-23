@@ -1,0 +1,15 @@
+ AI_CHANGELOG.md        |   6 ++
+ README.md              |  10 ++-
+ docs/project-status.md |   8 ++
+ docs/template-guide.md |   4 +
+ package.json           |   2 +-
+ server.mjs             |   2 +-
+ site/app.mjs           | 225 +++++++++++++++++++++++++++++++++++++------------
+ site/course.mjs        |  79 +++++++++++++++--
+ site/index.html        |   4 +-
+ site/math.mjs          |  47 ++++++++++-
+ site/state.mjs         |  14 ++-
+ site/styles.css        |  16 ++++
+ tests/math.test.mjs    |   4 +-
+ tests/state.test.mjs   |   8 +-
+ 14 files changed, 350 insertions(+), 79 deletions(-)

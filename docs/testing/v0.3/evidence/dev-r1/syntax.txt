@@ -1,0 +1,9 @@
+
+> geometry-learning-lab@0.3.0 check
+> node --check site/boot.mjs && node --check site/module-app.mjs && node --check site/module-course.mjs && node --check site/module-math.mjs && node --check site/app.mjs && node --check site/math.mjs && node --check site/course.mjs && node --check site/state.mjs && node --check server.mjs
+
+npm notice
+npm notice New major version of npm available! 11.19.0 -> 12.2.1
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.1
+npm notice To update run: npm install -g npm@12.2.1
+npm notice

@@ -1,0 +1,88 @@
+{
+  "candidate": "v0.3-r1",
+  "flows": [
+    {
+      "lesson": "line",
+      "examples": 3,
+      "quizzes": 5,
+      "knowledgeLength": 481,
+      "complete": true,
+      "formulaInitiallyHidden": true,
+      "duplicateRecordDoesNotInflate": true
+    },
+    {
+      "lesson": "lines",
+      "examples": 4,
+      "quizzes": 6,
+      "knowledgeLength": 508,
+      "complete": true
+    },
+    {
+      "lesson": "circle",
+      "examples": 3,
+      "quizzes": 5,
+      "knowledgeLength": 397,
+      "complete": true
+    },
+    {
+      "lesson": "circles",
+      "cases": [
+        {
+          "index": 0,
+          "answer": 0,
+          "text": "外离；d=5，半径和=4，半径差=2；0个公共点\n\n紫色为基准图形，绿色为变化图形，橙色为辅助线或公共点。图中数值与结果中的“≈”按三位小数显示。"
+        },
+        {
+          "index": 1,
+          "answer": 1,
+          "text": "外切；d=4，半径和=4，半径差=2；1个公共点\n\n紫色为基准图形，绿色为变化图形，橙色为辅助线或公共点。图中数值与结果中的“≈”按三位小数显示。"
+        },
+        {
+          "index": 2,
+          "answer": 2,
+          "text": "相交；d=3，半径和=4，半径差=2；2个公共点；公共弦长≈1.972\n\n紫色为基准图形，绿色为变化图形，橙色为辅助线或公共点。图中数值与结果中的“≈”按三位小数显示。"
+        },
+        {
+          "index": 3,
+          "answer": 3,
+          "text": "内切；d=2，半径和=4，半径差=2；1个公共点\n\n紫色为基准图形，绿色为变化图形，橙色为辅助线或公共点。图中数值与结果中的“≈”按三位小数显示。"
+        },
+        {
+          "index": 4,
+          "answer": 4,
+          "text": "内含（不同心）；d=1，半径和=4，半径差=2；0个公共点\n\n紫色为基准图形，绿色为变化图形，橙色为辅助线或公共点。图中数值与结果中的“≈”按三位小数显示。"
+        },
+        {
+          "index": 5,
+          "answer": 5,
+          "text": "同心不等圆；d=0，半径和=4，半径差=2；0个公共点\n\n紫色为基准图形，绿色为变化图形，橙色为辅助线或公共点。图中数值与结果中的“≈”按三位小数显示。"
+        },
+        {
+          "index": 6,
+          "answer": 6,
+          "text": "重合；d=0，半径和=6，半径差=0；无数个公共点\n\n紫色为基准图形，绿色为变化图形，橙色为辅助线或公共点。图中数值与结果中的“≈”按三位小数显示。"
+        }
+      ],
+      "examples": 3,
+      "quizzes": 6,
+      "knowledgeLength": 412,
+      "complete": true
+    },
+    {
+      "lesson": "methods",
+      "examples": 7,
+      "quizzes": 8,
+      "knowledgeLength": 1197,
+      "complete": true
+    }
+  ],
+  "homeSixComplete": true,
+  "actualLinks": [
+    "?lesson=line",
+    "?lesson=lines",
+    "?lesson=circle",
+    "?lesson=line-circle",
+    "?lesson=circles",
+    "?lesson=methods"
+  ]
+}
