@@ -16,4 +16,4 @@
 | NFR-007 | AC-044 | 三宽度全阶段全实验、键盘标签 | 已实现 / 本地PASS |
 | NFR-008 | AC-044–045 | 无远程依赖、私有资料、冻结/回归/发布 | 已实现 / 本地PASS |
 
-具体关联：FR-032→book-sets/TC-037；FR-033→book-inequalities/TC-038；FR-034→book-functions/TC-039；FR-035→book-explog/TC-040；FR-036→book-trig/TC-041；FR-031/037/038→module-course/module-app/book-labs与TC-036/042/043。NFR-006的源段→实际知识卡/例题索引见source-coverage-v0.5.json；NFR-007/008→TC-044/045，AC-045部署部分当前IN_PROGRESS。
+具体关联：FR-032→book-sets/TC-037；FR-033→book-inequalities/TC-038；FR-034→book-functions/TC-039；FR-035→book-explog/TC-040；FR-036→book-trig/TC-041；FR-031/037/038→module-course/module-app/book-labs与TC-036/042/043。NFR-006的源段→实际知识卡/例题索引见source-coverage-v0.5.json；NFR-007/008→TC-044/045，AC-045部署部分已PASS，原仓库main远端02eea8b核对且同Sites项目succeeded/owner-private，见publication.json。

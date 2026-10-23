@@ -13,6 +13,6 @@
 | AC-042 | 每新课2实验3例题5练习；24课空进度走通，192默认/预设、216例题步骤、120题错/正/订正/刷新 | PASS | full-flows.json、lab/quiz-expectations、source-coverage-v0.5.json |
 | AC-043 | 实际v0.4 QA18课字段和原课字节保留；10项重置/输入/键盘/损坏/拒读拒写/恢复为真 | PASS | upgrade.json、safety.json、user-preview.json |
 | AC-044 | 三宽度504新课观测去重432+门户15=447唯一状态；无横向溢出；本地HTTP隔离、源哈希 | PASS | layouts.json、portals.json、safety.json、integrity.json、unit-tests.txt |
-| AC-045 | 50测试/语法、旧19课回归、候选一致；本地发布前门槛通过，GitHub/Sites更新尚待执行 | IN_PROGRESS | manifest.json、unit-tests.txt、syntax.txt、old-regression.json；外部结果待补 |
+| AC-045 | 50测试/语法与旧19课回归通过，55文件一致；25网页文件与发布包一致；GitHub main远端02eea8b核对；同Sites项目部署succeeded且仅所有者访问 | PASS | manifest.json、unit-tests.txt、syntax.txt、old-regression.json、integrity.json、archive-audit.json、publication.json |
 
-当前仅允许按用户既定授权执行上传/私有发布，不提前宣布整体交付。发布目录/远端SHA核对齐备后再判定AC-045。真实手机与教学效果不属本轮必需且未测。未使用有截图平铺伪影的文件证明产品视觉通过；实际默认预览见docs/delivery/preview-v0.5.png。
+全部10项必需验收PASS，允许交付同一候选。上传/私有发布依据用户既定授权执行，原站点访问范围未扩大。真实手机与教学效果不属本轮必需且未测。未使用有截图平铺伪影的文件证明产品视觉通过；实际默认预览见docs/delivery/preview-v0.5.png。线上部署以平台成功返回及包一致证明，不冒充线上完整浏览器交互验收。

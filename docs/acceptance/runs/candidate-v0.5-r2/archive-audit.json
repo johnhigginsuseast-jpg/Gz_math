@@ -1,0 +1,9 @@
+{
+  "archive": "outputs\\geometry-v0.5-r2.tar.gz",
+  "sha256": "5b2a03cd7f695527270a271da04773184d4f407f92528633d16ae0fea014ddad",
+  "websiteFiles": 25,
+  "allWebsiteHashesMatch": true,
+  "sourceDocumentsExcluded": true,
+  "fileCount": 26,
+  "hostingManifest": "dist/.openai/hosting.json (official helper normalization)"
+}

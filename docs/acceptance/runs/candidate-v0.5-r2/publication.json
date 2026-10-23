@@ -1,0 +1,20 @@
+{
+  "candidate": "v0.5-r2",
+  "source_commit": "02eea8b8d9ff0d58ae0dc8d3a90752e7f1750a8d",
+  "github_repository": "https://github.com/johnhigginsuseast-jpg/Gz_math.git",
+  "github_branch": "main",
+  "github_verified_sha": "02eea8b8d9ff0d58ae0dc8d3a90752e7f1750a8d",
+  "project_id": "appgprj_6adacf43102c81918c61cdddec609f75",
+  "version_id": "appgprj_6adacf43102c81918c61cdddec609f75~appgver_fd77551781bc81918f7faaf5679504bf",
+  "deployment_id": "appgdep_6adb0f8e3f088191956c7c524d090390",
+  "deployment_status": "succeeded",
+  "deployment_updated_at": "2026-10-23T07:41:17.223069+00:00",
+  "url": "https://gz-math-learning-lab.flowyquail64.chatgpt.site",
+  "access": "owner-private; one owner, no other users or groups",
+  "archive_sha256": "5b2a03cd7f695527270a271da04773184d4f407f92528633d16ae0fea014ddad",
+  "website_files": 25,
+  "archive_members": 26,
+  "archive_matches_candidate": true,
+  "local_preview_http_status": 200,
+  "remote_verification": "native Sites succeeded response; no claim of real-phone or full online browser interaction acceptance"
+}

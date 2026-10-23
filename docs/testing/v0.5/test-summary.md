@@ -4,4 +4,4 @@
 
 BUG-014平移正切断点、BUG-015显示精度两项均已在r2复测关闭。r1因BUG-015退出，不作为交付候选。七类资料分别为test-plan/test-cases/test-data/defects/executions/traceability/本文件。
 
-本地必需项已通过；AC-045的外部上传和私有部署待平台返回后填入独立验收run.md及发布记录，不提前声称完成。手机实机/Safari、真实学生效果未测；模拟存储故障不代表真实设备配额验收。
+全部10项必需验收通过。AC-045外部上传/发布已核实：源码02eea8b推送GitHub main，Sites同一项目部署succeeded，仍仅所有者可访问；25网页文件与发布包一致，见独立验收run.md、archive-audit.json、publication.json。手机实机/Safari、真实学生效果和线上完整浏览器交互未测；模拟存储故障不代表真实设备配额验收。

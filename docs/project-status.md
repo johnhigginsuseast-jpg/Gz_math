@@ -1,10 +1,12 @@
 # 项目状态
 
-## 当前迭代 v0.5 / LOCAL_ACCEPTED_PUBLISHING
+## 当前迭代 v0.5 / DELIVERED
 
 2026-10-23：用户回复“确认 v0.5，继续开发”。已确认需求requirements/requirements-v0.5.md、独立验收acceptance/criteria-v0.5.md与五章24课来源映射，保留原19课与记录。当前进入开发，新增验收尚未执行；下方历史版本结论不代表本轮完成。
 
 收尾：必修一24课48实验72例题120练习已实现；候选r2冻结55文件，50自动测试与本地AC-036–044通过，192实验情形/126边界/447唯一布局/旧19课回归和存储键盘检查通过，三DOCX未改。当前仅AC-045外部上传/私有部署尚待执行，不提前标记交付。详见acceptance/runs/candidate-v0.5-r2/run.md。
+
+发布收尾：源码02eea8b已推送并核对GitHub main；同Sites项目已发布成功，仍owner-private。25网页文件与发布包逐一一致；AC-036–045共10项全部PASS。正式交付见delivery/v0.5.md，发布版本/部署ID见candidate-v0.5-r2/publication.json；上两段保留该迭代早先阶段记录，最终状态以本段及独立验收为准。
 
 ## 当前迭代 v0.2 / DELIVERED
 
