@@ -1,6 +1,8 @@
 # 几何实验室 高中数学四模块
 
-GitHub 仓库：Gz_math。已部署网址：https://gz-math-learning-lab.flowyquail64.chatgpt.site （当前仅所有者可访问）。
+GitHub 仓库：Gz_math。公开网站：[GitHub Pages](https://johnhigginsuseast-jpg.github.io/Gz_math/)。原 [Sites 网站](https://gz-math-learning-lab.flowyquail64.chatgpt.site)仍仅所有者可访问。
+
+main 分支的 `site/` 或 Pages 工作流更新后自动部署；也可在 Actions 中手动运行 Deploy GitHub Pages。仅发布 `site/`，部署记录见 [GitHub Pages 交付记录](docs/delivery/github-pages.md)。不同网站地址的学习记录不会自动互通。
 
 高中数学探究网站v0.5。四个同级模块：立体几何6课、直线与圆的方程6课、圆锥曲线7课、必修一五章24课，共43课、141道分步例题、233道练习。必修一新增48实验、72例题、120练习；保留原19课与学习记录。
 

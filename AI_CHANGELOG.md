@@ -1,5 +1,11 @@
 # AI 改动记录
 
+## 2026-10-23 / GitHub Pages公开部署
+
+- 按用户明确要求启用原仓库Pages Actions发布；新增.github/workflows/pages.yml，仅上传site目录，main网页变更自动部署。
+- 发布f4f3950的工作流39921911153成功；HTTP资源/MIME、课程深链接和25文件内容一致性检查通过，内部文档URL为404。50测试和语法检查通过。
+- 更新README与docs/delivery/github-pages.md，记录公开地址、发布证据、换行校验差异和浏览器超时未测范围；原私有Sites与功能源码保留。
+
 ## 2026-10-23 / v0.5 正式发布与交付
 
 - 按用户已确认的上传/部署范围，将通过验收的源码02eea8b推送原GitHub main；远端SHA核对一致。官方Sites流程发布同一网页候选，部署返回succeeded，访问策略仍仅所有者。
