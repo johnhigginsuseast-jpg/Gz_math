@@ -3,7 +3,7 @@
 - 基线：已确认requirements-v0.6.md、criteria-v0.6.md与28课source-map-v0.6.md；用户回复“确认 v0.6，继续开发”。
 - 冻结：manifest.json记录57个源码/测试/基线文件；冻结时HEAD 52950f946b7168139694e3f5e73d70e452ef1d2b加工作树校验值，不冒称提交已包含新代码。
 - 环境：Windows、本机Node v24.21.0、IAB实际CSS宽390/768/1440；本轮QA端口4177。真实v0.5源码快照在4178，用户4175数据未用于注入。
-- 当前结论：AC-046–054本地PASS；AC-055外部发布验证待执行，尚不宣称本轮正式交付。
+- 最终结论：AC-046–055共10项全部PASS，v0.6正式交付；源码11b5baff29501120ed1531527c280fe9d92fd6fc已上传并成功发布GitHub Pages。
 
 | AC | 实测与证据 | 结论 |
 |---|---|---|
@@ -16,7 +16,7 @@
 | AC-052 | full-flows.json：28课、56实验217默认/预设情形、88例题264步骤、140练习先错后对；布局遍历新文档重新恢复100%；construction.json显示构造期间结论隐藏、观察禁用 | PASS |
 | AC-053 | v0.5-browser-fixture.json记录旧版实际UI生成24课，合并原实际QA18课与legacy键；upgrade.json逐字段42课/legacy字节保留；safety.json十三项异常/重置/键盘通过，control-corners.json另含224次非法输入 | PASS |
 | AC-054 | layouts.json 504个唯一新课阶段/实验状态与portals.json18页；三种真实CSS宽下无页面/主要控件/图形文字越界；integrity.json原四DOCX哈希不变、37网页文件无内部材料 | PASS |
-| AC-055 | unit-tests.txt 61/61、syntax退出0；旧42课210阶段91实验与legacy8环节/5题型回归通过；七类测试资料与初始追踪已维护。外部Git/Pages与公开站交互结果另记publication.json | NOT_TESTED（发布部分） |
+| AC-055 | 61/61测试、语法退出0、旧43课回归及七类资料通过；远端源码11b5baf核对，Actions 39935981596为success；37线上文件与候选一致，公开b2-frequency实际完成实验/例题/练习并刷新保持100%，原浏览器记录恢复。见publication/public-http/public-browser-flow.json | PASS |
 
 ## 异常与证据边界
 
@@ -27,3 +27,4 @@
 - 读异常采用替换QA的app容器、注入Storage.getItem抛错后重新导入同一module-app源码执行初始化，观察真实提示；随后恢复原方法并刷新。写失败与损坏记录也在QA站点注入并恢复，不宣称测试了实际浏览器权限设置。
 - 源必修一DOCX被Word打开，普通Get-FileHash共享方式读失败；用FileShare.ReadWrite只读哈希后四文件与历史值一致，未关闭或改写用户文件。
 - console-errors.json为空。真实手机/Safari与学生教学效果不在本轮基线内；模拟视口不代表实机结果。
+- 公开浏览器首次标签页出现ERR_CONNECTION_RESET；新标签直接打开同一课程成功。早先复用的函数仍绑定失败标签，最终改用明确绑定有效标签的能力对象核验。公开课2实验8情形、3例题9步、5题先错后对及实际reload后100%通过，控制台无错误；测试前两键均为null，结束恢复，模块页为0/28。此网络/测试工具过程未改产品源码，失败未冒充成功。

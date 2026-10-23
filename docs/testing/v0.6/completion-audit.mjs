@@ -1,0 +1,23 @@
+import assert from 'node:assert/strict';
+import { readFile, writeFile } from 'node:fs/promises';
+import { createHash } from 'node:crypto';
+import { book2Lessons, book2Chapters } from '../../../site/book2-course.mjs';
+const root=new URL('../../../',import.meta.url),run=new URL('../../acceptance/runs/candidate-v0.6-r1/',import.meta.url);
+const json=async name=>JSON.parse((await readFile(new URL(name,run),'utf8')).replace(/^\uFEFF/,''));
+const manifest=await json('manifest.json');
+for(const file of [...manifest.files,...manifest.sources])assert.equal(createHash('sha256').update(await readFile(new URL(file.path,root))).digest('hex'),file.sha256,file.path);
+const flows=await json('full-flows.json'),corners=await json('control-corners.json'),layouts=await json('layouts.json'),portals=await json('portals.json'),safety=await json('safety.json'),old=await json('old-regression.json'),legacy=await json('legacy-regression.json'),upgrade=await json('upgrade.json'),http=await json('public-http.json'),browser=await json('public-browser-flow.json'),publication=await json('publication.json');
+assert.deepEqual(book2Chapters.map(c=>c.lessons.length),[8,3,8,5,4]);assert.equal(flows.length,28);
+for(const lesson of book2Lessons){const actual=flows.find(f=>f.id===lesson.id);assert.ok(actual?.complete);assert.equal(actual.examples,lesson.examples.length);assert.equal(actual.steps,lesson.examples.reduce((n,e)=>n+e.steps.length,0));assert.equal(actual.quizzes,lesson.quizzes.length);assert.equal(actual.labs,lesson.labs.length);}
+assert.equal(flows.reduce((n,r)=>n+r.cases,0),217);assert.equal(flows.reduce((n,r)=>n+r.examples,0),88);assert.equal(flows.reduce((n,r)=>n+r.quizzes,0),140);
+assert.equal(corners.length,28);assert.equal(corners.reduce((n,r)=>n+r.corners,0),140);assert.equal(corners.reduce((n,r)=>n+r.invalidInputs,0),224);
+assert.equal(layouts.length,504);assert.equal(new Set(layouts.map(r=>[r.width,r.id,r.stage,r.lab??''].join('/'))).size,504);assert.deepEqual([...new Set(layouts.map(r=>r.width))].sort((a,b)=>a-b),[390,768,1440]);
+for(const row of [...layouts,...portals]){assert.equal(row.over,false);assert.equal(row.hidden.length,0);assert.equal(row.labels.length,0);}assert.equal(portals.length,18);
+assert.equal(Object.keys(safety).length,13);assert.ok(Object.values(safety).every(x=>x===true));assert.equal(old.length,42);assert.equal(old.reduce((n,r)=>n+r.labs,0),91);assert.ok(old.every(r=>r.stages===5&&r.progress==='100'));assert.equal(legacy.states.length,8);assert.equal(legacy.topics.length,5);assert.equal(legacy.completed.length,8);assert.ok(legacy.topics.every(r=>r.hasGraph&&r.valid));
+assert.ok(upgrade.oldFieldsPreserved&&upgrade.legacyBytesPreserved);assert.equal(upgrade.oldNormalCourses,42);assert.equal(http.files.length,37);assert.ok(http.files.every(f=>f.status===200&&f.sourceMatchesAfterNewlineNormalization));assert.equal(http.deepLinkStatus,200);assert.ok(http.privatePaths.every(f=>f.status===404));
+assert.equal(browser.refresh.progress,'100');assert.ok(browser.refresh.complete&&browser.refresh.submitted&&browser.originalRecordsRestored);assert.equal(browser.consoleErrors.length,0);assert.equal(browser.flow.quizzes,5);assert.equal(publication.workflowConclusion,'success');assert.equal(publication.sourceCommit,'11b5baff29501120ed1531527c280fe9d92fd6fc');
+const unit=await readFile(new URL('unit-tests.txt',run),'utf8');assert.match(unit,/tests 61/);assert.match(unit,/pass 61/);assert.match(unit,/fail 0/);
+for(const name of ['test-plan.md','cases.md','data.md','defects.md','executions/run-20261023.md','traceability.md','test-summary.md'])assert.ok((await readFile(new URL(name,import.meta.url),'utf8')).length>100,name);
+const coverage=JSON.parse(await readFile(new URL('../../requirements/source-coverage-v0.6.json',import.meta.url),'utf8'));assert.equal(coverage.paragraphs.length,184);assert.equal(coverage.paragraphs.filter(p=>p.targets.length).length,140);
+const report={candidate:manifest.candidate,checkedAt:new Date().toISOString(),frozenFilesUnchanged:manifest.files.length,sourceFilesUnchanged:manifest.sources.length,courses:28,experiments:56,cases:217,examples:88,steps:264,quizzes:140,cornerCases:140,invalidInputs:224,uniqueCourseLayouts:504,portals:18,safetyChecks:13,oldCourses:43,unitTests:61,sourceContentItems:140,sourceLinks:256,publishedFiles:37,publicInteractiveReload:true,recordsRestored:true,allRequiredCriteria:'PASS',scopeNote:'Assertions audit actual stored evidence and candidate consistency; mathematical semantics also manually reviewed against source. No claim of real phone/Safari or student outcome testing.'};
+await writeFile(new URL('completion-audit.json',run),JSON.stringify(report,null,2));console.log(JSON.stringify(report));

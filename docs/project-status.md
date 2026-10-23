@@ -1,8 +1,8 @@
 # 项目状态
 
-## 当前迭代 v0.6 / LOCAL_ACCEPTED_PUBLISHING
+## 当前迭代 v0.6 / DELIVERED
 
-2026-10-23：用户回复“确认 v0.6，继续开发”，确认实际“高中数学必修二知识点考点整理.docx”及requirements/requirements-v0.6.md、acceptance/criteria-v0.6.md、source-map-v0.6.md。已实现五章28课、56实验、88分步例题、140练习，原43课与两类记录保留。候选r1冻结57文件，61自动测试及本地AC-046–054通过；三宽度504状态/18入口、217实验情形、140角点/224非法输入、13项异常键盘和旧43课回归通过。上传/Pages及公开站代表性交互待执行，AC-055发布部分NOT_TESTED，不提前宣称正式交付。
+2026-10-23：用户回复“确认 v0.6，继续开发”，确认实际“高中数学必修二知识点考点整理.docx”及requirements/requirements-v0.6.md、acceptance/criteria-v0.6.md、source-map-v0.6.md。已实现五章28课、56实验、88分步例题、140练习，原43课与两类记录保留。候选r1冻结57文件，61自动测试及AC-046–055十项全部PASS；三宽度504状态/18入口、217实验情形、140角点/224非法输入、13项异常键盘和旧43课回归通过。源码11b5baf已上传，Pages工作流39935981596成功，37线上文件一致，公开新课完整操作与实际刷新通过，原浏览器记录恢复。正式交付见delivery/v0.6.md与候选publication.json。
 
 现有v0.5已通过本地验收；GitHub Pages另已发布成功，真实证据与浏览器超时未测范围见delivery/github-pages.md。下方历史结论不代表v0.6已完成。
 

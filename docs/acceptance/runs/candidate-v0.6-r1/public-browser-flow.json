@@ -1,0 +1,20 @@
+{
+  "url": "https://johnhigginsuseast-jpg.github.io/Gz_math/?module=book2&lesson=b2-frequency",
+  "flow": {
+    "cases": 8,
+    "complete": true,
+    "examples": 3,
+    "id": "b2-frequency",
+    "labs": 2,
+    "quizzes": 5,
+    "steps": 9
+  },
+  "refresh": {
+    "complete": true,
+    "progress": "100",
+    "submitted": true
+  },
+  "consoleErrors": [],
+  "originalRecordsRestored": true,
+  "networkNote": "First tab had ERR_CONNECTION_RESET; direct-address retry loaded successfully, completed all steps and actual reload retained 100%. Earlier helper still targeted failed tab; final verification uses capability bound directly to tab 14."
+}

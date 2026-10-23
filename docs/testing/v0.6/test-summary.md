@@ -1,9 +1,9 @@
 # v0.6测试总结
 
-状态：LOCAL_ACCEPTED_PUBLISHING；候选candidate-v0.6-r1。冻结自动测试61/61 PASS，语法退出0。AC/TC-046–054九项本地PASS，AC/TC-055发布部分NOT_TESTED，暂不能称正式交付。
+状态：DELIVERED；候选candidate-v0.6-r1。冻结自动测试61/61 PASS，语法退出0。AC/TC-046–055共10项全部PASS；源码11b5baf已上传，GitHub Pages工作流39935981596成功，37线上文件一致、公开课真实交互与刷新通过。
 
 正式浏览器28课：56实验217默认/预设、88例题264步骤、140练习先错/订正/刷新恢复；140控件角点、224次非法输入；504课程状态与18入口页面的三宽度布局；13项重置/键盘/存储异常。旧42普通课210阶段91实验及原legacy8环节5题型回归通过，旧记录字段/字节保留。
 
 BUG-016已VERIFIED，首失败保留；旧测试数量断言的两项失败与reset比较工具的对象原型/键序差异均保留并说明。无未关闭的本地必需产品缺陷。原四DOCX、57冻结文件一致，37网页资源不含内部材料。
 
-真实执行见executions/run-20261023.md，独立验收见acceptance/runs/candidate-v0.6-r1/run.md。真实手机/Safari和学生效果未测且不在基线；线上Git/Pages结果待后续证据，不能由本地结果代替。
+真实执行见executions/run-20261023.md，独立验收见acceptance/runs/candidate-v0.6-r1/run.md；线上实际结果见publication.json、public-http.json、public-browser-flow.json。真实手机/Safari和学生效果未测且不在基线；线上仅执行代表性一课全流程，完整28课验收在本地同一候选完成，没有声称线上逐一重做全部课程。

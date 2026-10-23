@@ -1,0 +1,313 @@
+{
+  "baseUrl": "https://johnhigginsuseast-jpg.github.io/Gz_math/",
+  "checkedAt": "2026-10-23T18:02:15.7896295+08:00",
+  "files": [
+    {
+      "path": "advanced-labs.mjs",
+      "status": 200,
+      "contentType": [
+        "text/javascript; charset=utf-8"
+      ],
+      "sourceMatchesAfterNewlineNormalization": true
+    },
+    {
+      "path": "advanced-math.mjs",
+      "status": 200,
+      "contentType": [
+        "text/javascript; charset=utf-8"
+      ],
+      "sourceMatchesAfterNewlineNormalization": true
+    },
+    {
+      "path": "app.mjs",
+      "status": 200,
+      "contentType": [
+        "text/javascript; charset=utf-8"
+      ],
+      "sourceMatchesAfterNewlineNormalization": true
+    },
+    {
+      "path": "book-course.mjs",
+      "status": 200,
+      "contentType": [
+        "text/javascript; charset=utf-8"
+      ],
+      "sourceMatchesAfterNewlineNormalization": true
+    },
+    {
+      "path": "book-explog.mjs",
+      "status": 200,
+      "contentType": [
+        "text/javascript; charset=utf-8"
+      ],
+      "sourceMatchesAfterNewlineNormalization": true
+    },
+    {
+      "path": "book-functions.mjs",
+      "status": 200,
+      "contentType": [
+        "text/javascript; charset=utf-8"
+      ],
+      "sourceMatchesAfterNewlineNormalization": true
+    },
+    {
+      "path": "book-inequalities.mjs",
+      "status": 200,
+      "contentType": [
+        "text/javascript; charset=utf-8"
+      ],
+      "sourceMatchesAfterNewlineNormalization": true
+    },
+    {
+      "path": "book-labs.mjs",
+      "status": 200,
+      "contentType": [
+        "text/javascript; charset=utf-8"
+      ],
+      "sourceMatchesAfterNewlineNormalization": true
+    },
+    {
+      "path": "book-math.mjs",
+      "status": 200,
+      "contentType": [
+        "text/javascript; charset=utf-8"
+      ],
+      "sourceMatchesAfterNewlineNormalization": true
+    },
+    {
+      "path": "book-sets.mjs",
+      "status": 200,
+      "contentType": [
+        "text/javascript; charset=utf-8"
+      ],
+      "sourceMatchesAfterNewlineNormalization": true
+    },
+    {
+      "path": "book-trig.mjs",
+      "status": 200,
+      "contentType": [
+        "text/javascript; charset=utf-8"
+      ],
+      "sourceMatchesAfterNewlineNormalization": true
+    },
+    {
+      "path": "book2-complex-labs.mjs",
+      "status": 200,
+      "contentType": [
+        "text/javascript; charset=utf-8"
+      ],
+      "sourceMatchesAfterNewlineNormalization": true
+    },
+    {
+      "path": "book2-complex.mjs",
+      "status": 200,
+      "contentType": [
+        "text/javascript; charset=utf-8"
+      ],
+      "sourceMatchesAfterNewlineNormalization": true
+    },
+    {
+      "path": "book2-course.mjs",
+      "status": 200,
+      "contentType": [
+        "text/javascript; charset=utf-8"
+      ],
+      "sourceMatchesAfterNewlineNormalization": true
+    },
+    {
+      "path": "book2-data-labs.mjs",
+      "status": 200,
+      "contentType": [
+        "text/javascript; charset=utf-8"
+      ],
+      "sourceMatchesAfterNewlineNormalization": true
+    },
+    {
+      "path": "book2-labs.mjs",
+      "status": 200,
+      "contentType": [
+        "text/javascript; charset=utf-8"
+      ],
+      "sourceMatchesAfterNewlineNormalization": true
+    },
+    {
+      "path": "book2-math.mjs",
+      "status": 200,
+      "contentType": [
+        "text/javascript; charset=utf-8"
+      ],
+      "sourceMatchesAfterNewlineNormalization": true
+    },
+    {
+      "path": "book2-probability.mjs",
+      "status": 200,
+      "contentType": [
+        "text/javascript; charset=utf-8"
+      ],
+      "sourceMatchesAfterNewlineNormalization": true
+    },
+    {
+      "path": "book2-solid-labs.mjs",
+      "status": 200,
+      "contentType": [
+        "text/javascript; charset=utf-8"
+      ],
+      "sourceMatchesAfterNewlineNormalization": true
+    },
+    {
+      "path": "book2-solid.mjs",
+      "status": 200,
+      "contentType": [
+        "text/javascript; charset=utf-8"
+      ],
+      "sourceMatchesAfterNewlineNormalization": true
+    },
+    {
+      "path": "book2-statistics.mjs",
+      "status": 200,
+      "contentType": [
+        "text/javascript; charset=utf-8"
+      ],
+      "sourceMatchesAfterNewlineNormalization": true
+    },
+    {
+      "path": "book2-vector-labs.mjs",
+      "status": 200,
+      "contentType": [
+        "text/javascript; charset=utf-8"
+      ],
+      "sourceMatchesAfterNewlineNormalization": true
+    },
+    {
+      "path": "book2-vectors.mjs",
+      "status": 200,
+      "contentType": [
+        "text/javascript; charset=utf-8"
+      ],
+      "sourceMatchesAfterNewlineNormalization": true
+    },
+    {
+      "path": "boot.mjs",
+      "status": 200,
+      "contentType": [
+        "text/javascript; charset=utf-8"
+      ],
+      "sourceMatchesAfterNewlineNormalization": true
+    },
+    {
+      "path": "conic-course.mjs",
+      "status": 200,
+      "contentType": [
+        "text/javascript; charset=utf-8"
+      ],
+      "sourceMatchesAfterNewlineNormalization": true
+    },
+    {
+      "path": "course.mjs",
+      "status": 200,
+      "contentType": [
+        "text/javascript; charset=utf-8"
+      ],
+      "sourceMatchesAfterNewlineNormalization": true
+    },
+    {
+      "path": "index.html",
+      "status": 200,
+      "contentType": [
+        "text/html; charset=utf-8"
+      ],
+      "sourceMatchesAfterNewlineNormalization": true
+    },
+    {
+      "path": "lesson-data.mjs",
+      "status": 200,
+      "contentType": [
+        "text/javascript; charset=utf-8"
+      ],
+      "sourceMatchesAfterNewlineNormalization": true
+    },
+    {
+      "path": "math.mjs",
+      "status": 200,
+      "contentType": [
+        "text/javascript; charset=utf-8"
+      ],
+      "sourceMatchesAfterNewlineNormalization": true
+    },
+    {
+      "path": "module-app.mjs",
+      "status": 200,
+      "contentType": [
+        "text/javascript; charset=utf-8"
+      ],
+      "sourceMatchesAfterNewlineNormalization": true
+    },
+    {
+      "path": "module-course.mjs",
+      "status": 200,
+      "contentType": [
+        "text/javascript; charset=utf-8"
+      ],
+      "sourceMatchesAfterNewlineNormalization": true
+    },
+    {
+      "path": "module-math.mjs",
+      "status": 200,
+      "contentType": [
+        "text/javascript; charset=utf-8"
+      ],
+      "sourceMatchesAfterNewlineNormalization": true
+    },
+    {
+      "path": "module.css",
+      "status": 200,
+      "contentType": [
+        "text/css; charset=utf-8"
+      ],
+      "sourceMatchesAfterNewlineNormalization": true
+    },
+    {
+      "path": "solid-course.mjs",
+      "status": 200,
+      "contentType": [
+        "text/javascript; charset=utf-8"
+      ],
+      "sourceMatchesAfterNewlineNormalization": true
+    },
+    {
+      "path": "state.mjs",
+      "status": 200,
+      "contentType": [
+        "text/javascript; charset=utf-8"
+      ],
+      "sourceMatchesAfterNewlineNormalization": true
+    },
+    {
+      "path": "styles.css",
+      "status": 200,
+      "contentType": [
+        "text/css; charset=utf-8"
+      ],
+      "sourceMatchesAfterNewlineNormalization": true
+    },
+    {
+      "path": "assets/logo.svg",
+      "status": 200,
+      "contentType": [
+        "image/svg+xml"
+      ],
+      "sourceMatchesAfterNewlineNormalization": true
+    }
+  ],
+  "deepLinkStatus": 200,
+  "privatePaths": [
+    {
+      "path": "docs/requirements/requirements-v0.6.md",
+      "status": 404
+    },
+    {
+      "path": "高中数学必修二知识点考点整理.docx",
+      "status": 404
+    }
+  ]
+}

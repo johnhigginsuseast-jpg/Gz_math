@@ -1,0 +1,21 @@
+{
+  "version": "0.6.0",
+  "candidate": "candidate-v0.6-r1",
+  "sourceCommit": "11b5baff29501120ed1531527c280fe9d92fd6fc",
+  "repository": "https://github.com/johnhigginsuseast-jpg/Gz_math",
+  "pagesUrl": "https://johnhigginsuseast-jpg.github.io/Gz_math/?module=book2",
+  "workflowRunId": 39935981596,
+  "workflowUrl": "https://github.com/johnhigginsuseast-jpg/Gz_math/actions/runs/39935981596",
+  "workflowStatus": "completed",
+  "workflowConclusion": "success",
+  "httpEvidence": "public-http.json",
+  "publicBrowserEvidence": "public-browser-flow.json",
+  "remoteFilesMatched": 37,
+  "sourceComparison": "CRLF/LF normalized text equality",
+  "publicCourse": "b2-frequency",
+  "publicInteractiveFlowPassed": true,
+  "actualReloadProgress": 100,
+  "browserRecordsRestored": true,
+  "originalSitesUpdated": false,
+  "checkedAt": "2026-10-23T18:13:43.4826329+08:00"
+}
