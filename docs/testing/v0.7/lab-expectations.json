@@ -1,0 +1,13 @@
+{
+ "description":"按定义和手算填写；每行默认/全部预设，不从模型answer生成。完整数值另以直接累加、解析斜率、根代回核验。",
+ "answers":{
+  "e2-index":[0,1,0,0],"e2-prefix":[0,0,1],"e2-sum-term":[0,1,0,0],"e2-retreat":[0,1,0],
+  "e2-ap-term":[0,1,2],"e2-ap-mean":[1,0,1],"e2-ap-index":[0,0,1,0],"e2-ap-parity":[1,1,0,0],"e2-ap-pair":[0,0,0,0],"e2-ap-best":[1,1,0,0],
+  "e2-gp-term":[1,2,3,4,0],"e2-gp-mean":[0,0,1,1],"e2-gp-sum":[1,0,1,2],"e2-gp-limit":[1,1,1],"e2-gp-index":[0,0,1,0,2],"e2-gp-block":[1,1,0,0,2],
+  "e2-recur":[0,0,1],"e2-shift":[0,1,0],"e2-telescope":[0,0,0],"e2-weight":[0,1,0],"e2-induct-chain":[0,0,0,0],"e2-induct-step":[0,0,0],
+  "e2-secant":[0,0,0,1],"e2-cusp":[1,0,1,2],"e2-tangent":[0,0,0,1],"e2-common-tangent":[0,0,1],"e2-basic-derivative":[0,1,1,0,1],"e2-exp-base":[0,1,2,0],
+  "e2-product":[1,0,1],"e2-quotient":[0,1,0,0],"e2-chain-exp":[0,1,2],"e2-chain-log":[0,1,1,0],"e2-sign":[2,1,0,2],"e2-domain-break":[2,3,1,0],
+  "e2-param":[0,0,0,1],"e2-flat":[1,0,1,1,1],"e2-local":[1,0,1,0],"e2-nondiff-min":[0,0,1],"e2-closed-best":[0,1,0,1],"e2-open-best":[1,0,1,1,1],
+  "e2-quant-closed":[1,1,0,1],"e2-quant-open":[0,0,1,0],"e2-cubic-zeros":[2,1,2,0],"e2-log-zeros":[2,1,1,0,1],"e2-proof-gap":[0,1,1,0,2],"e2-log-bounds":[0,0,0],"e2-shift-roots":[1,0,1],"e2-log-mean":[0,1,2,0]
+ }
+}

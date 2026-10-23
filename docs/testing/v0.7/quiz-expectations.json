@@ -1,0 +1,10 @@
+{
+ "description":"逐题按题干与解析独立复核的选项索引；未读取课程answer作生成输入。",
+ "answers":{
+ "e2-sequence-concept":[1,1,1,1,2],"e2-term-sum":[1,0,0,1,1],"e2-ap-formula":[0,1,1,1,2],"e2-ap-properties":[0,1,2,0,1],"e2-ap-sum":[1,1,2,1,1],
+ "e2-gp-formula":[1,1,2,2,1],"e2-gp-sum":[1,0,1,2,2],"e2-gp-properties":[0,1,1,1,1],"e2-recurrence":[1,1,1,0,1],"e2-series-methods":[1,0,1,0,1],"e2-induction":[1,1,2,0,1],
+ "e2-rate-derivative":[1,1,1,0,1],"e2-tangents":[0,1,1,2,1],"e2-derivative-formulas":[0,1,2,1,2],"e2-derivative-rules":[1,2,1,2,1],"e2-chain-rule":[1,1,1,1,1],
+ "e2-monotonicity":[1,1,1,0,0],"e2-parameter-monotonicity":[1,0,1,0,1],"e2-local-extrema":[1,1,1,0,1],"e2-global-extrema":[1,1,2,1,0],
+ "e2-quantified-parameters":[0,1,0,1,0],"e2-zeros":[2,1,1,1,1],"e2-inequalities":[0,1,1,1,0],"e2-extremum-shift":[1,1,2,1,1]
+ }
+}

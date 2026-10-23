@@ -1,0 +1,254 @@
+[
+  {
+    "cases": 7,
+    "complete": true,
+    "examples": 3,
+    "id": "b2-vector-concept",
+    "labs": 2,
+    "quizzes": 5,
+    "steps": 9
+  },
+  {
+    "cases": 8,
+    "complete": true,
+    "examples": 3,
+    "id": "b2-vector-add",
+    "labs": 2,
+    "quizzes": 5,
+    "steps": 9
+  },
+  {
+    "cases": 7,
+    "complete": true,
+    "examples": 3,
+    "id": "b2-vector-scale",
+    "labs": 2,
+    "quizzes": 5,
+    "steps": 9
+  },
+  {
+    "cases": 7,
+    "complete": true,
+    "examples": 3,
+    "id": "b2-vector-basis",
+    "labs": 2,
+    "quizzes": 5,
+    "steps": 9
+  },
+  {
+    "cases": 8,
+    "complete": true,
+    "examples": 3,
+    "id": "b2-vector-dot",
+    "labs": 2,
+    "quizzes": 5,
+    "steps": 9
+  },
+  {
+    "cases": 9,
+    "complete": true,
+    "examples": 3,
+    "id": "b2-cosine-rule",
+    "labs": 2,
+    "quizzes": 5,
+    "steps": 9
+  },
+  {
+    "cases": 9,
+    "complete": true,
+    "examples": 3,
+    "id": "b2-sine-rule",
+    "labs": 2,
+    "quizzes": 5,
+    "steps": 9
+  },
+  {
+    "cases": 8,
+    "complete": true,
+    "examples": 5,
+    "id": "b2-triangle-area",
+    "labs": 2,
+    "quizzes": 5,
+    "steps": 15
+  },
+  {
+    "cases": 8,
+    "complete": true,
+    "examples": 3,
+    "id": "b2-complex-concept",
+    "labs": 2,
+    "quizzes": 5,
+    "steps": 9
+  },
+  {
+    "cases": 9,
+    "complete": true,
+    "examples": 3,
+    "id": "b2-complex-arithmetic",
+    "labs": 2,
+    "quizzes": 5,
+    "steps": 9
+  },
+  {
+    "cases": 8,
+    "complete": true,
+    "examples": 3,
+    "id": "b2-complex-geometry",
+    "labs": 2,
+    "quizzes": 5,
+    "steps": 9
+  },
+  {
+    "cases": 8,
+    "complete": true,
+    "examples": 3,
+    "id": "b2-solid-shapes",
+    "labs": 2,
+    "quizzes": 5,
+    "steps": 9
+  },
+  {
+    "cases": 6,
+    "complete": true,
+    "examples": 3,
+    "id": "b2-oblique",
+    "labs": 2,
+    "quizzes": 5,
+    "steps": 9
+  },
+  {
+    "cases": 7,
+    "complete": true,
+    "examples": 3,
+    "id": "b2-solid-surface",
+    "labs": 2,
+    "quizzes": 5,
+    "steps": 9
+  },
+  {
+    "cases": 7,
+    "complete": true,
+    "examples": 5,
+    "id": "b2-solid-volume",
+    "labs": 2,
+    "quizzes": 5,
+    "steps": 15
+  },
+  {
+    "cases": 9,
+    "complete": true,
+    "examples": 3,
+    "id": "b2-space-position",
+    "labs": 2,
+    "quizzes": 5,
+    "steps": 9
+  },
+  {
+    "cases": 6,
+    "complete": true,
+    "examples": 3,
+    "id": "b2-space-parallel",
+    "labs": 2,
+    "quizzes": 5,
+    "steps": 9
+  },
+  {
+    "cases": 8,
+    "complete": true,
+    "examples": 3,
+    "id": "b2-space-perpendicular",
+    "labs": 2,
+    "quizzes": 5,
+    "steps": 9
+  },
+  {
+    "cases": 9,
+    "complete": true,
+    "examples": 3,
+    "id": "b2-space-angle-distance",
+    "labs": 2,
+    "quizzes": 5,
+    "steps": 9
+  },
+  {
+    "cases": 8,
+    "complete": true,
+    "examples": 3,
+    "id": "b2-random-sampling",
+    "labs": 2,
+    "quizzes": 5,
+    "steps": 9
+  },
+  {
+    "cases": 6,
+    "complete": true,
+    "examples": 3,
+    "id": "b2-stratified",
+    "labs": 2,
+    "quizzes": 5,
+    "steps": 9
+  },
+  {
+    "cases": 7,
+    "complete": true,
+    "examples": 3,
+    "id": "b2-data-center",
+    "labs": 2,
+    "quizzes": 5,
+    "steps": 9
+  },
+  {
+    "cases": 8,
+    "complete": true,
+    "examples": 3,
+    "id": "b2-data-spread",
+    "labs": 2,
+    "quizzes": 5,
+    "steps": 9
+  },
+  {
+    "cases": 8,
+    "complete": true,
+    "examples": 3,
+    "id": "b2-histogram",
+    "labs": 2,
+    "quizzes": 5,
+    "steps": 9
+  },
+  {
+    "cases": 8,
+    "complete": true,
+    "examples": 3,
+    "id": "b2-events",
+    "labs": 2,
+    "quizzes": 5,
+    "steps": 9
+  },
+  {
+    "cases": 7,
+    "complete": true,
+    "examples": 3,
+    "id": "b2-classical",
+    "labs": 2,
+    "quizzes": 5,
+    "steps": 9
+  },
+  {
+    "cases": 9,
+    "complete": true,
+    "examples": 3,
+    "id": "b2-independent",
+    "labs": 2,
+    "quizzes": 5,
+    "steps": 9
+  },
+  {
+    "cases": 8,
+    "complete": true,
+    "examples": 3,
+    "id": "b2-frequency",
+    "labs": 2,
+    "quizzes": 5,
+    "steps": 9
+  }
+]

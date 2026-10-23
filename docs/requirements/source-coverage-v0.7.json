@@ -1,0 +1,1826 @@
+{
+  "source": "高中知识点/高中数学选择性必修二知识点考点整理.docx",
+  "review": "逐段人工对照：原文错误以课程适用条件订正，标题/建议落在章、概念或方法；公式、操作与解析可独立查验。",
+  "paragraphs": [
+    {
+      "id": "P001",
+      "targets": [
+        {
+          "lesson": "e2-sequence-concept",
+          "file": "site/elective2-sequences.mjs",
+          "fields": [
+            "notes",
+            "examples",
+            "quizzes",
+            "labs"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P002",
+      "targets": [
+        {
+          "lesson": "e2-sequence-concept",
+          "file": "site/elective2-sequences.mjs",
+          "fields": [
+            "notes",
+            "examples",
+            "quizzes",
+            "labs"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P003",
+      "targets": [
+        {
+          "lesson": "e2-sequence-concept",
+          "file": "site/elective2-sequences.mjs",
+          "fields": [
+            "notes",
+            "examples",
+            "quizzes",
+            "labs"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P004",
+      "targets": [
+        {
+          "lesson": "e2-sequence-concept",
+          "file": "site/elective2-sequences.mjs",
+          "fields": [
+            "notes",
+            "examples",
+            "quizzes",
+            "labs"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P005",
+      "targets": [
+        {
+          "lesson": "e2-sequence-concept",
+          "file": "site/elective2-sequences.mjs",
+          "fields": [
+            "notes",
+            "examples",
+            "quizzes",
+            "labs"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P006",
+      "targets": [
+        {
+          "lesson": "e2-sequence-concept",
+          "file": "site/elective2-sequences.mjs",
+          "fields": [
+            "notes",
+            "examples",
+            "quizzes",
+            "labs"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P007",
+      "targets": [
+        {
+          "lesson": "e2-sequence-concept",
+          "file": "site/elective2-sequences.mjs",
+          "fields": [
+            "notes",
+            "examples",
+            "quizzes",
+            "labs"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P008",
+      "targets": [
+        {
+          "lesson": "e2-sequence-concept",
+          "file": "site/elective2-sequences.mjs",
+          "fields": [
+            "notes",
+            "examples",
+            "quizzes",
+            "labs"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P009",
+      "targets": [
+        {
+          "lesson": "e2-sequence-concept",
+          "file": "site/elective2-sequences.mjs",
+          "fields": [
+            "notes",
+            "examples",
+            "quizzes",
+            "labs"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P010",
+      "targets": [
+        {
+          "lesson": "e2-sequence-concept",
+          "file": "site/elective2-sequences.mjs",
+          "fields": [
+            "notes",
+            "examples",
+            "quizzes",
+            "labs"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P011",
+      "targets": [
+        {
+          "lesson": "e2-sequence-concept",
+          "file": "site/elective2-sequences.mjs",
+          "fields": [
+            "notes",
+            "examples",
+            "quizzes",
+            "labs"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P012",
+      "targets": [
+        {
+          "lesson": "e2-sequence-concept",
+          "file": "site/elective2-sequences.mjs",
+          "fields": [
+            "notes",
+            "examples",
+            "quizzes",
+            "labs"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P013",
+      "targets": [
+        {
+          "lesson": "e2-term-sum",
+          "file": "site/elective2-sequences.mjs",
+          "fields": [
+            "notes",
+            "examples",
+            "quizzes",
+            "labs"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P014",
+      "targets": [
+        {
+          "lesson": "e2-term-sum",
+          "file": "site/elective2-sequences.mjs",
+          "fields": [
+            "notes",
+            "examples",
+            "quizzes",
+            "labs"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P015",
+      "targets": [
+        {
+          "lesson": "e2-term-sum",
+          "file": "site/elective2-sequences.mjs",
+          "fields": [
+            "notes",
+            "examples",
+            "quizzes",
+            "labs"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P016",
+      "targets": [
+        {
+          "lesson": "e2-ap-formula",
+          "file": "site/elective2-sequences.mjs",
+          "fields": [
+            "notes",
+            "examples",
+            "quizzes",
+            "labs"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P017",
+      "targets": [
+        {
+          "lesson": "e2-ap-formula",
+          "file": "site/elective2-sequences.mjs",
+          "fields": [
+            "notes",
+            "examples",
+            "quizzes",
+            "labs"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P018",
+      "targets": [
+        {
+          "lesson": "e2-ap-formula",
+          "file": "site/elective2-sequences.mjs",
+          "fields": [
+            "notes",
+            "examples",
+            "quizzes",
+            "labs"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P019",
+      "targets": [
+        {
+          "lesson": "e2-ap-formula",
+          "file": "site/elective2-sequences.mjs",
+          "fields": [
+            "notes",
+            "examples",
+            "quizzes",
+            "labs"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P020",
+      "targets": [
+        {
+          "lesson": "e2-ap-formula",
+          "file": "site/elective2-sequences.mjs",
+          "fields": [
+            "notes",
+            "examples",
+            "quizzes",
+            "labs"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P021",
+      "targets": [
+        {
+          "lesson": "e2-ap-sum",
+          "file": "site/elective2-sequences.mjs",
+          "fields": [
+            "notes",
+            "examples",
+            "quizzes",
+            "labs"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P022",
+      "targets": [
+        {
+          "lesson": "e2-ap-sum",
+          "file": "site/elective2-sequences.mjs",
+          "fields": [
+            "notes",
+            "examples",
+            "quizzes",
+            "labs"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P023",
+      "targets": [
+        {
+          "lesson": "e2-ap-properties",
+          "file": "site/elective2-sequences.mjs",
+          "fields": [
+            "notes",
+            "examples",
+            "quizzes",
+            "labs"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P024",
+      "targets": [
+        {
+          "lesson": "e2-ap-properties",
+          "file": "site/elective2-sequences.mjs",
+          "fields": [
+            "notes",
+            "examples",
+            "quizzes",
+            "labs"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P025",
+      "targets": [
+        {
+          "lesson": "e2-ap-properties",
+          "file": "site/elective2-sequences.mjs",
+          "fields": [
+            "notes",
+            "examples",
+            "quizzes",
+            "labs"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P026",
+      "targets": [
+        {
+          "lesson": "e2-ap-properties",
+          "file": "site/elective2-sequences.mjs",
+          "fields": [
+            "notes",
+            "examples",
+            "quizzes",
+            "labs"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P027",
+      "targets": [
+        {
+          "lesson": "e2-ap-properties",
+          "file": "site/elective2-sequences.mjs",
+          "fields": [
+            "notes",
+            "examples",
+            "quizzes",
+            "labs"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P028",
+      "targets": [
+        {
+          "lesson": "e2-ap-sum",
+          "file": "site/elective2-sequences.mjs",
+          "fields": [
+            "notes",
+            "examples",
+            "quizzes",
+            "labs"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P029",
+      "targets": [
+        {
+          "lesson": "e2-ap-properties",
+          "file": "site/elective2-sequences.mjs",
+          "fields": [
+            "notes",
+            "examples",
+            "quizzes",
+            "labs"
+          ]
+        },
+        {
+          "lesson": "e2-ap-sum",
+          "file": "site/elective2-sequences.mjs",
+          "fields": [
+            "notes",
+            "examples",
+            "quizzes",
+            "labs"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P030",
+      "targets": [
+        {
+          "lesson": "e2-ap-sum",
+          "file": "site/elective2-sequences.mjs",
+          "fields": [
+            "notes",
+            "examples",
+            "quizzes",
+            "labs"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P031",
+      "targets": [
+        {
+          "lesson": "e2-gp-formula",
+          "file": "site/elective2-sequences.mjs",
+          "fields": [
+            "notes",
+            "examples",
+            "quizzes",
+            "labs"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P032",
+      "targets": [
+        {
+          "lesson": "e2-gp-formula",
+          "file": "site/elective2-sequences.mjs",
+          "fields": [
+            "notes",
+            "examples",
+            "quizzes",
+            "labs"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P033",
+      "targets": [
+        {
+          "lesson": "e2-gp-formula",
+          "file": "site/elective2-sequences.mjs",
+          "fields": [
+            "notes",
+            "examples",
+            "quizzes",
+            "labs"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P034",
+      "targets": [
+        {
+          "lesson": "e2-gp-formula",
+          "file": "site/elective2-sequences.mjs",
+          "fields": [
+            "notes",
+            "examples",
+            "quizzes",
+            "labs"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P035",
+      "targets": [
+        {
+          "lesson": "e2-gp-formula",
+          "file": "site/elective2-sequences.mjs",
+          "fields": [
+            "notes",
+            "examples",
+            "quizzes",
+            "labs"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P036",
+      "targets": [
+        {
+          "lesson": "e2-gp-sum",
+          "file": "site/elective2-sequences.mjs",
+          "fields": [
+            "notes",
+            "examples",
+            "quizzes",
+            "labs"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P037",
+      "targets": [
+        {
+          "lesson": "e2-gp-sum",
+          "file": "site/elective2-sequences.mjs",
+          "fields": [
+            "notes",
+            "examples",
+            "quizzes",
+            "labs"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P038",
+      "targets": [
+        {
+          "lesson": "e2-gp-sum",
+          "file": "site/elective2-sequences.mjs",
+          "fields": [
+            "notes",
+            "examples",
+            "quizzes",
+            "labs"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P039",
+      "targets": [
+        {
+          "lesson": "e2-gp-properties",
+          "file": "site/elective2-sequences.mjs",
+          "fields": [
+            "notes",
+            "examples",
+            "quizzes",
+            "labs"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P040",
+      "targets": [
+        {
+          "lesson": "e2-gp-properties",
+          "file": "site/elective2-sequences.mjs",
+          "fields": [
+            "notes",
+            "examples",
+            "quizzes",
+            "labs"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P041",
+      "targets": [
+        {
+          "lesson": "e2-gp-properties",
+          "file": "site/elective2-sequences.mjs",
+          "fields": [
+            "notes",
+            "examples",
+            "quizzes",
+            "labs"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P042",
+      "targets": [
+        {
+          "lesson": "e2-gp-properties",
+          "file": "site/elective2-sequences.mjs",
+          "fields": [
+            "notes",
+            "examples",
+            "quizzes",
+            "labs"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P043",
+      "targets": [
+        {
+          "lesson": "e2-gp-properties",
+          "file": "site/elective2-sequences.mjs",
+          "fields": [
+            "notes",
+            "examples",
+            "quizzes",
+            "labs"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P044",
+      "targets": [
+        {
+          "lesson": "e2-gp-formula",
+          "file": "site/elective2-sequences.mjs",
+          "fields": [
+            "notes",
+            "examples",
+            "quizzes",
+            "labs"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P045",
+      "targets": [
+        {
+          "lesson": "e2-gp-formula",
+          "file": "site/elective2-sequences.mjs",
+          "fields": [
+            "notes",
+            "examples",
+            "quizzes",
+            "labs"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P046",
+      "targets": [
+        {
+          "lesson": "e2-gp-formula",
+          "file": "site/elective2-sequences.mjs",
+          "fields": [
+            "notes",
+            "examples",
+            "quizzes",
+            "labs"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P047",
+      "targets": [
+        {
+          "lesson": "e2-induction",
+          "file": "site/elective2-sequences.mjs",
+          "fields": [
+            "notes",
+            "examples",
+            "quizzes",
+            "labs"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P048",
+      "targets": [
+        {
+          "lesson": "e2-induction",
+          "file": "site/elective2-sequences.mjs",
+          "fields": [
+            "notes",
+            "examples",
+            "quizzes",
+            "labs"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P049",
+      "targets": [
+        {
+          "lesson": "e2-induction",
+          "file": "site/elective2-sequences.mjs",
+          "fields": [
+            "notes",
+            "examples",
+            "quizzes",
+            "labs"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P050",
+      "targets": [
+        {
+          "lesson": "e2-induction",
+          "file": "site/elective2-sequences.mjs",
+          "fields": [
+            "notes",
+            "examples",
+            "quizzes",
+            "labs"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P051",
+      "targets": [
+        {
+          "lesson": "e2-induction",
+          "file": "site/elective2-sequences.mjs",
+          "fields": [
+            "notes",
+            "examples",
+            "quizzes",
+            "labs"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P052",
+      "targets": [
+        {
+          "lesson": "e2-induction",
+          "file": "site/elective2-sequences.mjs",
+          "fields": [
+            "notes",
+            "examples",
+            "quizzes",
+            "labs"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P053",
+      "targets": [
+        {
+          "lesson": "e2-induction",
+          "file": "site/elective2-sequences.mjs",
+          "fields": [
+            "notes",
+            "examples",
+            "quizzes",
+            "labs"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P054",
+      "targets": [
+        {
+          "lesson": "e2-rate-derivative",
+          "file": "site/elective2-derivatives.mjs",
+          "fields": [
+            "notes",
+            "examples",
+            "quizzes",
+            "labs"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P055",
+      "targets": [
+        {
+          "lesson": "e2-rate-derivative",
+          "file": "site/elective2-derivatives.mjs",
+          "fields": [
+            "notes",
+            "examples",
+            "quizzes",
+            "labs"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P056",
+      "targets": [
+        {
+          "lesson": "e2-rate-derivative",
+          "file": "site/elective2-derivatives.mjs",
+          "fields": [
+            "notes",
+            "examples",
+            "quizzes",
+            "labs"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P057",
+      "targets": [
+        {
+          "lesson": "e2-rate-derivative",
+          "file": "site/elective2-derivatives.mjs",
+          "fields": [
+            "notes",
+            "examples",
+            "quizzes",
+            "labs"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P058",
+      "targets": [
+        {
+          "lesson": "e2-rate-derivative",
+          "file": "site/elective2-derivatives.mjs",
+          "fields": [
+            "notes",
+            "examples",
+            "quizzes",
+            "labs"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P059",
+      "targets": [
+        {
+          "lesson": "e2-rate-derivative",
+          "file": "site/elective2-derivatives.mjs",
+          "fields": [
+            "notes",
+            "examples",
+            "quizzes",
+            "labs"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P060",
+      "targets": [
+        {
+          "lesson": "e2-tangents",
+          "file": "site/elective2-derivatives.mjs",
+          "fields": [
+            "notes",
+            "examples",
+            "quizzes",
+            "labs"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P061",
+      "targets": [
+        {
+          "lesson": "e2-tangents",
+          "file": "site/elective2-derivatives.mjs",
+          "fields": [
+            "notes",
+            "examples",
+            "quizzes",
+            "labs"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P062",
+      "targets": [
+        {
+          "lesson": "e2-rate-derivative",
+          "file": "site/elective2-derivatives.mjs",
+          "fields": [
+            "notes",
+            "examples",
+            "quizzes",
+            "labs"
+          ]
+        },
+        {
+          "lesson": "e2-tangents",
+          "file": "site/elective2-derivatives.mjs",
+          "fields": [
+            "notes",
+            "examples",
+            "quizzes",
+            "labs"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P063",
+      "targets": [
+        {
+          "lesson": "e2-tangents",
+          "file": "site/elective2-derivatives.mjs",
+          "fields": [
+            "notes",
+            "examples",
+            "quizzes",
+            "labs"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P064",
+      "targets": [
+        {
+          "lesson": "e2-derivative-formulas",
+          "file": "site/elective2-derivatives.mjs",
+          "fields": [
+            "notes",
+            "examples",
+            "quizzes",
+            "labs"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P065",
+      "targets": [
+        {
+          "lesson": "e2-derivative-formulas",
+          "file": "site/elective2-derivatives.mjs",
+          "fields": [
+            "notes",
+            "examples",
+            "quizzes",
+            "labs"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P066",
+      "targets": [
+        {
+          "lesson": "e2-derivative-formulas",
+          "file": "site/elective2-derivatives.mjs",
+          "fields": [
+            "notes",
+            "examples",
+            "quizzes",
+            "labs"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P067",
+      "targets": [
+        {
+          "lesson": "e2-derivative-formulas",
+          "file": "site/elective2-derivatives.mjs",
+          "fields": [
+            "notes",
+            "examples",
+            "quizzes",
+            "labs"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P068",
+      "targets": [
+        {
+          "lesson": "e2-derivative-formulas",
+          "file": "site/elective2-derivatives.mjs",
+          "fields": [
+            "notes",
+            "examples",
+            "quizzes",
+            "labs"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P069",
+      "targets": [
+        {
+          "lesson": "e2-derivative-formulas",
+          "file": "site/elective2-derivatives.mjs",
+          "fields": [
+            "notes",
+            "examples",
+            "quizzes",
+            "labs"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P070",
+      "targets": [
+        {
+          "lesson": "e2-derivative-rules",
+          "file": "site/elective2-derivatives.mjs",
+          "fields": [
+            "notes",
+            "examples",
+            "quizzes",
+            "labs"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P071",
+      "targets": [
+        {
+          "lesson": "e2-derivative-rules",
+          "file": "site/elective2-derivatives.mjs",
+          "fields": [
+            "notes",
+            "examples",
+            "quizzes",
+            "labs"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P072",
+      "targets": [
+        {
+          "lesson": "e2-derivative-rules",
+          "file": "site/elective2-derivatives.mjs",
+          "fields": [
+            "notes",
+            "examples",
+            "quizzes",
+            "labs"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P073",
+      "targets": [
+        {
+          "lesson": "e2-derivative-rules",
+          "file": "site/elective2-derivatives.mjs",
+          "fields": [
+            "notes",
+            "examples",
+            "quizzes",
+            "labs"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P074",
+      "targets": [
+        {
+          "lesson": "e2-chain-rule",
+          "file": "site/elective2-derivatives.mjs",
+          "fields": [
+            "notes",
+            "examples",
+            "quizzes",
+            "labs"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P075",
+      "targets": [
+        {
+          "lesson": "e2-chain-rule",
+          "file": "site/elective2-derivatives.mjs",
+          "fields": [
+            "notes",
+            "examples",
+            "quizzes",
+            "labs"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P076",
+      "targets": [
+        {
+          "lesson": "e2-chain-rule",
+          "file": "site/elective2-derivatives.mjs",
+          "fields": [
+            "notes",
+            "examples",
+            "quizzes",
+            "labs"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P077",
+      "targets": [
+        {
+          "lesson": "e2-chain-rule",
+          "file": "site/elective2-derivatives.mjs",
+          "fields": [
+            "notes",
+            "examples",
+            "quizzes",
+            "labs"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P078",
+      "targets": [
+        {
+          "lesson": "e2-chain-rule",
+          "file": "site/elective2-derivatives.mjs",
+          "fields": [
+            "notes",
+            "examples",
+            "quizzes",
+            "labs"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P079",
+      "targets": [
+        {
+          "lesson": "e2-monotonicity",
+          "file": "site/elective2-derivatives.mjs",
+          "fields": [
+            "notes",
+            "examples",
+            "quizzes",
+            "labs"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P080",
+      "targets": [
+        {
+          "lesson": "e2-monotonicity",
+          "file": "site/elective2-derivatives.mjs",
+          "fields": [
+            "notes",
+            "examples",
+            "quizzes",
+            "labs"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P081",
+      "targets": [
+        {
+          "lesson": "e2-monotonicity",
+          "file": "site/elective2-derivatives.mjs",
+          "fields": [
+            "notes",
+            "examples",
+            "quizzes",
+            "labs"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P082",
+      "targets": [
+        {
+          "lesson": "e2-monotonicity",
+          "file": "site/elective2-derivatives.mjs",
+          "fields": [
+            "notes",
+            "examples",
+            "quizzes",
+            "labs"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P083",
+      "targets": [
+        {
+          "lesson": "e2-parameter-monotonicity",
+          "file": "site/elective2-derivatives.mjs",
+          "fields": [
+            "notes",
+            "examples",
+            "quizzes",
+            "labs"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P084",
+      "targets": [
+        {
+          "lesson": "e2-local-extrema",
+          "file": "site/elective2-derivatives.mjs",
+          "fields": [
+            "notes",
+            "examples",
+            "quizzes",
+            "labs"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P085",
+      "targets": [
+        {
+          "lesson": "e2-local-extrema",
+          "file": "site/elective2-derivatives.mjs",
+          "fields": [
+            "notes",
+            "examples",
+            "quizzes",
+            "labs"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P086",
+      "targets": [
+        {
+          "lesson": "e2-local-extrema",
+          "file": "site/elective2-derivatives.mjs",
+          "fields": [
+            "notes",
+            "examples",
+            "quizzes",
+            "labs"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P087",
+      "targets": [
+        {
+          "lesson": "e2-local-extrema",
+          "file": "site/elective2-derivatives.mjs",
+          "fields": [
+            "notes",
+            "examples",
+            "quizzes",
+            "labs"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P088",
+      "targets": [
+        {
+          "lesson": "e2-global-extrema",
+          "file": "site/elective2-derivatives.mjs",
+          "fields": [
+            "notes",
+            "examples",
+            "quizzes",
+            "labs"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P089",
+      "targets": [
+        {
+          "lesson": "e2-global-extrema",
+          "file": "site/elective2-derivatives.mjs",
+          "fields": [
+            "notes",
+            "examples",
+            "quizzes",
+            "labs"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P090",
+      "targets": [
+        {
+          "lesson": "e2-global-extrema",
+          "file": "site/elective2-derivatives.mjs",
+          "fields": [
+            "notes",
+            "examples",
+            "quizzes",
+            "labs"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P091",
+      "targets": [
+        {
+          "lesson": "e2-global-extrema",
+          "file": "site/elective2-derivatives.mjs",
+          "fields": [
+            "notes",
+            "examples",
+            "quizzes",
+            "labs"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P092",
+      "targets": [
+        {
+          "lesson": "e2-quantified-parameters",
+          "file": "site/elective2-derivatives.mjs",
+          "fields": [
+            "notes",
+            "examples",
+            "quizzes",
+            "labs"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P093",
+      "targets": [
+        {
+          "lesson": "e2-quantified-parameters",
+          "file": "site/elective2-derivatives.mjs",
+          "fields": [
+            "notes",
+            "examples",
+            "quizzes",
+            "labs"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P094",
+      "targets": [
+        {
+          "lesson": "e2-quantified-parameters",
+          "file": "site/elective2-derivatives.mjs",
+          "fields": [
+            "notes",
+            "examples",
+            "quizzes",
+            "labs"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P095",
+      "targets": [
+        {
+          "lesson": "e2-zeros",
+          "file": "site/elective2-derivatives.mjs",
+          "fields": [
+            "notes",
+            "examples",
+            "quizzes",
+            "labs"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P096",
+      "targets": [
+        {
+          "lesson": "e2-zeros",
+          "file": "site/elective2-derivatives.mjs",
+          "fields": [
+            "notes",
+            "examples",
+            "quizzes",
+            "labs"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P097",
+      "targets": [
+        {
+          "lesson": "e2-inequalities",
+          "file": "site/elective2-derivatives.mjs",
+          "fields": [
+            "notes",
+            "examples",
+            "quizzes",
+            "labs"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P098",
+      "targets": [
+        {
+          "lesson": "e2-inequalities",
+          "file": "site/elective2-derivatives.mjs",
+          "fields": [
+            "notes",
+            "examples",
+            "quizzes",
+            "labs"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P099",
+      "targets": [
+        {
+          "lesson": "e2-inequalities",
+          "file": "site/elective2-derivatives.mjs",
+          "fields": [
+            "notes",
+            "examples",
+            "quizzes",
+            "labs"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P100",
+      "targets": [
+        {
+          "lesson": "e2-inequalities",
+          "file": "site/elective2-derivatives.mjs",
+          "fields": [
+            "notes",
+            "examples",
+            "quizzes",
+            "labs"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P101",
+      "targets": [
+        {
+          "lesson": "e2-extremum-shift",
+          "file": "site/elective2-derivatives.mjs",
+          "fields": [
+            "notes",
+            "examples",
+            "quizzes",
+            "labs"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P102",
+      "targets": [
+        {
+          "lesson": "e2-extremum-shift",
+          "file": "site/elective2-derivatives.mjs",
+          "fields": [
+            "notes",
+            "examples",
+            "quizzes",
+            "labs"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P103",
+      "targets": [
+        {
+          "lesson": "e2-inequalities",
+          "file": "site/elective2-derivatives.mjs",
+          "fields": [
+            "notes",
+            "examples",
+            "quizzes",
+            "labs"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P104",
+      "targets": [
+        {
+          "lesson": "e2-inequalities",
+          "file": "site/elective2-derivatives.mjs",
+          "fields": [
+            "notes",
+            "examples",
+            "quizzes",
+            "labs"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P105",
+      "targets": [
+        {
+          "lesson": "e2-sequence-concept",
+          "file": "site/elective2-sequences.mjs",
+          "fields": [
+            "notes",
+            "examples",
+            "quizzes",
+            "labs"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P106",
+      "targets": [
+        {
+          "lesson": "e2-sequence-concept",
+          "file": "site/elective2-sequences.mjs",
+          "fields": [
+            "notes",
+            "examples",
+            "quizzes",
+            "labs"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P107",
+      "targets": [
+        {
+          "lesson": "e2-ap-formula",
+          "file": "site/elective2-sequences.mjs",
+          "fields": [
+            "notes",
+            "examples",
+            "quizzes",
+            "labs"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P108",
+      "targets": [
+        {
+          "lesson": "e2-recurrence",
+          "file": "site/elective2-sequences.mjs",
+          "fields": [
+            "notes",
+            "examples",
+            "quizzes",
+            "labs"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P109",
+      "targets": [
+        {
+          "lesson": "e2-series-methods",
+          "file": "site/elective2-sequences.mjs",
+          "fields": [
+            "notes",
+            "examples",
+            "quizzes",
+            "labs"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P110",
+      "targets": [
+        {
+          "lesson": "e2-induction",
+          "file": "site/elective2-sequences.mjs",
+          "fields": [
+            "notes",
+            "examples",
+            "quizzes",
+            "labs"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P111",
+      "targets": [
+        {
+          "lesson": "e2-extremum-shift",
+          "file": "site/elective2-derivatives.mjs",
+          "fields": [
+            "notes",
+            "examples",
+            "quizzes",
+            "labs"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P112",
+      "targets": [
+        {
+          "lesson": "e2-tangents",
+          "file": "site/elective2-derivatives.mjs",
+          "fields": [
+            "notes",
+            "examples",
+            "quizzes",
+            "labs"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P113",
+      "targets": [
+        {
+          "lesson": "e2-parameter-monotonicity",
+          "file": "site/elective2-derivatives.mjs",
+          "fields": [
+            "notes",
+            "examples",
+            "quizzes",
+            "labs"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P114",
+      "targets": [
+        {
+          "lesson": "e2-global-extrema",
+          "file": "site/elective2-derivatives.mjs",
+          "fields": [
+            "notes",
+            "examples",
+            "quizzes",
+            "labs"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P115",
+      "targets": [
+        {
+          "lesson": "e2-quantified-parameters",
+          "file": "site/elective2-derivatives.mjs",
+          "fields": [
+            "notes",
+            "examples",
+            "quizzes",
+            "labs"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P116",
+      "targets": [
+        {
+          "lesson": "e2-extremum-shift",
+          "file": "site/elective2-derivatives.mjs",
+          "fields": [
+            "notes",
+            "examples",
+            "quizzes",
+            "labs"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P117",
+      "targets": [
+        {
+          "lesson": "e2-sequence-concept",
+          "file": "site/elective2-sequences.mjs",
+          "fields": [
+            "notes",
+            "examples",
+            "quizzes",
+            "labs"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P118",
+      "targets": [
+        {
+          "lesson": "e2-recurrence",
+          "file": "site/elective2-sequences.mjs",
+          "fields": [
+            "notes",
+            "examples",
+            "quizzes",
+            "labs"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P119",
+      "targets": [
+        {
+          "lesson": "e2-parameter-monotonicity",
+          "file": "site/elective2-derivatives.mjs",
+          "fields": [
+            "notes",
+            "examples",
+            "quizzes",
+            "labs"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P120",
+      "targets": [
+        {
+          "lesson": "e2-sequence-concept",
+          "file": "site/elective2-sequences.mjs",
+          "fields": [
+            "notes",
+            "examples",
+            "quizzes",
+            "labs"
+          ]
+        }
+      ]
+    }
+  ]
+}

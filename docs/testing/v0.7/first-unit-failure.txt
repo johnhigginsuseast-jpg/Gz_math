@@ -1,0 +1,178 @@
+
+> geometry-learning-lab@0.7.0 test
+> node --test tests/*.test.mjs
+
+✔ 空间点积叉积与真实角：独立坐标不变量，锐角与二面角不能混用 (13.7898ms)
+✔ 空间距离：法向量倍乘不变，异面、平行与相交边界 (0.5028ms)
+✔ 柱锥台与球截面：已知值和退化，翻折保持板内长度 (2.9253ms)
+✔ 全部32新实验及134默认/预设情形有效；三维转动不改变模型数据 (44.2942ms)
+✔ 多面体截面：棱上截点、三角/正六边形面积与点/空边界 (2.7328ms)
+✔ 椭圆距离和、双曲线绝对距离差、四向抛物线等距的采样不变量 (8.1641ms)
+✔ 两种焦点三角形面积公式与坐标面积独立吻合 (4.1975ms)
+✔ 抛物线焦点弦：端点代回、坐标积、倒数和及端点切线垂直 (2.0905ms)
+✔ 联立先判二次系数，稳定求根含一次、相切、无根和大系数 (1.1115ms)
+✔ 椭圆/双曲线/抛物线交点同时满足原曲线与直线，实弦长度符合端点距离 (1.6372ms)
+✔ 点差法：真实弦的端点平均是指定中点；中心、切点和不存在须区分 (1.0226ms)
+✔ 椭圆面积最大15/2、斜率积-9/25以及含参直线恒过点 (10.9572ms)
+✖ 保留原三个模块19课程并新增必修一与唯一实验ID，实际v0.3浏览器记录升级保留 (9.8096ms)
+✔ 集合计数含空集，四种条件关系与区间开闭端点 (3.287ms)
+✔ 二次恒正解集：降次、Δ、严格端点，按区间独立代回 (11.6686ms)
+✔ 二分保持√2区间、每步折半；不合法输入拒绝 (1.1304ms)
+✔ 曲线在已知断点分段，五幂函数定义域，正弦负振幅和常值退化 (1.2517ms)
+✔ 48实验的192个默认/预设答案与独立解析期望吻合，全部曲线点为有限数 (102.4136ms)
+✔ 平移正切图象不能跨任何真实渐近线连线 (11.8465ms)
+✖ 全部24课五章结构、来源ID、内容底线与原19课进度隔离 (2.1341ms)
+✔ 五点代回正弦原式、单位圆比值、定和/定积与反函数独立不变量 (5.0831ms)
+✔ 120道练习独立答案核对，原v0.4真实测试浏览器18课记录逐字段兼容 (11.3559ms)
+✔ 必修二向量：零向量、点积/投影/行列式与独立坐标不变量 (6.9475ms)
+✔ 全部140题与56实验全部默认/预设对照独立答案表 (105.4791ms)
+✔ 实际v0.5浏览器42课记录逐字段保留，新28课从0开始 (16.3805ms)
+✔ 必修二空间：全部预设与控件角点，斜二测/展开/体积/垂距独立核对 (24.1853ms)
+✖ 五章28课、56实验、至少84例题140练习，71课唯一ID与全新进度 (1.9119ms)
+✔ 统计独立数据：百分位整数/非整数与端点、空样本、层间方差、仿射变换 (1.2441ms)
+✔ 抽样复现、不放回不重复；精确概率独立计数与频率前缀 (4.1307ms)
+✔ 统计概率18实验：全部预设/单控件取值合法，图表有限且防HTML注入 (37.9451ms)
+✔ 复数：四则独立已知值、除零、共轭、模与旋转不变量 (3.1717ms)
+✔ 三边有效性与SSA全部分支：临界、直/钝角与代回 (1.5771ms)
+✔ 向量8课16实验：内容结构、所有控件值及预设有合法有限模型 (4.6268ms)
+✔ AP/GP逐项独立累加与整数边界 (6.8283ms)
+✔ 错位和q=1及负公比直接和 (1.3049ms)
+✔ 零点括区间与根数含相切 (1.841ms)
+✔ 等高根与对数偏移 (1.4645ms)
+✔ 最值包含端点、内部、并列与单点 (0.6224ms)
+✔ 开闭区间量词严格界 (1.9191ms)
+✔ 基本函数定义域与不可导点 (0.7005ms)
+✔ 水平线：0、2、±3、4的公共点和距离 (7.97ms)
+✔ 252组独立几何不变量：交点在圆和直线上，垂足距离正确 (3.7276ms)
+✔ 竖直线、负偏移、旋转两端的语义 (0.3733ms)
+✔ 相切容差不产生重复点或NaN，显示舍入不用于判别 (0.3915ms)
+✔ 两道例题：斜线判断、平移圆与相切参数的两个分支 (0.4611ms)
+✔ 圆和直线的非法参数在边界拒绝 (1.0102ms)
+✔ 课程内容与明确答案一致，多选不接受漏选或多选 (1.5653ms)
+✔ 两点定线含水平竖直；同点拒绝；方程归一化与倍乘不改关系和距离 (8.4098ms)
+✔ 配方表示实圆、点、空集，读中心与半径一致 (1.0845ms)
+✔ 两圆七种情况、内外切唯一点，重合不能当内切 (0.7364ms)
+✔ 240组平移和交换后的两圆交点满足原方程与根轴，弦长等于端点距离 (5.701ms)
+✔ 反射保持轴上任一点距离，对合回原点；最短路取到三角不等式下界 (0.7673ms)
+✔ 阿波罗尼斯轨迹上的采样点满足原距离比，λ=1退化垂直平分线 (0.9545ms)
+✖ 所有课程进度隔离、未知/损坏记录安全恢复，答题正确不等于所有环节完成 (3.4042ms)
+✔ 完整新课可刷新恢复，记录与订正历史保留，旧课键不复用 (2.9698ms)
+✔ 本地服务只公开网站资源，拒绝项目资料和路径穿越 (147.2101ms)
+✔ 引导实验必须先预测、到目标并观察正确，才能写入下一行 (3.0975ms)
+✔ 正确、错误、重复提交与错误历史分开计算 (1.2136ms)
+✔ 完整进度刷新恢复，并保留回看重推和未提交修改 (1.5665ms)
+✔ 损坏、旧版本与不完整记录安全恢复，合法值被规范化 (1.4086ms)
+✔ 弦长：已知答案、直径最大值、退化点与无弦，以及真实端点距离 (2.3514ms)
+✔ 距离最值：相离、相交、相切、两侧直线，并以圆周采样独立验证 (12.6279ms)
+✔ 动直线恒过F(4,0)，包含竖直线与两条临界切线 (1.3558ms)
+✔ 切线：圆内0条、圆上1条、圆外2条，不漏竖直切线 (0.6251ms)
+✔ 平移圆的切线同时满足过已知点、切点在圆上和半径垂直 (0.7747ms)
+✔ 连续构造在每个阶段存在中间状态，边界连续且公式最后出现 (1.9031ms)
+✔ v0.1旧记录迁移保留三轮与原六题，新题未完成，不冒充新版100% (1.3858ms)
+✔ 五题型、七例题、十五练习都有对应内容，旧题答案不变 (0.5936ms)
+ℹ tests 68
+ℹ suites 0
+ℹ pass 64
+ℹ fail 4
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1066.7459
+
+✖ failing tests:
+
+test at tests\advanced.test.mjs:131:1
+✖ 保留原三个模块19课程并新增必修一与唯一实验ID，实际v0.3浏览器记录升级保留 (9.8096ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:
+  + actual - expected
+  
+    [
+      '立体几何',
+      '直线与圆的方程',
+      '圆锥曲线',
+      '必修一',
+  +   '选择性必修二'
+    ]
+  
+      at TestContext.<anonymous> (file:///D:/mycode/gz_math3/tests/advanced.test.mjs:132:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: [ '立体几何', '直线与圆的方程', '圆锥曲线', '必修一', '选择性必修二' ],
+    expected: [ '立体几何', '直线与圆的方程', '圆锥曲线', '必修一' ],
+    operator: 'deepStrictEqual',
+    diff: 'simple'
+  }
+
+test at tests\book.test.mjs:60:1
+✖ 全部24课五章结构、来源ID、内容底线与原19课进度隔离 (2.1341ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  5 !== 4
+  
+      at TestContext.<anonymous> (file:///D:/mycode/gz_math3/tests/book.test.mjs:61:9)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 5,
+    expected: 4,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests\book2.test.mjs:47:1
+✖ 五章28课、56实验、至少84例题140练习，71课唯一ID与全新进度 (1.9119ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  6 !== 5
+  
+      at TestContext.<anonymous> (file:///D:/mycode/gz_math3/tests/book2.test.mjs:48:9)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 6,
+    expected: 5,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests\module.test.mjs:91:1
+✖ 所有课程进度隔离、未知/损坏记录安全恢复，答题正确不等于所有环节完成 (3.4042ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  6 !== 5
+  
+      at TestContext.<anonymous> (file:///D:/mycode/gz_math3/tests/module.test.mjs:93:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 6,
+    expected: 5,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+npm notice
+npm notice New major version of npm available! 11.19.0 -> 12.2.1
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.1
+npm notice To update run: npm install -g npm@12.2.1
+npm notice

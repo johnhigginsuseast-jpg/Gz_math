@@ -1,0 +1,278 @@
+[
+  {
+    "path": "site/advanced-labs.mjs",
+    "status": 200,
+    "mime": "text/javascript; charset=utf-8",
+    "match": true
+  },
+  {
+    "path": "site/advanced-math.mjs",
+    "status": 200,
+    "mime": "text/javascript; charset=utf-8",
+    "match": true
+  },
+  {
+    "path": "site/app.mjs",
+    "status": 200,
+    "mime": "text/javascript; charset=utf-8",
+    "match": true
+  },
+  {
+    "path": "site/book-course.mjs",
+    "status": 200,
+    "mime": "text/javascript; charset=utf-8",
+    "match": true
+  },
+  {
+    "path": "site/book-explog.mjs",
+    "status": 200,
+    "mime": "text/javascript; charset=utf-8",
+    "match": true
+  },
+  {
+    "path": "site/book-functions.mjs",
+    "status": 200,
+    "mime": "text/javascript; charset=utf-8",
+    "match": true
+  },
+  {
+    "path": "site/book-inequalities.mjs",
+    "status": 200,
+    "mime": "text/javascript; charset=utf-8",
+    "match": true
+  },
+  {
+    "path": "site/book-labs.mjs",
+    "status": 200,
+    "mime": "text/javascript; charset=utf-8",
+    "match": true
+  },
+  {
+    "path": "site/book-math.mjs",
+    "status": 200,
+    "mime": "text/javascript; charset=utf-8",
+    "match": true
+  },
+  {
+    "path": "site/book-sets.mjs",
+    "status": 200,
+    "mime": "text/javascript; charset=utf-8",
+    "match": true
+  },
+  {
+    "path": "site/book-trig.mjs",
+    "status": 200,
+    "mime": "text/javascript; charset=utf-8",
+    "match": true
+  },
+  {
+    "path": "site/book2-complex-labs.mjs",
+    "status": 200,
+    "mime": "text/javascript; charset=utf-8",
+    "match": true
+  },
+  {
+    "path": "site/book2-complex.mjs",
+    "status": 200,
+    "mime": "text/javascript; charset=utf-8",
+    "match": true
+  },
+  {
+    "path": "site/book2-course.mjs",
+    "status": 200,
+    "mime": "text/javascript; charset=utf-8",
+    "match": true
+  },
+  {
+    "path": "site/book2-data-labs.mjs",
+    "status": 200,
+    "mime": "text/javascript; charset=utf-8",
+    "match": true
+  },
+  {
+    "path": "site/book2-labs.mjs",
+    "status": 200,
+    "mime": "text/javascript; charset=utf-8",
+    "match": true
+  },
+  {
+    "path": "site/book2-math.mjs",
+    "status": 200,
+    "mime": "text/javascript; charset=utf-8",
+    "match": true
+  },
+  {
+    "path": "site/book2-probability.mjs",
+    "status": 200,
+    "mime": "text/javascript; charset=utf-8",
+    "match": true
+  },
+  {
+    "path": "site/book2-solid-labs.mjs",
+    "status": 200,
+    "mime": "text/javascript; charset=utf-8",
+    "match": true
+  },
+  {
+    "path": "site/book2-solid.mjs",
+    "status": 200,
+    "mime": "text/javascript; charset=utf-8",
+    "match": true
+  },
+  {
+    "path": "site/book2-statistics.mjs",
+    "status": 200,
+    "mime": "text/javascript; charset=utf-8",
+    "match": true
+  },
+  {
+    "path": "site/book2-vector-labs.mjs",
+    "status": 200,
+    "mime": "text/javascript; charset=utf-8",
+    "match": true
+  },
+  {
+    "path": "site/book2-vectors.mjs",
+    "status": 200,
+    "mime": "text/javascript; charset=utf-8",
+    "match": true
+  },
+  {
+    "path": "site/boot.mjs",
+    "status": 200,
+    "mime": "text/javascript; charset=utf-8",
+    "match": true
+  },
+  {
+    "path": "site/conic-course.mjs",
+    "status": 200,
+    "mime": "text/javascript; charset=utf-8",
+    "match": true
+  },
+  {
+    "path": "site/course.mjs",
+    "status": 200,
+    "mime": "text/javascript; charset=utf-8",
+    "match": true
+  },
+  {
+    "path": "site/elective2-course.mjs",
+    "status": 200,
+    "mime": "text/javascript; charset=utf-8",
+    "match": true
+  },
+  {
+    "path": "site/elective2-derivative-labs.mjs",
+    "status": 200,
+    "mime": "text/javascript; charset=utf-8",
+    "match": true
+  },
+  {
+    "path": "site/elective2-derivatives.mjs",
+    "status": 200,
+    "mime": "text/javascript; charset=utf-8",
+    "match": true
+  },
+  {
+    "path": "site/elective2-labs.mjs",
+    "status": 200,
+    "mime": "text/javascript; charset=utf-8",
+    "match": true
+  },
+  {
+    "path": "site/elective2-math.mjs",
+    "status": 200,
+    "mime": "text/javascript; charset=utf-8",
+    "match": true
+  },
+  {
+    "path": "site/elective2-sequence-labs.mjs",
+    "status": 200,
+    "mime": "text/javascript; charset=utf-8",
+    "match": true
+  },
+  {
+    "path": "site/elective2-sequences.mjs",
+    "status": 200,
+    "mime": "text/javascript; charset=utf-8",
+    "match": true
+  },
+  {
+    "path": "site/index.html",
+    "status": 200,
+    "mime": "text/html; charset=utf-8",
+    "match": true
+  },
+  {
+    "path": "site/lesson-data.mjs",
+    "status": 200,
+    "mime": "text/javascript; charset=utf-8",
+    "match": true
+  },
+  {
+    "path": "site/math.mjs",
+    "status": 200,
+    "mime": "text/javascript; charset=utf-8",
+    "match": true
+  },
+  {
+    "path": "site/module-app.mjs",
+    "status": 200,
+    "mime": "text/javascript; charset=utf-8",
+    "match": true
+  },
+  {
+    "path": "site/module-course.mjs",
+    "status": 200,
+    "mime": "text/javascript; charset=utf-8",
+    "match": true
+  },
+  {
+    "path": "site/module-math.mjs",
+    "status": 200,
+    "mime": "text/javascript; charset=utf-8",
+    "match": true
+  },
+  {
+    "path": "site/module.css",
+    "status": 200,
+    "mime": "text/css; charset=utf-8",
+    "match": true
+  },
+  {
+    "path": "site/solid-course.mjs",
+    "status": 200,
+    "mime": "text/javascript; charset=utf-8",
+    "match": true
+  },
+  {
+    "path": "site/state.mjs",
+    "status": 200,
+    "mime": "text/javascript; charset=utf-8",
+    "match": true
+  },
+  {
+    "path": "site/styles.css",
+    "status": 200,
+    "mime": "text/css; charset=utf-8",
+    "match": true
+  },
+  {
+    "path": "site/assets/logo.svg",
+    "status": 200,
+    "mime": "image/svg+xml",
+    "match": true
+  },
+  {
+    "path": "package.json",
+    "status": 404
+  },
+  {
+    "path": "docs/requirements/requirements-v0.7.md",
+    "status": 404
+  },
+  {
+    "path": "高中知识点/高中数学选择性必修二知识点考点整理.docx",
+    "status": 404
+  }
+]

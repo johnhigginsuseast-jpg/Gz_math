@@ -1,0 +1,218 @@
+[
+  {
+    "cases": 7,
+    "complete": true,
+    "examples": 3,
+    "id": "e2-sequence-concept",
+    "labs": 2,
+    "quizzes": 5,
+    "steps": 9
+  },
+  {
+    "cases": 7,
+    "complete": true,
+    "examples": 3,
+    "id": "e2-term-sum",
+    "labs": 2,
+    "quizzes": 5,
+    "steps": 9
+  },
+  {
+    "cases": 6,
+    "complete": true,
+    "examples": 3,
+    "id": "e2-ap-formula",
+    "labs": 2,
+    "quizzes": 5,
+    "steps": 9
+  },
+  {
+    "cases": 8,
+    "complete": true,
+    "examples": 3,
+    "id": "e2-ap-properties",
+    "labs": 2,
+    "quizzes": 5,
+    "steps": 9
+  },
+  {
+    "cases": 8,
+    "complete": true,
+    "examples": 3,
+    "id": "e2-ap-sum",
+    "labs": 2,
+    "quizzes": 5,
+    "steps": 9
+  },
+  {
+    "cases": 9,
+    "complete": true,
+    "examples": 3,
+    "id": "e2-gp-formula",
+    "labs": 2,
+    "quizzes": 5,
+    "steps": 9
+  },
+  {
+    "cases": 7,
+    "complete": true,
+    "examples": 3,
+    "id": "e2-gp-sum",
+    "labs": 2,
+    "quizzes": 5,
+    "steps": 9
+  },
+  {
+    "cases": 10,
+    "complete": true,
+    "examples": 3,
+    "id": "e2-gp-properties",
+    "labs": 2,
+    "quizzes": 5,
+    "steps": 9
+  },
+  {
+    "cases": 6,
+    "complete": true,
+    "examples": 3,
+    "id": "e2-recurrence",
+    "labs": 2,
+    "quizzes": 5,
+    "steps": 9
+  },
+  {
+    "cases": 6,
+    "complete": true,
+    "examples": 3,
+    "id": "e2-series-methods",
+    "labs": 2,
+    "quizzes": 5,
+    "steps": 9
+  },
+  {
+    "cases": 7,
+    "complete": true,
+    "examples": 3,
+    "id": "e2-induction",
+    "labs": 2,
+    "quizzes": 5,
+    "steps": 9
+  },
+  {
+    "cases": 8,
+    "complete": true,
+    "examples": 3,
+    "id": "e2-rate-derivative",
+    "labs": 2,
+    "quizzes": 5,
+    "steps": 9
+  },
+  {
+    "cases": 7,
+    "complete": true,
+    "examples": 3,
+    "id": "e2-tangents",
+    "labs": 2,
+    "quizzes": 5,
+    "steps": 9
+  },
+  {
+    "cases": 9,
+    "complete": true,
+    "examples": 3,
+    "id": "e2-derivative-formulas",
+    "labs": 2,
+    "quizzes": 5,
+    "steps": 9
+  },
+  {
+    "cases": 7,
+    "complete": true,
+    "examples": 3,
+    "id": "e2-derivative-rules",
+    "labs": 2,
+    "quizzes": 5,
+    "steps": 9
+  },
+  {
+    "cases": 7,
+    "complete": true,
+    "examples": 3,
+    "id": "e2-chain-rule",
+    "labs": 2,
+    "quizzes": 5,
+    "steps": 9
+  },
+  {
+    "cases": 8,
+    "complete": true,
+    "examples": 3,
+    "id": "e2-monotonicity",
+    "labs": 2,
+    "quizzes": 5,
+    "steps": 9
+  },
+  {
+    "cases": 9,
+    "complete": true,
+    "examples": 3,
+    "id": "e2-parameter-monotonicity",
+    "labs": 2,
+    "quizzes": 5,
+    "steps": 9
+  },
+  {
+    "cases": 7,
+    "complete": true,
+    "examples": 3,
+    "id": "e2-local-extrema",
+    "labs": 2,
+    "quizzes": 5,
+    "steps": 9
+  },
+  {
+    "cases": 9,
+    "complete": true,
+    "examples": 3,
+    "id": "e2-global-extrema",
+    "labs": 2,
+    "quizzes": 5,
+    "steps": 9
+  },
+  {
+    "cases": 8,
+    "complete": true,
+    "examples": 3,
+    "id": "e2-quantified-parameters",
+    "labs": 2,
+    "quizzes": 5,
+    "steps": 9
+  },
+  {
+    "cases": 9,
+    "complete": true,
+    "examples": 3,
+    "id": "e2-zeros",
+    "labs": 2,
+    "quizzes": 5,
+    "steps": 9
+  },
+  {
+    "cases": 8,
+    "complete": true,
+    "examples": 3,
+    "id": "e2-inequalities",
+    "labs": 2,
+    "quizzes": 5,
+    "steps": 9
+  },
+  {
+    "cases": 7,
+    "complete": true,
+    "examples": 3,
+    "id": "e2-extremum-shift",
+    "labs": 2,
+    "quizzes": 5,
+    "steps": 9
+  }
+]

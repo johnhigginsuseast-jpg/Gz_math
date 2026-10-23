@@ -1,0 +1,122 @@
+[
+  {
+    "corners": 4,
+    "id": "e2-sequence-concept",
+    "invalidInputs": 8
+  },
+  {
+    "corners": 4,
+    "id": "e2-term-sum",
+    "invalidInputs": 8
+  },
+  {
+    "corners": 6,
+    "id": "e2-ap-formula",
+    "invalidInputs": 8
+  },
+  {
+    "corners": 8,
+    "id": "e2-ap-properties",
+    "invalidInputs": 8
+  },
+  {
+    "corners": 4,
+    "id": "e2-ap-sum",
+    "invalidInputs": 8
+  },
+  {
+    "corners": 8,
+    "id": "e2-gp-formula",
+    "invalidInputs": 8
+  },
+  {
+    "corners": 6,
+    "id": "e2-gp-sum",
+    "invalidInputs": 8
+  },
+  {
+    "corners": 8,
+    "id": "e2-gp-properties",
+    "invalidInputs": 8
+  },
+  {
+    "corners": 8,
+    "id": "e2-recurrence",
+    "invalidInputs": 8
+  },
+  {
+    "corners": 6,
+    "id": "e2-series-methods",
+    "invalidInputs": 8
+  },
+  {
+    "corners": 6,
+    "id": "e2-induction",
+    "invalidInputs": 8
+  },
+  {
+    "corners": 6,
+    "id": "e2-rate-derivative",
+    "invalidInputs": 8
+  },
+  {
+    "corners": 6,
+    "id": "e2-tangents",
+    "invalidInputs": 8
+  },
+  {
+    "corners": 6,
+    "id": "e2-derivative-formulas",
+    "invalidInputs": 8
+  },
+  {
+    "corners": 4,
+    "id": "e2-derivative-rules",
+    "invalidInputs": 8
+  },
+  {
+    "corners": 6,
+    "id": "e2-chain-rule",
+    "invalidInputs": 8
+  },
+  {
+    "corners": 4,
+    "id": "e2-monotonicity",
+    "invalidInputs": 8
+  },
+  {
+    "corners": 4,
+    "id": "e2-parameter-monotonicity",
+    "invalidInputs": 8
+  },
+  {
+    "corners": 4,
+    "id": "e2-local-extrema",
+    "invalidInputs": 8
+  },
+  {
+    "corners": 6,
+    "id": "e2-global-extrema",
+    "invalidInputs": 8
+  },
+  {
+    "corners": 8,
+    "id": "e2-quantified-parameters",
+    "invalidInputs": 8
+  },
+  {
+    "corners": 4,
+    "id": "e2-zeros",
+    "invalidInputs": 8
+  },
+  {
+    "corners": 6,
+    "id": "e2-inequalities",
+    "invalidInputs": 8
+  },
+  {
+    "corners": 4,
+    "id": "e2-extremum-shift",
+    "invalidInputs": 8
+  }
+]

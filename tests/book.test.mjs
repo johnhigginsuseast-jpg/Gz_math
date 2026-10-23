@@ -58,9 +58,9 @@ test('平移正切图象不能跨任何真实渐近线连线',()=>{
  }
 });
 test('全部24课五章结构、来源ID、内容底线与原19课进度隔离',()=>{
- assert.equal(modules.filter(m=>m.id!=='book2').length,4);assert.equal(lessons.filter(l=>l.moduleId!=='book2').length,43);assert.equal(bookLessons.length,24);
+ assert.equal(modules.filter(m=>!['book2','elective2'].includes(m.id)).length,4);assert.equal(lessons.filter(l=>!['book2','elective2'].includes(l.moduleId)).length,43);assert.equal(bookLessons.length,24);
  assert.deepEqual(bookChapters.map(c=>c.lessons.length),[5,3,4,5,7]);
- assert.equal(new Set(lessons.filter(l=>l.moduleId!=='book2').map(l=>l.id)).size,43);
+ assert.equal(new Set(lessons.filter(l=>!['book2','elective2'].includes(l.moduleId)).map(l=>l.id)).size,43);
  assert.equal(new Set(bookLessons.flatMap(l=>l.labs.map(b=>b.id))).size,48);
  const fresh=restoreModule(null);
  for(const l of bookLessons){

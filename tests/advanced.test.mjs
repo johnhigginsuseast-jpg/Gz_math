@@ -129,8 +129,8 @@ test('椭圆面积最大15/2、斜率积-9/25以及含参直线恒过点',()=>{
 });
 
 test('保留原三个模块19课程并新增必修一与唯一实验ID，实际v0.3浏览器记录升级保留',async()=>{
-  assert.deepEqual(modules.filter(m=>m.id!=='book2').map(m=>m.title),['立体几何','直线与圆的方程','圆锥曲线','必修一']);
-  assert.deepEqual(modules.filter(m=>m.id!=='book2').map(m=>m.lessonIds.length),[6,6,7,24]);assert.equal(new Set(lessons.filter(l=>l.moduleId!=='book2').map(l=>l.id)).size,43);
+  assert.deepEqual(modules.filter(m=>!['book2','elective2'].includes(m.id)).map(m=>m.title),['立体几何','直线与圆的方程','圆锥曲线','必修一']);
+  assert.deepEqual(modules.filter(m=>!['book2','elective2'].includes(m.id)).map(m=>m.lessonIds.length),[6,6,7,24]);assert.equal(new Set(lessons.filter(l=>!['book2','elective2'].includes(l.moduleId)).map(l=>l.id)).size,43);
   const ids=lessons.filter(l=>!l.legacy).flatMap(l=>l.labs.map(lab=>lab.id));assert.equal(new Set(ids).size,ids.length);
   const raw=await readFile(new URL('../docs/testing/v0.4/fixtures/v0.3-module-state.json',import.meta.url),'utf8'),old=JSON.parse(raw),restored=restoreModule(raw);
   assert.equal(restored.recovered,false);

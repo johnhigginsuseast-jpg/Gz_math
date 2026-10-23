@@ -1,0 +1,3890 @@
+[
+  {
+    "controlIssues": 0,
+    "id": "e2-sequence-concept",
+    "lab": null,
+    "overflow": false,
+    "stage": 0,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-sequence-concept",
+    "lab": 0,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-sequence-concept",
+    "lab": 1,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-sequence-concept",
+    "lab": null,
+    "overflow": false,
+    "stage": 2,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-sequence-concept",
+    "lab": null,
+    "overflow": false,
+    "stage": 3,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-sequence-concept",
+    "lab": null,
+    "overflow": false,
+    "stage": 4,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-term-sum",
+    "lab": null,
+    "overflow": false,
+    "stage": 0,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-term-sum",
+    "lab": 0,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-term-sum",
+    "lab": 1,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-term-sum",
+    "lab": null,
+    "overflow": false,
+    "stage": 2,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-term-sum",
+    "lab": null,
+    "overflow": false,
+    "stage": 3,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-term-sum",
+    "lab": null,
+    "overflow": false,
+    "stage": 4,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-ap-formula",
+    "lab": null,
+    "overflow": false,
+    "stage": 0,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-ap-formula",
+    "lab": 0,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-ap-formula",
+    "lab": 1,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-ap-formula",
+    "lab": null,
+    "overflow": false,
+    "stage": 2,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-ap-formula",
+    "lab": null,
+    "overflow": false,
+    "stage": 3,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-ap-formula",
+    "lab": null,
+    "overflow": false,
+    "stage": 4,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-ap-properties",
+    "lab": null,
+    "overflow": false,
+    "stage": 0,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-ap-properties",
+    "lab": 0,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-ap-properties",
+    "lab": 1,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-ap-properties",
+    "lab": null,
+    "overflow": false,
+    "stage": 2,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-ap-properties",
+    "lab": null,
+    "overflow": false,
+    "stage": 3,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-ap-properties",
+    "lab": null,
+    "overflow": false,
+    "stage": 4,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-ap-sum",
+    "lab": null,
+    "overflow": false,
+    "stage": 0,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-ap-sum",
+    "lab": 0,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-ap-sum",
+    "lab": 1,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-ap-sum",
+    "lab": null,
+    "overflow": false,
+    "stage": 2,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-ap-sum",
+    "lab": null,
+    "overflow": false,
+    "stage": 3,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-ap-sum",
+    "lab": null,
+    "overflow": false,
+    "stage": 4,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-gp-formula",
+    "lab": null,
+    "overflow": false,
+    "stage": 0,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-gp-formula",
+    "lab": 0,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-gp-formula",
+    "lab": 1,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-gp-formula",
+    "lab": null,
+    "overflow": false,
+    "stage": 2,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-gp-formula",
+    "lab": null,
+    "overflow": false,
+    "stage": 3,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-gp-formula",
+    "lab": null,
+    "overflow": false,
+    "stage": 4,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-gp-sum",
+    "lab": null,
+    "overflow": false,
+    "stage": 0,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-gp-sum",
+    "lab": 0,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-gp-sum",
+    "lab": 1,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-gp-sum",
+    "lab": null,
+    "overflow": false,
+    "stage": 2,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-gp-sum",
+    "lab": null,
+    "overflow": false,
+    "stage": 3,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-gp-sum",
+    "lab": null,
+    "overflow": false,
+    "stage": 4,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-gp-properties",
+    "lab": null,
+    "overflow": false,
+    "stage": 0,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-gp-properties",
+    "lab": 0,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-gp-properties",
+    "lab": 1,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-gp-properties",
+    "lab": null,
+    "overflow": false,
+    "stage": 2,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-gp-properties",
+    "lab": null,
+    "overflow": false,
+    "stage": 3,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-gp-properties",
+    "lab": null,
+    "overflow": false,
+    "stage": 4,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-recurrence",
+    "lab": null,
+    "overflow": false,
+    "stage": 0,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-recurrence",
+    "lab": 0,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-recurrence",
+    "lab": 1,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-recurrence",
+    "lab": null,
+    "overflow": false,
+    "stage": 2,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-recurrence",
+    "lab": null,
+    "overflow": false,
+    "stage": 3,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-recurrence",
+    "lab": null,
+    "overflow": false,
+    "stage": 4,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-series-methods",
+    "lab": null,
+    "overflow": false,
+    "stage": 0,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-series-methods",
+    "lab": 0,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-series-methods",
+    "lab": 1,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-series-methods",
+    "lab": null,
+    "overflow": false,
+    "stage": 2,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-series-methods",
+    "lab": null,
+    "overflow": false,
+    "stage": 3,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-series-methods",
+    "lab": null,
+    "overflow": false,
+    "stage": 4,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-induction",
+    "lab": null,
+    "overflow": false,
+    "stage": 0,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-induction",
+    "lab": 0,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-induction",
+    "lab": 1,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-induction",
+    "lab": null,
+    "overflow": false,
+    "stage": 2,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-induction",
+    "lab": null,
+    "overflow": false,
+    "stage": 3,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-induction",
+    "lab": null,
+    "overflow": false,
+    "stage": 4,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-rate-derivative",
+    "lab": null,
+    "overflow": false,
+    "stage": 0,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-rate-derivative",
+    "lab": 0,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-rate-derivative",
+    "lab": 1,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-rate-derivative",
+    "lab": null,
+    "overflow": false,
+    "stage": 2,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-rate-derivative",
+    "lab": null,
+    "overflow": false,
+    "stage": 3,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-rate-derivative",
+    "lab": null,
+    "overflow": false,
+    "stage": 4,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-tangents",
+    "lab": null,
+    "overflow": false,
+    "stage": 0,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-tangents",
+    "lab": 0,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-tangents",
+    "lab": 1,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-tangents",
+    "lab": null,
+    "overflow": false,
+    "stage": 2,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-tangents",
+    "lab": null,
+    "overflow": false,
+    "stage": 3,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-tangents",
+    "lab": null,
+    "overflow": false,
+    "stage": 4,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-derivative-formulas",
+    "lab": null,
+    "overflow": false,
+    "stage": 0,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-derivative-formulas",
+    "lab": 0,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-derivative-formulas",
+    "lab": 1,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-derivative-formulas",
+    "lab": null,
+    "overflow": false,
+    "stage": 2,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-derivative-formulas",
+    "lab": null,
+    "overflow": false,
+    "stage": 3,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-derivative-formulas",
+    "lab": null,
+    "overflow": false,
+    "stage": 4,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-derivative-rules",
+    "lab": null,
+    "overflow": false,
+    "stage": 0,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-derivative-rules",
+    "lab": 0,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-derivative-rules",
+    "lab": 1,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-derivative-rules",
+    "lab": null,
+    "overflow": false,
+    "stage": 2,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-derivative-rules",
+    "lab": null,
+    "overflow": false,
+    "stage": 3,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-derivative-rules",
+    "lab": null,
+    "overflow": false,
+    "stage": 4,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-chain-rule",
+    "lab": null,
+    "overflow": false,
+    "stage": 0,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-chain-rule",
+    "lab": 0,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-chain-rule",
+    "lab": 1,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-chain-rule",
+    "lab": null,
+    "overflow": false,
+    "stage": 2,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-chain-rule",
+    "lab": null,
+    "overflow": false,
+    "stage": 3,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-chain-rule",
+    "lab": null,
+    "overflow": false,
+    "stage": 4,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-monotonicity",
+    "lab": null,
+    "overflow": false,
+    "stage": 0,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-monotonicity",
+    "lab": 0,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-monotonicity",
+    "lab": 1,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-monotonicity",
+    "lab": null,
+    "overflow": false,
+    "stage": 2,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-monotonicity",
+    "lab": null,
+    "overflow": false,
+    "stage": 3,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-monotonicity",
+    "lab": null,
+    "overflow": false,
+    "stage": 4,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-parameter-monotonicity",
+    "lab": null,
+    "overflow": false,
+    "stage": 0,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-parameter-monotonicity",
+    "lab": 0,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-parameter-monotonicity",
+    "lab": 1,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-parameter-monotonicity",
+    "lab": null,
+    "overflow": false,
+    "stage": 2,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-parameter-monotonicity",
+    "lab": null,
+    "overflow": false,
+    "stage": 3,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-parameter-monotonicity",
+    "lab": null,
+    "overflow": false,
+    "stage": 4,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-local-extrema",
+    "lab": null,
+    "overflow": false,
+    "stage": 0,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-local-extrema",
+    "lab": 0,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-local-extrema",
+    "lab": 1,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-local-extrema",
+    "lab": null,
+    "overflow": false,
+    "stage": 2,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-local-extrema",
+    "lab": null,
+    "overflow": false,
+    "stage": 3,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-local-extrema",
+    "lab": null,
+    "overflow": false,
+    "stage": 4,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-global-extrema",
+    "lab": null,
+    "overflow": false,
+    "stage": 0,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-global-extrema",
+    "lab": 0,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-global-extrema",
+    "lab": 1,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-global-extrema",
+    "lab": null,
+    "overflow": false,
+    "stage": 2,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-global-extrema",
+    "lab": null,
+    "overflow": false,
+    "stage": 3,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-global-extrema",
+    "lab": null,
+    "overflow": false,
+    "stage": 4,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-quantified-parameters",
+    "lab": null,
+    "overflow": false,
+    "stage": 0,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-quantified-parameters",
+    "lab": 0,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-quantified-parameters",
+    "lab": 1,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-quantified-parameters",
+    "lab": null,
+    "overflow": false,
+    "stage": 2,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-quantified-parameters",
+    "lab": null,
+    "overflow": false,
+    "stage": 3,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-quantified-parameters",
+    "lab": null,
+    "overflow": false,
+    "stage": 4,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-zeros",
+    "lab": null,
+    "overflow": false,
+    "stage": 0,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-zeros",
+    "lab": 0,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-zeros",
+    "lab": 1,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-zeros",
+    "lab": null,
+    "overflow": false,
+    "stage": 2,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-zeros",
+    "lab": null,
+    "overflow": false,
+    "stage": 3,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-zeros",
+    "lab": null,
+    "overflow": false,
+    "stage": 4,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-inequalities",
+    "lab": null,
+    "overflow": false,
+    "stage": 0,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-inequalities",
+    "lab": 0,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-inequalities",
+    "lab": 1,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-inequalities",
+    "lab": null,
+    "overflow": false,
+    "stage": 2,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-inequalities",
+    "lab": null,
+    "overflow": false,
+    "stage": 3,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-inequalities",
+    "lab": null,
+    "overflow": false,
+    "stage": 4,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-extremum-shift",
+    "lab": null,
+    "overflow": false,
+    "stage": 0,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-extremum-shift",
+    "lab": 0,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-extremum-shift",
+    "lab": 1,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-extremum-shift",
+    "lab": null,
+    "overflow": false,
+    "stage": 2,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-extremum-shift",
+    "lab": null,
+    "overflow": false,
+    "stage": 3,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-extremum-shift",
+    "lab": null,
+    "overflow": false,
+    "stage": 4,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-sequence-concept",
+    "lab": null,
+    "overflow": false,
+    "stage": 0,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-sequence-concept",
+    "lab": 0,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-sequence-concept",
+    "lab": 1,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-sequence-concept",
+    "lab": null,
+    "overflow": false,
+    "stage": 2,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-sequence-concept",
+    "lab": null,
+    "overflow": false,
+    "stage": 3,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-sequence-concept",
+    "lab": null,
+    "overflow": false,
+    "stage": 4,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-term-sum",
+    "lab": null,
+    "overflow": false,
+    "stage": 0,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-term-sum",
+    "lab": 0,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-term-sum",
+    "lab": 1,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-term-sum",
+    "lab": null,
+    "overflow": false,
+    "stage": 2,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-term-sum",
+    "lab": null,
+    "overflow": false,
+    "stage": 3,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-term-sum",
+    "lab": null,
+    "overflow": false,
+    "stage": 4,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-ap-formula",
+    "lab": null,
+    "overflow": false,
+    "stage": 0,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-ap-formula",
+    "lab": 0,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-ap-formula",
+    "lab": 1,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-ap-formula",
+    "lab": null,
+    "overflow": false,
+    "stage": 2,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-ap-formula",
+    "lab": null,
+    "overflow": false,
+    "stage": 3,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-ap-formula",
+    "lab": null,
+    "overflow": false,
+    "stage": 4,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-ap-properties",
+    "lab": null,
+    "overflow": false,
+    "stage": 0,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-ap-properties",
+    "lab": 0,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-ap-properties",
+    "lab": 1,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-ap-properties",
+    "lab": null,
+    "overflow": false,
+    "stage": 2,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-ap-properties",
+    "lab": null,
+    "overflow": false,
+    "stage": 3,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-ap-properties",
+    "lab": null,
+    "overflow": false,
+    "stage": 4,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-ap-sum",
+    "lab": null,
+    "overflow": false,
+    "stage": 0,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-ap-sum",
+    "lab": 0,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-ap-sum",
+    "lab": 1,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-ap-sum",
+    "lab": null,
+    "overflow": false,
+    "stage": 2,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-ap-sum",
+    "lab": null,
+    "overflow": false,
+    "stage": 3,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-ap-sum",
+    "lab": null,
+    "overflow": false,
+    "stage": 4,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-gp-formula",
+    "lab": null,
+    "overflow": false,
+    "stage": 0,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-gp-formula",
+    "lab": 0,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-gp-formula",
+    "lab": 1,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-gp-formula",
+    "lab": null,
+    "overflow": false,
+    "stage": 2,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-gp-formula",
+    "lab": null,
+    "overflow": false,
+    "stage": 3,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-gp-formula",
+    "lab": null,
+    "overflow": false,
+    "stage": 4,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-gp-sum",
+    "lab": null,
+    "overflow": false,
+    "stage": 0,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-gp-sum",
+    "lab": 0,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-gp-sum",
+    "lab": 1,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-gp-sum",
+    "lab": null,
+    "overflow": false,
+    "stage": 2,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-gp-sum",
+    "lab": null,
+    "overflow": false,
+    "stage": 3,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-gp-sum",
+    "lab": null,
+    "overflow": false,
+    "stage": 4,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-gp-properties",
+    "lab": null,
+    "overflow": false,
+    "stage": 0,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-gp-properties",
+    "lab": 0,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-gp-properties",
+    "lab": 1,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-gp-properties",
+    "lab": null,
+    "overflow": false,
+    "stage": 2,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-gp-properties",
+    "lab": null,
+    "overflow": false,
+    "stage": 3,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-gp-properties",
+    "lab": null,
+    "overflow": false,
+    "stage": 4,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-recurrence",
+    "lab": null,
+    "overflow": false,
+    "stage": 0,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-recurrence",
+    "lab": 0,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-recurrence",
+    "lab": 1,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-recurrence",
+    "lab": null,
+    "overflow": false,
+    "stage": 2,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-recurrence",
+    "lab": null,
+    "overflow": false,
+    "stage": 3,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-recurrence",
+    "lab": null,
+    "overflow": false,
+    "stage": 4,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-series-methods",
+    "lab": null,
+    "overflow": false,
+    "stage": 0,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-series-methods",
+    "lab": 0,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-series-methods",
+    "lab": 1,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-series-methods",
+    "lab": null,
+    "overflow": false,
+    "stage": 2,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-series-methods",
+    "lab": null,
+    "overflow": false,
+    "stage": 3,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-series-methods",
+    "lab": null,
+    "overflow": false,
+    "stage": 4,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-induction",
+    "lab": null,
+    "overflow": false,
+    "stage": 0,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-induction",
+    "lab": 0,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-induction",
+    "lab": 1,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-induction",
+    "lab": null,
+    "overflow": false,
+    "stage": 2,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-induction",
+    "lab": null,
+    "overflow": false,
+    "stage": 3,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-induction",
+    "lab": null,
+    "overflow": false,
+    "stage": 4,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-rate-derivative",
+    "lab": null,
+    "overflow": false,
+    "stage": 0,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-rate-derivative",
+    "lab": 0,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-rate-derivative",
+    "lab": 1,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-rate-derivative",
+    "lab": null,
+    "overflow": false,
+    "stage": 2,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-rate-derivative",
+    "lab": null,
+    "overflow": false,
+    "stage": 3,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-rate-derivative",
+    "lab": null,
+    "overflow": false,
+    "stage": 4,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-tangents",
+    "lab": null,
+    "overflow": false,
+    "stage": 0,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-tangents",
+    "lab": 0,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-tangents",
+    "lab": 1,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-tangents",
+    "lab": null,
+    "overflow": false,
+    "stage": 2,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-tangents",
+    "lab": null,
+    "overflow": false,
+    "stage": 3,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-tangents",
+    "lab": null,
+    "overflow": false,
+    "stage": 4,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-derivative-formulas",
+    "lab": null,
+    "overflow": false,
+    "stage": 0,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-derivative-formulas",
+    "lab": 0,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-derivative-formulas",
+    "lab": 1,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-derivative-formulas",
+    "lab": null,
+    "overflow": false,
+    "stage": 2,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-derivative-formulas",
+    "lab": null,
+    "overflow": false,
+    "stage": 3,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-derivative-formulas",
+    "lab": null,
+    "overflow": false,
+    "stage": 4,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-derivative-rules",
+    "lab": null,
+    "overflow": false,
+    "stage": 0,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-derivative-rules",
+    "lab": 0,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-derivative-rules",
+    "lab": 1,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-derivative-rules",
+    "lab": null,
+    "overflow": false,
+    "stage": 2,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-derivative-rules",
+    "lab": null,
+    "overflow": false,
+    "stage": 3,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-derivative-rules",
+    "lab": null,
+    "overflow": false,
+    "stage": 4,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-chain-rule",
+    "lab": null,
+    "overflow": false,
+    "stage": 0,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-chain-rule",
+    "lab": 0,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-chain-rule",
+    "lab": 1,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-chain-rule",
+    "lab": null,
+    "overflow": false,
+    "stage": 2,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-chain-rule",
+    "lab": null,
+    "overflow": false,
+    "stage": 3,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-chain-rule",
+    "lab": null,
+    "overflow": false,
+    "stage": 4,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-monotonicity",
+    "lab": null,
+    "overflow": false,
+    "stage": 0,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-monotonicity",
+    "lab": 0,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-monotonicity",
+    "lab": 1,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-monotonicity",
+    "lab": null,
+    "overflow": false,
+    "stage": 2,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-monotonicity",
+    "lab": null,
+    "overflow": false,
+    "stage": 3,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-monotonicity",
+    "lab": null,
+    "overflow": false,
+    "stage": 4,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-parameter-monotonicity",
+    "lab": null,
+    "overflow": false,
+    "stage": 0,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-parameter-monotonicity",
+    "lab": 0,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-parameter-monotonicity",
+    "lab": 1,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-parameter-monotonicity",
+    "lab": null,
+    "overflow": false,
+    "stage": 2,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-parameter-monotonicity",
+    "lab": null,
+    "overflow": false,
+    "stage": 3,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-parameter-monotonicity",
+    "lab": null,
+    "overflow": false,
+    "stage": 4,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-local-extrema",
+    "lab": null,
+    "overflow": false,
+    "stage": 0,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-local-extrema",
+    "lab": 0,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-local-extrema",
+    "lab": 1,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-local-extrema",
+    "lab": null,
+    "overflow": false,
+    "stage": 2,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-local-extrema",
+    "lab": null,
+    "overflow": false,
+    "stage": 3,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-local-extrema",
+    "lab": null,
+    "overflow": false,
+    "stage": 4,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-global-extrema",
+    "lab": null,
+    "overflow": false,
+    "stage": 0,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-global-extrema",
+    "lab": 0,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-global-extrema",
+    "lab": 1,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-global-extrema",
+    "lab": null,
+    "overflow": false,
+    "stage": 2,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-global-extrema",
+    "lab": null,
+    "overflow": false,
+    "stage": 3,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-global-extrema",
+    "lab": null,
+    "overflow": false,
+    "stage": 4,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-quantified-parameters",
+    "lab": null,
+    "overflow": false,
+    "stage": 0,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-quantified-parameters",
+    "lab": 0,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-quantified-parameters",
+    "lab": 1,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-quantified-parameters",
+    "lab": null,
+    "overflow": false,
+    "stage": 2,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-quantified-parameters",
+    "lab": null,
+    "overflow": false,
+    "stage": 3,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-quantified-parameters",
+    "lab": null,
+    "overflow": false,
+    "stage": 4,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-zeros",
+    "lab": null,
+    "overflow": false,
+    "stage": 0,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-zeros",
+    "lab": 0,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-zeros",
+    "lab": 1,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-zeros",
+    "lab": null,
+    "overflow": false,
+    "stage": 2,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-zeros",
+    "lab": null,
+    "overflow": false,
+    "stage": 3,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-zeros",
+    "lab": null,
+    "overflow": false,
+    "stage": 4,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-inequalities",
+    "lab": null,
+    "overflow": false,
+    "stage": 0,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-inequalities",
+    "lab": 0,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-inequalities",
+    "lab": 1,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-inequalities",
+    "lab": null,
+    "overflow": false,
+    "stage": 2,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-inequalities",
+    "lab": null,
+    "overflow": false,
+    "stage": 3,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-inequalities",
+    "lab": null,
+    "overflow": false,
+    "stage": 4,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-extremum-shift",
+    "lab": null,
+    "overflow": false,
+    "stage": 0,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-extremum-shift",
+    "lab": 0,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-extremum-shift",
+    "lab": 1,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-extremum-shift",
+    "lab": null,
+    "overflow": false,
+    "stage": 2,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-extremum-shift",
+    "lab": null,
+    "overflow": false,
+    "stage": 3,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-extremum-shift",
+    "lab": null,
+    "overflow": false,
+    "stage": 4,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-sequence-concept",
+    "lab": null,
+    "overflow": false,
+    "stage": 0,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-sequence-concept",
+    "lab": 0,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-sequence-concept",
+    "lab": 1,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-sequence-concept",
+    "lab": null,
+    "overflow": false,
+    "stage": 2,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-sequence-concept",
+    "lab": null,
+    "overflow": false,
+    "stage": 3,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-sequence-concept",
+    "lab": null,
+    "overflow": false,
+    "stage": 4,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-term-sum",
+    "lab": null,
+    "overflow": false,
+    "stage": 0,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-term-sum",
+    "lab": 0,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-term-sum",
+    "lab": 1,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-term-sum",
+    "lab": null,
+    "overflow": false,
+    "stage": 2,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-term-sum",
+    "lab": null,
+    "overflow": false,
+    "stage": 3,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-term-sum",
+    "lab": null,
+    "overflow": false,
+    "stage": 4,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-ap-formula",
+    "lab": null,
+    "overflow": false,
+    "stage": 0,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-ap-formula",
+    "lab": 0,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-ap-formula",
+    "lab": 1,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-ap-formula",
+    "lab": null,
+    "overflow": false,
+    "stage": 2,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-ap-formula",
+    "lab": null,
+    "overflow": false,
+    "stage": 3,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-ap-formula",
+    "lab": null,
+    "overflow": false,
+    "stage": 4,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-ap-properties",
+    "lab": null,
+    "overflow": false,
+    "stage": 0,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-ap-properties",
+    "lab": 0,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-ap-properties",
+    "lab": 1,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-ap-properties",
+    "lab": null,
+    "overflow": false,
+    "stage": 2,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-ap-properties",
+    "lab": null,
+    "overflow": false,
+    "stage": 3,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-ap-properties",
+    "lab": null,
+    "overflow": false,
+    "stage": 4,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-ap-sum",
+    "lab": null,
+    "overflow": false,
+    "stage": 0,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-ap-sum",
+    "lab": 0,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-ap-sum",
+    "lab": 1,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-ap-sum",
+    "lab": null,
+    "overflow": false,
+    "stage": 2,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-ap-sum",
+    "lab": null,
+    "overflow": false,
+    "stage": 3,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-ap-sum",
+    "lab": null,
+    "overflow": false,
+    "stage": 4,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-gp-formula",
+    "lab": null,
+    "overflow": false,
+    "stage": 0,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-gp-formula",
+    "lab": 0,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-gp-formula",
+    "lab": 1,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-gp-formula",
+    "lab": null,
+    "overflow": false,
+    "stage": 2,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-gp-formula",
+    "lab": null,
+    "overflow": false,
+    "stage": 3,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-gp-formula",
+    "lab": null,
+    "overflow": false,
+    "stage": 4,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-gp-sum",
+    "lab": null,
+    "overflow": false,
+    "stage": 0,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-gp-sum",
+    "lab": 0,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-gp-sum",
+    "lab": 1,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-gp-sum",
+    "lab": null,
+    "overflow": false,
+    "stage": 2,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-gp-sum",
+    "lab": null,
+    "overflow": false,
+    "stage": 3,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-gp-sum",
+    "lab": null,
+    "overflow": false,
+    "stage": 4,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-gp-properties",
+    "lab": null,
+    "overflow": false,
+    "stage": 0,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-gp-properties",
+    "lab": 0,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-gp-properties",
+    "lab": 1,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-gp-properties",
+    "lab": null,
+    "overflow": false,
+    "stage": 2,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-gp-properties",
+    "lab": null,
+    "overflow": false,
+    "stage": 3,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-gp-properties",
+    "lab": null,
+    "overflow": false,
+    "stage": 4,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-recurrence",
+    "lab": null,
+    "overflow": false,
+    "stage": 0,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-recurrence",
+    "lab": 0,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-recurrence",
+    "lab": 1,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-recurrence",
+    "lab": null,
+    "overflow": false,
+    "stage": 2,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-recurrence",
+    "lab": null,
+    "overflow": false,
+    "stage": 3,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-recurrence",
+    "lab": null,
+    "overflow": false,
+    "stage": 4,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-series-methods",
+    "lab": null,
+    "overflow": false,
+    "stage": 0,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-series-methods",
+    "lab": 0,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-series-methods",
+    "lab": 1,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-series-methods",
+    "lab": null,
+    "overflow": false,
+    "stage": 2,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-series-methods",
+    "lab": null,
+    "overflow": false,
+    "stage": 3,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-series-methods",
+    "lab": null,
+    "overflow": false,
+    "stage": 4,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-induction",
+    "lab": null,
+    "overflow": false,
+    "stage": 0,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-induction",
+    "lab": 0,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-induction",
+    "lab": 1,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-induction",
+    "lab": null,
+    "overflow": false,
+    "stage": 2,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-induction",
+    "lab": null,
+    "overflow": false,
+    "stage": 3,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-induction",
+    "lab": null,
+    "overflow": false,
+    "stage": 4,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-rate-derivative",
+    "lab": null,
+    "overflow": false,
+    "stage": 0,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-rate-derivative",
+    "lab": 0,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-rate-derivative",
+    "lab": 1,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-rate-derivative",
+    "lab": null,
+    "overflow": false,
+    "stage": 2,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-rate-derivative",
+    "lab": null,
+    "overflow": false,
+    "stage": 3,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-rate-derivative",
+    "lab": null,
+    "overflow": false,
+    "stage": 4,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-tangents",
+    "lab": null,
+    "overflow": false,
+    "stage": 0,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-tangents",
+    "lab": 0,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-tangents",
+    "lab": 1,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-tangents",
+    "lab": null,
+    "overflow": false,
+    "stage": 2,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-tangents",
+    "lab": null,
+    "overflow": false,
+    "stage": 3,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-tangents",
+    "lab": null,
+    "overflow": false,
+    "stage": 4,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-derivative-formulas",
+    "lab": null,
+    "overflow": false,
+    "stage": 0,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-derivative-formulas",
+    "lab": 0,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-derivative-formulas",
+    "lab": 1,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-derivative-formulas",
+    "lab": null,
+    "overflow": false,
+    "stage": 2,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-derivative-formulas",
+    "lab": null,
+    "overflow": false,
+    "stage": 3,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-derivative-formulas",
+    "lab": null,
+    "overflow": false,
+    "stage": 4,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-derivative-rules",
+    "lab": null,
+    "overflow": false,
+    "stage": 0,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-derivative-rules",
+    "lab": 0,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-derivative-rules",
+    "lab": 1,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-derivative-rules",
+    "lab": null,
+    "overflow": false,
+    "stage": 2,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-derivative-rules",
+    "lab": null,
+    "overflow": false,
+    "stage": 3,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-derivative-rules",
+    "lab": null,
+    "overflow": false,
+    "stage": 4,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-chain-rule",
+    "lab": null,
+    "overflow": false,
+    "stage": 0,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-chain-rule",
+    "lab": 0,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-chain-rule",
+    "lab": 1,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-chain-rule",
+    "lab": null,
+    "overflow": false,
+    "stage": 2,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-chain-rule",
+    "lab": null,
+    "overflow": false,
+    "stage": 3,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-chain-rule",
+    "lab": null,
+    "overflow": false,
+    "stage": 4,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-monotonicity",
+    "lab": null,
+    "overflow": false,
+    "stage": 0,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-monotonicity",
+    "lab": 0,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-monotonicity",
+    "lab": 1,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-monotonicity",
+    "lab": null,
+    "overflow": false,
+    "stage": 2,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-monotonicity",
+    "lab": null,
+    "overflow": false,
+    "stage": 3,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-monotonicity",
+    "lab": null,
+    "overflow": false,
+    "stage": 4,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-parameter-monotonicity",
+    "lab": null,
+    "overflow": false,
+    "stage": 0,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-parameter-monotonicity",
+    "lab": 0,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-parameter-monotonicity",
+    "lab": 1,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-parameter-monotonicity",
+    "lab": null,
+    "overflow": false,
+    "stage": 2,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-parameter-monotonicity",
+    "lab": null,
+    "overflow": false,
+    "stage": 3,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-parameter-monotonicity",
+    "lab": null,
+    "overflow": false,
+    "stage": 4,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-local-extrema",
+    "lab": null,
+    "overflow": false,
+    "stage": 0,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-local-extrema",
+    "lab": 0,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-local-extrema",
+    "lab": 1,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-local-extrema",
+    "lab": null,
+    "overflow": false,
+    "stage": 2,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-local-extrema",
+    "lab": null,
+    "overflow": false,
+    "stage": 3,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-local-extrema",
+    "lab": null,
+    "overflow": false,
+    "stage": 4,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-global-extrema",
+    "lab": null,
+    "overflow": false,
+    "stage": 0,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-global-extrema",
+    "lab": 0,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-global-extrema",
+    "lab": 1,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-global-extrema",
+    "lab": null,
+    "overflow": false,
+    "stage": 2,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-global-extrema",
+    "lab": null,
+    "overflow": false,
+    "stage": 3,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-global-extrema",
+    "lab": null,
+    "overflow": false,
+    "stage": 4,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-quantified-parameters",
+    "lab": null,
+    "overflow": false,
+    "stage": 0,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-quantified-parameters",
+    "lab": 0,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-quantified-parameters",
+    "lab": 1,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-quantified-parameters",
+    "lab": null,
+    "overflow": false,
+    "stage": 2,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-quantified-parameters",
+    "lab": null,
+    "overflow": false,
+    "stage": 3,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-quantified-parameters",
+    "lab": null,
+    "overflow": false,
+    "stage": 4,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-zeros",
+    "lab": null,
+    "overflow": false,
+    "stage": 0,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-zeros",
+    "lab": 0,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-zeros",
+    "lab": 1,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-zeros",
+    "lab": null,
+    "overflow": false,
+    "stage": 2,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-zeros",
+    "lab": null,
+    "overflow": false,
+    "stage": 3,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-zeros",
+    "lab": null,
+    "overflow": false,
+    "stage": 4,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-inequalities",
+    "lab": null,
+    "overflow": false,
+    "stage": 0,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-inequalities",
+    "lab": 0,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-inequalities",
+    "lab": 1,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-inequalities",
+    "lab": null,
+    "overflow": false,
+    "stage": 2,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-inequalities",
+    "lab": null,
+    "overflow": false,
+    "stage": 3,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-inequalities",
+    "lab": null,
+    "overflow": false,
+    "stage": 4,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-extremum-shift",
+    "lab": null,
+    "overflow": false,
+    "stage": 0,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-extremum-shift",
+    "lab": 0,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-extremum-shift",
+    "lab": 1,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-extremum-shift",
+    "lab": null,
+    "overflow": false,
+    "stage": 2,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-extremum-shift",
+    "lab": null,
+    "overflow": false,
+    "stage": 3,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "e2-extremum-shift",
+    "lab": null,
+    "overflow": false,
+    "stage": 4,
+    "svgIssues": 0,
+    "width": 390
+  }
+]

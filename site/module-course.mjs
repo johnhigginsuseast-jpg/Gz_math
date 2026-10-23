@@ -3,6 +3,7 @@ import { solidLessons } from './solid-course.mjs';
 import { conicLessons } from './conic-course.mjs';
 import { bookLessons } from './book-course.mjs';
 import { book2Lessons } from './book2-course.mjs';
+import { elective2Lessons } from './elective2-course.mjs';
 
 const lineLessons = [
   {
@@ -168,8 +169,9 @@ export const modules = [
   { id:'conics',title:'圆锥曲线',subtitle:'从距离定义出发，探索焦点、弦、轨迹与综合题',symbol:'⬭',number:'03',lessonIds:conicLessons.map(l=>l.id) },
   { id:'book',title:'必修一',subtitle:'集合与逻辑、不等式、函数、指数对数、三角函数，五章循序探究',symbol:'f(x)',number:'04',lessonIds:bookLessons.map(l=>l.id) },
   { id:'book2',title:'必修二',subtitle:'平面向量、复数、立体几何初步、统计与概率，五章循序探究',symbol:'Ω',number:'05',lessonIds:book2Lessons.map(l=>l.id) },
+  { id:'elective2',title:'选择性必修二',subtitle:'数列与导数及其应用，两章24课，从规律走向证明',symbol:'f′',number:'06',lessonIds:elective2Lessons.map(l=>l.id) },
 ];
-export const lessons = [...lineLessons.map(l=>({...l,moduleId:'lines'})),...solidLessons.map(l=>({...l,moduleId:'solid'})),...conicLessons.map(l=>({...l,moduleId:'conics'})),...bookLessons.map(l=>({...l,moduleId:'book'})),...book2Lessons.map(l=>({...l,moduleId:'book2'}))];
+export const lessons = [...lineLessons.map(l=>({...l,moduleId:'lines'})),...solidLessons.map(l=>({...l,moduleId:'solid'})),...conicLessons.map(l=>({...l,moduleId:'conics'})),...bookLessons.map(l=>({...l,moduleId:'book'})),...book2Lessons.map(l=>({...l,moduleId:'book2'})),...elective2Lessons.map(l=>({...l,moduleId:'elective2'}))];
 export const moduleKey = 'geometry-module-v1';
 
 export function freshLesson(lesson) {

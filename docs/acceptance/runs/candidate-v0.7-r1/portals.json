@@ -1,0 +1,128 @@
+[
+  {
+    "courses": 6,
+    "empty": true,
+    "id": "solid",
+    "scroll": 1425,
+    "width": 1440
+  },
+  {
+    "courses": 6,
+    "empty": true,
+    "id": "lines",
+    "scroll": 1425,
+    "width": 1440
+  },
+  {
+    "courses": 7,
+    "empty": true,
+    "id": "conics",
+    "scroll": 1425,
+    "width": 1440
+  },
+  {
+    "courses": 24,
+    "empty": true,
+    "id": "book",
+    "scroll": 1425,
+    "width": 1440
+  },
+  {
+    "courses": 28,
+    "empty": true,
+    "id": "book2",
+    "scroll": 1425,
+    "width": 1440
+  },
+  {
+    "courses": 24,
+    "empty": true,
+    "id": "elective2",
+    "scroll": 1425,
+    "width": 1440
+  },
+  {
+    "courses": 6,
+    "empty": true,
+    "id": "solid",
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "courses": 6,
+    "empty": true,
+    "id": "lines",
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "courses": 7,
+    "empty": true,
+    "id": "conics",
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "courses": 24,
+    "empty": true,
+    "id": "book",
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "courses": 28,
+    "empty": true,
+    "id": "book2",
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "courses": 24,
+    "empty": true,
+    "id": "elective2",
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "courses": 6,
+    "empty": true,
+    "id": "solid",
+    "scroll": 375,
+    "width": 390
+  },
+  {
+    "courses": 6,
+    "empty": true,
+    "id": "lines",
+    "scroll": 375,
+    "width": 390
+  },
+  {
+    "courses": 7,
+    "empty": true,
+    "id": "conics",
+    "scroll": 375,
+    "width": 390
+  },
+  {
+    "courses": 24,
+    "empty": true,
+    "id": "book",
+    "scroll": 375,
+    "width": 390
+  },
+  {
+    "courses": 28,
+    "empty": true,
+    "id": "book2",
+    "scroll": 375,
+    "width": 390
+  },
+  {
+    "courses": 24,
+    "empty": true,
+    "id": "elective2",
+    "scroll": 384,
+    "width": 390
+  }
+]

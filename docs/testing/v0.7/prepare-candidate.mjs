@@ -1,0 +1,20 @@
+import {readFile,writeFile,mkdir,readdir} from 'node:fs/promises';
+import {createHash} from 'node:crypto';
+import {execFileSync} from 'node:child_process';
+import {elective2Lessons} from '../../../site/elective2-course.mjs';
+const root=new URL('../../../',import.meta.url),out=new URL('../../acceptance/runs/candidate-v0.7-r1/',import.meta.url);
+const ranges=[[1,12],[13,15],[16,20],[23,27],[21,22,28,30],[31,35,44,46],[36,38,45],[39,43],[108,108],[109,109],[47,53],[54,59,62,62],[60,63,112,112],[64,69],[70,73],[74,78],[79,82],[83,83,113,113,119,119],[84,87],[88,91,114,114],[92,94],[95,96],[97,100,103,104],[101,102,116,116]];
+// Each pair is an inclusive paragraph range; repeated review items map to the actual lessons again.
+const map=ranges.map((r,i)=>({lesson:elective2Lessons[i],ps:r.flatMap((v,j)=>j%2===0?Array.from({length:r[j+1]-v+1},(_,n)=>v+n):[])}));
+map[2].ps.push(107);map[8].ps.push(118);map[10].ps.push(110);map[20].ps.push(115);map[0].ps.push(5,6,105,106,117,120);map[3].ps.push(29);map[8].ps.push(108);map[23].ps.push(111);
+const sourceText=await readFile(new URL('docs/requirements/source-extract-v0.7.txt',root),'utf8');
+const coverage={source:'高中知识点/高中数学选择性必修二知识点考点整理.docx',review:'逐段人工对照：原文错误以课程适用条件订正，标题/建议落在章、概念或方法；公式、操作与解析可独立查验。',paragraphs:Array.from({length:120},(_,i)=>({id:`P${String(i+1).padStart(3,'0')}`,targets:map.filter(m=>m.ps.includes(i+1)).map(m=>({lesson:m.lesson.id,file:m.lesson.id.startsWith('e2-sequence')||elective2Lessons.indexOf(m.lesson)<11?'site/elective2-sequences.mjs':'site/elective2-derivatives.mjs',fields:['notes','examples','quizzes','labs']}))}))};
+if(!sourceText.includes('P001')||coverage.paragraphs.some(p=>!p.targets.length))throw Error('来源段落未映射：'+coverage.paragraphs.filter(p=>!p.targets.length).map(p=>p.id));
+await writeFile(new URL('docs/requirements/source-coverage-v0.7.json',root),JSON.stringify(coverage,null,2)+'\n');
+await mkdir(out,{recursive:true});
+const paths=[...(await readdir(new URL('site/',root))).filter(p=>p.endsWith('.mjs')||p.endsWith('.css')||p.endsWith('.html')).map(p=>'site/'+p),'site/assets/logo.svg',...(await readdir(new URL('tests/',root))).map(p=>'tests/'+p),'package.json','server.mjs','docs/requirements/requirements-v0.7.md','docs/acceptance/criteria-v0.7.md','docs/requirements/source-map-v0.7.md','docs/requirements/source-coverage-v0.7.json','docs/testing/v0.7/lab-expectations.json','docs/testing/v0.7/quiz-expectations.json','docs/testing/v0.7/browser-flow.js','docs/testing/v0.7/browser-corners.js'];
+const hash=async path=>({path,sha256:createHash('sha256').update(await readFile(new URL(path,root))).digest('hex')});
+const sources=await Promise.all((await readdir(new URL('高中知识点/',root))).filter(p=>p.endsWith('.docx')&&!p.startsWith('~$')).map(p=>hash('高中知识点/'+p)));
+const manifest={candidate:'v0.7-r1',frozenAt:new Date().toISOString(),baseCommit:execFileSync('git',['rev-parse','HEAD'],{encoding:'utf8'}).trim(),files:await Promise.all(paths.map(hash)),sources,sourceOrganization:'原四份DOCX从项目根目录移至高中知识点，内容哈希与v0.6保持；新增选择性必修二原件不改写。'};
+await writeFile(new URL('manifest.json',out),JSON.stringify(manifest,null,2)+'\n');
+console.log(JSON.stringify({candidate:manifest.candidate,files:manifest.files.length,sources:sources.length,sourceParagraphs:coverage.paragraphs.length}));
