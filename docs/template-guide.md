@@ -29,3 +29,7 @@ solid-course/conic-course复用lesson-data中五种数据构造；数学放advan
 
 每个实验需提供独立已知值或几何不变量检查，并在浏览器走通预测、记录与应用。添加实验、题目或步骤会影响原完成条件，须检查恢复逻辑，不把既有100%冒充新增已学。三维透视形状不能当作实际角度与距离。
 
+
+## 必修一 v0.5
+
+必修一课程在book-course.mjs按五章汇总，五个book章节文件沿用note/example/quiz。实验定义与模型共用book-labs.mjs，编号b-；课程唯一编号b1-，不复用旧课ID。book-math.mjs统一集合、区间、定义域、分段采样及二分。数学新条件先用独立已知值验证，再做完整浏览器闭环、三视口与旧记录回归。来源逐段见source-map-v0.5与source-coverage-v0.5。新增课程不改localStorage键或假造完成。

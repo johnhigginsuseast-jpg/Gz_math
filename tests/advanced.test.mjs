@@ -48,7 +48,7 @@ test('柱锥台与球截面：已知值和退化，翻折保持板内长度',()=
 
 test('全部32新实验及134默认/预设情形有效；三维转动不改变模型数据',()=>{
   let cases=0,labs=0;
-  for(const lesson of lessons.filter(l=>l.moduleId!=='lines'))for(const lab of lesson.labs){
+  for(const lesson of lessons.filter(l=>['solid','conics'].includes(l.moduleId)))for(const lab of lesson.labs){
     labs++;
     const defaults=Object.fromEntries(lab.controls.map(c=>[c.key,c.value]));
     for(const [,preset] of [['默认',{}],...lab.presets]){
@@ -128,9 +128,9 @@ test('椭圆面积最大15/2、斜率积-9/25以及含参直线恒过点',()=>{
   for(let lambda=-2;lambda<=2;lambda+=0.5){const m=model('c-fixed',{lambda});assert.equal(m.answer,lambda===0?1:0);assert.ok(m.measurements.points.some(p=>Math.abs(p.x-5)<1e-8&&Math.abs(p.y)<1e-8));}
 });
 
-test('三个同级模块独占19课程与唯一实验ID，实际v0.3浏览器记录升级保留',async()=>{
-  assert.deepEqual(modules.map(m=>m.title),['立体几何','直线与圆的方程','圆锥曲线']);
-  assert.deepEqual(modules.map(m=>m.lessonIds.length),[6,6,7]);assert.equal(new Set(lessons.map(l=>l.id)).size,19);
+test('保留原三个模块19课程并新增必修一与唯一实验ID，实际v0.3浏览器记录升级保留',async()=>{
+  assert.deepEqual(modules.map(m=>m.title),['立体几何','直线与圆的方程','圆锥曲线','必修一']);
+  assert.deepEqual(modules.map(m=>m.lessonIds.length),[6,6,7,24]);assert.equal(new Set(lessons.map(l=>l.id)).size,43);
   const ids=lessons.filter(l=>!l.legacy).flatMap(l=>l.labs.map(lab=>lab.id));assert.equal(new Set(ids).size,ids.length);
   const raw=await readFile(new URL('../docs/testing/v0.4/fixtures/v0.3-module-state.json',import.meta.url),'utf8'),old=JSON.parse(raw),restored=restoreModule(raw);
   assert.equal(restored.recovered,false);

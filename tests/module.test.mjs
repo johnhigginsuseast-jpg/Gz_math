@@ -90,7 +90,7 @@ test('阿波罗尼斯轨迹上的采样点满足原距离比，λ=1退化垂直�
 
 test('所有课程进度隔离、未知/损坏记录安全恢复，答题正确不等于所有环节完成', () => {
   const original = restoreModule(null);
-  assert.equal(modules.length, 3); assert.equal(lessons.filter(l=>l.moduleId==='lines').length, 6); assert.equal(lessons.filter(l => l.legacy).length, 1);
+  assert.equal(modules.length, 4); assert.equal(lessons.filter(l=>l.moduleId==='lines').length, 6); assert.equal(lessons.filter(l => l.legacy).length, 1);
   for (const lesson of lessons.filter(l => !l.legacy)) {
     const s = freshLesson(lesson);
     assert.equal(lessonProgress(lesson, s), 0);

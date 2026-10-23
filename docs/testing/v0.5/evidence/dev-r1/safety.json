@@ -1,0 +1,12 @@
+{
+  "resetCancel": true,
+  "resetScope": true,
+  "invalidInput": true,
+  "keyboardRange": true,
+  "keyboardTrap": true,
+  "keyboardEscape": true,
+  "corruptNotice": true,
+  "writeFailure": true,
+  "readFailure": true,
+  "restored": true
+}

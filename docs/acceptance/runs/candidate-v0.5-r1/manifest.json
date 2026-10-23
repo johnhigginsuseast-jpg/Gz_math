@@ -1,0 +1,220 @@
+{
+  "candidate": "v0.5-r1",
+  "created": "2026-10-23T05:17:27.954Z",
+  "head": "c20e44cb42af19564be7c65ca34944d347374d87",
+  "status": " M AI_CHANGELOG.md\n M README.md\n M docs/project-status.md\n M docs/template-guide.md\n M package.json\n M server.mjs\n M site/index.html\n M site/module-app.mjs\n M site/module-course.mjs\n M site/module.css\n M tests/advanced.test.mjs\n M tests/module.test.mjs\n M tests/server.test.mjs\n?? docs/acceptance/criteria-v0.5.md\n?? docs/phases/v0.5-requirements.md\n?? docs/requirements/requirements-v0.5.md\n?? docs/requirements/source-coverage-v0.5.json\n?? docs/requirements/source-extract-v0.5.txt\n?? docs/requirements/source-map-v0.5.md\n?? docs/testing/v0.5/\n?? site/book-course.mjs\n?? site/book-explog.mjs\n?? site/book-functions.mjs\n?? site/book-inequalities.mjs\n?? site/book-labs.mjs\n?? site/book-math.mjs\n?? site/book-sets.mjs\n?? site/book-trig.mjs\n?? tests/book.test.mjs\n?? \"\\351\\253\\230\\344\\270\\255\\346\\225\\260\\345\\255\\246\\345\\277\\205\\344\\277\\256\\344\\270\\200\\347\\237\\245\\350\\257\\206\\347\\202\\271\\350\\200\\203\\347\\202\\271\\345\\205\\250\\346\\242\\263\\347\\220\\206.docx\"\n",
+  "files": [
+    {
+      "path": "site/advanced-labs.mjs",
+      "sha256": "efdda79e31d6cfeada403d0d5ebba724f5143aaa405683ea8d48a806ce3a604f"
+    },
+    {
+      "path": "site/advanced-math.mjs",
+      "sha256": "c06d88dcbfafddb3e161ea55cd0af13e7730faf5f2823d77d721750763b210cc"
+    },
+    {
+      "path": "site/app.mjs",
+      "sha256": "9887ae2a58eaf2b60fddccd7e71b7492611cb8572080fd559f8865704e809145"
+    },
+    {
+      "path": "site/book-course.mjs",
+      "sha256": "df1249cac3eee331416a66e8aaeee954121db20999167c5a0f2f99dcf5fbab91"
+    },
+    {
+      "path": "site/book-explog.mjs",
+      "sha256": "9bab802ebb4dc8159c74c99ff69073a1b0a0861a465a3f7b78e49eab42a871e6"
+    },
+    {
+      "path": "site/book-functions.mjs",
+      "sha256": "0e0587c834be0a4caf26511fd06e4bcf4fab716f1d10258c7d69f6cfca4d0096"
+    },
+    {
+      "path": "site/book-inequalities.mjs",
+      "sha256": "681702e4629da282fd37b6eed7f288a33da9cf311fbe3a1b79152f59c1104243"
+    },
+    {
+      "path": "site/book-labs.mjs",
+      "sha256": "02b778f2efbd123956f144e3a6eb037440535c5d6b8a6d4104e9488d1b7d628e"
+    },
+    {
+      "path": "site/book-math.mjs",
+      "sha256": "7f3e946a10c6074bfb4f7e921791006abc56e3147690f29ffb1e55edf7bcd87b"
+    },
+    {
+      "path": "site/book-sets.mjs",
+      "sha256": "23f635fa7ba5903b70888a4ce6a9cad5c7831078d2c0734c04f0af5e325e9110"
+    },
+    {
+      "path": "site/book-trig.mjs",
+      "sha256": "51e5fa529f7cafeb80cde08a727846761d7030fe422383dc984504ffe61a056f"
+    },
+    {
+      "path": "site/boot.mjs",
+      "sha256": "7488e2b2b6806c016b7e80a4f02b88cd01887a08366cb14a0921fc3873516fd3"
+    },
+    {
+      "path": "site/conic-course.mjs",
+      "sha256": "4e8e71b64699160ffbd894584130b3e6062e35e099e70084101df9773a11f9e6"
+    },
+    {
+      "path": "site/course.mjs",
+      "sha256": "685a0f90621fde0012733ee76d6adb1f0c73a794a5dac39bb18871269deb641b"
+    },
+    {
+      "path": "site/index.html",
+      "sha256": "71587c39542b4bca2f4ce9e84d03c1c3dcc561aab6ff50cdf94a00d48b90f786"
+    },
+    {
+      "path": "site/lesson-data.mjs",
+      "sha256": "128d2112a9b6293278ffd96067597a890a183a8292e5a6933d335b3e184beae7"
+    },
+    {
+      "path": "site/math.mjs",
+      "sha256": "0e2fac2235cb0e0d973e1fa343ba79f7dfe062572526c3b3cec9aab735e1d8db"
+    },
+    {
+      "path": "site/module-app.mjs",
+      "sha256": "2f7b66eaceea9bdf931b21ef237f85b47911dde469f246e2ebea885332f43649"
+    },
+    {
+      "path": "site/module-course.mjs",
+      "sha256": "3816adb3dfc481c0c74e8882fca28d4d5499551f3026cea20a20514f78a67cc6"
+    },
+    {
+      "path": "site/module-math.mjs",
+      "sha256": "dac4ca024e7d70a49ef865737e8140fc390ebd67a1646a03d6fc09a97cee89d2"
+    },
+    {
+      "path": "site/module.css",
+      "sha256": "73044a4aa6957746162ceb96e0fa24ec24af586b0576a0b39505faee5b4cab45"
+    },
+    {
+      "path": "site/solid-course.mjs",
+      "sha256": "41136f593d1b2a089d17664431c61d471a1500454a5919290132013a9aa35fa7"
+    },
+    {
+      "path": "site/state.mjs",
+      "sha256": "4b7e6b7eeef01ae91914d82286b9f2a34f24fa81ca23d36331669dea022e6a92"
+    },
+    {
+      "path": "site/styles.css",
+      "sha256": "9fc199643ae5fd2054755a1ab931225dffcf248c037d94fa32b4dd35d494ec32"
+    },
+    {
+      "path": "site/assets/logo.svg",
+      "sha256": "33502fb20cf08efaf88d09a7418532fd497784a2268b1eee38dba8e46c52b740"
+    },
+    {
+      "path": "tests/advanced.test.mjs",
+      "sha256": "f91c434f61c5d68f2028c730ac1673d0e6d1f61b405363259f430d3c6189ba9c"
+    },
+    {
+      "path": "tests/book.test.mjs",
+      "sha256": "bb0092eb0bc178bc36174a755534ab5e2818fcc83931b72968912a9c08f399dd"
+    },
+    {
+      "path": "tests/math.test.mjs",
+      "sha256": "dae36b3a6933c7b911c916b44750a3a9872779975da82b1bf0a48d7f7cbc234f"
+    },
+    {
+      "path": "tests/module.test.mjs",
+      "sha256": "b4122a0d8a777149097edff87db5ff552e39ae123abbb78148ff0686fb226fd2"
+    },
+    {
+      "path": "tests/server.test.mjs",
+      "sha256": "f69e16b7bd9b0b5a4ff3c1edbfa70ebad317568da588f249aa67daa80e089612"
+    },
+    {
+      "path": "tests/state.test.mjs",
+      "sha256": "2d616fabacf2176e00b73f5a621d316e01520b9588577c1013e412584bb1bc15"
+    },
+    {
+      "path": "tests/topics.test.mjs",
+      "sha256": "faccc8370125c50ac6c8bd8e82b433790f5191fe8ff4af93aba9be3314360cd7"
+    },
+    {
+      "path": "package.json",
+      "sha256": "79847263451bcd1bb52ef7c198db955fc36ec0514271dac88a832c91cf6326a2"
+    },
+    {
+      "path": "server.mjs",
+      "sha256": "b5eb3eb481221501790fb22f6d3fef9ea98866de68d9d4976c6b416e8b0b718c"
+    },
+    {
+      "path": "README.md",
+      "sha256": "fb0002279a0ae9c51b6e61a143917974996b281f479152e40194a2d37c69d1db"
+    },
+    {
+      "path": "启动几何实验室.cmd",
+      "sha256": "f54e04757bcaf6eaea50ee61fffa9be4ab0a99e59d339e868a544425c5e57342"
+    },
+    {
+      "path": "docs/requirements/requirements-v0.5.md",
+      "sha256": "05d530fe03d4eeb036fd5ca8237621cc8433b8153c7af7879c28781f00c6c0ce"
+    },
+    {
+      "path": "docs/acceptance/criteria-v0.5.md",
+      "sha256": "73db368e12f53ec166908a0d1935360892771686eb146a117a58f7201bd5ed58"
+    },
+    {
+      "path": "docs/requirements/source-map-v0.5.md",
+      "sha256": "4edd2e982211fab351cda94cd1ccfe5b47f606f3fc0a18832b4efc5502cf91f3"
+    },
+    {
+      "path": "docs/requirements/source-extract-v0.5.txt",
+      "sha256": "05f973dc1e74af7a5892fdf9833384b7c3c8d3a89bf656af5165d0789cf29752"
+    },
+    {
+      "path": "docs/requirements/source-coverage-v0.5.json",
+      "sha256": "70795a774698c521dd9179b63e589b7d4ec374be6aa52939462a0fb03df8e2c1"
+    },
+    {
+      "path": "docs/testing/v0.5/test-plan.md",
+      "sha256": "767e5319152b7d21e52ec77b7e169114012eac20c933165a3d2e62291d4ba197"
+    },
+    {
+      "path": "docs/testing/v0.5/test-cases.md",
+      "sha256": "8690041149dece66dd4775b3f3e4f1e0daf68e078d4c65cfbdd834b2a2a2accd"
+    },
+    {
+      "path": "docs/testing/v0.5/test-data.md",
+      "sha256": "e8397bcb00b6263cc5e084c52eab0aad7b8e6969cc8f8c2c1681a1837bad5c97"
+    },
+    {
+      "path": "docs/testing/v0.5/browser-data.json",
+      "sha256": "b48386c1fba6e0edd41e694a788b7c12301b66b99a781f8e90b96647188d3c76"
+    },
+    {
+      "path": "docs/testing/v0.5/old-browser-data.json",
+      "sha256": "e4b29b098a26f0f5084a71cccbf5d584fc0e4063768c3715936e2db1c0b8db16"
+    },
+    {
+      "path": "docs/testing/v0.5/lab-expectations.json",
+      "sha256": "5cf761cff49e0acfc1c5e623d82f87b12cb1fe4bf825e81acd31a51a1d2b2491"
+    },
+    {
+      "path": "docs/testing/v0.5/quiz-expectations.json",
+      "sha256": "2e0d65610030585eef11c02ddfe66f21c105784861343b29cc2c6402fcb11d50"
+    },
+    {
+      "path": "docs/testing/v0.5/audit-source.mjs",
+      "sha256": "813aebcb1085d5caa9a0bd3c6eb301396193e181916857dc09831a1f242c5a51"
+    },
+    {
+      "path": "docs/testing/v0.5/fixtures/v0.4-legacy-state.json",
+      "sha256": "e1132a49bb689be6781a876b98f244215e4125e5a79975c318c9c083d69820f3"
+    },
+    {
+      "path": "docs/testing/v0.5/fixtures/v0.4-module-state.json",
+      "sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b"
+    },
+    {
+      "path": "docs/testing/v0.5/fixtures/v0.4-qa-legacy-state.json",
+      "sha256": "0c6e80e2a7a38b474f9f879574c69f68396a11c8ad8c64417f3eb7031d960011"
+    },
+    {
+      "path": "docs/testing/v0.5/fixtures/v0.4-qa-module-state.json",
+      "sha256": "618d77a162a8f90983fa40cc1610ed14a3e36a007b9ca53eba6a7cde2da5e04c"
+    }
+  ]
+}

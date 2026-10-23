@@ -1,0 +1,4 @@
+
+> geometry-learning-lab@0.5.0 check
+> node --check site/book-math.mjs && node --check site/book-labs.mjs && node --check site/book-course.mjs && node --check site/book-sets.mjs && node --check site/book-inequalities.mjs && node --check site/book-functions.mjs && node --check site/book-explog.mjs && node --check site/book-trig.mjs && node --check site/advanced-math.mjs && node --check site/advanced-labs.mjs && node --check site/solid-course.mjs && node --check site/conic-course.mjs && node --check site/lesson-data.mjs && node --check site/boot.mjs && node --check site/module-app.mjs && node --check site/module-course.mjs && node --check site/module-math.mjs && node --check site/app.mjs && node --check site/math.mjs && node --check site/course.mjs && node --check site/state.mjs && node --check server.mjs
+

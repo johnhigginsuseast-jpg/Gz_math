@@ -1,0 +1,17 @@
+{
+ "description":"独立按集合成员、解析条件及特殊角推导的答案索引；每行依次为默认、各预设。不是模型生成的预期。",
+ "answers": {
+  "b-set-member":[0,0,1],"b-set-roots":[2,0,1,2],"b-subset":[0,0,1,2],"b-count":[1,0,0,1],
+  "b-set-op":[2,0,2,3],"b-interval":[2,0,1,0],"b-conditions":[1,0,1,2,3],"b-implication":[1,0,1,2],
+  "b-all":[1,0,1],"b-exists":[0,0,1,1],"b-multiply":[0,0,1,2],"b-difference":[0,0,1,2],
+  "b-amgm":[1,0,1],"b-fixed-sum":[1,0,1,1],"b-quadratic":[2,2,1,0,3,0],"b-root-position":[2,2,1,0],
+  "b-function":[1,0,1,1,1],"b-piecewise":[0,0,1],"b-monotone":[2,0,1,2],"b-parity":[0,0,1,2,3],
+  "b-power":[1,1,1,0],"b-power-compare":[2,1,0,2],"b-profit":[1,0,1],"b-restricted":[1,1,0,2],
+  "b-radical":[1,1,0,0],"b-exponent-algebra":[0,0,0,0],"b-exponential":[0,0,1,2],"b-exp-inequality":[0,0,1,2],
+  "b-log":[0,1,1,0],"b-log-equation":[0,0,1,1],"b-log-graph":[0,0,1,2],"b-inverse":[0,0,0,0],
+  "b-bisect":[0,0,0,0],"b-zero-theorem":[0,0,1,2],"b-angle":[2,0,2,2],"b-sector":[0,0,1,2],
+  "b-unit":[0,0,1,2],"b-trig-from-point":[0,0,0,0],"b-reduction":[0,0,0,0],"b-reduction-cos":[0,0,0,0],
+  "b-trig-graph":[1,1,0,0],"b-trig-period":[1,1,0,0],"b-angle-sum":[1,0,1,1],"b-auxiliary":[0,0,0,1],
+  "b-sine-params":[0,0,1,1],"b-sine-build":[1,1,1,0],"b-wheel":[2,2,1,0],"b-tide":[1,2,1,0]
+ }
+}

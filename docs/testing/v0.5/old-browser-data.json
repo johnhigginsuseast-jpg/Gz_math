@@ -1,0 +1,363 @@
+[
+  {
+    "id": "line",
+    "title": "直线的方程",
+    "legacy": false,
+    "moduleId": "lines",
+    "labs": [
+      {
+        "id": "angle",
+        "title": "转动步道，观察斜率"
+      },
+      {
+        "id": "points",
+        "title": "两点确定一条直线"
+      }
+    ],
+    "examples": 3,
+    "quizzes": 5
+  },
+  {
+    "id": "lines",
+    "title": "两直线的位置关系与距离",
+    "legacy": false,
+    "moduleId": "lines",
+    "labs": [
+      {
+        "id": "relation",
+        "title": "旋转、平移第二条道路"
+      },
+      {
+        "id": "distance",
+        "title": "量一量垂直距离"
+      }
+    ],
+    "examples": 4,
+    "quizzes": 6
+  },
+  {
+    "id": "circle",
+    "title": "圆的方程",
+    "legacy": false,
+    "moduleId": "lines",
+    "labs": [
+      {
+        "id": "complete",
+        "title": "配方后，圆还存在吗？"
+      },
+      {
+        "id": "point-circle",
+        "title": "一盏灯在圆内还是圆外？"
+      }
+    ],
+    "examples": 3,
+    "quizzes": 5
+  },
+  {
+    "id": "line-circle",
+    "title": "直线与圆的位置关系",
+    "legacy": true,
+    "moduleId": "lines",
+    "labs": [],
+    "examples": 7,
+    "quizzes": 15
+  },
+  {
+    "id": "circles",
+    "title": "圆与圆的位置关系",
+    "legacy": false,
+    "moduleId": "lines",
+    "labs": [
+      {
+        "id": "two-circles",
+        "title": "移动圆心，改变半径"
+      }
+    ],
+    "examples": 3,
+    "quizzes": 6
+  },
+  {
+    "id": "methods",
+    "title": "对称、定点、圆系与轨迹",
+    "legacy": false,
+    "moduleId": "lines",
+    "labs": [
+      {
+        "id": "reflection",
+        "title": "把折线拉直"
+      },
+      {
+        "id": "fixed",
+        "title": "参数在变，定点不动"
+      },
+      {
+        "id": "family",
+        "title": "经过同一对点的圆"
+      },
+      {
+        "id": "locus",
+        "title": "距离比画出的轨迹"
+      }
+    ],
+    "examples": 7,
+    "quizzes": 8
+  },
+  {
+    "id": "space-vectors",
+    "title": "空间坐标与向量",
+    "legacy": false,
+    "moduleId": "solid",
+    "labs": [
+      {
+        "id": "s-vector",
+        "title": "转动一个空间向量"
+      },
+      {
+        "id": "s-combine",
+        "title": "沿线段飞行"
+      }
+    ],
+    "examples": 3,
+    "quizzes": 5
+  },
+  {
+    "id": "space-relations",
+    "title": "空间位置关系",
+    "legacy": false,
+    "moduleId": "solid",
+    "labs": [
+      {
+        "id": "s-line-plane",
+        "title": "一条杆与地面"
+      },
+      {
+        "id": "s-planes",
+        "title": "转动一块平面"
+      },
+      {
+        "id": "s-skew",
+        "title": "方向垂直就一定相交吗？"
+      }
+    ],
+    "examples": 3,
+    "quizzes": 5
+  },
+  {
+    "id": "space-angles",
+    "title": "三种空间角",
+    "legacy": false,
+    "moduleId": "solid",
+    "labs": [
+      {
+        "id": "s-acute-angle",
+        "title": "异面直线取较小的方向角"
+      },
+      {
+        "id": "s-elevation",
+        "title": "坡度与法向量角互余"
+      },
+      {
+        "id": "s-dihedral",
+        "title": "二面角可以是钝角"
+      }
+    ],
+    "examples": 3,
+    "quizzes": 5
+  },
+  {
+    "id": "space-distance",
+    "title": "空间距离与等体积法",
+    "legacy": false,
+    "moduleId": "solid",
+    "labs": [
+      {
+        "id": "s-plane-distance",
+        "title": "沿法向量离开平面"
+      },
+      {
+        "id": "s-skew-distance",
+        "title": "异面线的公垂线"
+      }
+    ],
+    "examples": 3,
+    "quizzes": 5
+  },
+  {
+    "id": "space-solids",
+    "title": "几何体的面积与体积",
+    "legacy": false,
+    "moduleId": "solid",
+    "labs": [
+      {
+        "id": "s-volume",
+        "title": "同底同高的柱与锥"
+      },
+      {
+        "id": "s-frustum",
+        "title": "圆台怎样连接圆锥和圆柱？"
+      }
+    ],
+    "examples": 3,
+    "quizzes": 5
+  },
+  {
+    "id": "space-constructions",
+    "title": "截面、翻折、展开与球",
+    "legacy": false,
+    "moduleId": "solid",
+    "labs": [
+      {
+        "id": "s-section",
+        "title": "用平面切球"
+      },
+      {
+        "id": "s-fold",
+        "title": "沿折痕折起纸板"
+      },
+      {
+        "id": "s-unfold",
+        "title": "把圆柱侧面展开"
+      },
+      {
+        "id": "s-cube-section",
+        "title": "多面体的截面"
+      }
+    ],
+    "examples": 4,
+    "quizzes": 6
+  },
+  {
+    "id": "ellipse",
+    "title": "椭圆的定义与方程",
+    "legacy": false,
+    "moduleId": "conics",
+    "labs": [
+      {
+        "id": "e-point",
+        "title": "绷紧绳子的笔尖"
+      },
+      {
+        "id": "e-shape",
+        "title": "改变扁平程度与长轴方向"
+      }
+    ],
+    "examples": 3,
+    "quizzes": 5
+  },
+  {
+    "id": "hyperbola",
+    "title": "双曲线的定义与方程",
+    "legacy": false,
+    "moduleId": "conics",
+    "labs": [
+      {
+        "id": "h-point",
+        "title": "沿两支移动"
+      },
+      {
+        "id": "h-shape",
+        "title": "转动实轴，观察渐近线"
+      }
+    ],
+    "examples": 3,
+    "quizzes": 5
+  },
+  {
+    "id": "parabola",
+    "title": "抛物线的定义与切线",
+    "legacy": false,
+    "moduleId": "conics",
+    "labs": [
+      {
+        "id": "p-definition",
+        "title": "转向的抛物线"
+      },
+      {
+        "id": "p-tangent",
+        "title": "顶点的切线不能漏"
+      }
+    ],
+    "examples": 3,
+    "quizzes": 5
+  },
+  {
+    "id": "conic-focus",
+    "title": "焦点三角形与焦点弦",
+    "legacy": false,
+    "moduleId": "conics",
+    "labs": [
+      {
+        "id": "c-ellipse-triangle",
+        "title": "椭圆焦点三角形"
+      },
+      {
+        "id": "c-hyperbola-triangle",
+        "title": "双曲线焦点三角形"
+      },
+      {
+        "id": "p-focal-chord",
+        "title": "转动过焦点的弦"
+      }
+    ],
+    "examples": 4,
+    "quizzes": 6
+  },
+  {
+    "id": "conic-intersections",
+    "title": "直线与圆锥曲线联立",
+    "legacy": false,
+    "moduleId": "conics",
+    "labs": [
+      {
+        "id": "c-ellipse-line",
+        "title": "水平线穿过椭圆"
+      },
+      {
+        "id": "c-hyperbola-line",
+        "title": "渐近线方向的降次"
+      }
+    ],
+    "examples": 3,
+    "quizzes": 5
+  },
+  {
+    "id": "conic-midpoint",
+    "title": "点差法与中点弦",
+    "legacy": false,
+    "moduleId": "conics",
+    "labs": [
+      {
+        "id": "c-ellipse-midpoint",
+        "title": "把中点移到椭圆外"
+      },
+      {
+        "id": "c-parabola-midpoint",
+        "title": "抛物线的中点弦"
+      }
+    ],
+    "examples": 3,
+    "quizzes": 5
+  },
+  {
+    "id": "conic-methods",
+    "title": "定点、定值、最值与存在性",
+    "legacy": false,
+    "moduleId": "conics",
+    "labs": [
+      {
+        "id": "c-area",
+        "title": "弦长最大时面积也最大吗？"
+      },
+      {
+        "id": "c-slope-product",
+        "title": "移动P，观察斜率乘积"
+      },
+      {
+        "id": "c-fixed",
+        "title": "含参直线总过哪个点？"
+      }
+    ],
+    "examples": 4,
+    "quizzes": 6
+  }
+]

@@ -1,0 +1,242 @@
+[
+  {
+    "id": "b1-set-concept",
+    "labs": 2,
+    "cases": 7,
+    "examples": 3,
+    "steps": 9,
+    "quizzes": 5,
+    "complete": true,
+    "refresh": true
+  },
+  {
+    "id": "b1-set-relations",
+    "labs": 2,
+    "cases": 8,
+    "examples": 3,
+    "steps": 9,
+    "quizzes": 5,
+    "complete": true,
+    "refresh": true
+  },
+  {
+    "id": "b1-set-operations",
+    "labs": 2,
+    "cases": 8,
+    "examples": 3,
+    "steps": 9,
+    "quizzes": 5,
+    "complete": true,
+    "refresh": true
+  },
+  {
+    "id": "b1-conditions",
+    "labs": 2,
+    "cases": 9,
+    "examples": 3,
+    "steps": 9,
+    "quizzes": 5,
+    "complete": true,
+    "refresh": true
+  },
+  {
+    "id": "b1-quantifiers",
+    "labs": 2,
+    "cases": 7,
+    "examples": 3,
+    "steps": 9,
+    "quizzes": 5,
+    "complete": true,
+    "refresh": true
+  },
+  {
+    "id": "b1-inequality-rules",
+    "labs": 2,
+    "cases": 8,
+    "examples": 3,
+    "steps": 9,
+    "quizzes": 5,
+    "complete": true,
+    "refresh": true
+  },
+  {
+    "id": "b1-amgm",
+    "labs": 2,
+    "cases": 7,
+    "examples": 3,
+    "steps": 9,
+    "quizzes": 5,
+    "complete": true,
+    "refresh": true
+  },
+  {
+    "id": "b1-quadratic",
+    "labs": 2,
+    "cases": 10,
+    "examples": 3,
+    "steps": 9,
+    "quizzes": 5,
+    "complete": true,
+    "refresh": true
+  },
+  {
+    "id": "b1-function-concept",
+    "labs": 2,
+    "cases": 8,
+    "examples": 3,
+    "steps": 9,
+    "quizzes": 5,
+    "complete": true,
+    "refresh": true
+  },
+  {
+    "id": "b1-function-properties",
+    "labs": 2,
+    "cases": 9,
+    "examples": 3,
+    "steps": 9,
+    "quizzes": 5,
+    "complete": true,
+    "refresh": true
+  },
+  {
+    "id": "b1-power",
+    "labs": 2,
+    "cases": 8,
+    "examples": 3,
+    "steps": 9,
+    "quizzes": 5,
+    "complete": true,
+    "refresh": true
+  },
+  {
+    "id": "b1-model-one",
+    "labs": 2,
+    "cases": 7,
+    "examples": 3,
+    "steps": 9,
+    "quizzes": 5,
+    "complete": true,
+    "refresh": true
+  },
+  {
+    "id": "b1-exponents",
+    "labs": 2,
+    "cases": 8,
+    "examples": 3,
+    "steps": 9,
+    "quizzes": 5,
+    "complete": true,
+    "refresh": true
+  },
+  {
+    "id": "b1-exponential",
+    "labs": 2,
+    "cases": 8,
+    "examples": 3,
+    "steps": 9,
+    "quizzes": 5,
+    "complete": true,
+    "refresh": true
+  },
+  {
+    "id": "b1-logarithms",
+    "labs": 2,
+    "cases": 8,
+    "examples": 3,
+    "steps": 9,
+    "quizzes": 5,
+    "complete": true,
+    "refresh": true
+  },
+  {
+    "id": "b1-log-function",
+    "labs": 2,
+    "cases": 8,
+    "examples": 3,
+    "steps": 9,
+    "quizzes": 5,
+    "complete": true,
+    "refresh": true
+  },
+  {
+    "id": "b1-model-two",
+    "labs": 2,
+    "cases": 8,
+    "examples": 3,
+    "steps": 9,
+    "quizzes": 5,
+    "complete": true,
+    "refresh": true
+  },
+  {
+    "id": "b1-angles",
+    "labs": 2,
+    "cases": 8,
+    "examples": 3,
+    "steps": 9,
+    "quizzes": 5,
+    "complete": true,
+    "refresh": true
+  },
+  {
+    "id": "b1-trig-definition",
+    "labs": 2,
+    "cases": 8,
+    "examples": 3,
+    "steps": 9,
+    "quizzes": 5,
+    "complete": true,
+    "refresh": true
+  },
+  {
+    "id": "b1-trig-reduction",
+    "labs": 2,
+    "cases": 8,
+    "examples": 3,
+    "steps": 9,
+    "quizzes": 5,
+    "complete": true,
+    "refresh": true
+  },
+  {
+    "id": "b1-trig-graphs",
+    "labs": 2,
+    "cases": 8,
+    "examples": 3,
+    "steps": 9,
+    "quizzes": 5,
+    "complete": true,
+    "refresh": true
+  },
+  {
+    "id": "b1-trig-identities",
+    "labs": 2,
+    "cases": 8,
+    "examples": 3,
+    "steps": 9,
+    "quizzes": 5,
+    "complete": true,
+    "refresh": true
+  },
+  {
+    "id": "b1-sine-parameters",
+    "labs": 2,
+    "cases": 8,
+    "examples": 3,
+    "steps": 9,
+    "quizzes": 5,
+    "complete": true,
+    "refresh": true
+  },
+  {
+    "id": "b1-trig-model",
+    "labs": 2,
+    "cases": 8,
+    "examples": 3,
+    "steps": 9,
+    "quizzes": 5,
+    "complete": true,
+    "refresh": true
+  }
+]

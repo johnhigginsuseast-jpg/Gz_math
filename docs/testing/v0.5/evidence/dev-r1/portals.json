@@ -1,0 +1,107 @@
+[
+  {
+    "chapters": 0,
+    "module": "",
+    "scroll": 1425,
+    "tiles": 4,
+    "width": 1440
+  },
+  {
+    "chapters": 0,
+    "module": "solid",
+    "scroll": 1425,
+    "tiles": 6,
+    "width": 1440
+  },
+  {
+    "chapters": 0,
+    "module": "lines",
+    "scroll": 1425,
+    "tiles": 6,
+    "width": 1440
+  },
+  {
+    "chapters": 0,
+    "module": "conics",
+    "scroll": 1425,
+    "tiles": 7,
+    "width": 1440
+  },
+  {
+    "chapters": 5,
+    "module": "book",
+    "scroll": 1425,
+    "tiles": 24,
+    "width": 1440
+  },
+  {
+    "chapters": 0,
+    "module": "",
+    "scroll": 753,
+    "tiles": 4,
+    "width": 768
+  },
+  {
+    "chapters": 0,
+    "module": "solid",
+    "scroll": 753,
+    "tiles": 6,
+    "width": 768
+  },
+  {
+    "chapters": 0,
+    "module": "lines",
+    "scroll": 753,
+    "tiles": 6,
+    "width": 768
+  },
+  {
+    "chapters": 0,
+    "module": "conics",
+    "scroll": 753,
+    "tiles": 7,
+    "width": 768
+  },
+  {
+    "chapters": 5,
+    "module": "book",
+    "scroll": 753,
+    "tiles": 24,
+    "width": 768
+  },
+  {
+    "chapters": 0,
+    "module": "",
+    "scroll": 375,
+    "tiles": 4,
+    "width": 390
+  },
+  {
+    "chapters": 0,
+    "module": "solid",
+    "scroll": 375,
+    "tiles": 6,
+    "width": 390
+  },
+  {
+    "chapters": 0,
+    "module": "lines",
+    "scroll": 375,
+    "tiles": 6,
+    "width": 390
+  },
+  {
+    "chapters": 0,
+    "module": "conics",
+    "scroll": 375,
+    "tiles": 7,
+    "width": 390
+  },
+  {
+    "chapters": 5,
+    "module": "book",
+    "scroll": 375,
+    "tiles": 24,
+    "width": 390
+  }
+]

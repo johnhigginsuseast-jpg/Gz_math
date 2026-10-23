@@ -37,5 +37,5 @@ if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) 
     console.error(error.code === 'EADDRINUSE' ? `端口 ${port} 已被占用。请关闭旧服务，或设置 PORT 使用其他端口。` : error.message);
     process.exitCode = 1;
   });
-  server.listen(port, '127.0.0.1', () => console.log(`几何实验室 v0.4\nLocal: http://127.0.0.1:${server.address().port}/\n按 Ctrl+C 停止服务。`));
+  server.listen(port, '127.0.0.1', () => console.log(`几何实验室 v0.5\nLocal: http://127.0.0.1:${server.address().port}/\n按 Ctrl+C 停止服务。`));
 }

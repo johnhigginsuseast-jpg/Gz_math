@@ -1,0 +1,10 @@
+{
+ "description":"逐题按定义、解析计算和题内限制复核的选项索引；用于与课程答案独立核对及浏览器订正测试。",
+ "answers":{
+  "b1-set-concept":[1,1,0,1,1],"b1-set-relations":[0,1,1,0,0],"b1-set-operations":[1,2,0,1,1],"b1-conditions":[0,1,0,2,2],"b1-quantifiers":[1,0,0,0,1],
+  "b1-inequality-rules":[1,2,1,1,0],"b1-amgm":[1,1,0,1,1],"b1-quadratic":[1,1,1,1,0],
+  "b1-function-concept":[1,1,2,1,1],"b1-function-properties":[0,2,0,1,1],"b1-power":[1,1,1,1,1],"b1-model-one":[1,1,2,0,1],
+  "b1-exponents":[1,1,1,1,2],"b1-exponential":[0,1,1,0,1],"b1-logarithms":[1,0,1,1,1],"b1-log-function":[0,1,1,1,1],"b1-model-two":[0,0,1,0,2],
+  "b1-angles":[1,1,1,0,1],"b1-trig-definition":[1,1,2,1,1],"b1-trig-reduction":[0,1,1,1,0],"b1-trig-graphs":[1,1,1,1,1],"b1-trig-identities":[1,0,1,1,1],"b1-sine-parameters":[1,1,1,1,0],"b1-trig-model":[1,1,0,0,1]
+ }
+}

@@ -1,5 +1,11 @@
 # 项目状态
 
+## 当前迭代 v0.5 / LOCAL_ACCEPTED_PUBLISHING
+
+2026-10-23：用户回复“确认 v0.5，继续开发”。已确认需求requirements/requirements-v0.5.md、独立验收acceptance/criteria-v0.5.md与五章24课来源映射，保留原19课与记录。当前进入开发，新增验收尚未执行；下方历史版本结论不代表本轮完成。
+
+收尾：必修一24课48实验72例题120练习已实现；候选r2冻结55文件，50自动测试与本地AC-036–044通过，192实验情形/126边界/447唯一布局/旧19课回归和存储键盘检查通过，三DOCX未改。当前仅AC-045外部上传/私有部署尚待执行，不提前标记交付。详见acceptance/runs/candidate-v0.5-r2/run.md。
+
 ## 当前迭代 v0.2 / DELIVERED
 
 - 用户本次明确要求字号、重点、顺滑构造与四类新增题型，需求和独立验收见requirements-v0.2.md / criteria-v0.2.md。

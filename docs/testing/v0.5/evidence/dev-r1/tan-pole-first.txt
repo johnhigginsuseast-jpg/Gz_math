@@ -1,0 +1,36 @@
+✔ 集合计数含空集，四种条件关系与区间开闭端点 (7.8747ms)
+✔ 二次恒正解集：降次、Δ、严格端点，按区间独立代回 (9.6799ms)
+✔ 二分保持√2区间、每步折半；不合法输入拒绝 (2.001ms)
+✔ 曲线在已知断点分段，五幂函数定义域，正弦负振幅和常值退化 (2.9379ms)
+✔ 48实验的192个默认/预设答案与独立解析期望吻合，全部曲线点为有限数 (946.2713ms)
+✖ 平移正切图象不能跨任何真实渐近线连线 (84.6103ms)
+✔ 全部24课五章结构、来源ID、内容底线与原19课进度隔离 (6.4726ms)
+✔ 五点代回正弦原式、单位圆比值、定和/定积与反函数独立不变量 (4.6224ms)
+ℹ tests 8
+ℹ suites 0
+ℹ pass 7
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1738.68
+
+✖ failing tests:
+
+test at tests\book.test.mjs:49:1
+✖ 平移正切图象不能跨任何真实渐近线连线 (84.6103ms)
+  AssertionError [ERR_ASSERTION]: s=1.5 undefined sample x=-3.141592653589793
+      at TestContext.<anonymous> (file:///D:/mycode/gz_math3/tests/book.test.mjs:53:95)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: false,
+    expected: true,
+    operator: '==',
+    diff: 'simple'
+  }

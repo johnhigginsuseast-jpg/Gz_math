@@ -1,0 +1,6 @@
+{
+  "oldLessons": 18,
+  "fieldsPreserved": true,
+  "legacyBytesPreserved": true,
+  "explanation": "CDP传回的对象需要JSON规范化后比较字段，键排列不代表数据差异"
+}

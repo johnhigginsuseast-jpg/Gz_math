@@ -1,0 +1,122 @@
+[
+  {
+    "id": "line",
+    "labs": 2,
+    "passed": true,
+    "stages": 5
+  },
+  {
+    "id": "lines",
+    "labs": 2,
+    "passed": true,
+    "stages": 5
+  },
+  {
+    "id": "circle",
+    "labs": 2,
+    "passed": true,
+    "stages": 5
+  },
+  {
+    "id": "circles",
+    "labs": 1,
+    "passed": true,
+    "stages": 5
+  },
+  {
+    "id": "methods",
+    "labs": 4,
+    "passed": true,
+    "stages": 5
+  },
+  {
+    "id": "space-vectors",
+    "labs": 2,
+    "passed": true,
+    "stages": 5
+  },
+  {
+    "id": "space-relations",
+    "labs": 3,
+    "passed": true,
+    "stages": 5
+  },
+  {
+    "id": "space-angles",
+    "labs": 3,
+    "passed": true,
+    "stages": 5
+  },
+  {
+    "id": "space-distance",
+    "labs": 2,
+    "passed": true,
+    "stages": 5
+  },
+  {
+    "id": "space-solids",
+    "labs": 2,
+    "passed": true,
+    "stages": 5
+  },
+  {
+    "id": "space-constructions",
+    "labs": 4,
+    "passed": true,
+    "stages": 5
+  },
+  {
+    "id": "ellipse",
+    "labs": 2,
+    "passed": true,
+    "stages": 5
+  },
+  {
+    "id": "hyperbola",
+    "labs": 2,
+    "passed": true,
+    "stages": 5
+  },
+  {
+    "id": "parabola",
+    "labs": 2,
+    "passed": true,
+    "stages": 5
+  },
+  {
+    "id": "conic-focus",
+    "labs": 3,
+    "passed": true,
+    "stages": 5
+  },
+  {
+    "id": "conic-intersections",
+    "labs": 2,
+    "passed": true,
+    "stages": 5
+  },
+  {
+    "id": "conic-midpoint",
+    "labs": 2,
+    "passed": true,
+    "stages": 5
+  },
+  {
+    "id": "conic-methods",
+    "labs": 3,
+    "passed": true,
+    "stages": 5
+  },
+  {
+    "id": "line-circle",
+    "passed": true,
+    "stages": 8,
+    "topics": [
+      "position",
+      "chord",
+      "extrema",
+      "moving",
+      "tangent"
+    ]
+  }
+]

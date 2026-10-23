@@ -1,0 +1,194 @@
+[
+  {
+    "cases": 2,
+    "id": "b-set-member"
+  },
+  {
+    "cases": 2,
+    "id": "b-set-roots"
+  },
+  {
+    "cases": 2,
+    "id": "b-subset"
+  },
+  {
+    "cases": 2,
+    "id": "b-count"
+  },
+  {
+    "cases": 2,
+    "id": "b-set-op"
+  },
+  {
+    "cases": 4,
+    "id": "b-interval"
+  },
+  {
+    "cases": 2,
+    "id": "b-conditions"
+  },
+  {
+    "cases": 2,
+    "id": "b-implication"
+  },
+  {
+    "cases": 2,
+    "id": "b-all"
+  },
+  {
+    "cases": 2,
+    "id": "b-exists"
+  },
+  {
+    "cases": 2,
+    "id": "b-multiply"
+  },
+  {
+    "cases": 2,
+    "id": "b-difference"
+  },
+  {
+    "cases": 2,
+    "id": "b-amgm"
+  },
+  {
+    "cases": 2,
+    "id": "b-fixed-sum"
+  },
+  {
+    "cases": 4,
+    "id": "b-quadratic"
+  },
+  {
+    "cases": 2,
+    "id": "b-root-position"
+  },
+  {
+    "cases": 2,
+    "id": "b-function"
+  },
+  {
+    "cases": 2,
+    "id": "b-piecewise"
+  },
+  {
+    "cases": 2,
+    "id": "b-monotone"
+  },
+  {
+    "cases": 4,
+    "id": "b-parity"
+  },
+  {
+    "cases": 4,
+    "id": "b-power"
+  },
+  {
+    "cases": 4,
+    "id": "b-power-compare"
+  },
+  {
+    "cases": 2,
+    "id": "b-profit"
+  },
+  {
+    "cases": 4,
+    "id": "b-restricted"
+  },
+  {
+    "cases": 2,
+    "id": "b-radical"
+  },
+  {
+    "cases": 2,
+    "id": "b-exponent-algebra"
+  },
+  {
+    "cases": 2,
+    "id": "b-exponential"
+  },
+  {
+    "cases": 2,
+    "id": "b-exp-inequality"
+  },
+  {
+    "cases": 4,
+    "id": "b-log"
+  },
+  {
+    "cases": 2,
+    "id": "b-log-equation"
+  },
+  {
+    "cases": 2,
+    "id": "b-log-graph"
+  },
+  {
+    "cases": 2,
+    "id": "b-inverse"
+  },
+  {
+    "cases": 2,
+    "id": "b-bisect"
+  },
+  {
+    "cases": 2,
+    "id": "b-zero-theorem"
+  },
+  {
+    "cases": 2,
+    "id": "b-angle"
+  },
+  {
+    "cases": 2,
+    "id": "b-sector"
+  },
+  {
+    "cases": 2,
+    "id": "b-unit"
+  },
+  {
+    "cases": 4,
+    "id": "b-trig-from-point"
+  },
+  {
+    "cases": 2,
+    "id": "b-reduction"
+  },
+  {
+    "cases": 2,
+    "id": "b-reduction-cos"
+  },
+  {
+    "cases": 4,
+    "id": "b-trig-graph"
+  },
+  {
+    "cases": 4,
+    "id": "b-trig-period"
+  },
+  {
+    "cases": 2,
+    "id": "b-angle-sum"
+  },
+  {
+    "cases": 4,
+    "id": "b-auxiliary"
+  },
+  {
+    "cases": 8,
+    "id": "b-sine-params"
+  },
+  {
+    "cases": 2,
+    "id": "b-sine-build"
+  },
+  {
+    "cases": 2,
+    "id": "b-wheel"
+  },
+  {
+    "cases": 4,
+    "id": "b-tide"
+  }
+]

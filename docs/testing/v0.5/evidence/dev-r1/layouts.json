@@ -1,0 +1,6556 @@
+[
+  {
+    "id": "b1-set-concept",
+    "stage": 0,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1265,
+    "width": 1280
+  },
+  {
+    "id": "b1-set-concept",
+    "stage": 1,
+    "lab": "last-selected",
+    "outside": [
+      {
+        "cls": {},
+        "right": 1378.088134765625,
+        "tag": "g",
+        "text": "-22"
+      },
+      {
+        "cls": {},
+        "right": 1378.088134765625,
+        "tag": "path",
+        "text": ""
+      }
+    ],
+    "overflow": false,
+    "scroll": 1265,
+    "width": 1280
+  },
+  {
+    "id": "b1-set-concept",
+    "stage": 2,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1265,
+    "width": 1280
+  },
+  {
+    "id": "b1-set-concept",
+    "stage": 3,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1265,
+    "width": 1280
+  },
+  {
+    "id": "b1-set-concept",
+    "stage": 4,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1265,
+    "width": 1280
+  },
+  {
+    "id": "b1-set-concept",
+    "stage": 1,
+    "lab": 0,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1265,
+    "width": 1280
+  },
+  {
+    "id": "b1-set-concept",
+    "stage": 1,
+    "lab": 1,
+    "outside": [
+      {
+        "cls": {},
+        "right": 1378.088134765625,
+        "tag": "g",
+        "text": "-22"
+      },
+      {
+        "cls": {},
+        "right": 1378.088134765625,
+        "tag": "path",
+        "text": ""
+      }
+    ],
+    "overflow": false,
+    "scroll": 1265,
+    "width": 1280
+  },
+  {
+    "id": "b1-set-relations",
+    "stage": 0,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1265,
+    "width": 1280
+  },
+  {
+    "id": "b1-set-relations",
+    "stage": 1,
+    "lab": "last-selected",
+    "outside": [],
+    "overflow": false,
+    "scroll": 1265,
+    "width": 1280
+  },
+  {
+    "id": "b1-set-relations",
+    "stage": 2,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1265,
+    "width": 1280
+  },
+  {
+    "id": "b1-set-relations",
+    "stage": 3,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1265,
+    "width": 1280
+  },
+  {
+    "id": "b1-set-relations",
+    "stage": 4,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1265,
+    "width": 1280
+  },
+  {
+    "id": "b1-set-relations",
+    "stage": 1,
+    "lab": 0,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1265,
+    "width": 1280
+  },
+  {
+    "id": "b1-set-relations",
+    "stage": 1,
+    "lab": 1,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1265,
+    "width": 1280
+  },
+  {
+    "id": "b1-set-operations",
+    "stage": 0,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1265,
+    "width": 1280
+  },
+  {
+    "id": "b1-set-operations",
+    "stage": 1,
+    "lab": "last-selected",
+    "outside": [],
+    "overflow": false,
+    "scroll": 1265,
+    "width": 1280
+  },
+  {
+    "id": "b1-set-operations",
+    "stage": 2,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1265,
+    "width": 1280
+  },
+  {
+    "id": "b1-set-operations",
+    "stage": 3,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1265,
+    "width": 1280
+  },
+  {
+    "id": "b1-set-operations",
+    "stage": 4,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1265,
+    "width": 1280
+  },
+  {
+    "id": "b1-set-operations",
+    "stage": 1,
+    "lab": 0,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1265,
+    "width": 1280
+  },
+  {
+    "id": "b1-set-operations",
+    "stage": 1,
+    "lab": 1,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1265,
+    "width": 1280
+  },
+  {
+    "id": "b1-conditions",
+    "stage": 0,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1265,
+    "width": 1280
+  },
+  {
+    "id": "b1-conditions",
+    "stage": 1,
+    "lab": "last-selected",
+    "outside": [],
+    "overflow": false,
+    "scroll": 1265,
+    "width": 1280
+  },
+  {
+    "id": "b1-conditions",
+    "stage": 2,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1265,
+    "width": 1280
+  },
+  {
+    "id": "b1-conditions",
+    "stage": 3,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1265,
+    "width": 1280
+  },
+  {
+    "id": "b1-conditions",
+    "stage": 4,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1265,
+    "width": 1280
+  },
+  {
+    "id": "b1-conditions",
+    "stage": 1,
+    "lab": 0,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1265,
+    "width": 1280
+  },
+  {
+    "id": "b1-conditions",
+    "stage": 1,
+    "lab": 1,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1265,
+    "width": 1280
+  },
+  {
+    "id": "b1-quantifiers",
+    "stage": 0,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1265,
+    "width": 1280
+  },
+  {
+    "id": "b1-quantifiers",
+    "stage": 1,
+    "lab": "last-selected",
+    "outside": [
+      {
+        "cls": {},
+        "right": 1378.088134765625,
+        "tag": "g",
+        "text": "最小最大"
+      },
+      {
+        "cls": {},
+        "right": 1378.088134765625,
+        "tag": "path",
+        "text": ""
+      }
+    ],
+    "overflow": false,
+    "scroll": 1265,
+    "width": 1280
+  },
+  {
+    "id": "b1-quantifiers",
+    "stage": 2,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1265,
+    "width": 1280
+  },
+  {
+    "id": "b1-quantifiers",
+    "stage": 3,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1265,
+    "width": 1280
+  },
+  {
+    "id": "b1-quantifiers",
+    "stage": 4,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1265,
+    "width": 1280
+  },
+  {
+    "id": "b1-quantifiers",
+    "stage": 1,
+    "lab": 0,
+    "outside": [
+      {
+        "cls": {},
+        "right": 1378.088134765625,
+        "tag": "g",
+        "text": "最小最大"
+      },
+      {
+        "cls": {},
+        "right": 1378.088134765625,
+        "tag": "path",
+        "text": ""
+      }
+    ],
+    "overflow": false,
+    "scroll": 1265,
+    "width": 1280
+  },
+  {
+    "id": "b1-quantifiers",
+    "stage": 1,
+    "lab": 1,
+    "outside": [
+      {
+        "cls": {},
+        "right": 1378.088134765625,
+        "tag": "g",
+        "text": "最小最大"
+      },
+      {
+        "cls": {},
+        "right": 1378.088134765625,
+        "tag": "path",
+        "text": ""
+      }
+    ],
+    "overflow": false,
+    "scroll": 1265,
+    "width": 1280
+  },
+  {
+    "id": "b1-inequality-rules",
+    "stage": 0,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1265,
+    "width": 1280
+  },
+  {
+    "id": "b1-inequality-rules",
+    "stage": 1,
+    "lab": "last-selected",
+    "outside": [],
+    "overflow": false,
+    "scroll": 1265,
+    "width": 1280
+  },
+  {
+    "id": "b1-inequality-rules",
+    "stage": 2,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1265,
+    "width": 1280
+  },
+  {
+    "id": "b1-inequality-rules",
+    "stage": 3,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1265,
+    "width": 1280
+  },
+  {
+    "id": "b1-inequality-rules",
+    "stage": 4,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1265,
+    "width": 1280
+  },
+  {
+    "id": "b1-inequality-rules",
+    "stage": 1,
+    "lab": 0,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1265,
+    "width": 1280
+  },
+  {
+    "id": "b1-inequality-rules",
+    "stage": 1,
+    "lab": 1,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1265,
+    "width": 1280
+  },
+  {
+    "id": "b1-amgm",
+    "stage": 0,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1265,
+    "width": 1280
+  },
+  {
+    "id": "b1-amgm",
+    "stage": 1,
+    "lab": "last-selected",
+    "outside": [],
+    "overflow": false,
+    "scroll": 1265,
+    "width": 1280
+  },
+  {
+    "id": "b1-amgm",
+    "stage": 2,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1265,
+    "width": 1280
+  },
+  {
+    "id": "b1-amgm",
+    "stage": 3,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1265,
+    "width": 1280
+  },
+  {
+    "id": "b1-amgm",
+    "stage": 4,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1265,
+    "width": 1280
+  },
+  {
+    "id": "b1-amgm",
+    "stage": 1,
+    "lab": 0,
+    "outside": [
+      {
+        "cls": {},
+        "right": 1378.088134765625,
+        "tag": "g",
+        "text": "当前边长和"
+      },
+      {
+        "cls": {},
+        "right": 1378.088134765625,
+        "tag": "path",
+        "text": ""
+      }
+    ],
+    "overflow": false,
+    "scroll": 1265,
+    "width": 1280
+  },
+  {
+    "id": "b1-amgm",
+    "stage": 1,
+    "lab": 1,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1265,
+    "width": 1280
+  },
+  {
+    "id": "b1-quadratic",
+    "stage": 0,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1265,
+    "width": 1280
+  },
+  {
+    "id": "b1-quadratic",
+    "stage": 1,
+    "lab": "last-selected",
+    "outside": [],
+    "overflow": false,
+    "scroll": 1265,
+    "width": 1280
+  },
+  {
+    "id": "b1-quadratic",
+    "stage": 2,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1265,
+    "width": 1280
+  },
+  {
+    "id": "b1-quadratic",
+    "stage": 3,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1265,
+    "width": 1280
+  },
+  {
+    "id": "b1-quadratic",
+    "stage": 4,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1265,
+    "width": 1280
+  },
+  {
+    "id": "b1-quadratic",
+    "stage": 1,
+    "lab": 0,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1265,
+    "width": 1280
+  },
+  {
+    "id": "b1-quadratic",
+    "stage": 1,
+    "lab": 1,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1265,
+    "width": 1280
+  },
+  {
+    "id": "b1-function-concept",
+    "stage": 0,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1265,
+    "width": 1280
+  },
+  {
+    "id": "b1-function-concept",
+    "stage": 1,
+    "lab": "last-selected",
+    "outside": [],
+    "overflow": false,
+    "scroll": 1265,
+    "width": 1280
+  },
+  {
+    "id": "b1-function-concept",
+    "stage": 2,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1265,
+    "width": 1280
+  },
+  {
+    "id": "b1-function-concept",
+    "stage": 3,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1265,
+    "width": 1280
+  },
+  {
+    "id": "b1-function-concept",
+    "stage": 4,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1265,
+    "width": 1280
+  },
+  {
+    "id": "b1-function-concept",
+    "stage": 1,
+    "lab": 0,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1265,
+    "width": 1280
+  },
+  {
+    "id": "b1-function-concept",
+    "stage": 1,
+    "lab": 1,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1265,
+    "width": 1280
+  },
+  {
+    "id": "b1-function-properties",
+    "stage": 0,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1265,
+    "width": 1280
+  },
+  {
+    "id": "b1-function-properties",
+    "stage": 1,
+    "lab": "last-selected",
+    "outside": [],
+    "overflow": false,
+    "scroll": 1265,
+    "width": 1280
+  },
+  {
+    "id": "b1-function-properties",
+    "stage": 2,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1265,
+    "width": 1280
+  },
+  {
+    "id": "b1-function-properties",
+    "stage": 3,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1265,
+    "width": 1280
+  },
+  {
+    "id": "b1-function-properties",
+    "stage": 4,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1265,
+    "width": 1280
+  },
+  {
+    "id": "b1-function-properties",
+    "stage": 1,
+    "lab": 0,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1265,
+    "width": 1280
+  },
+  {
+    "id": "b1-function-properties",
+    "stage": 1,
+    "lab": 1,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1265,
+    "width": 1280
+  },
+  {
+    "id": "b1-power",
+    "stage": 0,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1265,
+    "width": 1280
+  },
+  {
+    "id": "b1-power",
+    "stage": 1,
+    "lab": "last-selected",
+    "outside": [],
+    "overflow": false,
+    "scroll": 1265,
+    "width": 1280
+  },
+  {
+    "id": "b1-power",
+    "stage": 2,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1265,
+    "width": 1280
+  },
+  {
+    "id": "b1-power",
+    "stage": 3,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1265,
+    "width": 1280
+  },
+  {
+    "id": "b1-power",
+    "stage": 4,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1265,
+    "width": 1280
+  },
+  {
+    "id": "b1-power",
+    "stage": 1,
+    "lab": 0,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1265,
+    "width": 1280
+  },
+  {
+    "id": "b1-power",
+    "stage": 1,
+    "lab": 1,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1265,
+    "width": 1280
+  },
+  {
+    "id": "b1-model-one",
+    "stage": 0,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1265,
+    "width": 1280
+  },
+  {
+    "id": "b1-model-one",
+    "stage": 1,
+    "lab": "last-selected",
+    "outside": [],
+    "overflow": false,
+    "scroll": 1265,
+    "width": 1280
+  },
+  {
+    "id": "b1-model-one",
+    "stage": 2,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1265,
+    "width": 1280
+  },
+  {
+    "id": "b1-model-one",
+    "stage": 3,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1265,
+    "width": 1280
+  },
+  {
+    "id": "b1-model-one",
+    "stage": 4,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1265,
+    "width": 1280
+  },
+  {
+    "id": "b1-model-one",
+    "stage": 1,
+    "lab": 0,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1265,
+    "width": 1280
+  },
+  {
+    "id": "b1-model-one",
+    "stage": 1,
+    "lab": 1,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1265,
+    "width": 1280
+  },
+  {
+    "id": "b1-exponents",
+    "stage": 0,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1265,
+    "width": 1280
+  },
+  {
+    "id": "b1-exponents",
+    "stage": 1,
+    "lab": "last-selected",
+    "outside": [],
+    "overflow": false,
+    "scroll": 1265,
+    "width": 1280
+  },
+  {
+    "id": "b1-exponents",
+    "stage": 2,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1265,
+    "width": 1280
+  },
+  {
+    "id": "b1-exponents",
+    "stage": 3,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1265,
+    "width": 1280
+  },
+  {
+    "id": "b1-exponents",
+    "stage": 4,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1265,
+    "width": 1280
+  },
+  {
+    "id": "b1-exponents",
+    "stage": 1,
+    "lab": 0,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1265,
+    "width": 1280
+  },
+  {
+    "id": "b1-exponents",
+    "stage": 1,
+    "lab": 1,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1265,
+    "width": 1280
+  },
+  {
+    "id": "b1-exponential",
+    "stage": 0,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1265,
+    "width": 1280
+  },
+  {
+    "id": "b1-exponential",
+    "stage": 1,
+    "lab": "last-selected",
+    "outside": [
+      {
+        "cls": {},
+        "right": 1378.088134765625,
+        "tag": "g",
+        "text": "定点"
+      },
+      {
+        "cls": {},
+        "right": 1378.088134765625,
+        "tag": "path",
+        "text": ""
+      }
+    ],
+    "overflow": false,
+    "scroll": 1265,
+    "width": 1280
+  },
+  {
+    "id": "b1-exponential",
+    "stage": 2,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1265,
+    "width": 1280
+  },
+  {
+    "id": "b1-exponential",
+    "stage": 3,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1265,
+    "width": 1280
+  },
+  {
+    "id": "b1-exponential",
+    "stage": 4,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1265,
+    "width": 1280
+  },
+  {
+    "id": "b1-exponential",
+    "stage": 1,
+    "lab": 0,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1265,
+    "width": 1280
+  },
+  {
+    "id": "b1-exponential",
+    "stage": 1,
+    "lab": 1,
+    "outside": [
+      {
+        "cls": {},
+        "right": 1378.088134765625,
+        "tag": "g",
+        "text": "定点"
+      },
+      {
+        "cls": {},
+        "right": 1378.088134765625,
+        "tag": "path",
+        "text": ""
+      }
+    ],
+    "overflow": false,
+    "scroll": 1265,
+    "width": 1280
+  },
+  {
+    "id": "b1-logarithms",
+    "stage": 0,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1265,
+    "width": 1280
+  },
+  {
+    "id": "b1-logarithms",
+    "stage": 1,
+    "lab": "last-selected",
+    "outside": [],
+    "overflow": false,
+    "scroll": 1265,
+    "width": 1280
+  },
+  {
+    "id": "b1-logarithms",
+    "stage": 2,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1265,
+    "width": 1280
+  },
+  {
+    "id": "b1-logarithms",
+    "stage": 3,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1265,
+    "width": 1280
+  },
+  {
+    "id": "b1-logarithms",
+    "stage": 4,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1265,
+    "width": 1280
+  },
+  {
+    "id": "b1-logarithms",
+    "stage": 1,
+    "lab": 0,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1265,
+    "width": 1280
+  },
+  {
+    "id": "b1-logarithms",
+    "stage": 1,
+    "lab": 1,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1265,
+    "width": 1280
+  },
+  {
+    "id": "b1-log-function",
+    "stage": 0,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1265,
+    "width": 1280
+  },
+  {
+    "id": "b1-log-function",
+    "stage": 1,
+    "lab": "last-selected",
+    "outside": [],
+    "overflow": false,
+    "scroll": 1265,
+    "width": 1280
+  },
+  {
+    "id": "b1-log-function",
+    "stage": 2,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1265,
+    "width": 1280
+  },
+  {
+    "id": "b1-log-function",
+    "stage": 3,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1265,
+    "width": 1280
+  },
+  {
+    "id": "b1-log-function",
+    "stage": 4,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1265,
+    "width": 1280
+  },
+  {
+    "id": "b1-log-function",
+    "stage": 1,
+    "lab": 0,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1265,
+    "width": 1280
+  },
+  {
+    "id": "b1-log-function",
+    "stage": 1,
+    "lab": 1,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1265,
+    "width": 1280
+  },
+  {
+    "id": "b1-model-two",
+    "stage": 0,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1265,
+    "width": 1280
+  },
+  {
+    "id": "b1-model-two",
+    "stage": 1,
+    "lab": "last-selected",
+    "outside": [],
+    "overflow": false,
+    "scroll": 1265,
+    "width": 1280
+  },
+  {
+    "id": "b1-model-two",
+    "stage": 2,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1265,
+    "width": 1280
+  },
+  {
+    "id": "b1-model-two",
+    "stage": 3,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1265,
+    "width": 1280
+  },
+  {
+    "id": "b1-model-two",
+    "stage": 4,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1265,
+    "width": 1280
+  },
+  {
+    "id": "b1-model-two",
+    "stage": 1,
+    "lab": 0,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1265,
+    "width": 1280
+  },
+  {
+    "id": "b1-model-two",
+    "stage": 1,
+    "lab": 1,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1265,
+    "width": 1280
+  },
+  {
+    "id": "b1-angles",
+    "stage": 0,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1265,
+    "width": 1280
+  },
+  {
+    "id": "b1-angles",
+    "stage": 1,
+    "lab": "last-selected",
+    "outside": [],
+    "overflow": false,
+    "scroll": 1265,
+    "width": 1280
+  },
+  {
+    "id": "b1-angles",
+    "stage": 2,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1265,
+    "width": 1280
+  },
+  {
+    "id": "b1-angles",
+    "stage": 3,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1265,
+    "width": 1280
+  },
+  {
+    "id": "b1-angles",
+    "stage": 4,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1265,
+    "width": 1280
+  },
+  {
+    "id": "b1-angles",
+    "stage": 1,
+    "lab": 0,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1265,
+    "width": 1280
+  },
+  {
+    "id": "b1-angles",
+    "stage": 1,
+    "lab": 1,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1265,
+    "width": 1280
+  },
+  {
+    "id": "b1-trig-definition",
+    "stage": 0,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1265,
+    "width": 1280
+  },
+  {
+    "id": "b1-trig-definition",
+    "stage": 1,
+    "lab": "last-selected",
+    "outside": [],
+    "overflow": false,
+    "scroll": 1265,
+    "width": 1280
+  },
+  {
+    "id": "b1-trig-definition",
+    "stage": 2,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1265,
+    "width": 1280
+  },
+  {
+    "id": "b1-trig-definition",
+    "stage": 3,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1265,
+    "width": 1280
+  },
+  {
+    "id": "b1-trig-definition",
+    "stage": 4,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1265,
+    "width": 1280
+  },
+  {
+    "id": "b1-trig-definition",
+    "stage": 1,
+    "lab": 0,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1265,
+    "width": 1280
+  },
+  {
+    "id": "b1-trig-definition",
+    "stage": 1,
+    "lab": 1,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1265,
+    "width": 1280
+  },
+  {
+    "id": "b1-trig-reduction",
+    "stage": 0,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1265,
+    "width": 1280
+  },
+  {
+    "id": "b1-trig-reduction",
+    "stage": 1,
+    "lab": "last-selected",
+    "outside": [],
+    "overflow": false,
+    "scroll": 1265,
+    "width": 1280
+  },
+  {
+    "id": "b1-trig-reduction",
+    "stage": 2,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1265,
+    "width": 1280
+  },
+  {
+    "id": "b1-trig-reduction",
+    "stage": 3,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1265,
+    "width": 1280
+  },
+  {
+    "id": "b1-trig-reduction",
+    "stage": 4,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1265,
+    "width": 1280
+  },
+  {
+    "id": "b1-trig-reduction",
+    "stage": 1,
+    "lab": 0,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1265,
+    "width": 1280
+  },
+  {
+    "id": "b1-trig-reduction",
+    "stage": 1,
+    "lab": 1,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1265,
+    "width": 1280
+  },
+  {
+    "id": "b1-trig-graphs",
+    "stage": 0,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1265,
+    "width": 1280
+  },
+  {
+    "id": "b1-trig-graphs",
+    "stage": 1,
+    "lab": "last-selected",
+    "outside": [],
+    "overflow": false,
+    "scroll": 1265,
+    "width": 1280
+  },
+  {
+    "id": "b1-trig-graphs",
+    "stage": 2,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1265,
+    "width": 1280
+  },
+  {
+    "id": "b1-trig-graphs",
+    "stage": 3,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1265,
+    "width": 1280
+  },
+  {
+    "id": "b1-trig-graphs",
+    "stage": 4,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1265,
+    "width": 1280
+  },
+  {
+    "id": "b1-trig-graphs",
+    "stage": 1,
+    "lab": 0,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1265,
+    "width": 1280
+  },
+  {
+    "id": "b1-trig-graphs",
+    "stage": 1,
+    "lab": 1,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1265,
+    "width": 1280
+  },
+  {
+    "id": "b1-trig-identities",
+    "stage": 0,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1265,
+    "width": 1280
+  },
+  {
+    "id": "b1-trig-identities",
+    "stage": 1,
+    "lab": "last-selected",
+    "outside": [],
+    "overflow": false,
+    "scroll": 1265,
+    "width": 1280
+  },
+  {
+    "id": "b1-trig-identities",
+    "stage": 2,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1265,
+    "width": 1280
+  },
+  {
+    "id": "b1-trig-identities",
+    "stage": 3,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1265,
+    "width": 1280
+  },
+  {
+    "id": "b1-trig-identities",
+    "stage": 4,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1265,
+    "width": 1280
+  },
+  {
+    "id": "b1-trig-identities",
+    "stage": 1,
+    "lab": 0,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1265,
+    "width": 1280
+  },
+  {
+    "id": "b1-trig-identities",
+    "stage": 1,
+    "lab": 1,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1265,
+    "width": 1280
+  },
+  {
+    "id": "b1-sine-parameters",
+    "stage": 0,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1265,
+    "width": 1280
+  },
+  {
+    "id": "b1-sine-parameters",
+    "stage": 1,
+    "lab": "last-selected",
+    "outside": [],
+    "overflow": false,
+    "scroll": 1265,
+    "width": 1280
+  },
+  {
+    "id": "b1-sine-parameters",
+    "stage": 2,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1265,
+    "width": 1280
+  },
+  {
+    "id": "b1-sine-parameters",
+    "stage": 3,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1265,
+    "width": 1280
+  },
+  {
+    "id": "b1-sine-parameters",
+    "stage": 4,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1265,
+    "width": 1280
+  },
+  {
+    "id": "b1-sine-parameters",
+    "stage": 1,
+    "lab": 0,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1265,
+    "width": 1280
+  },
+  {
+    "id": "b1-sine-parameters",
+    "stage": 1,
+    "lab": 1,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1265,
+    "width": 1280
+  },
+  {
+    "id": "b1-trig-model",
+    "stage": 0,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1265,
+    "width": 1280
+  },
+  {
+    "id": "b1-trig-model",
+    "stage": 1,
+    "lab": "last-selected",
+    "outside": [],
+    "overflow": false,
+    "scroll": 1265,
+    "width": 1280
+  },
+  {
+    "id": "b1-trig-model",
+    "stage": 2,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1265,
+    "width": 1280
+  },
+  {
+    "id": "b1-trig-model",
+    "stage": 3,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1265,
+    "width": 1280
+  },
+  {
+    "id": "b1-trig-model",
+    "stage": 4,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1265,
+    "width": 1280
+  },
+  {
+    "id": "b1-trig-model",
+    "stage": 1,
+    "lab": 0,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1265,
+    "width": 1280
+  },
+  {
+    "id": "b1-trig-model",
+    "stage": 1,
+    "lab": 1,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1265,
+    "width": 1280
+  },
+  {
+    "id": "b1-set-concept",
+    "stage": 0,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 375,
+    "width": 390
+  },
+  {
+    "id": "b1-set-concept",
+    "stage": 1,
+    "lab": "last-selected",
+    "outside": [
+      {
+        "cls": {},
+        "right": 703.260009765625,
+        "tag": "g",
+        "text": "-22"
+      },
+      {
+        "cls": {},
+        "right": 703.260009765625,
+        "tag": "path",
+        "text": ""
+      }
+    ],
+    "overflow": false,
+    "scroll": 375,
+    "width": 390
+  },
+  {
+    "id": "b1-set-concept",
+    "stage": 2,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 375,
+    "width": 390
+  },
+  {
+    "id": "b1-set-concept",
+    "stage": 3,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 375,
+    "width": 390
+  },
+  {
+    "id": "b1-set-concept",
+    "stage": 4,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 375,
+    "width": 390
+  },
+  {
+    "id": "b1-set-concept",
+    "stage": 1,
+    "lab": 0,
+    "outside": [],
+    "overflow": false,
+    "scroll": 375,
+    "width": 390
+  },
+  {
+    "id": "b1-set-concept",
+    "stage": 1,
+    "lab": 1,
+    "outside": [
+      {
+        "cls": {},
+        "right": 703.260009765625,
+        "tag": "g",
+        "text": "-22"
+      },
+      {
+        "cls": {},
+        "right": 703.260009765625,
+        "tag": "path",
+        "text": ""
+      }
+    ],
+    "overflow": false,
+    "scroll": 375,
+    "width": 390
+  },
+  {
+    "id": "b1-set-relations",
+    "stage": 0,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 375,
+    "width": 390
+  },
+  {
+    "id": "b1-set-relations",
+    "stage": 1,
+    "lab": "last-selected",
+    "outside": [],
+    "overflow": false,
+    "scroll": 375,
+    "width": 390
+  },
+  {
+    "id": "b1-set-relations",
+    "stage": 2,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 375,
+    "width": 390
+  },
+  {
+    "id": "b1-set-relations",
+    "stage": 3,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 375,
+    "width": 390
+  },
+  {
+    "id": "b1-set-relations",
+    "stage": 4,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 375,
+    "width": 390
+  },
+  {
+    "id": "b1-set-relations",
+    "stage": 1,
+    "lab": 0,
+    "outside": [],
+    "overflow": false,
+    "scroll": 375,
+    "width": 390
+  },
+  {
+    "id": "b1-set-relations",
+    "stage": 1,
+    "lab": 1,
+    "outside": [],
+    "overflow": false,
+    "scroll": 375,
+    "width": 390
+  },
+  {
+    "id": "b1-set-operations",
+    "stage": 0,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 375,
+    "width": 390
+  },
+  {
+    "id": "b1-set-operations",
+    "stage": 1,
+    "lab": "last-selected",
+    "outside": [],
+    "overflow": false,
+    "scroll": 375,
+    "width": 390
+  },
+  {
+    "id": "b1-set-operations",
+    "stage": 2,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 375,
+    "width": 390
+  },
+  {
+    "id": "b1-set-operations",
+    "stage": 3,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 375,
+    "width": 390
+  },
+  {
+    "id": "b1-set-operations",
+    "stage": 4,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 375,
+    "width": 390
+  },
+  {
+    "id": "b1-set-operations",
+    "stage": 1,
+    "lab": 0,
+    "outside": [],
+    "overflow": false,
+    "scroll": 375,
+    "width": 390
+  },
+  {
+    "id": "b1-set-operations",
+    "stage": 1,
+    "lab": 1,
+    "outside": [],
+    "overflow": false,
+    "scroll": 375,
+    "width": 390
+  },
+  {
+    "id": "b1-conditions",
+    "stage": 0,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 375,
+    "width": 390
+  },
+  {
+    "id": "b1-conditions",
+    "stage": 1,
+    "lab": "last-selected",
+    "outside": [],
+    "overflow": false,
+    "scroll": 375,
+    "width": 390
+  },
+  {
+    "id": "b1-conditions",
+    "stage": 2,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 375,
+    "width": 390
+  },
+  {
+    "id": "b1-conditions",
+    "stage": 3,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 375,
+    "width": 390
+  },
+  {
+    "id": "b1-conditions",
+    "stage": 4,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 375,
+    "width": 390
+  },
+  {
+    "id": "b1-conditions",
+    "stage": 1,
+    "lab": 0,
+    "outside": [],
+    "overflow": false,
+    "scroll": 375,
+    "width": 390
+  },
+  {
+    "id": "b1-conditions",
+    "stage": 1,
+    "lab": 1,
+    "outside": [],
+    "overflow": false,
+    "scroll": 375,
+    "width": 390
+  },
+  {
+    "id": "b1-quantifiers",
+    "stage": 0,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 375,
+    "width": 390
+  },
+  {
+    "id": "b1-quantifiers",
+    "stage": 1,
+    "lab": "last-selected",
+    "outside": [
+      {
+        "cls": {},
+        "right": 703.260009765625,
+        "tag": "g",
+        "text": "最小最大"
+      },
+      {
+        "cls": {},
+        "right": 703.260009765625,
+        "tag": "path",
+        "text": ""
+      }
+    ],
+    "overflow": false,
+    "scroll": 375,
+    "width": 390
+  },
+  {
+    "id": "b1-quantifiers",
+    "stage": 2,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 375,
+    "width": 390
+  },
+  {
+    "id": "b1-quantifiers",
+    "stage": 3,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 375,
+    "width": 390
+  },
+  {
+    "id": "b1-quantifiers",
+    "stage": 4,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 375,
+    "width": 390
+  },
+  {
+    "id": "b1-quantifiers",
+    "stage": 1,
+    "lab": 0,
+    "outside": [
+      {
+        "cls": {},
+        "right": 703.260009765625,
+        "tag": "g",
+        "text": "最小最大"
+      },
+      {
+        "cls": {},
+        "right": 703.260009765625,
+        "tag": "path",
+        "text": ""
+      }
+    ],
+    "overflow": false,
+    "scroll": 375,
+    "width": 390
+  },
+  {
+    "id": "b1-quantifiers",
+    "stage": 1,
+    "lab": 1,
+    "outside": [
+      {
+        "cls": {},
+        "right": 703.260009765625,
+        "tag": "g",
+        "text": "最小最大"
+      },
+      {
+        "cls": {},
+        "right": 703.260009765625,
+        "tag": "path",
+        "text": ""
+      }
+    ],
+    "overflow": false,
+    "scroll": 375,
+    "width": 390
+  },
+  {
+    "id": "b1-inequality-rules",
+    "stage": 0,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 375,
+    "width": 390
+  },
+  {
+    "id": "b1-inequality-rules",
+    "stage": 1,
+    "lab": "last-selected",
+    "outside": [],
+    "overflow": false,
+    "scroll": 375,
+    "width": 390
+  },
+  {
+    "id": "b1-inequality-rules",
+    "stage": 2,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 375,
+    "width": 390
+  },
+  {
+    "id": "b1-inequality-rules",
+    "stage": 3,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 375,
+    "width": 390
+  },
+  {
+    "id": "b1-inequality-rules",
+    "stage": 4,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 375,
+    "width": 390
+  },
+  {
+    "id": "b1-inequality-rules",
+    "stage": 1,
+    "lab": 0,
+    "outside": [],
+    "overflow": false,
+    "scroll": 375,
+    "width": 390
+  },
+  {
+    "id": "b1-inequality-rules",
+    "stage": 1,
+    "lab": 1,
+    "outside": [],
+    "overflow": false,
+    "scroll": 375,
+    "width": 390
+  },
+  {
+    "id": "b1-amgm",
+    "stage": 0,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 375,
+    "width": 390
+  },
+  {
+    "id": "b1-amgm",
+    "stage": 1,
+    "lab": "last-selected",
+    "outside": [],
+    "overflow": false,
+    "scroll": 375,
+    "width": 390
+  },
+  {
+    "id": "b1-amgm",
+    "stage": 2,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 375,
+    "width": 390
+  },
+  {
+    "id": "b1-amgm",
+    "stage": 3,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 375,
+    "width": 390
+  },
+  {
+    "id": "b1-amgm",
+    "stage": 4,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 375,
+    "width": 390
+  },
+  {
+    "id": "b1-amgm",
+    "stage": 1,
+    "lab": 0,
+    "outside": [
+      {
+        "cls": {},
+        "right": 703.260009765625,
+        "tag": "g",
+        "text": "当前边长和"
+      },
+      {
+        "cls": {},
+        "right": 703.260009765625,
+        "tag": "path",
+        "text": ""
+      }
+    ],
+    "overflow": false,
+    "scroll": 375,
+    "width": 390
+  },
+  {
+    "id": "b1-amgm",
+    "stage": 1,
+    "lab": 1,
+    "outside": [],
+    "overflow": false,
+    "scroll": 375,
+    "width": 390
+  },
+  {
+    "id": "b1-quadratic",
+    "stage": 0,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 375,
+    "width": 390
+  },
+  {
+    "id": "b1-quadratic",
+    "stage": 1,
+    "lab": "last-selected",
+    "outside": [],
+    "overflow": false,
+    "scroll": 375,
+    "width": 390
+  },
+  {
+    "id": "b1-quadratic",
+    "stage": 2,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 375,
+    "width": 390
+  },
+  {
+    "id": "b1-quadratic",
+    "stage": 3,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 375,
+    "width": 390
+  },
+  {
+    "id": "b1-quadratic",
+    "stage": 4,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 375,
+    "width": 390
+  },
+  {
+    "id": "b1-quadratic",
+    "stage": 1,
+    "lab": 0,
+    "outside": [],
+    "overflow": false,
+    "scroll": 375,
+    "width": 390
+  },
+  {
+    "id": "b1-quadratic",
+    "stage": 1,
+    "lab": 1,
+    "outside": [],
+    "overflow": false,
+    "scroll": 375,
+    "width": 390
+  },
+  {
+    "id": "b1-function-concept",
+    "stage": 0,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 375,
+    "width": 390
+  },
+  {
+    "id": "b1-function-concept",
+    "stage": 1,
+    "lab": "last-selected",
+    "outside": [],
+    "overflow": false,
+    "scroll": 375,
+    "width": 390
+  },
+  {
+    "id": "b1-function-concept",
+    "stage": 2,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 375,
+    "width": 390
+  },
+  {
+    "id": "b1-function-concept",
+    "stage": 3,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 375,
+    "width": 390
+  },
+  {
+    "id": "b1-function-concept",
+    "stage": 4,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 375,
+    "width": 390
+  },
+  {
+    "id": "b1-function-concept",
+    "stage": 1,
+    "lab": 0,
+    "outside": [],
+    "overflow": false,
+    "scroll": 375,
+    "width": 390
+  },
+  {
+    "id": "b1-function-concept",
+    "stage": 1,
+    "lab": 1,
+    "outside": [],
+    "overflow": false,
+    "scroll": 375,
+    "width": 390
+  },
+  {
+    "id": "b1-function-properties",
+    "stage": 0,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 375,
+    "width": 390
+  },
+  {
+    "id": "b1-function-properties",
+    "stage": 1,
+    "lab": "last-selected",
+    "outside": [],
+    "overflow": false,
+    "scroll": 375,
+    "width": 390
+  },
+  {
+    "id": "b1-function-properties",
+    "stage": 2,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 375,
+    "width": 390
+  },
+  {
+    "id": "b1-function-properties",
+    "stage": 3,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 375,
+    "width": 390
+  },
+  {
+    "id": "b1-function-properties",
+    "stage": 4,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 375,
+    "width": 390
+  },
+  {
+    "id": "b1-function-properties",
+    "stage": 1,
+    "lab": 0,
+    "outside": [],
+    "overflow": false,
+    "scroll": 375,
+    "width": 390
+  },
+  {
+    "id": "b1-function-properties",
+    "stage": 1,
+    "lab": 1,
+    "outside": [],
+    "overflow": false,
+    "scroll": 375,
+    "width": 390
+  },
+  {
+    "id": "b1-power",
+    "stage": 0,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 375,
+    "width": 390
+  },
+  {
+    "id": "b1-power",
+    "stage": 1,
+    "lab": "last-selected",
+    "outside": [],
+    "overflow": false,
+    "scroll": 375,
+    "width": 390
+  },
+  {
+    "id": "b1-power",
+    "stage": 2,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 375,
+    "width": 390
+  },
+  {
+    "id": "b1-power",
+    "stage": 3,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 375,
+    "width": 390
+  },
+  {
+    "id": "b1-power",
+    "stage": 4,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 375,
+    "width": 390
+  },
+  {
+    "id": "b1-power",
+    "stage": 1,
+    "lab": 0,
+    "outside": [],
+    "overflow": false,
+    "scroll": 375,
+    "width": 390
+  },
+  {
+    "id": "b1-power",
+    "stage": 1,
+    "lab": 1,
+    "outside": [],
+    "overflow": false,
+    "scroll": 375,
+    "width": 390
+  },
+  {
+    "id": "b1-model-one",
+    "stage": 0,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 375,
+    "width": 390
+  },
+  {
+    "id": "b1-model-one",
+    "stage": 1,
+    "lab": "last-selected",
+    "outside": [],
+    "overflow": false,
+    "scroll": 375,
+    "width": 390
+  },
+  {
+    "id": "b1-model-one",
+    "stage": 2,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 375,
+    "width": 390
+  },
+  {
+    "id": "b1-model-one",
+    "stage": 3,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 375,
+    "width": 390
+  },
+  {
+    "id": "b1-model-one",
+    "stage": 4,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 375,
+    "width": 390
+  },
+  {
+    "id": "b1-model-one",
+    "stage": 1,
+    "lab": 0,
+    "outside": [],
+    "overflow": false,
+    "scroll": 375,
+    "width": 390
+  },
+  {
+    "id": "b1-model-one",
+    "stage": 1,
+    "lab": 1,
+    "outside": [],
+    "overflow": false,
+    "scroll": 375,
+    "width": 390
+  },
+  {
+    "id": "b1-exponents",
+    "stage": 0,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 375,
+    "width": 390
+  },
+  {
+    "id": "b1-exponents",
+    "stage": 1,
+    "lab": "last-selected",
+    "outside": [],
+    "overflow": false,
+    "scroll": 375,
+    "width": 390
+  },
+  {
+    "id": "b1-exponents",
+    "stage": 2,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 375,
+    "width": 390
+  },
+  {
+    "id": "b1-exponents",
+    "stage": 3,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 375,
+    "width": 390
+  },
+  {
+    "id": "b1-exponents",
+    "stage": 4,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 375,
+    "width": 390
+  },
+  {
+    "id": "b1-exponents",
+    "stage": 1,
+    "lab": 0,
+    "outside": [],
+    "overflow": false,
+    "scroll": 375,
+    "width": 390
+  },
+  {
+    "id": "b1-exponents",
+    "stage": 1,
+    "lab": 1,
+    "outside": [],
+    "overflow": false,
+    "scroll": 375,
+    "width": 390
+  },
+  {
+    "id": "b1-exponential",
+    "stage": 0,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 375,
+    "width": 390
+  },
+  {
+    "id": "b1-exponential",
+    "stage": 1,
+    "lab": "last-selected",
+    "outside": [
+      {
+        "cls": {},
+        "right": 703.260009765625,
+        "tag": "g",
+        "text": "定点"
+      },
+      {
+        "cls": {},
+        "right": 703.260009765625,
+        "tag": "path",
+        "text": ""
+      }
+    ],
+    "overflow": false,
+    "scroll": 375,
+    "width": 390
+  },
+  {
+    "id": "b1-exponential",
+    "stage": 2,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 375,
+    "width": 390
+  },
+  {
+    "id": "b1-exponential",
+    "stage": 3,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 375,
+    "width": 390
+  },
+  {
+    "id": "b1-exponential",
+    "stage": 4,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 375,
+    "width": 390
+  },
+  {
+    "id": "b1-exponential",
+    "stage": 1,
+    "lab": 0,
+    "outside": [],
+    "overflow": false,
+    "scroll": 375,
+    "width": 390
+  },
+  {
+    "id": "b1-exponential",
+    "stage": 1,
+    "lab": 1,
+    "outside": [
+      {
+        "cls": {},
+        "right": 703.260009765625,
+        "tag": "g",
+        "text": "定点"
+      },
+      {
+        "cls": {},
+        "right": 703.260009765625,
+        "tag": "path",
+        "text": ""
+      }
+    ],
+    "overflow": false,
+    "scroll": 375,
+    "width": 390
+  },
+  {
+    "id": "b1-logarithms",
+    "stage": 0,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 375,
+    "width": 390
+  },
+  {
+    "id": "b1-logarithms",
+    "stage": 1,
+    "lab": "last-selected",
+    "outside": [],
+    "overflow": false,
+    "scroll": 375,
+    "width": 390
+  },
+  {
+    "id": "b1-logarithms",
+    "stage": 2,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 375,
+    "width": 390
+  },
+  {
+    "id": "b1-logarithms",
+    "stage": 3,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 375,
+    "width": 390
+  },
+  {
+    "id": "b1-logarithms",
+    "stage": 4,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 375,
+    "width": 390
+  },
+  {
+    "id": "b1-logarithms",
+    "stage": 1,
+    "lab": 0,
+    "outside": [],
+    "overflow": false,
+    "scroll": 375,
+    "width": 390
+  },
+  {
+    "id": "b1-logarithms",
+    "stage": 1,
+    "lab": 1,
+    "outside": [],
+    "overflow": false,
+    "scroll": 375,
+    "width": 390
+  },
+  {
+    "id": "b1-log-function",
+    "stage": 0,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 375,
+    "width": 390
+  },
+  {
+    "id": "b1-log-function",
+    "stage": 1,
+    "lab": "last-selected",
+    "outside": [
+      {
+        "cls": {},
+        "right": 552.1973724365234,
+        "tag": "g",
+        "text": "PQ"
+      },
+      {
+        "cls": {},
+        "right": 552.1973724365234,
+        "tag": "path",
+        "text": ""
+      }
+    ],
+    "overflow": false,
+    "scroll": 375,
+    "width": 390
+  },
+  {
+    "id": "b1-log-function",
+    "stage": 2,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 375,
+    "width": 390
+  },
+  {
+    "id": "b1-log-function",
+    "stage": 3,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 375,
+    "width": 390
+  },
+  {
+    "id": "b1-log-function",
+    "stage": 4,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 375,
+    "width": 390
+  },
+  {
+    "id": "b1-log-function",
+    "stage": 1,
+    "lab": 0,
+    "outside": [],
+    "overflow": false,
+    "scroll": 375,
+    "width": 390
+  },
+  {
+    "id": "b1-log-function",
+    "stage": 1,
+    "lab": 1,
+    "outside": [
+      {
+        "cls": {},
+        "right": 552.1973724365234,
+        "tag": "g",
+        "text": "PQ"
+      },
+      {
+        "cls": {},
+        "right": 552.1973724365234,
+        "tag": "path",
+        "text": ""
+      }
+    ],
+    "overflow": false,
+    "scroll": 375,
+    "width": 390
+  },
+  {
+    "id": "b1-model-two",
+    "stage": 0,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 375,
+    "width": 390
+  },
+  {
+    "id": "b1-model-two",
+    "stage": 1,
+    "lab": "last-selected",
+    "outside": [],
+    "overflow": false,
+    "scroll": 375,
+    "width": 390
+  },
+  {
+    "id": "b1-model-two",
+    "stage": 2,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 375,
+    "width": 390
+  },
+  {
+    "id": "b1-model-two",
+    "stage": 3,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 375,
+    "width": 390
+  },
+  {
+    "id": "b1-model-two",
+    "stage": 4,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 375,
+    "width": 390
+  },
+  {
+    "id": "b1-model-two",
+    "stage": 1,
+    "lab": 0,
+    "outside": [],
+    "overflow": false,
+    "scroll": 375,
+    "width": 390
+  },
+  {
+    "id": "b1-model-two",
+    "stage": 1,
+    "lab": 1,
+    "outside": [],
+    "overflow": false,
+    "scroll": 375,
+    "width": 390
+  },
+  {
+    "id": "b1-angles",
+    "stage": 0,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 375,
+    "width": 390
+  },
+  {
+    "id": "b1-angles",
+    "stage": 1,
+    "lab": "last-selected",
+    "outside": [],
+    "overflow": false,
+    "scroll": 375,
+    "width": 390
+  },
+  {
+    "id": "b1-angles",
+    "stage": 2,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 375,
+    "width": 390
+  },
+  {
+    "id": "b1-angles",
+    "stage": 3,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 375,
+    "width": 390
+  },
+  {
+    "id": "b1-angles",
+    "stage": 4,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 375,
+    "width": 390
+  },
+  {
+    "id": "b1-angles",
+    "stage": 1,
+    "lab": 0,
+    "outside": [],
+    "overflow": false,
+    "scroll": 375,
+    "width": 390
+  },
+  {
+    "id": "b1-angles",
+    "stage": 1,
+    "lab": 1,
+    "outside": [],
+    "overflow": false,
+    "scroll": 375,
+    "width": 390
+  },
+  {
+    "id": "b1-trig-definition",
+    "stage": 0,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 375,
+    "width": 390
+  },
+  {
+    "id": "b1-trig-definition",
+    "stage": 1,
+    "lab": "last-selected",
+    "outside": [],
+    "overflow": false,
+    "scroll": 375,
+    "width": 390
+  },
+  {
+    "id": "b1-trig-definition",
+    "stage": 2,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 375,
+    "width": 390
+  },
+  {
+    "id": "b1-trig-definition",
+    "stage": 3,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 375,
+    "width": 390
+  },
+  {
+    "id": "b1-trig-definition",
+    "stage": 4,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 375,
+    "width": 390
+  },
+  {
+    "id": "b1-trig-definition",
+    "stage": 1,
+    "lab": 0,
+    "outside": [],
+    "overflow": false,
+    "scroll": 375,
+    "width": 390
+  },
+  {
+    "id": "b1-trig-definition",
+    "stage": 1,
+    "lab": 1,
+    "outside": [],
+    "overflow": false,
+    "scroll": 375,
+    "width": 390
+  },
+  {
+    "id": "b1-trig-reduction",
+    "stage": 0,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 375,
+    "width": 390
+  },
+  {
+    "id": "b1-trig-reduction",
+    "stage": 1,
+    "lab": "last-selected",
+    "outside": [],
+    "overflow": false,
+    "scroll": 375,
+    "width": 390
+  },
+  {
+    "id": "b1-trig-reduction",
+    "stage": 2,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 375,
+    "width": 390
+  },
+  {
+    "id": "b1-trig-reduction",
+    "stage": 3,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 375,
+    "width": 390
+  },
+  {
+    "id": "b1-trig-reduction",
+    "stage": 4,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 375,
+    "width": 390
+  },
+  {
+    "id": "b1-trig-reduction",
+    "stage": 1,
+    "lab": 0,
+    "outside": [],
+    "overflow": false,
+    "scroll": 375,
+    "width": 390
+  },
+  {
+    "id": "b1-trig-reduction",
+    "stage": 1,
+    "lab": 1,
+    "outside": [],
+    "overflow": false,
+    "scroll": 375,
+    "width": 390
+  },
+  {
+    "id": "b1-trig-graphs",
+    "stage": 0,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 375,
+    "width": 390
+  },
+  {
+    "id": "b1-trig-graphs",
+    "stage": 1,
+    "lab": "last-selected",
+    "outside": [],
+    "overflow": false,
+    "scroll": 375,
+    "width": 390
+  },
+  {
+    "id": "b1-trig-graphs",
+    "stage": 2,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 375,
+    "width": 390
+  },
+  {
+    "id": "b1-trig-graphs",
+    "stage": 3,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 375,
+    "width": 390
+  },
+  {
+    "id": "b1-trig-graphs",
+    "stage": 4,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 375,
+    "width": 390
+  },
+  {
+    "id": "b1-trig-graphs",
+    "stage": 1,
+    "lab": 0,
+    "outside": [],
+    "overflow": false,
+    "scroll": 375,
+    "width": 390
+  },
+  {
+    "id": "b1-trig-graphs",
+    "stage": 1,
+    "lab": 1,
+    "outside": [],
+    "overflow": false,
+    "scroll": 375,
+    "width": 390
+  },
+  {
+    "id": "b1-trig-identities",
+    "stage": 0,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 375,
+    "width": 390
+  },
+  {
+    "id": "b1-trig-identities",
+    "stage": 1,
+    "lab": "last-selected",
+    "outside": [],
+    "overflow": false,
+    "scroll": 375,
+    "width": 390
+  },
+  {
+    "id": "b1-trig-identities",
+    "stage": 2,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 375,
+    "width": 390
+  },
+  {
+    "id": "b1-trig-identities",
+    "stage": 3,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 375,
+    "width": 390
+  },
+  {
+    "id": "b1-trig-identities",
+    "stage": 4,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 375,
+    "width": 390
+  },
+  {
+    "id": "b1-trig-identities",
+    "stage": 1,
+    "lab": 0,
+    "outside": [
+      {
+        "cls": {},
+        "right": 402.39998626708984,
+        "tag": "g",
+        "text": "和角直接相加"
+      },
+      {
+        "cls": {},
+        "right": 402.39998626708984,
+        "tag": "path",
+        "text": ""
+      },
+      {
+        "cls": {},
+        "right": 402.39998626708984,
+        "tag": "path",
+        "text": ""
+      }
+    ],
+    "overflow": false,
+    "scroll": 375,
+    "width": 390
+  },
+  {
+    "id": "b1-trig-identities",
+    "stage": 1,
+    "lab": 1,
+    "outside": [],
+    "overflow": false,
+    "scroll": 375,
+    "width": 390
+  },
+  {
+    "id": "b1-sine-parameters",
+    "stage": 0,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 375,
+    "width": 390
+  },
+  {
+    "id": "b1-sine-parameters",
+    "stage": 1,
+    "lab": "last-selected",
+    "outside": [],
+    "overflow": false,
+    "scroll": 375,
+    "width": 390
+  },
+  {
+    "id": "b1-sine-parameters",
+    "stage": 2,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 375,
+    "width": 390
+  },
+  {
+    "id": "b1-sine-parameters",
+    "stage": 3,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 375,
+    "width": 390
+  },
+  {
+    "id": "b1-sine-parameters",
+    "stage": 4,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 375,
+    "width": 390
+  },
+  {
+    "id": "b1-sine-parameters",
+    "stage": 1,
+    "lab": 0,
+    "outside": [],
+    "overflow": false,
+    "scroll": 375,
+    "width": 390
+  },
+  {
+    "id": "b1-sine-parameters",
+    "stage": 1,
+    "lab": 1,
+    "outside": [],
+    "overflow": false,
+    "scroll": 375,
+    "width": 390
+  },
+  {
+    "id": "b1-trig-model",
+    "stage": 0,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 375,
+    "width": 390
+  },
+  {
+    "id": "b1-trig-model",
+    "stage": 1,
+    "lab": "last-selected",
+    "outside": [],
+    "overflow": false,
+    "scroll": 375,
+    "width": 390
+  },
+  {
+    "id": "b1-trig-model",
+    "stage": 2,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 375,
+    "width": 390
+  },
+  {
+    "id": "b1-trig-model",
+    "stage": 3,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 381,
+    "width": 390
+  },
+  {
+    "id": "b1-trig-model",
+    "stage": 4,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 375,
+    "width": 390
+  },
+  {
+    "id": "b1-trig-model",
+    "stage": 1,
+    "lab": 0,
+    "outside": [],
+    "overflow": false,
+    "scroll": 375,
+    "width": 390
+  },
+  {
+    "id": "b1-trig-model",
+    "stage": 1,
+    "lab": 1,
+    "outside": [],
+    "overflow": false,
+    "scroll": 375,
+    "width": 390
+  },
+  {
+    "id": "b1-set-concept",
+    "stage": 0,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "id": "b1-set-concept",
+    "stage": 1,
+    "lab": "last-selected",
+    "outside": [
+      {
+        "cls": {},
+        "right": 1468.5,
+        "tag": "g",
+        "text": "-22"
+      },
+      {
+        "cls": {},
+        "right": 1468.5,
+        "tag": "path",
+        "text": ""
+      }
+    ],
+    "overflow": false,
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "id": "b1-set-concept",
+    "stage": 2,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "id": "b1-set-concept",
+    "stage": 3,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "id": "b1-set-concept",
+    "stage": 4,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "id": "b1-set-concept",
+    "stage": 1,
+    "lab": 0,
+    "outside": [],
+    "overflow": false,
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "id": "b1-set-concept",
+    "stage": 1,
+    "lab": 1,
+    "outside": [
+      {
+        "cls": {},
+        "right": 1468.5,
+        "tag": "g",
+        "text": "-22"
+      },
+      {
+        "cls": {},
+        "right": 1468.5,
+        "tag": "path",
+        "text": ""
+      }
+    ],
+    "overflow": false,
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "id": "b1-set-relations",
+    "stage": 0,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "id": "b1-set-relations",
+    "stage": 1,
+    "lab": "last-selected",
+    "outside": [],
+    "overflow": false,
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "id": "b1-set-relations",
+    "stage": 2,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "id": "b1-set-relations",
+    "stage": 3,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "id": "b1-set-relations",
+    "stage": 4,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "id": "b1-set-relations",
+    "stage": 1,
+    "lab": 0,
+    "outside": [],
+    "overflow": false,
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "id": "b1-set-relations",
+    "stage": 1,
+    "lab": 1,
+    "outside": [],
+    "overflow": false,
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "id": "b1-set-operations",
+    "stage": 0,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "id": "b1-set-operations",
+    "stage": 1,
+    "lab": "last-selected",
+    "outside": [],
+    "overflow": false,
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "id": "b1-set-operations",
+    "stage": 2,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "id": "b1-set-operations",
+    "stage": 3,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "id": "b1-set-operations",
+    "stage": 4,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "id": "b1-set-operations",
+    "stage": 1,
+    "lab": 0,
+    "outside": [],
+    "overflow": false,
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "id": "b1-set-operations",
+    "stage": 1,
+    "lab": 1,
+    "outside": [],
+    "overflow": false,
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "id": "b1-conditions",
+    "stage": 0,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "id": "b1-conditions",
+    "stage": 1,
+    "lab": "last-selected",
+    "outside": [],
+    "overflow": false,
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "id": "b1-conditions",
+    "stage": 2,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "id": "b1-conditions",
+    "stage": 3,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "id": "b1-conditions",
+    "stage": 4,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "id": "b1-conditions",
+    "stage": 1,
+    "lab": 0,
+    "outside": [],
+    "overflow": false,
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "id": "b1-conditions",
+    "stage": 1,
+    "lab": 1,
+    "outside": [],
+    "overflow": false,
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "id": "b1-quantifiers",
+    "stage": 0,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "id": "b1-quantifiers",
+    "stage": 1,
+    "lab": "last-selected",
+    "outside": [
+      {
+        "cls": {},
+        "right": 1468.5,
+        "tag": "g",
+        "text": "最小最大"
+      },
+      {
+        "cls": {},
+        "right": 1468.5,
+        "tag": "path",
+        "text": ""
+      }
+    ],
+    "overflow": false,
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "id": "b1-quantifiers",
+    "stage": 2,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "id": "b1-quantifiers",
+    "stage": 3,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "id": "b1-quantifiers",
+    "stage": 4,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "id": "b1-quantifiers",
+    "stage": 1,
+    "lab": 0,
+    "outside": [
+      {
+        "cls": {},
+        "right": 1468.5,
+        "tag": "g",
+        "text": "最小最大"
+      },
+      {
+        "cls": {},
+        "right": 1468.5,
+        "tag": "path",
+        "text": ""
+      }
+    ],
+    "overflow": false,
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "id": "b1-quantifiers",
+    "stage": 1,
+    "lab": 1,
+    "outside": [
+      {
+        "cls": {},
+        "right": 1468.5,
+        "tag": "g",
+        "text": "最小最大"
+      },
+      {
+        "cls": {},
+        "right": 1468.5,
+        "tag": "path",
+        "text": ""
+      }
+    ],
+    "overflow": false,
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "id": "b1-inequality-rules",
+    "stage": 0,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "id": "b1-inequality-rules",
+    "stage": 1,
+    "lab": "last-selected",
+    "outside": [],
+    "overflow": false,
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "id": "b1-inequality-rules",
+    "stage": 2,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "id": "b1-inequality-rules",
+    "stage": 3,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "id": "b1-inequality-rules",
+    "stage": 4,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "id": "b1-inequality-rules",
+    "stage": 1,
+    "lab": 0,
+    "outside": [],
+    "overflow": false,
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "id": "b1-inequality-rules",
+    "stage": 1,
+    "lab": 1,
+    "outside": [],
+    "overflow": false,
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "id": "b1-amgm",
+    "stage": 0,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "id": "b1-amgm",
+    "stage": 1,
+    "lab": "last-selected",
+    "outside": [],
+    "overflow": false,
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "id": "b1-amgm",
+    "stage": 2,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "id": "b1-amgm",
+    "stage": 3,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "id": "b1-amgm",
+    "stage": 4,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "id": "b1-amgm",
+    "stage": 1,
+    "lab": 0,
+    "outside": [
+      {
+        "cls": {},
+        "right": 1468.5,
+        "tag": "g",
+        "text": "当前边长和"
+      },
+      {
+        "cls": {},
+        "right": 1468.5,
+        "tag": "path",
+        "text": ""
+      }
+    ],
+    "overflow": false,
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "id": "b1-amgm",
+    "stage": 1,
+    "lab": 1,
+    "outside": [],
+    "overflow": false,
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "id": "b1-quadratic",
+    "stage": 0,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "id": "b1-quadratic",
+    "stage": 1,
+    "lab": "last-selected",
+    "outside": [],
+    "overflow": false,
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "id": "b1-quadratic",
+    "stage": 2,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "id": "b1-quadratic",
+    "stage": 3,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "id": "b1-quadratic",
+    "stage": 4,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "id": "b1-quadratic",
+    "stage": 1,
+    "lab": 0,
+    "outside": [],
+    "overflow": false,
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "id": "b1-quadratic",
+    "stage": 1,
+    "lab": 1,
+    "outside": [],
+    "overflow": false,
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "id": "b1-function-concept",
+    "stage": 0,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "id": "b1-function-concept",
+    "stage": 1,
+    "lab": "last-selected",
+    "outside": [],
+    "overflow": false,
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "id": "b1-function-concept",
+    "stage": 2,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "id": "b1-function-concept",
+    "stage": 3,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "id": "b1-function-concept",
+    "stage": 4,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "id": "b1-function-concept",
+    "stage": 1,
+    "lab": 0,
+    "outside": [],
+    "overflow": false,
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "id": "b1-function-concept",
+    "stage": 1,
+    "lab": 1,
+    "outside": [],
+    "overflow": false,
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "id": "b1-function-properties",
+    "stage": 0,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "id": "b1-function-properties",
+    "stage": 1,
+    "lab": "last-selected",
+    "outside": [],
+    "overflow": false,
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "id": "b1-function-properties",
+    "stage": 2,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "id": "b1-function-properties",
+    "stage": 3,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "id": "b1-function-properties",
+    "stage": 4,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "id": "b1-function-properties",
+    "stage": 1,
+    "lab": 0,
+    "outside": [],
+    "overflow": false,
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "id": "b1-function-properties",
+    "stage": 1,
+    "lab": 1,
+    "outside": [],
+    "overflow": false,
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "id": "b1-power",
+    "stage": 0,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "id": "b1-power",
+    "stage": 1,
+    "lab": "last-selected",
+    "outside": [],
+    "overflow": false,
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "id": "b1-power",
+    "stage": 2,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "id": "b1-power",
+    "stage": 3,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "id": "b1-power",
+    "stage": 4,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "id": "b1-power",
+    "stage": 1,
+    "lab": 0,
+    "outside": [],
+    "overflow": false,
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "id": "b1-power",
+    "stage": 1,
+    "lab": 1,
+    "outside": [],
+    "overflow": false,
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "id": "b1-model-one",
+    "stage": 0,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "id": "b1-model-one",
+    "stage": 1,
+    "lab": "last-selected",
+    "outside": [],
+    "overflow": false,
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "id": "b1-model-one",
+    "stage": 2,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "id": "b1-model-one",
+    "stage": 3,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "id": "b1-model-one",
+    "stage": 4,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "id": "b1-model-one",
+    "stage": 1,
+    "lab": 0,
+    "outside": [],
+    "overflow": false,
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "id": "b1-model-one",
+    "stage": 1,
+    "lab": 1,
+    "outside": [],
+    "overflow": false,
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "id": "b1-exponents",
+    "stage": 0,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "id": "b1-exponents",
+    "stage": 1,
+    "lab": "last-selected",
+    "outside": [],
+    "overflow": false,
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "id": "b1-exponents",
+    "stage": 2,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "id": "b1-exponents",
+    "stage": 3,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "id": "b1-exponents",
+    "stage": 4,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "id": "b1-exponents",
+    "stage": 1,
+    "lab": 0,
+    "outside": [],
+    "overflow": false,
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "id": "b1-exponents",
+    "stage": 1,
+    "lab": 1,
+    "outside": [],
+    "overflow": false,
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "id": "b1-exponential",
+    "stage": 0,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "id": "b1-exponential",
+    "stage": 1,
+    "lab": "last-selected",
+    "outside": [
+      {
+        "cls": {},
+        "right": 1468.5,
+        "tag": "g",
+        "text": "定点"
+      },
+      {
+        "cls": {},
+        "right": 1468.5,
+        "tag": "path",
+        "text": ""
+      }
+    ],
+    "overflow": false,
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "id": "b1-exponential",
+    "stage": 2,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "id": "b1-exponential",
+    "stage": 3,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "id": "b1-exponential",
+    "stage": 4,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "id": "b1-exponential",
+    "stage": 1,
+    "lab": 0,
+    "outside": [],
+    "overflow": false,
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "id": "b1-exponential",
+    "stage": 1,
+    "lab": 1,
+    "outside": [
+      {
+        "cls": {},
+        "right": 1468.5,
+        "tag": "g",
+        "text": "定点"
+      },
+      {
+        "cls": {},
+        "right": 1468.5,
+        "tag": "path",
+        "text": ""
+      }
+    ],
+    "overflow": false,
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "id": "b1-logarithms",
+    "stage": 0,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "id": "b1-logarithms",
+    "stage": 1,
+    "lab": "last-selected",
+    "outside": [],
+    "overflow": false,
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "id": "b1-logarithms",
+    "stage": 2,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "id": "b1-logarithms",
+    "stage": 3,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "id": "b1-logarithms",
+    "stage": 4,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "id": "b1-logarithms",
+    "stage": 1,
+    "lab": 0,
+    "outside": [],
+    "overflow": false,
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "id": "b1-logarithms",
+    "stage": 1,
+    "lab": 1,
+    "outside": [],
+    "overflow": false,
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "id": "b1-log-function",
+    "stage": 0,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "id": "b1-log-function",
+    "stage": 1,
+    "lab": "last-selected",
+    "outside": [
+      {
+        "cls": {},
+        "right": 1148.660675048828,
+        "tag": "g",
+        "text": "PQ"
+      },
+      {
+        "cls": {},
+        "right": 1148.660675048828,
+        "tag": "path",
+        "text": ""
+      }
+    ],
+    "overflow": false,
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "id": "b1-log-function",
+    "stage": 2,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "id": "b1-log-function",
+    "stage": 3,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "id": "b1-log-function",
+    "stage": 4,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "id": "b1-log-function",
+    "stage": 1,
+    "lab": 0,
+    "outside": [],
+    "overflow": false,
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "id": "b1-log-function",
+    "stage": 1,
+    "lab": 1,
+    "outside": [
+      {
+        "cls": {},
+        "right": 1148.660675048828,
+        "tag": "g",
+        "text": "PQ"
+      },
+      {
+        "cls": {},
+        "right": 1148.660675048828,
+        "tag": "path",
+        "text": ""
+      }
+    ],
+    "overflow": false,
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "id": "b1-model-two",
+    "stage": 0,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "id": "b1-model-two",
+    "stage": 1,
+    "lab": "last-selected",
+    "outside": [],
+    "overflow": false,
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "id": "b1-model-two",
+    "stage": 2,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "id": "b1-model-two",
+    "stage": 3,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "id": "b1-model-two",
+    "stage": 4,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "id": "b1-model-two",
+    "stage": 1,
+    "lab": 0,
+    "outside": [],
+    "overflow": false,
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "id": "b1-model-two",
+    "stage": 1,
+    "lab": 1,
+    "outside": [],
+    "overflow": false,
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "id": "b1-angles",
+    "stage": 0,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "id": "b1-angles",
+    "stage": 1,
+    "lab": "last-selected",
+    "outside": [],
+    "overflow": false,
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "id": "b1-angles",
+    "stage": 2,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "id": "b1-angles",
+    "stage": 3,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "id": "b1-angles",
+    "stage": 4,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "id": "b1-angles",
+    "stage": 1,
+    "lab": 0,
+    "outside": [],
+    "overflow": false,
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "id": "b1-angles",
+    "stage": 1,
+    "lab": 1,
+    "outside": [],
+    "overflow": false,
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "id": "b1-trig-definition",
+    "stage": 0,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "id": "b1-trig-definition",
+    "stage": 1,
+    "lab": "last-selected",
+    "outside": [],
+    "overflow": false,
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "id": "b1-trig-definition",
+    "stage": 2,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "id": "b1-trig-definition",
+    "stage": 3,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "id": "b1-trig-definition",
+    "stage": 4,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "id": "b1-trig-definition",
+    "stage": 1,
+    "lab": 0,
+    "outside": [],
+    "overflow": false,
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "id": "b1-trig-definition",
+    "stage": 1,
+    "lab": 1,
+    "outside": [],
+    "overflow": false,
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "id": "b1-trig-reduction",
+    "stage": 0,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "id": "b1-trig-reduction",
+    "stage": 1,
+    "lab": "last-selected",
+    "outside": [],
+    "overflow": false,
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "id": "b1-trig-reduction",
+    "stage": 2,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "id": "b1-trig-reduction",
+    "stage": 3,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "id": "b1-trig-reduction",
+    "stage": 4,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "id": "b1-trig-reduction",
+    "stage": 1,
+    "lab": 0,
+    "outside": [],
+    "overflow": false,
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "id": "b1-trig-reduction",
+    "stage": 1,
+    "lab": 1,
+    "outside": [],
+    "overflow": false,
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "id": "b1-trig-graphs",
+    "stage": 0,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "id": "b1-trig-graphs",
+    "stage": 1,
+    "lab": "last-selected",
+    "outside": [],
+    "overflow": false,
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "id": "b1-trig-graphs",
+    "stage": 2,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "id": "b1-trig-graphs",
+    "stage": 3,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "id": "b1-trig-graphs",
+    "stage": 4,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "id": "b1-trig-graphs",
+    "stage": 1,
+    "lab": 0,
+    "outside": [],
+    "overflow": false,
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "id": "b1-trig-graphs",
+    "stage": 1,
+    "lab": 1,
+    "outside": [],
+    "overflow": false,
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "id": "b1-trig-identities",
+    "stage": 0,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "id": "b1-trig-identities",
+    "stage": 1,
+    "lab": "last-selected",
+    "outside": [],
+    "overflow": false,
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "id": "b1-trig-identities",
+    "stage": 2,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "id": "b1-trig-identities",
+    "stage": 3,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "id": "b1-trig-identities",
+    "stage": 4,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "id": "b1-trig-identities",
+    "stage": 1,
+    "lab": 0,
+    "outside": [
+      {
+        "cls": {},
+        "right": 831.5,
+        "tag": "g",
+        "text": "和角直接相加"
+      },
+      {
+        "cls": {},
+        "right": 831.5,
+        "tag": "path",
+        "text": ""
+      },
+      {
+        "cls": {},
+        "right": 831.5,
+        "tag": "path",
+        "text": ""
+      }
+    ],
+    "overflow": false,
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "id": "b1-trig-identities",
+    "stage": 1,
+    "lab": 1,
+    "outside": [],
+    "overflow": false,
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "id": "b1-sine-parameters",
+    "stage": 0,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "id": "b1-sine-parameters",
+    "stage": 1,
+    "lab": "last-selected",
+    "outside": [],
+    "overflow": false,
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "id": "b1-sine-parameters",
+    "stage": 2,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "id": "b1-sine-parameters",
+    "stage": 3,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "id": "b1-sine-parameters",
+    "stage": 4,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "id": "b1-sine-parameters",
+    "stage": 1,
+    "lab": 0,
+    "outside": [],
+    "overflow": false,
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "id": "b1-sine-parameters",
+    "stage": 1,
+    "lab": 1,
+    "outside": [],
+    "overflow": false,
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "id": "b1-trig-model",
+    "stage": 0,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "id": "b1-trig-model",
+    "stage": 1,
+    "lab": "last-selected",
+    "outside": [],
+    "overflow": false,
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "id": "b1-trig-model",
+    "stage": 2,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "id": "b1-trig-model",
+    "stage": 3,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "id": "b1-trig-model",
+    "stage": 4,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "id": "b1-trig-model",
+    "stage": 1,
+    "lab": 0,
+    "outside": [],
+    "overflow": false,
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "id": "b1-trig-model",
+    "stage": 1,
+    "lab": 1,
+    "outside": [],
+    "overflow": false,
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "id": "b1-set-concept",
+    "stage": 0,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1425,
+    "width": 1440
+  },
+  {
+    "id": "b1-set-concept",
+    "stage": 1,
+    "lab": "last-selected",
+    "outside": [
+      {
+        "cls": {},
+        "right": 1583.6552124023438,
+        "tag": "g",
+        "text": "-22"
+      },
+      {
+        "cls": {},
+        "right": 1583.6552124023438,
+        "tag": "path",
+        "text": ""
+      }
+    ],
+    "overflow": false,
+    "scroll": 1425,
+    "width": 1440
+  },
+  {
+    "id": "b1-set-concept",
+    "stage": 2,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1425,
+    "width": 1440
+  },
+  {
+    "id": "b1-set-concept",
+    "stage": 3,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1425,
+    "width": 1440
+  },
+  {
+    "id": "b1-set-concept",
+    "stage": 4,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1425,
+    "width": 1440
+  },
+  {
+    "id": "b1-set-concept",
+    "stage": 1,
+    "lab": 0,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1425,
+    "width": 1440
+  },
+  {
+    "id": "b1-set-concept",
+    "stage": 1,
+    "lab": 1,
+    "outside": [
+      {
+        "cls": {},
+        "right": 1583.6552124023438,
+        "tag": "g",
+        "text": "-22"
+      },
+      {
+        "cls": {},
+        "right": 1583.6552124023438,
+        "tag": "path",
+        "text": ""
+      }
+    ],
+    "overflow": false,
+    "scroll": 1425,
+    "width": 1440
+  },
+  {
+    "id": "b1-set-relations",
+    "stage": 0,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1425,
+    "width": 1440
+  },
+  {
+    "id": "b1-set-relations",
+    "stage": 1,
+    "lab": "last-selected",
+    "outside": [],
+    "overflow": false,
+    "scroll": 1425,
+    "width": 1440
+  },
+  {
+    "id": "b1-set-relations",
+    "stage": 2,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1425,
+    "width": 1440
+  },
+  {
+    "id": "b1-set-relations",
+    "stage": 3,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1425,
+    "width": 1440
+  },
+  {
+    "id": "b1-set-relations",
+    "stage": 4,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1425,
+    "width": 1440
+  },
+  {
+    "id": "b1-set-relations",
+    "stage": 1,
+    "lab": 0,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1425,
+    "width": 1440
+  },
+  {
+    "id": "b1-set-relations",
+    "stage": 1,
+    "lab": 1,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1425,
+    "width": 1440
+  },
+  {
+    "id": "b1-set-operations",
+    "stage": 0,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1425,
+    "width": 1440
+  },
+  {
+    "id": "b1-set-operations",
+    "stage": 1,
+    "lab": "last-selected",
+    "outside": [],
+    "overflow": false,
+    "scroll": 1425,
+    "width": 1440
+  },
+  {
+    "id": "b1-set-operations",
+    "stage": 2,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1425,
+    "width": 1440
+  },
+  {
+    "id": "b1-set-operations",
+    "stage": 3,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1425,
+    "width": 1440
+  },
+  {
+    "id": "b1-set-operations",
+    "stage": 4,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1425,
+    "width": 1440
+  },
+  {
+    "id": "b1-set-operations",
+    "stage": 1,
+    "lab": 0,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1425,
+    "width": 1440
+  },
+  {
+    "id": "b1-set-operations",
+    "stage": 1,
+    "lab": 1,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1425,
+    "width": 1440
+  },
+  {
+    "id": "b1-conditions",
+    "stage": 0,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1425,
+    "width": 1440
+  },
+  {
+    "id": "b1-conditions",
+    "stage": 1,
+    "lab": "last-selected",
+    "outside": [],
+    "overflow": false,
+    "scroll": 1425,
+    "width": 1440
+  },
+  {
+    "id": "b1-conditions",
+    "stage": 2,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1425,
+    "width": 1440
+  },
+  {
+    "id": "b1-conditions",
+    "stage": 3,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1425,
+    "width": 1440
+  },
+  {
+    "id": "b1-conditions",
+    "stage": 4,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1425,
+    "width": 1440
+  },
+  {
+    "id": "b1-conditions",
+    "stage": 1,
+    "lab": 0,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1425,
+    "width": 1440
+  },
+  {
+    "id": "b1-conditions",
+    "stage": 1,
+    "lab": 1,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1425,
+    "width": 1440
+  },
+  {
+    "id": "b1-quantifiers",
+    "stage": 0,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1425,
+    "width": 1440
+  },
+  {
+    "id": "b1-quantifiers",
+    "stage": 1,
+    "lab": "last-selected",
+    "outside": [
+      {
+        "cls": {},
+        "right": 1583.6552124023438,
+        "tag": "g",
+        "text": "最小最大"
+      },
+      {
+        "cls": {},
+        "right": 1583.6552124023438,
+        "tag": "path",
+        "text": ""
+      }
+    ],
+    "overflow": false,
+    "scroll": 1425,
+    "width": 1440
+  },
+  {
+    "id": "b1-quantifiers",
+    "stage": 2,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1425,
+    "width": 1440
+  },
+  {
+    "id": "b1-quantifiers",
+    "stage": 3,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1425,
+    "width": 1440
+  },
+  {
+    "id": "b1-quantifiers",
+    "stage": 4,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1425,
+    "width": 1440
+  },
+  {
+    "id": "b1-quantifiers",
+    "stage": 1,
+    "lab": 0,
+    "outside": [
+      {
+        "cls": {},
+        "right": 1583.6552124023438,
+        "tag": "g",
+        "text": "最小最大"
+      },
+      {
+        "cls": {},
+        "right": 1583.6552124023438,
+        "tag": "path",
+        "text": ""
+      }
+    ],
+    "overflow": false,
+    "scroll": 1425,
+    "width": 1440
+  },
+  {
+    "id": "b1-quantifiers",
+    "stage": 1,
+    "lab": 1,
+    "outside": [
+      {
+        "cls": {},
+        "right": 1583.6552124023438,
+        "tag": "g",
+        "text": "最小最大"
+      },
+      {
+        "cls": {},
+        "right": 1583.6552124023438,
+        "tag": "path",
+        "text": ""
+      }
+    ],
+    "overflow": false,
+    "scroll": 1425,
+    "width": 1440
+  },
+  {
+    "id": "b1-inequality-rules",
+    "stage": 0,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1425,
+    "width": 1440
+  },
+  {
+    "id": "b1-inequality-rules",
+    "stage": 1,
+    "lab": "last-selected",
+    "outside": [],
+    "overflow": false,
+    "scroll": 1425,
+    "width": 1440
+  },
+  {
+    "id": "b1-inequality-rules",
+    "stage": 2,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1425,
+    "width": 1440
+  },
+  {
+    "id": "b1-inequality-rules",
+    "stage": 3,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1425,
+    "width": 1440
+  },
+  {
+    "id": "b1-inequality-rules",
+    "stage": 4,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1425,
+    "width": 1440
+  },
+  {
+    "id": "b1-inequality-rules",
+    "stage": 1,
+    "lab": 0,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1425,
+    "width": 1440
+  },
+  {
+    "id": "b1-inequality-rules",
+    "stage": 1,
+    "lab": 1,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1425,
+    "width": 1440
+  },
+  {
+    "id": "b1-amgm",
+    "stage": 0,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1425,
+    "width": 1440
+  },
+  {
+    "id": "b1-amgm",
+    "stage": 1,
+    "lab": "last-selected",
+    "outside": [],
+    "overflow": false,
+    "scroll": 1425,
+    "width": 1440
+  },
+  {
+    "id": "b1-amgm",
+    "stage": 2,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1425,
+    "width": 1440
+  },
+  {
+    "id": "b1-amgm",
+    "stage": 3,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1425,
+    "width": 1440
+  },
+  {
+    "id": "b1-amgm",
+    "stage": 4,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1425,
+    "width": 1440
+  },
+  {
+    "id": "b1-amgm",
+    "stage": 1,
+    "lab": 0,
+    "outside": [
+      {
+        "cls": {},
+        "right": 1583.6552124023438,
+        "tag": "g",
+        "text": "当前边长和"
+      },
+      {
+        "cls": {},
+        "right": 1583.6552124023438,
+        "tag": "path",
+        "text": ""
+      }
+    ],
+    "overflow": false,
+    "scroll": 1425,
+    "width": 1440
+  },
+  {
+    "id": "b1-amgm",
+    "stage": 1,
+    "lab": 1,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1425,
+    "width": 1440
+  },
+  {
+    "id": "b1-quadratic",
+    "stage": 0,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1425,
+    "width": 1440
+  },
+  {
+    "id": "b1-quadratic",
+    "stage": 1,
+    "lab": "last-selected",
+    "outside": [],
+    "overflow": false,
+    "scroll": 1425,
+    "width": 1440
+  },
+  {
+    "id": "b1-quadratic",
+    "stage": 2,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1425,
+    "width": 1440
+  },
+  {
+    "id": "b1-quadratic",
+    "stage": 3,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1425,
+    "width": 1440
+  },
+  {
+    "id": "b1-quadratic",
+    "stage": 4,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1425,
+    "width": 1440
+  },
+  {
+    "id": "b1-quadratic",
+    "stage": 1,
+    "lab": 0,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1425,
+    "width": 1440
+  },
+  {
+    "id": "b1-quadratic",
+    "stage": 1,
+    "lab": 1,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1425,
+    "width": 1440
+  },
+  {
+    "id": "b1-function-concept",
+    "stage": 0,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1425,
+    "width": 1440
+  },
+  {
+    "id": "b1-function-concept",
+    "stage": 1,
+    "lab": "last-selected",
+    "outside": [],
+    "overflow": false,
+    "scroll": 1425,
+    "width": 1440
+  },
+  {
+    "id": "b1-function-concept",
+    "stage": 2,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1425,
+    "width": 1440
+  },
+  {
+    "id": "b1-function-concept",
+    "stage": 3,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1425,
+    "width": 1440
+  },
+  {
+    "id": "b1-function-concept",
+    "stage": 4,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1425,
+    "width": 1440
+  },
+  {
+    "id": "b1-function-concept",
+    "stage": 1,
+    "lab": 0,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1425,
+    "width": 1440
+  },
+  {
+    "id": "b1-function-concept",
+    "stage": 1,
+    "lab": 1,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1425,
+    "width": 1440
+  },
+  {
+    "id": "b1-function-properties",
+    "stage": 0,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1425,
+    "width": 1440
+  },
+  {
+    "id": "b1-function-properties",
+    "stage": 1,
+    "lab": "last-selected",
+    "outside": [],
+    "overflow": false,
+    "scroll": 1425,
+    "width": 1440
+  },
+  {
+    "id": "b1-function-properties",
+    "stage": 2,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1425,
+    "width": 1440
+  },
+  {
+    "id": "b1-function-properties",
+    "stage": 3,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1425,
+    "width": 1440
+  },
+  {
+    "id": "b1-function-properties",
+    "stage": 4,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1425,
+    "width": 1440
+  },
+  {
+    "id": "b1-function-properties",
+    "stage": 1,
+    "lab": 0,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1425,
+    "width": 1440
+  },
+  {
+    "id": "b1-function-properties",
+    "stage": 1,
+    "lab": 1,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1425,
+    "width": 1440
+  },
+  {
+    "id": "b1-power",
+    "stage": 0,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1425,
+    "width": 1440
+  },
+  {
+    "id": "b1-power",
+    "stage": 1,
+    "lab": "last-selected",
+    "outside": [],
+    "overflow": false,
+    "scroll": 1425,
+    "width": 1440
+  },
+  {
+    "id": "b1-power",
+    "stage": 2,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1425,
+    "width": 1440
+  },
+  {
+    "id": "b1-power",
+    "stage": 3,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1425,
+    "width": 1440
+  },
+  {
+    "id": "b1-power",
+    "stage": 4,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1425,
+    "width": 1440
+  },
+  {
+    "id": "b1-power",
+    "stage": 1,
+    "lab": 0,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1425,
+    "width": 1440
+  },
+  {
+    "id": "b1-power",
+    "stage": 1,
+    "lab": 1,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1425,
+    "width": 1440
+  },
+  {
+    "id": "b1-model-one",
+    "stage": 0,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1425,
+    "width": 1440
+  },
+  {
+    "id": "b1-model-one",
+    "stage": 1,
+    "lab": "last-selected",
+    "outside": [],
+    "overflow": false,
+    "scroll": 1425,
+    "width": 1440
+  },
+  {
+    "id": "b1-model-one",
+    "stage": 2,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1425,
+    "width": 1440
+  },
+  {
+    "id": "b1-model-one",
+    "stage": 3,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1425,
+    "width": 1440
+  },
+  {
+    "id": "b1-model-one",
+    "stage": 4,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1425,
+    "width": 1440
+  },
+  {
+    "id": "b1-model-one",
+    "stage": 1,
+    "lab": 0,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1425,
+    "width": 1440
+  },
+  {
+    "id": "b1-model-one",
+    "stage": 1,
+    "lab": 1,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1425,
+    "width": 1440
+  },
+  {
+    "id": "b1-exponents",
+    "stage": 0,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1425,
+    "width": 1440
+  },
+  {
+    "id": "b1-exponents",
+    "stage": 1,
+    "lab": "last-selected",
+    "outside": [],
+    "overflow": false,
+    "scroll": 1425,
+    "width": 1440
+  },
+  {
+    "id": "b1-exponents",
+    "stage": 2,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1425,
+    "width": 1440
+  },
+  {
+    "id": "b1-exponents",
+    "stage": 3,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1425,
+    "width": 1440
+  },
+  {
+    "id": "b1-exponents",
+    "stage": 4,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1425,
+    "width": 1440
+  },
+  {
+    "id": "b1-exponents",
+    "stage": 1,
+    "lab": 0,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1425,
+    "width": 1440
+  },
+  {
+    "id": "b1-exponents",
+    "stage": 1,
+    "lab": 1,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1425,
+    "width": 1440
+  },
+  {
+    "id": "b1-exponential",
+    "stage": 0,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1425,
+    "width": 1440
+  },
+  {
+    "id": "b1-exponential",
+    "stage": 1,
+    "lab": "last-selected",
+    "outside": [
+      {
+        "cls": {},
+        "right": 1583.6552124023438,
+        "tag": "g",
+        "text": "定点"
+      },
+      {
+        "cls": {},
+        "right": 1583.6552124023438,
+        "tag": "path",
+        "text": ""
+      }
+    ],
+    "overflow": false,
+    "scroll": 1425,
+    "width": 1440
+  },
+  {
+    "id": "b1-exponential",
+    "stage": 2,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1425,
+    "width": 1440
+  },
+  {
+    "id": "b1-exponential",
+    "stage": 3,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1425,
+    "width": 1440
+  },
+  {
+    "id": "b1-exponential",
+    "stage": 4,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1425,
+    "width": 1440
+  },
+  {
+    "id": "b1-exponential",
+    "stage": 1,
+    "lab": 0,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1425,
+    "width": 1440
+  },
+  {
+    "id": "b1-exponential",
+    "stage": 1,
+    "lab": 1,
+    "outside": [
+      {
+        "cls": {},
+        "right": 1583.6552124023438,
+        "tag": "g",
+        "text": "定点"
+      },
+      {
+        "cls": {},
+        "right": 1583.6552124023438,
+        "tag": "path",
+        "text": ""
+      }
+    ],
+    "overflow": false,
+    "scroll": 1425,
+    "width": 1440
+  },
+  {
+    "id": "b1-logarithms",
+    "stage": 0,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1425,
+    "width": 1440
+  },
+  {
+    "id": "b1-logarithms",
+    "stage": 1,
+    "lab": "last-selected",
+    "outside": [],
+    "overflow": false,
+    "scroll": 1425,
+    "width": 1440
+  },
+  {
+    "id": "b1-logarithms",
+    "stage": 2,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1425,
+    "width": 1440
+  },
+  {
+    "id": "b1-logarithms",
+    "stage": 3,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1425,
+    "width": 1440
+  },
+  {
+    "id": "b1-logarithms",
+    "stage": 4,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1425,
+    "width": 1440
+  },
+  {
+    "id": "b1-logarithms",
+    "stage": 1,
+    "lab": 0,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1425,
+    "width": 1440
+  },
+  {
+    "id": "b1-logarithms",
+    "stage": 1,
+    "lab": 1,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1425,
+    "width": 1440
+  },
+  {
+    "id": "b1-log-function",
+    "stage": 0,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1425,
+    "width": 1440
+  },
+  {
+    "id": "b1-log-function",
+    "stage": 1,
+    "lab": "last-selected",
+    "outside": [],
+    "overflow": false,
+    "scroll": 1425,
+    "width": 1440
+  },
+  {
+    "id": "b1-log-function",
+    "stage": 2,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1425,
+    "width": 1440
+  },
+  {
+    "id": "b1-log-function",
+    "stage": 3,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1425,
+    "width": 1440
+  },
+  {
+    "id": "b1-log-function",
+    "stage": 4,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1425,
+    "width": 1440
+  },
+  {
+    "id": "b1-log-function",
+    "stage": 1,
+    "lab": 0,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1425,
+    "width": 1440
+  },
+  {
+    "id": "b1-log-function",
+    "stage": 1,
+    "lab": 1,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1425,
+    "width": 1440
+  },
+  {
+    "id": "b1-model-two",
+    "stage": 0,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1425,
+    "width": 1440
+  },
+  {
+    "id": "b1-model-two",
+    "stage": 1,
+    "lab": "last-selected",
+    "outside": [],
+    "overflow": false,
+    "scroll": 1425,
+    "width": 1440
+  },
+  {
+    "id": "b1-model-two",
+    "stage": 2,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1425,
+    "width": 1440
+  },
+  {
+    "id": "b1-model-two",
+    "stage": 3,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1425,
+    "width": 1440
+  },
+  {
+    "id": "b1-model-two",
+    "stage": 4,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1425,
+    "width": 1440
+  },
+  {
+    "id": "b1-model-two",
+    "stage": 1,
+    "lab": 0,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1425,
+    "width": 1440
+  },
+  {
+    "id": "b1-model-two",
+    "stage": 1,
+    "lab": 1,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1425,
+    "width": 1440
+  },
+  {
+    "id": "b1-angles",
+    "stage": 0,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1425,
+    "width": 1440
+  },
+  {
+    "id": "b1-angles",
+    "stage": 1,
+    "lab": "last-selected",
+    "outside": [],
+    "overflow": false,
+    "scroll": 1425,
+    "width": 1440
+  },
+  {
+    "id": "b1-angles",
+    "stage": 2,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1425,
+    "width": 1440
+  },
+  {
+    "id": "b1-angles",
+    "stage": 3,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1425,
+    "width": 1440
+  },
+  {
+    "id": "b1-angles",
+    "stage": 4,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1425,
+    "width": 1440
+  },
+  {
+    "id": "b1-angles",
+    "stage": 1,
+    "lab": 0,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1425,
+    "width": 1440
+  },
+  {
+    "id": "b1-angles",
+    "stage": 1,
+    "lab": 1,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1425,
+    "width": 1440
+  },
+  {
+    "id": "b1-trig-definition",
+    "stage": 0,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1425,
+    "width": 1440
+  },
+  {
+    "id": "b1-trig-definition",
+    "stage": 1,
+    "lab": "last-selected",
+    "outside": [],
+    "overflow": false,
+    "scroll": 1425,
+    "width": 1440
+  },
+  {
+    "id": "b1-trig-definition",
+    "stage": 2,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1425,
+    "width": 1440
+  },
+  {
+    "id": "b1-trig-definition",
+    "stage": 3,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1425,
+    "width": 1440
+  },
+  {
+    "id": "b1-trig-definition",
+    "stage": 4,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1425,
+    "width": 1440
+  },
+  {
+    "id": "b1-trig-definition",
+    "stage": 1,
+    "lab": 0,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1425,
+    "width": 1440
+  },
+  {
+    "id": "b1-trig-definition",
+    "stage": 1,
+    "lab": 1,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1425,
+    "width": 1440
+  },
+  {
+    "id": "b1-trig-reduction",
+    "stage": 0,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1425,
+    "width": 1440
+  },
+  {
+    "id": "b1-trig-reduction",
+    "stage": 1,
+    "lab": "last-selected",
+    "outside": [],
+    "overflow": false,
+    "scroll": 1425,
+    "width": 1440
+  },
+  {
+    "id": "b1-trig-reduction",
+    "stage": 2,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1425,
+    "width": 1440
+  },
+  {
+    "id": "b1-trig-reduction",
+    "stage": 3,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1425,
+    "width": 1440
+  },
+  {
+    "id": "b1-trig-reduction",
+    "stage": 4,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1425,
+    "width": 1440
+  },
+  {
+    "id": "b1-trig-reduction",
+    "stage": 1,
+    "lab": 0,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1425,
+    "width": 1440
+  },
+  {
+    "id": "b1-trig-reduction",
+    "stage": 1,
+    "lab": 1,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1425,
+    "width": 1440
+  },
+  {
+    "id": "b1-trig-graphs",
+    "stage": 0,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1425,
+    "width": 1440
+  },
+  {
+    "id": "b1-trig-graphs",
+    "stage": 1,
+    "lab": "last-selected",
+    "outside": [],
+    "overflow": false,
+    "scroll": 1425,
+    "width": 1440
+  },
+  {
+    "id": "b1-trig-graphs",
+    "stage": 2,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1425,
+    "width": 1440
+  },
+  {
+    "id": "b1-trig-graphs",
+    "stage": 3,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1425,
+    "width": 1440
+  },
+  {
+    "id": "b1-trig-graphs",
+    "stage": 4,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1425,
+    "width": 1440
+  },
+  {
+    "id": "b1-trig-graphs",
+    "stage": 1,
+    "lab": 0,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1425,
+    "width": 1440
+  },
+  {
+    "id": "b1-trig-graphs",
+    "stage": 1,
+    "lab": 1,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1425,
+    "width": 1440
+  },
+  {
+    "id": "b1-trig-identities",
+    "stage": 0,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1425,
+    "width": 1440
+  },
+  {
+    "id": "b1-trig-identities",
+    "stage": 1,
+    "lab": "last-selected",
+    "outside": [],
+    "overflow": false,
+    "scroll": 1425,
+    "width": 1440
+  },
+  {
+    "id": "b1-trig-identities",
+    "stage": 2,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1425,
+    "width": 1440
+  },
+  {
+    "id": "b1-trig-identities",
+    "stage": 3,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1425,
+    "width": 1440
+  },
+  {
+    "id": "b1-trig-identities",
+    "stage": 4,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1425,
+    "width": 1440
+  },
+  {
+    "id": "b1-trig-identities",
+    "stage": 1,
+    "lab": 0,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1425,
+    "width": 1440
+  },
+  {
+    "id": "b1-trig-identities",
+    "stage": 1,
+    "lab": 1,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1425,
+    "width": 1440
+  },
+  {
+    "id": "b1-sine-parameters",
+    "stage": 0,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1425,
+    "width": 1440
+  },
+  {
+    "id": "b1-sine-parameters",
+    "stage": 1,
+    "lab": "last-selected",
+    "outside": [],
+    "overflow": false,
+    "scroll": 1425,
+    "width": 1440
+  },
+  {
+    "id": "b1-sine-parameters",
+    "stage": 2,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1425,
+    "width": 1440
+  },
+  {
+    "id": "b1-sine-parameters",
+    "stage": 3,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1425,
+    "width": 1440
+  },
+  {
+    "id": "b1-sine-parameters",
+    "stage": 4,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1425,
+    "width": 1440
+  },
+  {
+    "id": "b1-sine-parameters",
+    "stage": 1,
+    "lab": 0,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1425,
+    "width": 1440
+  },
+  {
+    "id": "b1-sine-parameters",
+    "stage": 1,
+    "lab": 1,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1425,
+    "width": 1440
+  },
+  {
+    "id": "b1-trig-model",
+    "stage": 0,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1425,
+    "width": 1440
+  },
+  {
+    "id": "b1-trig-model",
+    "stage": 1,
+    "lab": "last-selected",
+    "outside": [],
+    "overflow": false,
+    "scroll": 1425,
+    "width": 1440
+  },
+  {
+    "id": "b1-trig-model",
+    "stage": 2,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1425,
+    "width": 1440
+  },
+  {
+    "id": "b1-trig-model",
+    "stage": 3,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1425,
+    "width": 1440
+  },
+  {
+    "id": "b1-trig-model",
+    "stage": 4,
+    "lab": null,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1425,
+    "width": 1440
+  },
+  {
+    "id": "b1-trig-model",
+    "stage": 1,
+    "lab": 0,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1425,
+    "width": 1440
+  },
+  {
+    "id": "b1-trig-model",
+    "stage": 1,
+    "lab": 1,
+    "outside": [],
+    "overflow": false,
+    "scroll": 1425,
+    "width": 1440
+  }
+]

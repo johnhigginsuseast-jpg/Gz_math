@@ -1,0 +1,2208 @@
+{
+  "status": "IMPLEMENTED_CONTENT_MAP_NOT_TEST_RESULT",
+  "review": "已逐条对照实际知识卡及高频题型；程序只验证来源覆盖和落点存在，不冒充独立专家审阅。",
+  "sourceItems": 130,
+  "links": 141,
+  "items": [
+    {
+      "paragraph": 9,
+      "source": "【表示法】集合的表示法：列举法 {1,2,3}；描述法 {x | p(x)}；Venn图法。",
+      "lesson": "b1-set-concept",
+      "knowledge": [
+        {
+          "index": 2,
+          "title": "表示与分类"
+        }
+      ],
+      "examples": []
+    },
+    {
+      "paragraph": 10,
+      "source": "【分类】集合的分类：有限集、无限集；注意空集 ∅ 是任何集合的子集、任何非空集合的真子集。",
+      "lesson": "b1-set-concept",
+      "knowledge": [
+        {
+          "index": 2,
+          "title": "表示与分类"
+        },
+        {
+          "index": 3,
+          "title": "没有元素仍是集合"
+        }
+      ],
+      "examples": []
+    },
+    {
+      "paragraph": 11,
+      "source": "【高频考点】空集是易错点：题目条件涉及\"A⊆B\"且A未说明非空时，必须先讨论A=∅的情况。",
+      "lesson": "b1-set-concept",
+      "knowledge": [
+        {
+          "index": 3,
+          "title": "没有元素仍是集合"
+        }
+      ],
+      "examples": [
+        {
+          "index": 0,
+          "title": "先查确定性"
+        },
+        {
+          "index": 1,
+          "title": "实数解集"
+        },
+        {
+          "index": 2,
+          "title": "互异性筛参数"
+        }
+      ]
+    },
+    {
+      "paragraph": 5,
+      "source": "【定义】集合：把一些确定的、不同的对象汇集在一起组成整体，其中对象称为元素。",
+      "lesson": "b1-set-concept",
+      "knowledge": [
+        {
+          "index": 0,
+          "title": "确定、不同、无序"
+        }
+      ],
+      "examples": []
+    },
+    {
+      "paragraph": 6,
+      "source": "【三性】元素的特性：确定性、互异性、无序性。",
+      "lesson": "b1-set-concept",
+      "knowledge": [
+        {
+          "index": 0,
+          "title": "确定、不同、无序"
+        }
+      ],
+      "examples": []
+    },
+    {
+      "paragraph": 7,
+      "source": "【关系】元素与集合的关系：a∈A（属于）或 a∉A（不属于）。",
+      "lesson": "b1-set-concept",
+      "knowledge": [
+        {
+          "index": 1,
+          "title": "属于与常用数集"
+        }
+      ],
+      "examples": []
+    },
+    {
+      "paragraph": 8,
+      "source": "【常用数集】常用数集：自然数集N、正整数集N*（或N₊）、整数集Z、有理数集Q、实数集R。",
+      "lesson": "b1-set-concept",
+      "knowledge": [
+        {
+          "index": 1,
+          "title": "属于与常用数集"
+        }
+      ],
+      "examples": []
+    },
+    {
+      "paragraph": 13,
+      "source": "【子集】子集：A⊆B，即A中任意元素都在B中；若A⊆B且B⊆A，则A=B。",
+      "lesson": "b1-set-relations",
+      "knowledge": [
+        {
+          "index": 0,
+          "title": "子集与相等"
+        }
+      ],
+      "examples": []
+    },
+    {
+      "paragraph": 14,
+      "source": "【真子集】真子集：A⫋B，即A⊆B且存在x∈B但x∉A。",
+      "lesson": "b1-set-relations",
+      "knowledge": [
+        {
+          "index": 1,
+          "title": "真子集与空集"
+        }
+      ],
+      "examples": []
+    },
+    {
+      "paragraph": 15,
+      "source": "【结论】若集合A有n个元素，则子集个数为2ⁿ，真子集2ⁿ−1，非空真子集2ⁿ−2。",
+      "lesson": "b1-set-relations",
+      "knowledge": [
+        {
+          "index": 2,
+          "title": "计数来自独立选择"
+        }
+      ],
+      "examples": []
+    },
+    {
+      "paragraph": 17,
+      "source": "【运算】并集 A∪B = {x | x∈A 或 x∈B}；交集 A∩B = {x | x∈A 且 x∈B}；补集 ∁UA = {x | x∈U 且 x∉A}（U为全集）。",
+      "lesson": "b1-set-operations",
+      "knowledge": [
+        {
+          "index": 0,
+          "title": "交与并"
+        },
+        {
+          "index": 1,
+          "title": "补集先给全集"
+        }
+      ],
+      "examples": []
+    },
+    {
+      "paragraph": 18,
+      "source": "【运算律】运算律：交换律、结合律、分配律、德摩根律：∁U(A∪B)=∁UA∩∁UB，∁U(A∩B)=∁UA∪∁UB。",
+      "lesson": "b1-set-operations",
+      "knowledge": [
+        {
+          "index": 2,
+          "title": "运算律"
+        }
+      ],
+      "examples": []
+    },
+    {
+      "paragraph": 19,
+      "source": "【高频考点】与解集结合考查：A={x|x²−3x+2=0}先解出具体元素，再求交、并、补；含参数问题时，结合数轴端点检验（\"端点能否取等\"是失分点）。",
+      "lesson": "b1-set-operations",
+      "knowledge": [
+        {
+          "index": 3,
+          "title": "先求解集再运算"
+        }
+      ],
+      "examples": [
+        {
+          "index": 0,
+          "title": "解方程再交并"
+        },
+        {
+          "index": 1,
+          "title": "端点也是条件"
+        },
+        {
+          "index": 2,
+          "title": "补集与德摩根"
+        }
+      ]
+    },
+    {
+      "paragraph": 21,
+      "source": "【定义】若p⇒q，则p是q的充分条件，q是p的必要条件。",
+      "lesson": "b1-conditions",
+      "knowledge": [
+        {
+          "index": 0,
+          "title": "充分与必要是方向"
+        }
+      ],
+      "examples": []
+    },
+    {
+      "paragraph": 22,
+      "source": "【充要】p⇔q：p是q的充要条件（充分且必要）。",
+      "lesson": "b1-conditions",
+      "knowledge": [
+        {
+          "index": 1,
+          "title": "四种关系"
+        }
+      ],
+      "examples": []
+    },
+    {
+      "paragraph": 23,
+      "source": "【方法】判断方法：定义法（推导）、集合法（若p对应集合P，q对应集合Q，则P⊆Q ⇔ p是q的充分条件）、等价转化法（逆否命题）。",
+      "lesson": "b1-conditions",
+      "knowledge": [
+        {
+          "index": 2,
+          "title": "集合方法"
+        },
+        {
+          "index": 3,
+          "title": "逆否等价"
+        }
+      ],
+      "examples": []
+    },
+    {
+      "paragraph": 24,
+      "source": "【高频考点】区分\"p是q的充分不必要条件\"等四种表述与集合包含关系的对应：小范围⇒大范围。常与集合、不等式解集结合命题。",
+      "lesson": "b1-conditions",
+      "knowledge": [
+        {
+          "index": 1,
+          "title": "四种关系"
+        },
+        {
+          "index": 2,
+          "title": "集合方法"
+        }
+      ],
+      "examples": [
+        {
+          "index": 0,
+          "title": "用区间辨方向"
+        },
+        {
+          "index": 1,
+          "title": "必要但不充分"
+        },
+        {
+          "index": 2,
+          "title": "借逆否推理"
+        }
+      ]
+    },
+    {
+      "paragraph": 26,
+      "source": "【量词】全称量词\"任意\"（∀）：∀x∈M，p(x)；存在量词\"存在\"（∃）：∃x∈M，p(x)。",
+      "lesson": "b1-quantifiers",
+      "knowledge": [
+        {
+          "index": 0,
+          "title": "任意与存在"
+        }
+      ],
+      "examples": []
+    },
+    {
+      "paragraph": 27,
+      "source": "【否定】否定规则：¬(∀x∈M, p(x)) ⇔ ∃x∈M, ¬p(x)；¬(∃x∈M, p(x)) ⇔ ∀x∈M, ¬p(x)。即\"改量词，否结论\"。",
+      "lesson": "b1-quantifiers",
+      "knowledge": [
+        {
+          "index": 1,
+          "title": "改量词，否结论"
+        }
+      ],
+      "examples": []
+    },
+    {
+      "paragraph": 28,
+      "source": "【高频考点】含量词的命题真假判断与否定是选择题常客；参数恒成立问题常转化为全称命题：∀x∈D，f(x)≥0 ⇔ f(x)min≥0。",
+      "lesson": "b1-quantifiers",
+      "knowledge": [
+        {
+          "index": 3,
+          "title": "恒成立与最值"
+        }
+      ],
+      "examples": [
+        {
+          "index": 0,
+          "title": "否定全称"
+        },
+        {
+          "index": 1,
+          "title": "否定存在"
+        },
+        {
+          "index": 2,
+          "title": "参数的全称与存在"
+        }
+      ]
+    },
+    {
+      "paragraph": 31,
+      "source": "【比较大小】实数大小比较：a>b ⇔ a−b>0；a=b ⇔ a−b=0；a<b ⇔ a−b<0（作差比较法）。",
+      "lesson": "b1-inequality-rules",
+      "knowledge": [
+        {
+          "index": 0,
+          "title": "比较大小从差开始"
+        }
+      ],
+      "examples": []
+    },
+    {
+      "paragraph": 34,
+      "source": "【推论】同向可加：a>b, c>d ⇒ a+c>b+d；同向同正可乘：a>b>0, c>d>0 ⇒ ac>bd；乘方开方：a>b>0 ⇒ aⁿ>bⁿ（n∈N*）。",
+      "lesson": "b1-inequality-rules",
+      "knowledge": [
+        {
+          "index": 2,
+          "title": "同向运算的前提"
+        },
+        {
+          "index": 3,
+          "title": "乘方与开方"
+        }
+      ],
+      "examples": []
+    },
+    {
+      "paragraph": 35,
+      "source": "【高频考点】用作差法或作商法比较大小；注意性质使用的前提条件（如\"同正\"），不可随意套用。",
+      "lesson": "b1-inequality-rules",
+      "knowledge": [
+        {
+          "index": 0,
+          "title": "比较大小从差开始"
+        }
+      ],
+      "examples": [
+        {
+          "index": 0,
+          "title": "乘负数变号"
+        },
+        {
+          "index": 1,
+          "title": "作差分区间"
+        },
+        {
+          "index": 2,
+          "title": "作商先确认正数"
+        }
+      ]
+    },
+    {
+      "paragraph": 32,
+      "source": "【性质】基本性质：对称性 a>b ⇔ b<a；传递性 a>b, b>c ⇒ a>c；可加性 a>b ⇒ a+c>b+c。",
+      "lesson": "b1-inequality-rules",
+      "knowledge": [
+        {
+          "index": 1,
+          "title": "加减保持，负乘反向"
+        }
+      ],
+      "examples": []
+    },
+    {
+      "paragraph": 33,
+      "source": "【性质】可乘性：a>b, c>0 ⇒ ac>bc；a>b, c<0 ⇒ ac<bc（乘负数要变号，易错点）。",
+      "lesson": "b1-inequality-rules",
+      "knowledge": [
+        {
+          "index": 1,
+          "title": "加减保持，负乘反向"
+        }
+      ],
+      "examples": []
+    },
+    {
+      "paragraph": 37,
+      "source": "【公式】a+b ≥ 2√(ab)（a>0, b>0），当且仅当a=b时取等号。",
+      "lesson": "b1-amgm",
+      "knowledge": [
+        {
+          "index": 0,
+          "title": "基本形式与等号"
+        }
+      ],
+      "examples": []
+    },
+    {
+      "paragraph": 38,
+      "source": "【常用变形】变形：ab ≤ ((a+b)/2)²；a+b ≥ 2√(ab)；a²+b² ≥ 2ab。",
+      "lesson": "b1-amgm",
+      "knowledge": [
+        {
+          "index": 0,
+          "title": "基本形式与等号"
+        },
+        {
+          "index": 1,
+          "title": "定积与定和"
+        }
+      ],
+      "examples": []
+    },
+    {
+      "paragraph": 39,
+      "source": "【使用条件】口诀：\"一正、二定、三相等\"——各项为正、积或和为定值、能取到等号。",
+      "lesson": "b1-amgm",
+      "knowledge": [
+        {
+          "index": 2,
+          "title": "配凑与换元"
+        }
+      ],
+      "examples": []
+    },
+    {
+      "paragraph": 40,
+      "source": "【最值应用】求最值：积定和最小（ab为定值时a+b≥2√(ab)）；和定积最大（a+b为定值时ab≤((a+b)/2)²）。",
+      "lesson": "b1-amgm",
+      "knowledge": [
+        {
+          "index": 1,
+          "title": "定积与定和"
+        }
+      ],
+      "examples": []
+    },
+    {
+      "paragraph": 41,
+      "source": "【高频考点】配凑定值（如x+4/x、x(1−2x)）、换元、常数代换（\"1\"的妙用，如已知1/a+1/b=1求a+b最小值）；多次使用基本不等式时要保证每次等号条件能同时成立。",
+      "lesson": "b1-amgm",
+      "knowledge": [
+        {
+          "index": 2,
+          "title": "配凑与换元"
+        },
+        {
+          "index": 3,
+          "title": "常数代换与实际范围"
+        }
+      ],
+      "examples": [
+        {
+          "index": 0,
+          "title": "定积但限制等号"
+        },
+        {
+          "index": 1,
+          "title": "配凑最大面积"
+        },
+        {
+          "index": 2,
+          "title": "用已知的1"
+        }
+      ]
+    },
+    {
+      "paragraph": 43,
+      "source": "【解集口诀】一元二次不等式 ax²+bx+c>0（a>0）的解集：Δ>0时取\"两根之外\"；Δ=0时 x≠−b/2a；Δ<0时解集为R。小于0取\"两根之间\"。（a<0时先化为正）",
+      "lesson": "b1-quadratic",
+      "knowledge": [
+        {
+          "index": 1,
+          "title": "a>0时三种判别式"
+        },
+        {
+          "index": 2,
+          "title": "严格与非严格"
+        }
+      ],
+      "examples": []
+    },
+    {
+      "paragraph": 44,
+      "source": "【关系】三个\"二次\"关系：ax²+bx+c=0的根是函数y=ax²+bx+c图象与x轴交点横坐标，也是不等式解集的端点。",
+      "lesson": "b1-quadratic",
+      "knowledge": [
+        {
+          "index": 0,
+          "title": "三个二次相互连接"
+        }
+      ],
+      "examples": []
+    },
+    {
+      "paragraph": 45,
+      "source": "【分类讨论】含参不等式：先讨论二次项系数是否为零、判别式符号、根的大小比较。",
+      "lesson": "b1-quadratic",
+      "knowledge": [
+        {
+          "index": 3,
+          "title": "恒成立与退化"
+        },
+        {
+          "index": 4,
+          "title": "根的分布"
+        }
+      ],
+      "examples": []
+    },
+    {
+      "paragraph": 46,
+      "source": "【高频考点】①由解集反求参数（解集的端点即对应方程的根，用韦达定理）；②恒成立问题：ax²+bx+c>0恒成立 ⇔ a>0且Δ<0（注意a=0的特殊情形）；③根的分布问题结合图象列条件。",
+      "lesson": "b1-quadratic",
+      "knowledge": [
+        {
+          "index": 2,
+          "title": "严格与非严格"
+        },
+        {
+          "index": 3,
+          "title": "恒成立与退化"
+        },
+        {
+          "index": 4,
+          "title": "根的分布"
+        }
+      ],
+      "examples": [
+        {
+          "index": 0,
+          "title": "根外与端点"
+        },
+        {
+          "index": 1,
+          "title": "恒正先降次"
+        },
+        {
+          "index": 2,
+          "title": "解集反求参数与根位置"
+        }
+      ]
+    },
+    {
+      "paragraph": 49,
+      "source": "【定义】定义：设A,B是非空数集，若对A中任意x，按某种对应法则f，在B中都有唯一确定的y与之对应，则称f:A→B为函数，记y=f(x), x∈A。",
+      "lesson": "b1-function-concept",
+      "knowledge": [
+        {
+          "index": 0,
+          "title": "函数是唯一对应"
+        }
+      ],
+      "examples": []
+    },
+    {
+      "paragraph": 52,
+      "source": "【表示法】表示法：解析法、列表法、图象法；分段函数是一个函数，不是多个函数。",
+      "lesson": "b1-function-concept",
+      "knowledge": [
+        {
+          "index": 3,
+          "title": "表示与求解析式"
+        }
+      ],
+      "examples": []
+    },
+    {
+      "paragraph": 53,
+      "source": "【定义域】定义域求法：分母≠0；偶次根号下≥0；对数真数>0；0次幂底数≠0；复合函数\"由外到内\"。",
+      "lesson": "b1-function-concept",
+      "knowledge": [
+        {
+          "index": 2,
+          "title": "求定义域先列限制"
+        }
+      ],
+      "examples": []
+    },
+    {
+      "paragraph": 54,
+      "source": "【值域】值域求法：观察法、配方法（二次函数）、换元法、分离常数法、基本不等式法、单调性法。",
+      "lesson": "b1-function-concept",
+      "knowledge": [
+        {
+          "index": 4,
+          "title": "求值域可选择工具"
+        },
+        {
+          "index": 5,
+          "title": "分离常数与不等式求值域"
+        }
+      ],
+      "examples": []
+    },
+    {
+      "paragraph": 55,
+      "source": "【高频考点】求定义域、判断同一函数、由f(x)解析式求f(g(x))或反之（换元法、配凑法）、分段函数求值与解不等式是常考题型。",
+      "lesson": "b1-function-concept",
+      "knowledge": [
+        {
+          "index": 3,
+          "title": "表示与求解析式"
+        }
+      ],
+      "examples": [
+        {
+          "index": 0,
+          "title": "定义域的交集"
+        },
+        {
+          "index": 1,
+          "title": "换元求规则"
+        },
+        {
+          "index": 2,
+          "title": "分段求值与不等式"
+        }
+      ]
+    },
+    {
+      "paragraph": 50,
+      "source": "【三要素】三要素：定义域、值域、对应法则；判断两个函数相同只需定义域和对应法则相同。",
+      "lesson": "b1-function-concept",
+      "knowledge": [
+        {
+          "index": 1,
+          "title": "同一函数与三要素"
+        }
+      ],
+      "examples": []
+    },
+    {
+      "paragraph": 51,
+      "source": "【易错】同一函数判断：如 y=x 与 y=x²/x、y=√(x²) 与 y=x 是否相同。",
+      "lesson": "b1-function-concept",
+      "knowledge": [
+        {
+          "index": 1,
+          "title": "同一函数与三要素"
+        }
+      ],
+      "examples": []
+    },
+    {
+      "paragraph": 60,
+      "source": "【复合】复合函数单调性：\"同增异减\"——内外层单调性相同则增，相反则减。",
+      "lesson": "b1-function-properties",
+      "knowledge": [
+        {
+          "index": 1,
+          "title": "复合与抽象规则"
+        }
+      ],
+      "examples": []
+    },
+    {
+      "paragraph": 61,
+      "source": "【应用】应用：比较大小、解不等式f(g(x))>f(h(x))（去f，注意单调性方向）、求最值与值域。",
+      "lesson": "b1-function-properties",
+      "knowledge": [
+        {
+          "index": 4,
+          "title": "综合方法"
+        }
+      ],
+      "examples": []
+    },
+    {
+      "paragraph": 63,
+      "source": "【定义】前提：定义域关于原点对称。若f(−x)=f(x)则为偶函数（图象关于y轴对称）；若f(−x)=−f(x)则为奇函数（图象关于原点对称）。",
+      "lesson": "b1-function-properties",
+      "knowledge": [
+        {
+          "index": 2,
+          "title": "奇偶先看定义域"
+        }
+      ],
+      "examples": []
+    },
+    {
+      "paragraph": 64,
+      "source": "【运算性质】运算：奇±奇=奇，偶±偶=偶，奇×奇=偶，偶×偶=偶，奇×偶=奇。",
+      "lesson": "b1-function-properties",
+      "knowledge": [
+        {
+          "index": 3,
+          "title": "奇偶运算与单调联系"
+        }
+      ],
+      "examples": []
+    },
+    {
+      "paragraph": 65,
+      "source": "【结论】f(x)=奇函数且在x=0处有定义 ⇒ f(0)=0。",
+      "lesson": "b1-function-properties",
+      "knowledge": [
+        {
+          "index": 2,
+          "title": "奇偶先看定义域"
+        }
+      ],
+      "examples": []
+    },
+    {
+      "paragraph": 66,
+      "source": "【结论】奇函数在对称区间上单调性相同，偶函数在对称区间上单调性相反。",
+      "lesson": "b1-function-properties",
+      "knowledge": [
+        {
+          "index": 3,
+          "title": "奇偶运算与单调联系"
+        }
+      ],
+      "examples": []
+    },
+    {
+      "paragraph": 67,
+      "source": "【高频考点】①单调性与奇偶性综合：利用对称性把自变量转化到同一单调区间上比较大小或解不等式；②抽象函数单调性、奇偶性判断；③含参函数\"在区间D上单调\"转化为导数式条件（恒成立）或区间与对称轴位置关系（二次函数）。",
+      "lesson": "b1-function-properties",
+      "knowledge": [
+        {
+          "index": 1,
+          "title": "复合与抽象规则"
+        },
+        {
+          "index": 4,
+          "title": "综合方法"
+        }
+      ],
+      "examples": [
+        {
+          "index": 0,
+          "title": "用定义证明"
+        },
+        {
+          "index": 1,
+          "title": "抽象函数也能作差"
+        },
+        {
+          "index": 2,
+          "title": "参数与奇偶综合"
+        }
+      ]
+    },
+    {
+      "paragraph": 58,
+      "source": "【定义】定义：设区间D⊆I，任意x₁<x₂∈D，若f(x₁)<f(x₂)则f在D上单调递增；若f(x₁)>f(x₂)则单调递减。",
+      "lesson": "b1-function-properties",
+      "knowledge": [
+        {
+          "index": 0,
+          "title": "定义中的任意两点"
+        }
+      ],
+      "examples": []
+    },
+    {
+      "paragraph": 59,
+      "source": "【证明步骤】证明步骤：取值→作差f(x₁)−f(x₂)→变形（因式分解、通分）→定号→下结论。",
+      "lesson": "b1-function-properties",
+      "knowledge": [
+        {
+          "index": 0,
+          "title": "定义中的任意两点"
+        }
+      ],
+      "examples": []
+    },
+    {
+      "paragraph": 69,
+      "source": "【定义】形如 y=x^α（α为常数）的函数叫幂函数（注意与指数函数 y=a^x 区分）。",
+      "lesson": "b1-power",
+      "knowledge": [
+        {
+          "index": 0,
+          "title": "变量在底数"
+        }
+      ],
+      "examples": []
+    },
+    {
+      "paragraph": 70,
+      "source": "【五函数】五个典型幂函数：y=x、y=x²、y=x³、y=x^(1/2)、y=x^(−1)，图象与性质（定义域、值域、奇偶性、单调性、过定点(1,1)）。",
+      "lesson": "b1-power",
+      "knowledge": [
+        {
+          "index": 1,
+          "title": "域、值域与奇偶"
+        },
+        {
+          "index": 2,
+          "title": "根号与倒数"
+        }
+      ],
+      "examples": []
+    },
+    {
+      "paragraph": 71,
+      "source": "【高频考点】幂函数图象识别、利用单调性比较大小；形如y=x^α过点求α。",
+      "lesson": "b1-power",
+      "knowledge": [
+        {
+          "index": 3,
+          "title": "定点、比较与过点求指数"
+        }
+      ],
+      "examples": [
+        {
+          "index": 0,
+          "title": "倒数不能跨零说递减"
+        },
+        {
+          "index": 1,
+          "title": "过点求幂指数"
+        },
+        {
+          "index": 2,
+          "title": "利用单调性比较"
+        }
+      ]
+    },
+    {
+      "paragraph": 73,
+      "source": "【步骤】用函数模型解决实际问题：审题→设变量→建立解析式→求最值/解方程→作答。",
+      "lesson": "b1-model-one",
+      "knowledge": [
+        {
+          "index": 0,
+          "title": "建模五步"
+        }
+      ],
+      "examples": []
+    },
+    {
+      "paragraph": 74,
+      "source": "【模型】常见模型：一次函数（均匀变化）、二次函数（利润最大、面积最值）、分段函数（出租车计费、个税）、幂函数。",
+      "lesson": "b1-model-one",
+      "knowledge": [
+        {
+          "index": 1,
+          "title": "常见模型"
+        }
+      ],
+      "examples": []
+    },
+    {
+      "paragraph": 75,
+      "source": "【高频考点】注意实际问题中自变量的取值范围（隐含条件），最值取不到等号时按单调性求。",
+      "lesson": "b1-model-one",
+      "knowledge": [
+        {
+          "index": 2,
+          "title": "最值受定义域限制"
+        },
+        {
+          "index": 3,
+          "title": "表达真实答案"
+        }
+      ],
+      "examples": [
+        {
+          "index": 0,
+          "title": "利润顶点可达"
+        },
+        {
+          "index": 1,
+          "title": "定价被限制"
+        },
+        {
+          "index": 2,
+          "title": "开端点没有最小值"
+        }
+      ]
+    },
+    {
+      "paragraph": 78,
+      "source": "【根式】n次方根与根式：(ⁿ√a)ⁿ=a；ⁿ√(aⁿ) = a（n为奇数），ⁿ√(aⁿ)=|a|（n为偶数）。",
+      "lesson": "b1-exponents",
+      "knowledge": [
+        {
+          "index": 0,
+          "title": "奇根与偶次算术根"
+        }
+      ],
+      "examples": []
+    },
+    {
+      "paragraph": 79,
+      "source": "【分数指数】分数指数幂：a^(m/n)=ⁿ√(aᵐ)（a>0，m,n∈N*，n>1）；规定正数的负分数指数幂 a^(−m/n)=1/(a^(m/n))。",
+      "lesson": "b1-exponents",
+      "knowledge": [
+        {
+          "index": 1,
+          "title": "分数与负指数"
+        }
+      ],
+      "examples": []
+    },
+    {
+      "paragraph": 80,
+      "source": "【运算律】运算性质：aʳ·aˢ=a^(r+s)；(aʳ)ˢ=a^(rs)；(ab)ʳ=aʳbʳ（a>0,b>0,r,s∈Q）。",
+      "lesson": "b1-exponents",
+      "knowledge": [
+        {
+          "index": 2,
+          "title": "指数运算律"
+        }
+      ],
+      "examples": []
+    },
+    {
+      "paragraph": 81,
+      "source": "【高频考点】指数幂化简求值、\"整体代换\"思想（已知a^x+a^(−x)求a^(2x)+a^(−2x)，注意平方关系）。",
+      "lesson": "b1-exponents",
+      "knowledge": [
+        {
+          "index": 3,
+          "title": "整体代换别漏交叉项"
+        }
+      ],
+      "examples": [
+        {
+          "index": 0,
+          "title": "带符号的算术根"
+        },
+        {
+          "index": 1,
+          "title": "分数指数求值"
+        },
+        {
+          "index": 2,
+          "title": "整体平方"
+        }
+      ]
+    },
+    {
+      "paragraph": 83,
+      "source": "【定义】定义：y=a^x（a>0且a≠1）。定义域R，值域(0,+∞)，图象恒过定点(0,1)。",
+      "lesson": "b1-exponential",
+      "knowledge": [
+        {
+          "index": 0,
+          "title": "定义、域与定点"
+        }
+      ],
+      "examples": []
+    },
+    {
+      "paragraph": 86,
+      "source": "【高频考点】①指数式大小比较（同底用单调性，同指用幂函数，都不同找中间值0或1）；②解指数不等式a^(f(x))>a^(g(x))（去底数，注意a>1递增、0<a<1递减要变号）；③指数型复合函数y=a^(f(x))：先求f(x)的值域再套单调性；④定点问题：y=a^(x−1)+2过定点(1,3)。",
+      "lesson": "b1-exponential",
+      "knowledge": [
+        {
+          "index": 2,
+          "title": "比较与不等式"
+        },
+        {
+          "index": 3,
+          "title": "复合函数与定点"
+        }
+      ],
+      "examples": [
+        {
+          "index": 0,
+          "title": "衰减底数反向"
+        },
+        {
+          "index": 1,
+          "title": "找中间值"
+        },
+        {
+          "index": 2,
+          "title": "复合值域与定点"
+        }
+      ]
+    },
+    {
+      "paragraph": 84,
+      "source": "【单调性】单调性：a>1时增函数，0<a<1时减函数。",
+      "lesson": "b1-exponential",
+      "knowledge": [
+        {
+          "index": 1,
+          "title": "底数与图象"
+        }
+      ],
+      "examples": []
+    },
+    {
+      "paragraph": 85,
+      "source": "【图象】图象特征：第一象限\"底大图高\"；以y轴为渐近线（x→−∞时a>1的图象趋近x轴）。",
+      "lesson": "b1-exponential",
+      "knowledge": [
+        {
+          "index": 1,
+          "title": "底数与图象"
+        }
+      ],
+      "examples": []
+    },
+    {
+      "paragraph": 90,
+      "source": "【运算律】运算性质：logₐ(MN)=logₐM+logₐN；logₐ(M/N)=logₐM−logₐN；logₐ(Mⁿ)=nlogₐM。",
+      "lesson": "b1-logarithms",
+      "knowledge": [
+        {
+          "index": 1,
+          "title": "积、商、幂法则"
+        }
+      ],
+      "examples": []
+    },
+    {
+      "paragraph": 91,
+      "source": "【换底】换底公式：logₐb = logcb / logca（c>0,c≠1）；推论：logₐb·logba=1；log_(aⁿ)(bᵐ)=(m/n)logₐb。",
+      "lesson": "b1-logarithms",
+      "knowledge": [
+        {
+          "index": 2,
+          "title": "换底的限制"
+        }
+      ],
+      "examples": []
+    },
+    {
+      "paragraph": 92,
+      "source": "【高频考点】对数化简求值（正用、逆用运算律）、换底公式应用、对数式与指数式互化、解对数方程（必须验真数>0！）。",
+      "lesson": "b1-logarithms",
+      "knowledge": [
+        {
+          "index": 3,
+          "title": "方程先域后解"
+        }
+      ],
+      "examples": [
+        {
+          "index": 0,
+          "title": "运算与换底"
+        },
+        {
+          "index": 1,
+          "title": "逆用积法则"
+        },
+        {
+          "index": 2,
+          "title": "去对数后的增根"
+        }
+      ]
+    },
+    {
+      "paragraph": 88,
+      "source": "【定义】定义：若aˣ=N（a>0,a≠1），则x=logₐN；N>0（真数必须为正）。logₐ1=0，logₐa=1。",
+      "lesson": "b1-logarithms",
+      "knowledge": [
+        {
+          "index": 0,
+          "title": "定义与记号"
+        }
+      ],
+      "examples": []
+    },
+    {
+      "paragraph": 89,
+      "source": "【特殊对数】常用对数 lgN=log₁₀N；自然对数 lnN=logₑN（e≈2.71828）。",
+      "lesson": "b1-logarithms",
+      "knowledge": [
+        {
+          "index": 0,
+          "title": "定义与记号"
+        }
+      ],
+      "examples": []
+    },
+    {
+      "paragraph": 94,
+      "source": "【定义】定义：y=logₐx（a>0且a≠1）。定义域(0,+∞)，值域R，图象恒过定点(1,0)。",
+      "lesson": "b1-log-function",
+      "knowledge": [
+        {
+          "index": 0,
+          "title": "域值、定点与渐近线"
+        }
+      ],
+      "examples": []
+    },
+    {
+      "paragraph": 95,
+      "source": "【单调性】单调性：a>1时增，0<a<1时减；以x轴为渐近线。",
+      "lesson": "b1-log-function",
+      "knowledge": [
+        {
+          "index": 0,
+          "title": "域值、定点与渐近线"
+        },
+        {
+          "index": 1,
+          "title": "单调与大小比较"
+        }
+      ],
+      "examples": []
+    },
+    {
+      "paragraph": 96,
+      "source": "【反函数】同底的指数函数y=aˣ与对数函数y=logₐx互为反函数，图象关于直线y=x对称。",
+      "lesson": "b1-log-function",
+      "knowledge": [
+        {
+          "index": 2,
+          "title": "互为反函数"
+        }
+      ],
+      "examples": []
+    },
+    {
+      "paragraph": 97,
+      "source": "【高频考点】①比较对数大小（同底用单调性、中间值0/1搭桥、换同底）；②解对数不等式（勿忘定义域限制）；③对数型复合函数y=logₐ(f(x))：定义域先行，再\"同增异减\"分析单调性与值域；④定点问题：y=logₐ(x−1)+2过定点(2,2)；⑤指对互化解方程。",
+      "lesson": "b1-log-function",
+      "knowledge": [
+        {
+          "index": 1,
+          "title": "单调与大小比较"
+        },
+        {
+          "index": 3,
+          "title": "对数不等式与复合"
+        },
+        {
+          "index": 4,
+          "title": "平移族与指对互化"
+        }
+      ],
+      "examples": [
+        {
+          "index": 0,
+          "title": "递减底数解不等式"
+        },
+        {
+          "index": 1,
+          "title": "复合单调与值域"
+        },
+        {
+          "index": 2,
+          "title": "不同底先看0和1"
+        }
+      ]
+    },
+    {
+      "paragraph": 99,
+      "source": "【零点定义】函数零点：使f(x)=0的实数x；即方程的根、图象与x轴交点横坐标。",
+      "lesson": "b1-model-two",
+      "knowledge": [
+        {
+          "index": 0,
+          "title": "零点是横坐标"
+        }
+      ],
+      "examples": []
+    },
+    {
+      "paragraph": 102,
+      "source": "【二分法】二分法求近似解：不断取中点、判符号、缩小区间，直至达到精确度要求。",
+      "lesson": "b1-model-two",
+      "knowledge": [
+        {
+          "index": 2,
+          "title": "二分的全过程"
+        }
+      ],
+      "examples": []
+    },
+    {
+      "paragraph": 103,
+      "source": "【模型】常见函数模型：指数爆炸型、对数增长型、幂函数型——比较增长快慢：指数>幂>对数。",
+      "lesson": "b1-model-two",
+      "knowledge": [
+        {
+          "index": 3,
+          "title": "根数参数与模型选择"
+        },
+        {
+          "index": 4,
+          "title": "拟合须检查实际含义"
+        }
+      ],
+      "examples": []
+    },
+    {
+      "paragraph": 104,
+      "source": "【高频考点】①判断零点所在区间（代入区间端点看乘积符号）；②由零点个数求参数范围（数形结合，转化为两图象交点个数）；③一元二次方程根的分布问题；④实际应用中的拟合模型选择。",
+      "lesson": "b1-model-two",
+      "knowledge": [
+        {
+          "index": 0,
+          "title": "零点是横坐标"
+        },
+        {
+          "index": 3,
+          "title": "根数参数与模型选择"
+        },
+        {
+          "index": 4,
+          "title": "拟合须检查实际含义"
+        }
+      ],
+      "examples": [
+        {
+          "index": 0,
+          "title": "锁定一个零点"
+        },
+        {
+          "index": 1,
+          "title": "手算二分精度"
+        },
+        {
+          "index": 2,
+          "title": "参数根数与边界"
+        }
+      ]
+    },
+    {
+      "paragraph": 100,
+      "source": "【存在定理】零点存在定理：f(x)在[a,b]上连续，若f(a)·f(b)<0，则在(a,b)内至少存在一个零点。",
+      "lesson": "b1-model-two",
+      "knowledge": [
+        {
+          "index": 1,
+          "title": "存在定理只保存在"
+        }
+      ],
+      "examples": []
+    },
+    {
+      "paragraph": 101,
+      "source": "【易错】注意：定理只能判断\"存在\"，不能判断个数；f(a)f(b)>0也可能有零点。",
+      "lesson": "b1-model-two",
+      "knowledge": [
+        {
+          "index": 1,
+          "title": "存在定理只保存在"
+        }
+      ],
+      "examples": []
+    },
+    {
+      "paragraph": 107,
+      "source": "【角】角的概念推广：正角（逆时针）、负角（顺时针）、零角。",
+      "lesson": "b1-angles",
+      "knowledge": [
+        {
+          "index": 0,
+          "title": "角可以有方向和多圈"
+        }
+      ],
+      "examples": []
+    },
+    {
+      "paragraph": 108,
+      "source": "【终边相同】与角α终边相同的角：β=α+k·360°（k∈Z）或 β=α+2kπ。",
+      "lesson": "b1-angles",
+      "knowledge": [
+        {
+          "index": 1,
+          "title": "终边相同不等于角相等"
+        }
+      ],
+      "examples": []
+    },
+    {
+      "paragraph": 109,
+      "source": "【象限角】象限角与轴线角（终边在坐标轴上的角不属于任何象限）。",
+      "lesson": "b1-angles",
+      "knowledge": [
+        {
+          "index": 0,
+          "title": "角可以有方向和多圈"
+        }
+      ],
+      "examples": []
+    },
+    {
+      "paragraph": 110,
+      "source": "【弧度制】弧度制：|α|=l/r；180°=π rad；扇形弧长 l=|α|r，面积 S=(1/2)lr=(1/2)|α|r²。",
+      "lesson": "b1-angles",
+      "knowledge": [
+        {
+          "index": 2,
+          "title": "弧度来自弧长比例"
+        },
+        {
+          "index": 3,
+          "title": "扇形弧长与面积"
+        }
+      ],
+      "examples": []
+    },
+    {
+      "paragraph": 111,
+      "source": "【高频考点】角度与弧度互化、终边相同角的集合表示、扇形弧长与面积计算（注意用弧度制公式）。",
+      "lesson": "b1-angles",
+      "knowledge": [
+        {
+          "index": 1,
+          "title": "终边相同不等于角相等"
+        },
+        {
+          "index": 2,
+          "title": "弧度来自弧长比例"
+        },
+        {
+          "index": 3,
+          "title": "扇形弧长与面积"
+        }
+      ],
+      "examples": [
+        {
+          "index": 0,
+          "title": "负角与终边"
+        },
+        {
+          "index": 1,
+          "title": "互化与轴线角"
+        },
+        {
+          "index": 2,
+          "title": "半径与扇形"
+        }
+      ]
+    },
+    {
+      "paragraph": 115,
+      "source": "【符号口诀】符号规律：\"一全正，二正弦，三正切，四余弦\"。",
+      "lesson": "b1-trig-definition",
+      "knowledge": [
+        {
+          "index": 1,
+          "title": "符号与无定义"
+        }
+      ],
+      "examples": []
+    },
+    {
+      "paragraph": 116,
+      "source": "【基本关系】同角三角函数基本关系：sin²α+cos²α=1；tanα=sinα/cosα。",
+      "lesson": "b1-trig-definition",
+      "knowledge": [
+        {
+          "index": 2,
+          "title": "同角基本关系"
+        }
+      ],
+      "examples": []
+    },
+    {
+      "paragraph": 117,
+      "source": "【应用】应用：知一求二（注意根据象限定符号）、弦切互化（sinα、cosα齐次式除以cos²α化tanα）、sinα±cosα与sinαcosα的互化（利用平方关系）。",
+      "lesson": "b1-trig-definition",
+      "knowledge": [
+        {
+          "index": 2,
+          "title": "同角基本关系"
+        },
+        {
+          "index": 3,
+          "title": "知一求二与平方关系"
+        }
+      ],
+      "examples": []
+    },
+    {
+      "paragraph": 118,
+      "source": "【高频考点】①由三角函数值符号判断象限；②知值求值（\"1\"的代换、平方关系开方定号）；③sinα+cosα、sinα−cosα、sinα·cosα\"知一求二\"。",
+      "lesson": "b1-trig-definition",
+      "knowledge": [
+        {
+          "index": 1,
+          "title": "符号与无定义"
+        },
+        {
+          "index": 2,
+          "title": "同角基本关系"
+        },
+        {
+          "index": 3,
+          "title": "知一求二与平方关系"
+        }
+      ],
+      "examples": [
+        {
+          "index": 0,
+          "title": "从终边点读值"
+        },
+        {
+          "index": 1,
+          "title": "给正弦先定号"
+        },
+        {
+          "index": 2,
+          "title": "和差与积互求"
+        }
+      ]
+    },
+    {
+      "paragraph": 113,
+      "source": "【定义】单位圆定义：sinα=y，cosα=x，tanα=y/x（x≠0），其中P(x,y)为终边与单位圆交点。",
+      "lesson": "b1-trig-definition",
+      "knowledge": [
+        {
+          "index": 0,
+          "title": "单位圆与一般终边点"
+        }
+      ],
+      "examples": []
+    },
+    {
+      "paragraph": 114,
+      "source": "【一般定义】一般定义：终边上任一点P(x,y)，|OP|=r，sinα=y/r，cosα=x/r，tanα=y/x。",
+      "lesson": "b1-trig-definition",
+      "knowledge": [
+        {
+          "index": 0,
+          "title": "单位圆与一般终边点"
+        }
+      ],
+      "examples": []
+    },
+    {
+      "paragraph": 120,
+      "source": "【口诀】口诀：\"奇变偶不变，符号看象限\"。即看角 k·(π/2)±α 中 k 的奇偶：k为奇数时函数名变为余函数（sin↔cos，tan↔cot），k为偶数不变；把α看作锐角，根据原函数在相应象限的符号定正负。",
+      "lesson": "b1-trig-reduction",
+      "knowledge": [
+        {
+          "index": 2,
+          "title": "π/2的奇偶倍"
+        }
+      ],
+      "examples": []
+    },
+    {
+      "paragraph": 121,
+      "source": "【常用公式】常用：sin(π−α)=sinα；cos(π−α)=−cosα；sin(π+α)=−sinα；cos(π+α)=−cosα；sin(−α)=−sinα；cos(−α)=cosα。",
+      "lesson": "b1-trig-reduction",
+      "knowledge": [
+        {
+          "index": 0,
+          "title": "先整圈再对称"
+        },
+        {
+          "index": 1,
+          "title": "常用六条"
+        }
+      ],
+      "examples": []
+    },
+    {
+      "paragraph": 122,
+      "source": "【高频考点】给值求值（把所求角用已知角与π/2、π、2π等凑配）、化简、结合同角关系综合求值。",
+      "lesson": "b1-trig-reduction",
+      "knowledge": [
+        {
+          "index": 3,
+          "title": "给值求值的配角"
+        }
+      ],
+      "examples": [
+        {
+          "index": 0,
+          "title": "大角与负角"
+        },
+        {
+          "index": 1,
+          "title": "奇变与定号"
+        },
+        {
+          "index": 2,
+          "title": "给值并配角"
+        }
+      ]
+    },
+    {
+      "paragraph": 125,
+      "source": "【性质】定义域R，值域[−1,1]；周期2π；奇函数；增区间[−π/2+2kπ, π/2+2kπ]，减区间[π/2+2kπ, 3π/2+2kπ]；对称轴x=π/2+kπ，对称中心(kπ,0)。",
+      "lesson": "b1-trig-graphs",
+      "knowledge": [
+        {
+          "index": 0,
+          "title": "正弦的性质"
+        }
+      ],
+      "examples": []
+    },
+    {
+      "paragraph": 127,
+      "source": "【性质】定义域R，值域[−1,1]；周期2π；偶函数；增区间[−π+2kπ, 2kπ]，减区间[2kπ, π+2kπ]；对称轴x=kπ，对称中心(π/2+kπ,0)。",
+      "lesson": "b1-trig-graphs",
+      "knowledge": [
+        {
+          "index": 1,
+          "title": "余弦的性质"
+        }
+      ],
+      "examples": []
+    },
+    {
+      "paragraph": 129,
+      "source": "【性质】定义域x≠π/2+kπ，值域R；周期π；奇函数；在(−π/2+kπ, π/2+kπ)上单调递增；对称中心(kπ/2,0)。",
+      "lesson": "b1-trig-graphs",
+      "knowledge": [
+        {
+          "index": 2,
+          "title": "正切的性质"
+        }
+      ],
+      "examples": []
+    },
+    {
+      "paragraph": 130,
+      "source": "【高频考点】单调性求最值与值域、奇偶性判断、周期计算、对称轴与对称中心（注意正弦对称中心是图象与平衡位置的交点）。",
+      "lesson": "b1-trig-graphs",
+      "knowledge": [
+        {
+          "index": 3,
+          "title": "性质应用"
+        }
+      ],
+      "examples": [
+        {
+          "index": 0,
+          "title": "限定区间求值域"
+        },
+        {
+          "index": 1,
+          "title": "正切不能跨断点"
+        },
+        {
+          "index": 2,
+          "title": "从图找对称"
+        }
+      ]
+    },
+    {
+      "paragraph": 140,
+      "source": "【辅助角】辅助角公式：asinx+bcosx=√(a²+b²)sin(x+φ)，其中tanφ=b/a，φ所在象限由(a,b)符号决定。",
+      "lesson": "b1-trig-identities",
+      "knowledge": [
+        {
+          "index": 3,
+          "title": "辅助角须定象限"
+        }
+      ],
+      "examples": []
+    },
+    {
+      "paragraph": 141,
+      "source": "【高频考点】①给值求值：角的配凑（如α=(α+β)−β、2α=(α+β)+(α−β)）；②化简求值与证明：注意\"1\"的代换（1=sin²α+cos²α）；③最值问题：通过降幂、辅助角公式化为y=Asin(ωx+φ)+b型。",
+      "lesson": "b1-trig-identities",
+      "knowledge": [
+        {
+          "index": 4,
+          "title": "变换的思想"
+        }
+      ],
+      "examples": [
+        {
+          "index": 0,
+          "title": "配出75°"
+        },
+        {
+          "index": 1,
+          "title": "降幂并求范围"
+        },
+        {
+          "index": 2,
+          "title": "证明时保留定义域"
+        }
+      ]
+    },
+    {
+      "paragraph": 133,
+      "source": "【C公式】cos(α−β)=cosαcosβ+sinαsinβ；cos(α+β)=cosαcosβ−sinαsinβ。",
+      "lesson": "b1-trig-identities",
+      "knowledge": [
+        {
+          "index": 0,
+          "title": "两角和差"
+        }
+      ],
+      "examples": []
+    },
+    {
+      "paragraph": 134,
+      "source": "【S公式】sin(α+β)=sinαcosβ+cosαsinβ；sin(α−β)=sinαcosβ−cosαsinβ。",
+      "lesson": "b1-trig-identities",
+      "knowledge": [
+        {
+          "index": 0,
+          "title": "两角和差"
+        }
+      ],
+      "examples": []
+    },
+    {
+      "paragraph": 135,
+      "source": "【T公式】tan(α+β)=(tanα+tanβ)/(1−tanαtanβ)；tan(α−β)=(tanα−tanβ)/(1+tanαtanβ)。",
+      "lesson": "b1-trig-identities",
+      "knowledge": [
+        {
+          "index": 1,
+          "title": "正切和差的条件"
+        }
+      ],
+      "examples": []
+    },
+    {
+      "paragraph": 136,
+      "source": "【变形】变形：tanα+tanβ=tan(α+β)(1−tanαtanβ)。",
+      "lesson": "b1-trig-identities",
+      "knowledge": [
+        {
+          "index": 1,
+          "title": "正切和差的条件"
+        }
+      ],
+      "examples": []
+    },
+    {
+      "paragraph": 138,
+      "source": "【公式】sin2α=2sinαcosα；cos2α=cos²α−sin²α=2cos²α−1=1−2sin²α；tan2α=2tanα/(1−tan²α)。",
+      "lesson": "b1-trig-identities",
+      "knowledge": [
+        {
+          "index": 2,
+          "title": "二倍角与降幂"
+        }
+      ],
+      "examples": []
+    },
+    {
+      "paragraph": 139,
+      "source": "【降幂】降幂公式：cos²α=(1+cos2α)/2；sin²α=(1−cos2α)/2。",
+      "lesson": "b1-trig-identities",
+      "knowledge": [
+        {
+          "index": 2,
+          "title": "二倍角与降幂"
+        }
+      ],
+      "examples": []
+    },
+    {
+      "paragraph": 143,
+      "source": "【参数】参数意义：A为振幅（决定值域[−A,A]），ω决定周期T=2π/|ω|，φ决定初相，ωx+φ为相位。",
+      "lesson": "b1-sine-parameters",
+      "knowledge": [
+        {
+          "index": 0,
+          "title": "幅、周期与退化"
+        }
+      ],
+      "examples": []
+    },
+    {
+      "paragraph": 144,
+      "source": "【变换】图象变换：y=sinx → 左右平移|φ|个单位 → 横坐标变为1/ω倍 → 纵坐标变为A倍；或先伸缩后平移（平移量为|φ/ω|，顺序不同平移量不同，易错！）。",
+      "lesson": "b1-sine-parameters",
+      "knowledge": [
+        {
+          "index": 2,
+          "title": "变换顺序与平移量"
+        }
+      ],
+      "examples": []
+    },
+    {
+      "paragraph": 145,
+      "source": "【五点法】五点法作图：令ωx+φ分别取0、π/2、π、3π/2、2π，求对应x、y描点。",
+      "lesson": "b1-sine-parameters",
+      "knowledge": [
+        {
+          "index": 1,
+          "title": "五点法是相位刻度"
+        }
+      ],
+      "examples": []
+    },
+    {
+      "paragraph": 146,
+      "source": "【求解析式】由图象求解析式：由最值定A，由周期定ω，由特殊点（常选最值点或零点）定φ。",
+      "lesson": "b1-sine-parameters",
+      "knowledge": [
+        {
+          "index": 3,
+          "title": "由图反求解析式"
+        }
+      ],
+      "examples": []
+    },
+    {
+      "paragraph": 147,
+      "source": "【高频考点】图象平移与伸缩（务必区分先平移后伸缩与先伸缩后平移的平移量）、由图求解析式、性质综合（单调区间、对称轴、最值——用\"整体代换\"令t=ωx+φ转化为y=sint研究）。",
+      "lesson": "b1-sine-parameters",
+      "knowledge": [
+        {
+          "index": 4,
+          "title": "整体换元求性质"
+        },
+        {
+          "index": 2,
+          "title": "变换顺序与平移量"
+        }
+      ],
+      "examples": [
+        {
+          "index": 0,
+          "title": "五点求位置"
+        },
+        {
+          "index": 1,
+          "title": "两种顺序要算平移"
+        },
+        {
+          "index": 2,
+          "title": "由图并求单调区间"
+        }
+      ]
+    },
+    {
+      "paragraph": 149,
+      "source": "【建模】解决实际问题（如摩天轮高度、潮汐、简谐振动）：建立y=Asin(ωx+φ)+b模型，由条件求A、b、ω、φ。",
+      "lesson": "b1-trig-model",
+      "knowledge": [
+        {
+          "index": 0,
+          "title": "建模从实际量开始"
+        },
+        {
+          "index": 1,
+          "title": "尺度与周期"
+        },
+        {
+          "index": 2,
+          "title": "初相与方向"
+        }
+      ],
+      "examples": []
+    },
+    {
+      "paragraph": 150,
+      "source": "【步骤】步骤：审清题意找周期定ω、由最大最小值定A与b、由初始位置定φ。",
+      "lesson": "b1-trig-model",
+      "knowledge": [
+        {
+          "index": 1,
+          "title": "尺度与周期"
+        },
+        {
+          "index": 2,
+          "title": "初相与方向"
+        }
+      ],
+      "examples": []
+    },
+    {
+      "paragraph": 151,
+      "source": "【高频考点】三角函数应用题在高考中多以选择、填空形式出现，抓住\"周期\"与\"最值\"两个关键量。",
+      "lesson": "b1-trig-model",
+      "knowledge": [
+        {
+          "index": 3,
+          "title": "解释输出与有效范围"
+        }
+      ],
+      "examples": [
+        {
+          "index": 0,
+          "title": "从最低点出发"
+        },
+        {
+          "index": 1,
+          "title": "潮位模型"
+        },
+        {
+          "index": 2,
+          "title": "首次到达某高度"
+        }
+      ]
+    },
+    {
+      "paragraph": 11,
+      "source": "【高频考点】空集是易错点：题目条件涉及\"A⊆B\"且A未说明非空时，必须先讨论A=∅的情况。",
+      "lesson": "b1-set-relations",
+      "knowledge": [
+        {
+          "index": 1,
+          "title": "真子集与空集"
+        }
+      ],
+      "examples": [
+        {
+          "index": 1,
+          "title": "含参时先看空集"
+        }
+      ]
+    },
+    {
+      "paragraph": 154,
+      "source": "1.数形结合：集合运算画数轴/Venn图；函数问题画图象；方程根的分布转化为图象交点。",
+      "lesson": "b1-set-operations",
+      "knowledge": [
+        {
+          "index": 0,
+          "title": "交与并"
+        },
+        {
+          "index": 1,
+          "title": "补集先给全集"
+        }
+      ],
+      "examples": []
+    },
+    {
+      "paragraph": 154,
+      "source": "1.数形结合：集合运算画数轴/Venn图；函数问题画图象；方程根的分布转化为图象交点。",
+      "lesson": "b1-quadratic",
+      "knowledge": [
+        {
+          "index": 0,
+          "title": "三个二次相互连接"
+        },
+        {
+          "index": 4,
+          "title": "根的分布"
+        }
+      ],
+      "examples": []
+    },
+    {
+      "paragraph": 154,
+      "source": "1.数形结合：集合运算画数轴/Venn图；函数问题画图象；方程根的分布转化为图象交点。",
+      "lesson": "b1-model-two",
+      "knowledge": [
+        {
+          "index": 0,
+          "title": "零点是横坐标"
+        },
+        {
+          "index": 3,
+          "title": "根数参数与模型选择"
+        }
+      ],
+      "examples": []
+    },
+    {
+      "paragraph": 155,
+      "source": "2.分类讨论：含参数的集合关系、二次项系数、对数与指数底数a>1或0<a<1、解含参不等式。",
+      "lesson": "b1-set-relations",
+      "knowledge": [
+        {
+          "index": 1,
+          "title": "真子集与空集"
+        }
+      ],
+      "examples": []
+    },
+    {
+      "paragraph": 155,
+      "source": "2.分类讨论：含参数的集合关系、二次项系数、对数与指数底数a>1或0<a<1、解含参不等式。",
+      "lesson": "b1-quadratic",
+      "knowledge": [
+        {
+          "index": 3,
+          "title": "恒成立与退化"
+        },
+        {
+          "index": 4,
+          "title": "根的分布"
+        }
+      ],
+      "examples": []
+    },
+    {
+      "paragraph": 155,
+      "source": "2.分类讨论：含参数的集合关系、二次项系数、对数与指数底数a>1或0<a<1、解含参不等式。",
+      "lesson": "b1-exponential",
+      "knowledge": [
+        {
+          "index": 1,
+          "title": "底数与图象"
+        },
+        {
+          "index": 2,
+          "title": "比较与不等式"
+        }
+      ],
+      "examples": []
+    },
+    {
+      "paragraph": 156,
+      "source": "3.转化与化归：复杂函数转化为基本函数；三角求值转化为已知角；恒成立转化为最值。",
+      "lesson": "b1-function-properties",
+      "knowledge": [
+        {
+          "index": 1,
+          "title": "复合与抽象规则"
+        },
+        {
+          "index": 4,
+          "title": "综合方法"
+        }
+      ],
+      "examples": []
+    },
+    {
+      "paragraph": 156,
+      "source": "3.转化与化归：复杂函数转化为基本函数；三角求值转化为已知角；恒成立转化为最值。",
+      "lesson": "b1-model-two",
+      "knowledge": [
+        {
+          "index": 3,
+          "title": "根数参数与模型选择"
+        }
+      ],
+      "examples": []
+    },
+    {
+      "paragraph": 156,
+      "source": "3.转化与化归：复杂函数转化为基本函数；三角求值转化为已知角；恒成立转化为最值。",
+      "lesson": "b1-trig-reduction",
+      "knowledge": [
+        {
+          "index": 3,
+          "title": "给值求值的配角"
+        }
+      ],
+      "examples": []
+    },
+    {
+      "paragraph": 157,
+      "source": "4.函数与方程思想：零点问题、方程根的个数问题。",
+      "lesson": "b1-model-two",
+      "knowledge": [
+        {
+          "index": 0,
+          "title": "零点是横坐标"
+        },
+        {
+          "index": 1,
+          "title": "存在定理只保存在"
+        },
+        {
+          "index": 3,
+          "title": "根数参数与模型选择"
+        }
+      ],
+      "examples": []
+    },
+    {
+      "paragraph": 158,
+      "source": "5.换元思想：复合函数、无理函数值域、三角恒等变换中角的配凑。",
+      "lesson": "b1-function-concept",
+      "knowledge": [
+        {
+          "index": 3,
+          "title": "表示与求解析式"
+        },
+        {
+          "index": 4,
+          "title": "求值域可选择工具"
+        },
+        {
+          "index": 5,
+          "title": "分离常数与不等式求值域"
+        }
+      ],
+      "examples": []
+    },
+    {
+      "paragraph": 158,
+      "source": "5.换元思想：复合函数、无理函数值域、三角恒等变换中角的配凑。",
+      "lesson": "b1-trig-identities",
+      "knowledge": [
+        {
+          "index": 4,
+          "title": "变换的思想"
+        }
+      ],
+      "examples": []
+    },
+    {
+      "paragraph": 160,
+      "source": "1.空集是任何集合的子集，含参子集问题漏掉A=∅的情况。",
+      "lesson": "b1-set-relations",
+      "knowledge": [
+        {
+          "index": 1,
+          "title": "真子集与空集"
+        }
+      ],
+      "examples": []
+    },
+    {
+      "paragraph": 161,
+      "source": "2.集合运算中端点取舍（开闭区间）判断失误。",
+      "lesson": "b1-set-operations",
+      "knowledge": [
+        {
+          "index": 1,
+          "title": "补集先给全集"
+        }
+      ],
+      "examples": []
+    },
+    {
+      "paragraph": 162,
+      "source": "3.基本不等式忽略\"一正二定三相等\"，多次使用等号条件不一致。",
+      "lesson": "b1-amgm",
+      "knowledge": [
+        {
+          "index": 0,
+          "title": "基本形式与等号"
+        },
+        {
+          "index": 2,
+          "title": "配凑与换元"
+        },
+        {
+          "index": 3,
+          "title": "常数代换与实际范围"
+        }
+      ],
+      "examples": []
+    },
+    {
+      "paragraph": 163,
+      "source": "4.乘不等式两边时忽略符号方向（乘负数变号）。",
+      "lesson": "b1-inequality-rules",
+      "knowledge": [
+        {
+          "index": 1,
+          "title": "加减保持，负乘反向"
+        }
+      ],
+      "examples": []
+    },
+    {
+      "paragraph": 164,
+      "source": "5.求函数定义域时遗漏：分母、偶次根号、对数真数、零次幂底数。",
+      "lesson": "b1-function-concept",
+      "knowledge": [
+        {
+          "index": 2,
+          "title": "求定义域先列限制"
+        }
+      ],
+      "examples": []
+    },
+    {
+      "paragraph": 165,
+      "source": "6.判断奇偶性前未先检验定义域是否关于原点对称。",
+      "lesson": "b1-function-properties",
+      "knowledge": [
+        {
+          "index": 2,
+          "title": "奇偶先看定义域"
+        }
+      ],
+      "examples": []
+    },
+    {
+      "paragraph": 166,
+      "source": "7.解对数不等式、对数方程忘记真数大于0，忘记验根。",
+      "lesson": "b1-logarithms",
+      "knowledge": [
+        {
+          "index": 3,
+          "title": "方程先域后解"
+        }
+      ],
+      "examples": []
+    },
+    {
+      "paragraph": 166,
+      "source": "7.解对数不等式、对数方程忘记真数大于0，忘记验根。",
+      "lesson": "b1-log-function",
+      "knowledge": [
+        {
+          "index": 3,
+          "title": "对数不等式与复合"
+        }
+      ],
+      "examples": []
+    },
+    {
+      "paragraph": 167,
+      "source": "8.指数、对数函数单调性受底数影响：a>1递增，0<a<1递减，去底数时方向判断错误。",
+      "lesson": "b1-exponential",
+      "knowledge": [
+        {
+          "index": 1,
+          "title": "底数与图象"
+        },
+        {
+          "index": 2,
+          "title": "比较与不等式"
+        }
+      ],
+      "examples": []
+    },
+    {
+      "paragraph": 167,
+      "source": "8.指数、对数函数单调性受底数影响：a>1递增，0<a<1递减，去底数时方向判断错误。",
+      "lesson": "b1-log-function",
+      "knowledge": [
+        {
+          "index": 1,
+          "title": "单调与大小比较"
+        },
+        {
+          "index": 3,
+          "title": "对数不等式与复合"
+        }
+      ],
+      "examples": []
+    },
+    {
+      "paragraph": 168,
+      "source": "9.三角函数开平方（如sinα=±√(1−cos²α)）忘记根据象限定号。",
+      "lesson": "b1-trig-definition",
+      "knowledge": [
+        {
+          "index": 1,
+          "title": "符号与无定义"
+        },
+        {
+          "index": 2,
+          "title": "同角基本关系"
+        },
+        {
+          "index": 3,
+          "title": "知一求二与平方关系"
+        }
+      ],
+      "examples": []
+    },
+    {
+      "paragraph": 169,
+      "source": "10.图象变换中先伸缩后平移与先平移后伸缩的平移量混淆。",
+      "lesson": "b1-sine-parameters",
+      "knowledge": [
+        {
+          "index": 2,
+          "title": "变换顺序与平移量"
+        }
+      ],
+      "examples": []
+    },
+    {
+      "paragraph": 170,
+      "source": "11.弧度制下扇形公式、角的大小比较与角度制混用。",
+      "lesson": "b1-angles",
+      "knowledge": [
+        {
+          "index": 2,
+          "title": "弧度来自弧长比例"
+        },
+        {
+          "index": 3,
+          "title": "扇形弧长与面积"
+        }
+      ],
+      "examples": []
+    },
+    {
+      "paragraph": 171,
+      "source": "12.应用题忽略实际定义域，导致最值取错。",
+      "lesson": "b1-model-one",
+      "knowledge": [
+        {
+          "index": 2,
+          "title": "最值受定义域限制"
+        },
+        {
+          "index": 3,
+          "title": "表达真实答案"
+        }
+      ],
+      "examples": []
+    },
+    {
+      "paragraph": 171,
+      "source": "12.应用题忽略实际定义域，导致最值取错。",
+      "lesson": "b1-trig-model",
+      "knowledge": [
+        {
+          "index": 3,
+          "title": "解释输出与有效范围"
+        }
+      ],
+      "examples": []
+    }
+  ]
+}
