@@ -1,0 +1,11 @@
+{
+ "description":"每行顺序为默认与全部预设的观察选项索引。由定义、计数/几何公式与固定种子实际抽出数据单独计数制定，不读取模型answer。",
+ "answers":{
+  "b2-v-length":[2,0,1,2],"b2-v-translate":[0,0,0],"b2-v-sum":[2,1,2,2],"b2-v-difference":[0,0,1,2],"b2-v-scale":[0,0,1,2],"b2-v-collinear":[1,0,1],
+  "b2-v-basis":[0,1,0],"b2-v-coordinates":[0,1,2,0],"b2-v-dot":[0,0,1,2],"b2-v-project":[0,2,1,0],"b2-v-sas":[0,1,2,3],"b2-v-sss":[1,1,0,2,3],"b2-v-ssa":[2,0,1,2,1],"b2-v-circumradius":[0,1,0,0],"b2-v-area":[1,0,1,2],"b2-v-height":[2,1,2,0],
+  "b2-z-class":[2,0,1,0],"b2-z-equal":[0,0,1,1],"b2-z-operation":[0,0,0,1,0],"b2-z-powers":[1,0,0,3],"b2-z-conjugate":[1,0,0,1],"b2-z-polar":[0,0,0,1],
+  "b2-s-frustum":[1,0,1,2],"b2-s-section":[0,0,1,2],"b2-s-oblique-length":[0,0,0],"b2-s-oblique-area":[0,0,0],"b2-s-cylinder-net":[1,0,1],"b2-s-cone-net":[1,2,1,0],"b2-s-volume":[1,1,1],"b2-s-insphere":[1,0,1,2],"b2-s-position":[2,2,1,0],"b2-s-line-plane":[1,0,1,2,3],"b2-s-parallel-line":[1,0,1],"b2-s-parallel-plane":[1,0,1],"b2-s-perp-line":[1,0,1,1],"b2-s-perp-plane":[0,0,0,1],"b2-s-angle-distance":[1,1,1,0],"b2-s-dihedral":[2,0,1,2,2],
+  "b2-d-sample":[0,0,0,0],"b2-d-estimate":[0,0,2,1],"b2-d-quota":[0,0,1],"b2-d-weight":[1,0,1],"b2-d-center":[0,0,0],"b2-d-percentile":[1,0,1,2],"b2-d-variance":[1,0,1],"b2-d-transform":[1,1,1,0,2],"b2-d-histogram":[1,1,2,3],"b2-d-hist-estimate":[1,1,2,0],
+  "b2-p-intersection":[1,0,1,0],"b2-p-complement":[1,0,1,2],"b2-p-dice":[2,0,2,2],"b2-p-balls":[1,1,0],"b2-p-independent":[0,0,1,0,0],"b2-p-atleast":[1,1,2,0],"b2-p-frequency":[2,2,2,1],"b2-p-integrated":[0,0,0,0]
+ }
+}

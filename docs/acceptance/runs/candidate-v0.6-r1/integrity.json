@@ -1,0 +1,63 @@
+{
+  "frozenFiles": 57,
+  "changedFiles": [],
+  "sourceChecks": [
+    {
+      "path": "高二上数学_立体几何_直线与圆_圆锥曲线考点.docx",
+      "unchanged": true
+    },
+    {
+      "path": "高中数学必修二知识点考点整理.docx",
+      "unchanged": true
+    },
+    {
+      "path": "高中数学必修一知识点考点全梳理.docx",
+      "unchanged": true
+    },
+    {
+      "path": "高中数学知识点详解.docx",
+      "unchanged": true
+    }
+  ],
+  "siteFileCount": 37,
+  "privatePaths": [],
+  "siteFiles": [
+    "advanced-labs.mjs",
+    "advanced-math.mjs",
+    "app.mjs",
+    "book-course.mjs",
+    "book-explog.mjs",
+    "book-functions.mjs",
+    "book-inequalities.mjs",
+    "book-labs.mjs",
+    "book-math.mjs",
+    "book-sets.mjs",
+    "book-trig.mjs",
+    "book2-complex-labs.mjs",
+    "book2-complex.mjs",
+    "book2-course.mjs",
+    "book2-data-labs.mjs",
+    "book2-labs.mjs",
+    "book2-math.mjs",
+    "book2-probability.mjs",
+    "book2-solid-labs.mjs",
+    "book2-solid.mjs",
+    "book2-statistics.mjs",
+    "book2-vector-labs.mjs",
+    "book2-vectors.mjs",
+    "boot.mjs",
+    "conic-course.mjs",
+    "course.mjs",
+    "index.html",
+    "lesson-data.mjs",
+    "math.mjs",
+    "module-app.mjs",
+    "module-course.mjs",
+    "module-math.mjs",
+    "module.css",
+    "solid-course.mjs",
+    "state.mjs",
+    "styles.css",
+    "assets/logo.svg"
+  ]
+}

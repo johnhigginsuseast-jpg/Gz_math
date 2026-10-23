@@ -1,0 +1,4436 @@
+{
+  "description": "逐段人工比对后的实际内容落点；脚本只校验索引有效，不能代替语义/数学审阅",
+  "paragraphs": [
+    {
+      "paragraph": 1,
+      "source": "高中数学必修二 知识点与考点全整理",
+      "type": "structure-or-metadata",
+      "targets": []
+    },
+    {
+      "paragraph": 2,
+      "source": "（按人教A版2019新教材必修第二册章节编排，涵盖：平面向量、复数、立体几何初步、统计、概率）",
+      "type": "structure-or-metadata",
+      "targets": []
+    },
+    {
+      "paragraph": 3,
+      "source": "使用说明：加粗公式为重点公式；\"★\"为高频考点/易错提醒。",
+      "type": "structure-or-metadata",
+      "targets": []
+    },
+    {
+      "paragraph": 4,
+      "source": "第六章 平面向量及其应用",
+      "type": "structure-or-metadata",
+      "targets": []
+    },
+    {
+      "paragraph": 5,
+      "source": "6.1 平面向量的概念",
+      "type": "structure-or-metadata",
+      "targets": []
+    },
+    {
+      "paragraph": 6,
+      "source": "向量的定义：既有大小又有方向的量，如力、位移、速度。向量可以用有向线段表示，记作 a→ 或 AB→。",
+      "type": "content",
+      "targets": [
+        {
+          "lesson": "b2-vector-concept",
+          "kind": "note",
+          "index": 0,
+          "title": "向量与模",
+          "content": {
+            "title": "向量与模",
+            "formula": "a：有大小和方向；|a|：非负长度",
+            "text": "力、位移、速度可用向量表示。画有向线段时要同时说明起点和终点，AB与BA通常相反。向量的模是数量，不是向量。"
+          }
+        }
+      ]
+    },
+    {
+      "paragraph": 7,
+      "source": "向量的模：向量的大小（长度），记作 |a→|。",
+      "type": "content",
+      "targets": [
+        {
+          "lesson": "b2-vector-concept",
+          "kind": "note",
+          "index": 0,
+          "title": "向量与模",
+          "content": {
+            "title": "向量与模",
+            "formula": "a：有大小和方向；|a|：非负长度",
+            "text": "力、位移、速度可用向量表示。画有向线段时要同时说明起点和终点，AB与BA通常相反。向量的模是数量，不是向量。"
+          }
+        }
+      ]
+    },
+    {
+      "paragraph": 8,
+      "source": "零向量：长度为 0 的向量，方向任意，记作 0→。",
+      "type": "content",
+      "targets": [
+        {
+          "lesson": "b2-vector-concept",
+          "kind": "note",
+          "index": 2,
+          "title": "零向量",
+          "content": {
+            "title": "零向量",
+            "formula": "|0|=0；规定0与任意向量平行",
+            "text": "零向量没有确定的方向，不能用它确定夹角或作为单位方向；零向量仍是向量，不是实数0。"
+          }
+        }
+      ]
+    },
+    {
+      "paragraph": 9,
+      "source": "单位向量：长度等于 1 个单位的向量；与 a→ 同方向的单位向量为 a→/|a→|。",
+      "type": "content",
+      "targets": [
+        {
+          "lesson": "b2-vector-concept",
+          "kind": "note",
+          "index": 3,
+          "title": "单位向量",
+          "content": {
+            "title": "单位向量",
+            "formula": "|u|=1；非零a的同向单位向量u=a/|a|",
+            "text": "单位向量有无穷多个方向。若a=0，不允许除以|a|；与非零a反向的单位向量是−a/|a|。"
+          }
+        }
+      ]
+    },
+    {
+      "paragraph": 10,
+      "source": "平行向量（共线向量）：方向相同或相反的非零向量，规定 0→ 与任一向量平行，记作 a→∥b→。",
+      "type": "content",
+      "targets": [
+        {
+          "lesson": "b2-vector-concept",
+          "kind": "note",
+          "index": 2,
+          "title": "零向量",
+          "content": {
+            "title": "零向量",
+            "formula": "|0|=0；规定0与任意向量平行",
+            "text": "零向量没有确定的方向，不能用它确定夹角或作为单位方向；零向量仍是向量，不是实数0。"
+          }
+        },
+        {
+          "lesson": "b2-vector-scale",
+          "kind": "note",
+          "index": 2,
+          "title": "共线定理的前提",
+          "content": {
+            "title": "共线定理的前提",
+            "formula": "b≠0时，a∥b ⇔ 存在唯一λ使a=λb",
+            "text": "若b=0而a≠0，不能表示成λb；若两者都为零，λ任意不唯一。零向量平行约定不取消参考向量非零前提。"
+          }
+        }
+      ]
+    },
+    {
+      "paragraph": 11,
+      "source": "相等向量：长度相等且方向相同的向量；向量只与大小方向有关，与起点位置无关（自由向量）。",
+      "type": "content",
+      "targets": [
+        {
+          "lesson": "b2-vector-concept",
+          "kind": "note",
+          "index": 1,
+          "title": "自由向量的相等与相反",
+          "content": {
+            "title": "自由向量的相等与相反",
+            "formula": "AB=CD ⇔ 大小与方向都相同",
+            "text": "向量与起点位置无关，可平移；相反向量长度相同方向相反，a+(−a)=0。仅有模相等不能推出向量相等。"
+          }
+        }
+      ]
+    },
+    {
+      "paragraph": 12,
+      "source": "相反向量：长度相等、方向相反的向量，a→ 的相反向量记作 −a→。",
+      "type": "content",
+      "targets": [
+        {
+          "lesson": "b2-vector-concept",
+          "kind": "note",
+          "index": 1,
+          "title": "自由向量的相等与相反",
+          "content": {
+            "title": "自由向量的相等与相反",
+            "formula": "AB=CD ⇔ 大小与方向都相同",
+            "text": "向量与起点位置无关，可平移；相反向量长度相同方向相反，a+(−a)=0。仅有模相等不能推出向量相等。"
+          }
+        }
+      ]
+    },
+    {
+      "paragraph": 13,
+      "source": "6.2 平面向量的运算",
+      "type": "structure-or-metadata",
+      "targets": []
+    },
+    {
+      "paragraph": 14,
+      "source": "一、向量的加法",
+      "type": "structure-or-metadata",
+      "targets": []
+    },
+    {
+      "paragraph": 15,
+      "source": "三角形法则：首尾相接，和向量由起点指向终点（AB→ + BC→ = AC→）。",
+      "type": "content",
+      "targets": [
+        {
+          "lesson": "b2-vector-add",
+          "kind": "note",
+          "index": 0,
+          "title": "加法的三角形法则",
+          "content": {
+            "title": "加法的三角形法则",
+            "formula": "AB+BC=AC",
+            "text": "先把第二向量的起点接到第一向量终点，和由最初起点指向最后终点；位移可相加，路程与位移模不混同。"
+          }
+        }
+      ]
+    },
+    {
+      "paragraph": 16,
+      "source": "平行四边形法则：共起点 a→、b→，以它们为邻边作平行四边形，对角线为和向量。",
+      "type": "content",
+      "targets": [
+        {
+          "lesson": "b2-vector-add",
+          "kind": "note",
+          "index": 1,
+          "title": "平行四边形与运算律",
+          "content": {
+            "title": "平行四边形与运算律",
+            "formula": "a+b=b+a；(a+b)+c=a+(b+c)",
+            "text": "共起点的两个向量作邻边，和向量是从共起点出发的对角线；另一条对角线对应差。"
+          }
+        }
+      ]
+    },
+    {
+      "paragraph": 17,
+      "source": "运算律：交换律 a→+b→=b→+a→；结合律 (a→+b→)+c→=a→+(b→+c→)。",
+      "type": "content",
+      "targets": [
+        {
+          "lesson": "b2-vector-add",
+          "kind": "note",
+          "index": 1,
+          "title": "平行四边形与运算律",
+          "content": {
+            "title": "平行四边形与运算律",
+            "formula": "a+b=b+a；(a+b)+c=a+(b+c)",
+            "text": "共起点的两个向量作邻边，和向量是从共起点出发的对角线；另一条对角线对应差。"
+          }
+        }
+      ]
+    },
+    {
+      "paragraph": 18,
+      "source": "不等式：||a→|−|b→|| ≤ |a→+b→| ≤ |a→|+|b→|（等号在共线时取得）。",
+      "type": "content",
+      "targets": [
+        {
+          "lesson": "b2-vector-add",
+          "kind": "note",
+          "index": 3,
+          "title": "长度上下界与取等",
+          "content": {
+            "title": "长度上下界与取等",
+            "formula": "||a|−|b||≤|a+b|≤|a|+|b|",
+            "text": "两非零向量同向取上界、反向取下界；有零向量时两界都可取。仅说共线不足以区分上界下界；反向等长时和为零。"
+          }
+        }
+      ]
+    },
+    {
+      "paragraph": 19,
+      "source": "二、向量的减法",
+      "type": "structure-or-metadata",
+      "targets": []
+    },
+    {
+      "paragraph": 20,
+      "source": "a→ − b→ = a→ + (−b→)；AB→ − AC→ = CB→（同起点减，指向被减向量终点）。",
+      "type": "content",
+      "targets": [
+        {
+          "lesson": "b2-vector-add",
+          "kind": "note",
+          "index": 2,
+          "title": "减法就是加相反向量",
+          "content": {
+            "title": "减法就是加相反向量",
+            "formula": "a−b=a+(−b)；AB−AC=CB",
+            "text": "同起点作差，箭头由减去的向量终点指向被减向量终点。减法不满足交换律，b−a=−(a−b)。"
+          }
+        }
+      ]
+    },
+    {
+      "paragraph": 21,
+      "source": "三、数乘运算",
+      "type": "structure-or-metadata",
+      "targets": []
+    },
+    {
+      "paragraph": 22,
+      "source": "实数 λ 与向量 a→ 的积 λa→ 仍是向量：|λa→|=|λ||a→|；λ>0 同向，λ<0 反向，λ=0 为零向量。",
+      "type": "content",
+      "targets": [
+        {
+          "lesson": "b2-vector-scale",
+          "kind": "note",
+          "index": 0,
+          "title": "数乘的大小方向",
+          "content": {
+            "title": "数乘的大小方向",
+            "formula": "|λa|=|λ||a|",
+            "text": "a非零时λ>0同向、λ<0反向、λ=0得零向量。模始终非负，不能漏绝对值。"
+          }
+        }
+      ]
+    },
+    {
+      "paragraph": 23,
+      "source": "运算律：λ(μa→)=(λμ)a→；(λ+μ)a→=λa→+μa→；λ(a→+b→)=λa→+λb→。",
+      "type": "content",
+      "targets": [
+        {
+          "lesson": "b2-vector-scale",
+          "kind": "note",
+          "index": 1,
+          "title": "数乘运算律",
+          "content": {
+            "title": "数乘运算律",
+            "formula": "λ(μa)=(λμ)a；λ(a+b)=λa+λb",
+            "text": "还有(λ+μ)a=λa+μa，可像代数展开但要区分向量与数量。"
+          }
+        }
+      ]
+    },
+    {
+      "paragraph": 24,
+      "source": "向量共线定理：a→∥b→(b→≠0→) ⟺ 存在唯一实数 λ，使 a→=λb→。",
+      "type": "content",
+      "targets": [
+        {
+          "lesson": "b2-vector-scale",
+          "kind": "note",
+          "index": 2,
+          "title": "共线定理的前提",
+          "content": {
+            "title": "共线定理的前提",
+            "formula": "b≠0时，a∥b ⇔ 存在唯一λ使a=λb",
+            "text": "若b=0而a≠0，不能表示成λb；若两者都为零，λ任意不唯一。零向量平行约定不取消参考向量非零前提。"
+          }
+        }
+      ]
+    },
+    {
+      "paragraph": 25,
+      "source": "★ 高频考法：用向量共线定理证明三点共线（若 AB→=λAC→，则 A、B、C 共线）。",
+      "type": "content",
+      "targets": [
+        {
+          "lesson": "b2-vector-scale",
+          "kind": "note",
+          "index": 3,
+          "title": "三点共线与坐标",
+          "content": {
+            "title": "三点共线与坐标",
+            "formula": "AB=λAC（C≠A）；x₁y₂−x₂y₁=0",
+            "text": "行列式为0可处理分量为0的情形，避免用坐标比除零。判断三点时先看点是否重合；证明共线仍要写明对应向量。"
+          }
+        },
+        {
+          "lesson": "b2-vector-scale",
+          "kind": "example",
+          "index": 2,
+          "title": "三点共线",
+          "content": {
+            "title": "三点共线",
+            "question": "A(1,1)、B(3,2)、C(5,3)是否共线？",
+            "steps": [
+              "AB=(2,1)，AC=(4,2)。",
+              "AC≠0，AB=(1/2)AC。",
+              "由共线定理A、B、C共线，B在AC中点。"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "paragraph": 26,
+      "source": "四、平面向量基本定理与坐标表示",
+      "type": "structure-or-metadata",
+      "targets": []
+    },
+    {
+      "paragraph": 27,
+      "source": "基本定理：若 e₁→、e₂→ 是同一平面内两个不共线向量（基底），则该平面内任一向量 a→ 有唯一分解 a→ = λ₁e₁→ + λ₂e₂→。",
+      "type": "content",
+      "targets": [
+        {
+          "lesson": "b2-vector-basis",
+          "kind": "note",
+          "index": 0,
+          "title": "平面向量基本定理",
+          "content": {
+            "title": "平面向量基本定理",
+            "formula": "a=λ₁e₁+λ₂e₂，e₁、e₂不共线",
+            "text": "同一平面的两个不共线向量能唯一表示任一平面向量。若共线，只能覆盖一条线，有时无解、有时不唯一。"
+          }
+        }
+      ]
+    },
+    {
+      "paragraph": 28,
+      "source": "正交分解：取互相垂直的单位向量 i→、j→ 作基底，a→ = xi→ + yj→，记作 a→=(x, y)。",
+      "type": "content",
+      "targets": [
+        {
+          "lesson": "b2-vector-basis",
+          "kind": "note",
+          "index": 1,
+          "title": "直角坐标",
+          "content": {
+            "title": "直角坐标",
+            "formula": "a=xi+yj=(x,y)",
+            "text": "标准基底i、j为互相垂直的单位向量。一般基底无需正交，但一般基底的系数不能直接当作直角坐标。"
+          }
+        }
+      ]
+    },
+    {
+      "paragraph": 29,
+      "source": "坐标运算：a→±b→=(x₁±x₂, y₁±y₂)；λa→=(λx, λy)。",
+      "type": "content",
+      "targets": [
+        {
+          "lesson": "b2-vector-basis",
+          "kind": "note",
+          "index": 2,
+          "title": "坐标运算",
+          "content": {
+            "title": "坐标运算",
+            "formula": "a±b=(x₁±x₂,y₁±y₂)，λa=(λx,λy)",
+            "text": "坐标表示保持向量的加减数乘规则；表达式相等可逐分量列方程。"
+          }
+        }
+      ]
+    },
+    {
+      "paragraph": 30,
+      "source": "向量坐标 = 终点坐标 − 起点坐标：AB→ = (x_B−x_A, y_B−y_A)。",
+      "type": "content",
+      "targets": [
+        {
+          "lesson": "b2-vector-basis",
+          "kind": "note",
+          "index": 3,
+          "title": "两点位移与长度",
+          "content": {
+            "title": "两点位移与长度",
+            "formula": "AB=(xB−xA,yB−yA)；|AB|=√(Δx²+Δy²)",
+            "text": "点的位置与向量的位移分量不同。负坐标相减留括号；中点是坐标平均，不是位移本身。"
+          }
+        }
+      ]
+    },
+    {
+      "paragraph": 31,
+      "source": "共线坐标判定：a→∥b→ ⟺ x₁y₂ − x₂y₁ = 0（交叉相乘相等，注意与垂直判定的区分！）。",
+      "type": "content",
+      "targets": [
+        {
+          "lesson": "b2-vector-scale",
+          "kind": "note",
+          "index": 3,
+          "title": "三点共线与坐标",
+          "content": {
+            "title": "三点共线与坐标",
+            "formula": "AB=λAC（C≠A）；x₁y₂−x₂y₁=0",
+            "text": "行列式为0可处理分量为0的情形，避免用坐标比除零。判断三点时先看点是否重合；证明共线仍要写明对应向量。"
+          }
+        },
+        {
+          "lesson": "b2-vector-basis",
+          "kind": "example",
+          "index": 2,
+          "title": "分量为零仍可判共线",
+          "content": {
+            "title": "分量为零仍可判共线",
+            "question": "a=(0,2)、b=(0,-3)，判断是否共线。",
+            "steps": [
+              "不能计算0/0来比较分量比。",
+              "行列式0×(−3)−0×2=0。",
+              "两向量共线且反向，a=(−2/3)b。"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "paragraph": 32,
+      "source": "五、数量积（内积）",
+      "type": "structure-or-metadata",
+      "targets": []
+    },
+    {
+      "paragraph": 33,
+      "source": "a→·b→ = |a→||b→|cosθ = x₁x₂ + y₁y₂",
+      "type": "content",
+      "targets": [
+        {
+          "lesson": "b2-vector-dot",
+          "kind": "note",
+          "index": 0,
+          "title": "数量积的两种表示",
+          "content": {
+            "title": "数量积的两种表示",
+            "formula": "a·b=|a||b|cosθ=x₁x₂+y₁y₂",
+            "text": "数量积结果是实数。θ仅对非零向量定义，范围[0°,180°]；θ=0°/180°不是锐角/钝角。"
+          }
+        }
+      ]
+    },
+    {
+      "paragraph": 34,
+      "source": "θ 为两向量夹角，范围 [0°, 180°]；a→·b→ 的结果是数（数量），不是向量。",
+      "type": "content",
+      "targets": [
+        {
+          "lesson": "b2-vector-dot",
+          "kind": "note",
+          "index": 0,
+          "title": "数量积的两种表示",
+          "content": {
+            "title": "数量积的两种表示",
+            "formula": "a·b=|a||b|cosθ=x₁x₂+y₁y₂",
+            "text": "数量积结果是实数。θ仅对非零向量定义，范围[0°,180°]；θ=0°/180°不是锐角/钝角。"
+          }
+        }
+      ]
+    },
+    {
+      "paragraph": 35,
+      "source": "几何意义：a→·b→ = |a→|·(b→ 在 a→ 方向上的投影)。",
+      "type": "content",
+      "targets": [
+        {
+          "lesson": "b2-vector-dot",
+          "kind": "note",
+          "index": 1,
+          "title": "有向投影与垂直",
+          "content": {
+            "title": "有向投影与垂直",
+            "formula": "projₐb=(a·b)/|a|，a≠0",
+            "text": "投影可正可负，投影长度取绝对值。非零两向量点积为0对应夹角90°；零向量点积也为0但无确定夹角。"
+          }
+        }
+      ]
+    },
+    {
+      "paragraph": 36,
+      "source": "垂直判定：a→⊥b→ ⟺ a→·b→=0 ⟺ x₁x₂ + y₂y₁... 注意：x₁x₂ + y₁y₂ = 0。",
+      "type": "content",
+      "targets": [
+        {
+          "lesson": "b2-vector-dot",
+          "kind": "note",
+          "index": 1,
+          "title": "有向投影与垂直",
+          "content": {
+            "title": "有向投影与垂直",
+            "formula": "projₐb=(a·b)/|a|，a≠0",
+            "text": "投影可正可负，投影长度取绝对值。非零两向量点积为0对应夹角90°；零向量点积也为0但无确定夹角。"
+          }
+        }
+      ]
+    },
+    {
+      "paragraph": 37,
+      "source": "模长公式：|a→| = √(x² + y²)；|AB→| = √((x_B−x_A)² + (y_B−y_A)²)（即两点间距离公式）。",
+      "type": "content",
+      "targets": [
+        {
+          "lesson": "b2-vector-basis",
+          "kind": "note",
+          "index": 3,
+          "title": "两点位移与长度",
+          "content": {
+            "title": "两点位移与长度",
+            "formula": "AB=(xB−xA,yB−yA)；|AB|=√(Δx²+Δy²)",
+            "text": "点的位置与向量的位移分量不同。负坐标相减留括号；中点是坐标平均，不是位移本身。"
+          }
+        }
+      ]
+    },
+    {
+      "paragraph": 38,
+      "source": "夹角公式：cosθ = (a→·b→)/(|a→||b→|) = (x₁x₂+y₁y₂)/(√(x₁²+y₁²)·√(x₂²+y₂²))。",
+      "type": "content",
+      "targets": [
+        {
+          "lesson": "b2-vector-dot",
+          "kind": "note",
+          "index": 0,
+          "title": "数量积的两种表示",
+          "content": {
+            "title": "数量积的两种表示",
+            "formula": "a·b=|a||b|cosθ=x₁x₂+y₁y₂",
+            "text": "数量积结果是实数。θ仅对非零向量定义，范围[0°,180°]；θ=0°/180°不是锐角/钝角。"
+          }
+        }
+      ]
+    },
+    {
+      "paragraph": 39,
+      "source": "运算律：a→·b→=b→·a→；(λa→)·b→=λ(a→·b→)；(a→+b→)·c→=a→·c→+b→·c→。",
+      "type": "content",
+      "targets": [
+        {
+          "lesson": "b2-vector-dot",
+          "kind": "note",
+          "index": 2,
+          "title": "运算与误区",
+          "content": {
+            "title": "运算与误区",
+            "formula": "a·b=b·a；(a+b)·c=a·c+b·c",
+            "text": "(λa)·b=λ(a·b)。点积不一般满足结合律：(a·b)c与a(b·c)是不同方向的向量，偶尔相等不意味着恒等。"
+          }
+        }
+      ]
+    },
+    {
+      "paragraph": 40,
+      "source": "重要不等式：|a→·b→| ≤ |a→||b→|。",
+      "type": "content",
+      "targets": [
+        {
+          "lesson": "b2-vector-dot",
+          "kind": "note",
+          "index": 3,
+          "title": "模长展开与最值",
+          "content": {
+            "title": "模长展开与最值",
+            "formula": "|a±b|²=|a|²±2a·b+|b|²",
+            "text": "|a·b|≤|a||b|；非零时共线取等。用平方展开可求模、判断垂直和最值，求角时先核查分母非零。"
+          }
+        },
+        {
+          "lesson": "b2-vector-dot",
+          "kind": "example",
+          "index": 0,
+          "title": "坐标判垂直",
+          "content": {
+            "title": "坐标判垂直",
+            "question": "a=(1,2)、b=(2,-1)，求点积与夹角。",
+            "steps": [
+              "a·b=1×2+2×(−1)=0。",
+              "两向量均非零，可使用夹角公式。",
+              "cosθ=0，所以θ=90°；行列式不为0说明不平行。"
+            ]
+          }
+        },
+        {
+          "lesson": "b2-vector-dot",
+          "kind": "example",
+          "index": 1,
+          "title": "投影的符号",
+          "content": {
+            "title": "投影的符号",
+            "question": "a=(2,0)、b=(-3,4)，求b在a方向上的投影和夹角余弦。",
+            "steps": [
+              "点积−6，|a|=2、|b|=5。",
+              "有向投影−6/2=−3，有向投影的绝对值即长度3。",
+              "cosθ=−6/(2×5)=−3/5，夹角为钝角。"
+            ]
+          }
+        },
+        {
+          "lesson": "b2-vector-dot",
+          "kind": "example",
+          "index": 2,
+          "title": "定模求和的最值",
+          "content": {
+            "title": "定模求和的最值",
+            "question": "|a|=2、|b|=3，求|a+b|²的范围。",
+            "steps": [
+              "展开|a+b|²=4+9+2×2×3cosθ=13+12cosθ。",
+              "非零向量夹角使cosθ∈[−1,1]。",
+              "范围[1,25]；反向取1，同向取25，因此模在[1,5]。"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "paragraph": 41,
+      "source": "★ 易错：① 数量积不满足结合律：(a→·b→)c→ ≠ a→(b→·c→)（前者与 c→ 平行，后者一般不是）；② 求夹角前先看是否有零向量；③ cosθ 的符号由数量积决定，可用于判断角为锐角/钝角/直角。",
+      "type": "content",
+      "targets": [
+        {
+          "lesson": "b2-vector-dot",
+          "kind": "note",
+          "index": 0,
+          "title": "数量积的两种表示",
+          "content": {
+            "title": "数量积的两种表示",
+            "formula": "a·b=|a||b|cosθ=x₁x₂+y₁y₂",
+            "text": "数量积结果是实数。θ仅对非零向量定义，范围[0°,180°]；θ=0°/180°不是锐角/钝角。"
+          }
+        },
+        {
+          "lesson": "b2-vector-dot",
+          "kind": "note",
+          "index": 1,
+          "title": "有向投影与垂直",
+          "content": {
+            "title": "有向投影与垂直",
+            "formula": "projₐb=(a·b)/|a|，a≠0",
+            "text": "投影可正可负，投影长度取绝对值。非零两向量点积为0对应夹角90°；零向量点积也为0但无确定夹角。"
+          }
+        },
+        {
+          "lesson": "b2-vector-dot",
+          "kind": "note",
+          "index": 2,
+          "title": "运算与误区",
+          "content": {
+            "title": "运算与误区",
+            "formula": "a·b=b·a；(a+b)·c=a·c+b·c",
+            "text": "(λa)·b=λ(a·b)。点积不一般满足结合律：(a·b)c与a(b·c)是不同方向的向量，偶尔相等不意味着恒等。"
+          }
+        }
+      ]
+    },
+    {
+      "paragraph": 42,
+      "source": "★ 高频考法：① 坐标运算求模、求夹角、判断垂直/平行；② \"以形助数\"：用向量法证明几何关系（垂直、共线）；③ 最值问题借助 |a→±b→|² = |a→|² ± 2a→·b→ + |b→|² 展开。",
+      "type": "content",
+      "targets": [
+        {
+          "lesson": "b2-vector-dot",
+          "kind": "note",
+          "index": 3,
+          "title": "模长展开与最值",
+          "content": {
+            "title": "模长展开与最值",
+            "formula": "|a±b|²=|a|²±2a·b+|b|²",
+            "text": "|a·b|≤|a||b|；非零时共线取等。用平方展开可求模、判断垂直和最值，求角时先核查分母非零。"
+          }
+        },
+        {
+          "lesson": "b2-vector-dot",
+          "kind": "example",
+          "index": 0,
+          "title": "坐标判垂直",
+          "content": {
+            "title": "坐标判垂直",
+            "question": "a=(1,2)、b=(2,-1)，求点积与夹角。",
+            "steps": [
+              "a·b=1×2+2×(−1)=0。",
+              "两向量均非零，可使用夹角公式。",
+              "cosθ=0，所以θ=90°；行列式不为0说明不平行。"
+            ]
+          }
+        },
+        {
+          "lesson": "b2-vector-dot",
+          "kind": "example",
+          "index": 1,
+          "title": "投影的符号",
+          "content": {
+            "title": "投影的符号",
+            "question": "a=(2,0)、b=(-3,4)，求b在a方向上的投影和夹角余弦。",
+            "steps": [
+              "点积−6，|a|=2、|b|=5。",
+              "有向投影−6/2=−3，有向投影的绝对值即长度3。",
+              "cosθ=−6/(2×5)=−3/5，夹角为钝角。"
+            ]
+          }
+        },
+        {
+          "lesson": "b2-vector-dot",
+          "kind": "example",
+          "index": 2,
+          "title": "定模求和的最值",
+          "content": {
+            "title": "定模求和的最值",
+            "question": "|a|=2、|b|=3，求|a+b|²的范围。",
+            "steps": [
+              "展开|a+b|²=4+9+2×2×3cosθ=13+12cosθ。",
+              "非零向量夹角使cosθ∈[−1,1]。",
+              "范围[1,25]；反向取1，同向取25，因此模在[1,5]。"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "paragraph": 43,
+      "source": "6.3–6.4 向量应用：解三角形与实际问题",
+      "type": "structure-or-metadata",
+      "targets": []
+    },
+    {
+      "paragraph": 44,
+      "source": "一、余弦定理",
+      "type": "structure-or-metadata",
+      "targets": []
+    },
+    {
+      "paragraph": 45,
+      "source": "a² = b² + c² − 2bc·cosA",
+      "type": "content",
+      "targets": [
+        {
+          "lesson": "b2-cosine-rule",
+          "kind": "note",
+          "index": 0,
+          "title": "边和对角",
+          "content": {
+            "title": "边和对角",
+            "formula": "a²=b²+c²−2bc cosA",
+            "text": "边a必须与角A相对，b、c是构成A的两边。可由向量差模平方推导，是勾股定理的推广。"
+          }
+        }
+      ]
+    },
+    {
+      "paragraph": 46,
+      "source": "cosA = (b² + c² − a²)/(2bc)",
+      "type": "content",
+      "targets": [
+        {
+          "lesson": "b2-cosine-rule",
+          "kind": "note",
+          "index": 2,
+          "title": "SSS求角与存在性",
+          "content": {
+            "title": "SSS求角与存在性",
+            "formula": "cosA=(b²+c²−a²)/(2bc)",
+            "text": "正边先满足任意两边和大于第三边。等号是退化，不能仅把反余弦算出的0°/180°当作有效角。"
+          }
+        }
+      ]
+    },
+    {
+      "paragraph": 47,
+      "source": "适用：已知两边及夹角（SAS）求第三边；已知三边（SSS）求角。",
+      "type": "content",
+      "targets": [
+        {
+          "lesson": "b2-cosine-rule",
+          "kind": "note",
+          "index": 1,
+          "title": "SAS求边",
+          "content": {
+            "title": "SAS求边",
+            "formula": "已知b,c和夹角A，0<A<180°",
+            "text": "先检查边为正、夹角有效，再开非负平方根；0°或180°产生退化共线，不算三角形。"
+          }
+        },
+        {
+          "lesson": "b2-cosine-rule",
+          "kind": "note",
+          "index": 2,
+          "title": "SSS求角与存在性",
+          "content": {
+            "title": "SSS求角与存在性",
+            "formula": "cosA=(b²+c²−a²)/(2bc)",
+            "text": "正边先满足任意两边和大于第三边。等号是退化，不能仅把反余弦算出的0°/180°当作有效角。"
+          }
+        }
+      ]
+    },
+    {
+      "paragraph": 48,
+      "source": "推论判断三角形形状：A 为锐角 ⟺ a² < b² + c²；A 为直角 ⟺ a² = b² + c²；A 为钝角 ⟺ a² > b² + c²。",
+      "type": "content",
+      "targets": [
+        {
+          "lesson": "b2-cosine-rule",
+          "kind": "note",
+          "index": 3,
+          "title": "判断整个三角形",
+          "content": {
+            "title": "判断整个三角形",
+            "formula": "最大边m：m²与其余两边平方和比较",
+            "text": "小于/等于/大于分别为锐角/直角/钝角三角形。对任意边a比较只能判断对应角A，不能误判整个三角形。"
+          }
+        }
+      ]
+    },
+    {
+      "paragraph": 49,
+      "source": "二、正弦定理",
+      "type": "structure-or-metadata",
+      "targets": []
+    },
+    {
+      "paragraph": 50,
+      "source": "a/sinA = b/sinB = c/sinC = 2R（R 为外接圆半径）",
+      "type": "content",
+      "targets": [
+        {
+          "lesson": "b2-sine-rule",
+          "kind": "note",
+          "index": 0,
+          "title": "正弦定理",
+          "content": {
+            "title": "正弦定理",
+            "formula": "a/sinA=b/sinB=c/sinC=2R",
+            "text": "三角形内角均在(0°,180°)，边与对角一一对应，R为外接圆半径。已知两角一边可先求第三角。"
+          }
+        }
+      ]
+    },
+    {
+      "paragraph": 51,
+      "source": "适用：已知两角及一边（AAS/ASA）；已知两边及其中一边的对角（SSA，需注意解的个数）。",
+      "type": "content",
+      "targets": [
+        {
+          "lesson": "b2-sine-rule",
+          "kind": "note",
+          "index": 0,
+          "title": "正弦定理",
+          "content": {
+            "title": "正弦定理",
+            "formula": "a/sinA=b/sinB=c/sinC=2R",
+            "text": "三角形内角均在(0°,180°)，边与对角一一对应，R为外接圆半径。已知两角一边可先求第三角。"
+          }
+        },
+        {
+          "lesson": "b2-sine-rule",
+          "kind": "note",
+          "index": 1,
+          "title": "SSA必须筛选两支",
+          "content": {
+            "title": "SSA必须筛选两支",
+            "formula": "s=b sinA/a；B₁=arcsin s，B₂=180°−B₁",
+            "text": "先检查0<s≤1，再筛选B>0且A+B<180°。s=1时两候选重合只计一个；主值不是完整答案。"
+          }
+        }
+      ]
+    },
+    {
+      "paragraph": 52,
+      "source": "SSA 解的个数判断（已知 a, b, A）：① A 为钝角或直角时，a>b 一解，a≤b 无解；② A 为锐角时，a<bsinA 无解，a=bsinA 一解，bsinA<a<b 两解，a≥b 一解。",
+      "type": "content",
+      "targets": [
+        {
+          "lesson": "b2-sine-rule",
+          "kind": "note",
+          "index": 2,
+          "title": "用高度分类",
+          "content": {
+            "title": "用高度分类",
+            "formula": "锐角A时h=b sinA",
+            "text": "a<h无解，a=h一解，h<a<b两解，a≥b一解。A为直角或钝角时须a>b才一解，否则无解；数据有效性先检查。"
+          }
+        },
+        {
+          "lesson": "b2-sine-rule",
+          "kind": "example",
+          "index": 1,
+          "title": "完整列出SSA两解",
+          "content": {
+            "title": "完整列出SSA两解",
+            "question": "A=30°、b=4、a=3，讨论解的个数。",
+            "steps": [
+              "h=b sinA=2，满足2<3<4，预期两解。",
+              "sinB=2/3，B₁≈41.810°，B₂≈138.190°。",
+              "两者与A相加均小于180°，C分别≈108.190°、11.810°；两支都有效。"
+            ]
+          }
+        },
+        {
+          "lesson": "b2-sine-rule",
+          "kind": "example",
+          "index": 2,
+          "title": "临界高度与无解",
+          "content": {
+            "title": "临界高度与无解",
+            "question": "A=30°、b=4，分别取a=1、2、4，求解数。",
+            "steps": [
+              "高度h=2；a=1<h，无解。",
+              "a=2时sinB=1，B=90°，唯一有效解。",
+              "a=4时B=30°或150°，后者使C=0排除，只有一个解。"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "paragraph": 53,
+      "source": "边角互化：a=2RsinA 等，齐次式中可用 sin 替换边。",
+      "type": "content",
+      "targets": [
+        {
+          "lesson": "b2-sine-rule",
+          "kind": "note",
+          "index": 3,
+          "title": "边角互化",
+          "content": {
+            "title": "边角互化",
+            "formula": "a=2RsinA，齐次式可作对应替换",
+            "text": "利用a:b:c=sinA:sinB:sinC处理齐次边式。相同正弦可对应互补角，三角形还需内角和限制。"
+          }
+        },
+        {
+          "lesson": "b2-triangle-area",
+          "kind": "note",
+          "index": 3,
+          "title": "综合与最值",
+          "content": {
+            "title": "综合与最值",
+            "formula": "先边角互化，再检验实际约束与等号",
+            "text": "结合必修一恒等变换或基本不等式；例如周长12的等腰三角形，设底2x、高√(36−12x)，可由代数求面积最大。所有长度须正、三角形须存在。"
+          }
+        },
+        {
+          "lesson": "b2-triangle-area",
+          "kind": "example",
+          "index": 3,
+          "title": "周长约束的最值",
+          "content": {
+            "title": "周长约束的最值",
+            "question": "等腰三角形周长12，求面积最大值。",
+            "steps": [
+              "设底边2x，腰6−x，0<x<3，高h=√((6−x)²−x²)=√(36−12x)。",
+              "面积平方S²=x²(36−12x)。用x+x+(6−2x)=6且三项为正，基本不等式得x²(6−2x)≤8。",
+              "S²=6x²(6−2x)≤48，在x=2时三项相等取等；三边都是4，最大S=4√3。"
+            ]
+          }
+        },
+        {
+          "lesson": "b2-triangle-area",
+          "kind": "example",
+          "index": 4,
+          "title": "边角互化与恒等变换",
+          "content": {
+            "title": "边角互化与恒等变换",
+            "question": "在△ABC中证明a cosB+b cosA=c。",
+            "steps": [
+              "正弦定理给a=2RsinA、b=2RsinB。",
+              "左边=2R(sinAcosB+sinBcosA)=2Rsin(A+B)。",
+              "A+B=180°−C，故sin(A+B)=sinC；左边=2RsinC=c。"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "paragraph": 54,
+      "source": "三、三角形面积公式",
+      "type": "structure-or-metadata",
+      "targets": []
+    },
+    {
+      "paragraph": 55,
+      "source": "S = (1/2)ab·sinC = (1/2)bc·sinA = (1/2)ac·sinB",
+      "type": "content",
+      "targets": [
+        {
+          "lesson": "b2-triangle-area",
+          "kind": "note",
+          "index": 0,
+          "title": "两边与夹角求面积",
+          "content": {
+            "title": "两边与夹角求面积",
+            "formula": "S=½ab sinC=½bc sinA=½ac sinB",
+            "text": "所用角必须是两条边的夹角。固定b、c时sinA≤1，A=90°取面积上界bc/2。"
+          }
+        }
+      ]
+    },
+    {
+      "paragraph": 56,
+      "source": "S = abc/(4R) = r·s（s 为半周长，r 为内切圆半径）",
+      "type": "content",
+      "targets": [
+        {
+          "lesson": "b2-triangle-area",
+          "kind": "note",
+          "index": 1,
+          "title": "内外接圆面积",
+          "content": {
+            "title": "内外接圆面积",
+            "formula": "S=abc/(4R)=rs，s=(a+b+c)/2",
+            "text": "由正弦定理代入面积得到外接圆公式；内心到三边距离r，将三小三角形面积相加得rs。半周长s不能当周长。"
+          }
+        }
+      ]
+    },
+    {
+      "paragraph": 57,
+      "source": "四、测量应用（实际问题）",
+      "type": "structure-or-metadata",
+      "targets": []
+    },
+    {
+      "paragraph": 58,
+      "source": "仰角与俯角：视线与水平线的夹角（向上为仰角，向下为俯角）。",
+      "type": "content",
+      "targets": [
+        {
+          "lesson": "b2-triangle-area",
+          "kind": "note",
+          "index": 2,
+          "title": "测量角的基准",
+          "content": {
+            "title": "测量角的基准",
+            "formula": "仰俯角从水平线量；方位角从正北顺时针量",
+            "text": "坡度i=高差/水平距离=tanα，不是高差/坡长。先画位置图、标已知量和单位，再用正余弦定理，不忽略仪器高度。"
+          }
+        }
+      ]
+    },
+    {
+      "paragraph": 59,
+      "source": "方位角：从正北方向顺时针旋转到目标方向线的角（0°~360°）。",
+      "type": "content",
+      "targets": [
+        {
+          "lesson": "b2-triangle-area",
+          "kind": "note",
+          "index": 2,
+          "title": "测量角的基准",
+          "content": {
+            "title": "测量角的基准",
+            "formula": "仰俯角从水平线量；方位角从正北顺时针量",
+            "text": "坡度i=高差/水平距离=tanα，不是高差/坡长。先画位置图、标已知量和单位，再用正余弦定理，不忽略仪器高度。"
+          }
+        }
+      ]
+    },
+    {
+      "paragraph": 60,
+      "source": "坡角与坡度：坡面与水平面的夹角为坡角 α；坡度 i = h/l = tanα。",
+      "type": "content",
+      "targets": [
+        {
+          "lesson": "b2-triangle-area",
+          "kind": "note",
+          "index": 2,
+          "title": "测量角的基准",
+          "content": {
+            "title": "测量角的基准",
+            "formula": "仰俯角从水平线量；方位角从正北顺时针量",
+            "text": "坡度i=高差/水平距离=tanα，不是高差/坡长。先画位置图、标已知量和单位，再用正余弦定理，不忽略仪器高度。"
+          }
+        }
+      ]
+    },
+    {
+      "paragraph": 61,
+      "source": "不可到达的两点间距离、底部不可达的物体高度等问题：构造三角形用正、余弦定理求解。",
+      "type": "content",
+      "targets": [
+        {
+          "lesson": "b2-triangle-area",
+          "kind": "example",
+          "index": 2,
+          "title": "不可达距离与方位",
+          "content": {
+            "title": "不可达距离与方位",
+            "question": "在岸边A、B相距100米，河对岸C满足∠CAB=60°、∠CBA=45°，求AC。",
+            "steps": [
+              "画△ABC，第三角C=75°，测量角必须从AB/BA方向量。",
+              "正弦定理AC/sin45°=100/sin75°。",
+              "AC=100sin45°/sin75°≈73.205米；若方位角给出，先作差并按内角定义转换。"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "paragraph": 62,
+      "source": "★ 高频考法：解三角形大题常结合三角恒等变换（必修一知识）；判断三角形形状（角化边或边化角）；周长、面积最值（结合基本不等式或二次函数）。",
+      "type": "content",
+      "targets": [
+        {
+          "lesson": "b2-triangle-area",
+          "kind": "note",
+          "index": 3,
+          "title": "综合与最值",
+          "content": {
+            "title": "综合与最值",
+            "formula": "先边角互化，再检验实际约束与等号",
+            "text": "结合必修一恒等变换或基本不等式；例如周长12的等腰三角形，设底2x、高√(36−12x)，可由代数求面积最大。所有长度须正、三角形须存在。"
+          }
+        },
+        {
+          "lesson": "b2-triangle-area",
+          "kind": "example",
+          "index": 3,
+          "title": "周长约束的最值",
+          "content": {
+            "title": "周长约束的最值",
+            "question": "等腰三角形周长12，求面积最大值。",
+            "steps": [
+              "设底边2x，腰6−x，0<x<3，高h=√((6−x)²−x²)=√(36−12x)。",
+              "面积平方S²=x²(36−12x)。用x+x+(6−2x)=6且三项为正，基本不等式得x²(6−2x)≤8。",
+              "S²=6x²(6−2x)≤48，在x=2时三项相等取等；三边都是4，最大S=4√3。"
+            ]
+          }
+        },
+        {
+          "lesson": "b2-triangle-area",
+          "kind": "example",
+          "index": 4,
+          "title": "边角互化与恒等变换",
+          "content": {
+            "title": "边角互化与恒等变换",
+            "question": "在△ABC中证明a cosB+b cosA=c。",
+            "steps": [
+              "正弦定理给a=2RsinA、b=2RsinB。",
+              "左边=2R(sinAcosB+sinBcosA)=2Rsin(A+B)。",
+              "A+B=180°−C，故sin(A+B)=sinC；左边=2RsinC=c。"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "paragraph": 63,
+      "source": "第七章 复数",
+      "type": "structure-or-metadata",
+      "targets": []
+    },
+    {
+      "paragraph": 64,
+      "source": "7.1 复数的概念",
+      "type": "structure-or-metadata",
+      "targets": []
+    },
+    {
+      "paragraph": 65,
+      "source": "定义：形如 z = a + bi（a, b ∈ R）的数，a 为实部，b 为虚部，i 为虚数单位，规定 i² = −1。",
+      "type": "content",
+      "targets": [
+        {
+          "lesson": "b2-complex-concept",
+          "kind": "note",
+          "index": 0,
+          "title": "定义与分量",
+          "content": {
+            "title": "定义与分量",
+            "formula": "z=a+bi，a,b∈R；i²=−1",
+            "text": "a为实部，b为虚部，两者都是实数。i是虚数单位，不能把i当作未知实数去开平方比较大小。"
+          }
+        }
+      ]
+    },
+    {
+      "paragraph": 66,
+      "source": "分类：b=0 时为实数；b≠0 时为虚数；a=0 且 b≠0 时为纯虚数。",
+      "type": "content",
+      "targets": [
+        {
+          "lesson": "b2-complex-concept",
+          "kind": "note",
+          "index": 1,
+          "title": "分类边界",
+          "content": {
+            "title": "分类边界",
+            "formula": "b=0实数；b≠0虚数；a=0且b≠0纯虚数",
+            "text": "0是实数，不是纯虚数。实数属于复数，虚数与实数的分类由虚部是否0决定。"
+          }
+        }
+      ]
+    },
+    {
+      "paragraph": 67,
+      "source": "复数相等：a+bi = c+di ⟺ a=c 且 b=d（实部、虚部分别相等）。",
+      "type": "content",
+      "targets": [
+        {
+          "lesson": "b2-complex-concept",
+          "kind": "note",
+          "index": 3,
+          "title": "相等与顺序",
+          "content": {
+            "title": "相等与顺序",
+            "formula": "a+bi=c+di ⇔ a=c且b=d",
+            "text": "相等要两个分量同时相等。除非都为实数，不使用通常实数的大于小于关系；模大小不等于复数本身的大小关系。"
+          }
+        }
+      ]
+    },
+    {
+      "paragraph": 68,
+      "source": "共轭复数：z = a+bi 的共轭复数 z̄ = a−bi；z·z̄ = |z|² = a² + b²。",
+      "type": "content",
+      "targets": [
+        {
+          "lesson": "b2-complex-geometry",
+          "kind": "note",
+          "index": 0,
+          "title": "共轭反射",
+          "content": {
+            "title": "共轭反射",
+            "formula": "z̄=a−bi；z̄̄=z",
+            "text": "实部保持、虚部变号，对应关于实轴反射。z̄=z等价于b=0，即实数。"
+          }
+        },
+        {
+          "lesson": "b2-complex-geometry",
+          "kind": "note",
+          "index": 1,
+          "title": "模与乘积",
+          "content": {
+            "title": "模与乘积",
+            "formula": "|z|=√(a²+b²)，z z̄=a²+b²=|z|²",
+            "text": "模是对应点到原点距离，非负实数。相同模对应同一个以原点为圆心的圆，不等于复数相等。"
+          }
+        }
+      ]
+    },
+    {
+      "paragraph": 69,
+      "source": "复平面：实部为横坐标、虚部为纵坐标；实轴上的点表示实数，虚轴（除原点）上的点表示纯虚数。",
+      "type": "content",
+      "targets": [
+        {
+          "lesson": "b2-complex-concept",
+          "kind": "note",
+          "index": 2,
+          "title": "复平面",
+          "content": {
+            "title": "复平面",
+            "formula": "点Z(a,b) ↔ z=a+bi",
+            "text": "横轴为实轴，纵轴为虚轴；虚轴除原点外对应纯虚数。象限判断用实部与虚部正负。"
+          }
+        }
+      ]
+    },
+    {
+      "paragraph": 70,
+      "source": "复数的模：|z| = √(a² + b²)，几何意义是复平面上对应点到原点的距离。",
+      "type": "content",
+      "targets": [
+        {
+          "lesson": "b2-complex-geometry",
+          "kind": "note",
+          "index": 0,
+          "title": "共轭反射",
+          "content": {
+            "title": "共轭反射",
+            "formula": "z̄=a−bi；z̄̄=z",
+            "text": "实部保持、虚部变号，对应关于实轴反射。z̄=z等价于b=0，即实数。"
+          }
+        },
+        {
+          "lesson": "b2-complex-geometry",
+          "kind": "note",
+          "index": 1,
+          "title": "模与乘积",
+          "content": {
+            "title": "模与乘积",
+            "formula": "|z|=√(a²+b²)，z z̄=a²+b²=|z|²",
+            "text": "模是对应点到原点距离，非负实数。相同模对应同一个以原点为圆心的圆，不等于复数相等。"
+          }
+        }
+      ]
+    },
+    {
+      "paragraph": 71,
+      "source": "复数无大小关系（除非都是实数）。",
+      "type": "content",
+      "targets": [
+        {
+          "lesson": "b2-complex-concept",
+          "kind": "note",
+          "index": 3,
+          "title": "相等与顺序",
+          "content": {
+            "title": "相等与顺序",
+            "formula": "a+bi=c+di ⇔ a=c且b=d",
+            "text": "相等要两个分量同时相等。除非都为实数，不使用通常实数的大于小于关系；模大小不等于复数本身的大小关系。"
+          }
+        }
+      ]
+    },
+    {
+      "paragraph": 72,
+      "source": "7.2 复数的四则运算",
+      "type": "structure-or-metadata",
+      "targets": []
+    },
+    {
+      "paragraph": 73,
+      "source": "加减：(a+bi) ± (c+di) = (a±c) + (b±d)i",
+      "type": "content",
+      "targets": [
+        {
+          "lesson": "b2-complex-arithmetic",
+          "kind": "note",
+          "index": 0,
+          "title": "加减",
+          "content": {
+            "title": "加减",
+            "formula": "(a+bi)±(c+di)=(a±c)+(b±d)i",
+            "text": "相同分量合并，减法先把整个括号变号；几何上对应向量的合成与差。"
+          }
+        }
+      ]
+    },
+    {
+      "paragraph": 74,
+      "source": "乘法：(a+bi)(c+di) = (ac−bd) + (ad+bc)i",
+      "type": "content",
+      "targets": [
+        {
+          "lesson": "b2-complex-arithmetic",
+          "kind": "note",
+          "index": 1,
+          "title": "乘法",
+          "content": {
+            "title": "乘法",
+            "formula": "(a+bi)(c+di)=(ac−bd)+(ad+bc)i",
+            "text": "按分配律展开，将i²替成−1，不能把i²当成1。加法乘法有交换、结合与分配律。"
+          }
+        }
+      ]
+    },
+    {
+      "paragraph": 75,
+      "source": "除法：(a+bi)/(c+di) = [(ac+bd) + (bc−ad)i]/(c²+d²)（分母实数化：乘共轭）",
+      "type": "content",
+      "targets": [
+        {
+          "lesson": "b2-complex-arithmetic",
+          "kind": "note",
+          "index": 2,
+          "title": "除法与定义条件",
+          "content": {
+            "title": "除法与定义条件",
+            "formula": "(a+bi)/(c+di)=[(ac+bd)+(bc−ad)i]/(c²+d²)",
+            "text": "要求c²+d²>0。分子分母同乘c−di；分母是非负实数，且零除数必须拒绝。"
+          }
+        }
+      ]
+    },
+    {
+      "paragraph": 76,
+      "source": "运算律：加法、乘法均满足交换律、结合律与分配律。",
+      "type": "content",
+      "targets": [
+        {
+          "lesson": "b2-complex-arithmetic",
+          "kind": "note",
+          "index": 1,
+          "title": "乘法",
+          "content": {
+            "title": "乘法",
+            "formula": "(a+bi)(c+di)=(ac−bd)+(ad+bc)i",
+            "text": "按分配律展开，将i²替成−1，不能把i²当成1。加法乘法有交换、结合与分配律。"
+          }
+        }
+      ]
+    },
+    {
+      "paragraph": 77,
+      "source": "常用结论：i⁴ⁿ=1，i⁴ⁿ⁺¹=i，i⁴ⁿ⁺²=−1，i⁴ⁿ⁺³=−i；(1±i)² = ±2i；(1+i)/(1−i) = i。",
+      "type": "content",
+      "targets": [
+        {
+          "lesson": "b2-complex-arithmetic",
+          "kind": "note",
+          "index": 3,
+          "title": "i的周期性",
+          "content": {
+            "title": "i的周期性",
+            "formula": "i⁰=1，i¹=i，i²=−1，i³=−i，i⁴=1",
+            "text": "非负整数指数按模4余数循环。(1+i)²=2i，(1−i)²=−2i；注意负号与指数范围。"
+          }
+        },
+        {
+          "lesson": "b2-complex-arithmetic",
+          "kind": "example",
+          "index": 1,
+          "title": "除法实数化",
+          "content": {
+            "title": "除法实数化",
+            "question": "计算(1+i)/(1−i)。",
+            "steps": [
+              "分子分母同乘共轭1+i。",
+              "分子(1+i)²=2i，分母(1−i)(1+i)=2。",
+              "结果i；检验i(1−i)=1+i。"
+            ]
+          }
+        },
+        {
+          "lesson": "b2-complex-arithmetic",
+          "kind": "example",
+          "index": 2,
+          "title": "高次幂",
+          "content": {
+            "title": "高次幂",
+            "question": "计算i²⁰²⁶。",
+            "steps": [
+              "2026=4×506+2。",
+              "每组i⁴=1，剩下i²。",
+              "结果−1，指数余数比逐次相乘高效。"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "paragraph": 78,
+      "source": "z̄̄ = z；z̄ = z ⟺ z 为实数；z̄ = −z ⟺ z 为纯虚数（z≠0）。",
+      "type": "content",
+      "targets": [
+        {
+          "lesson": "b2-complex-geometry",
+          "kind": "note",
+          "index": 0,
+          "title": "共轭反射",
+          "content": {
+            "title": "共轭反射",
+            "formula": "z̄=a−bi；z̄̄=z",
+            "text": "实部保持、虚部变号，对应关于实轴反射。z̄=z等价于b=0，即实数。"
+          }
+        },
+        {
+          "lesson": "b2-complex-geometry",
+          "kind": "note",
+          "index": 2,
+          "title": "纯虚数的零边界",
+          "content": {
+            "title": "纯虚数的零边界",
+            "formula": "z̄=−z ⇔ a=0；纯虚数还要求b≠0",
+            "text": "z=0也满足z̄=−z，所以须额外z≠0才能推出纯虚数。两次共轭回到原复数。"
+          }
+        }
+      ]
+    },
+    {
+      "paragraph": 79,
+      "source": "★ 高频考法：① 求共轭复数、模、实部虚部（送分题，注意虚部是实数 b 而不是 bi）；② 复平面内对应点所在象限；③ i 的周期性求 i 的高次幂。",
+      "type": "content",
+      "targets": [
+        {
+          "lesson": "b2-complex-concept",
+          "kind": "note",
+          "index": 0,
+          "title": "定义与分量",
+          "content": {
+            "title": "定义与分量",
+            "formula": "z=a+bi，a,b∈R；i²=−1",
+            "text": "a为实部，b为虚部，两者都是实数。i是虚数单位，不能把i当作未知实数去开平方比较大小。"
+          }
+        },
+        {
+          "lesson": "b2-complex-concept",
+          "kind": "note",
+          "index": 2,
+          "title": "复平面",
+          "content": {
+            "title": "复平面",
+            "formula": "点Z(a,b) ↔ z=a+bi",
+            "text": "横轴为实轴，纵轴为虚轴；虚轴除原点外对应纯虚数。象限判断用实部与虚部正负。"
+          }
+        },
+        {
+          "lesson": "b2-complex-arithmetic",
+          "kind": "note",
+          "index": 3,
+          "title": "i的周期性",
+          "content": {
+            "title": "i的周期性",
+            "formula": "i⁰=1，i¹=i，i²=−1，i³=−i，i⁴=1",
+            "text": "非负整数指数按模4余数循环。(1+i)²=2i，(1−i)²=−2i；注意负号与指数范围。"
+          }
+        }
+      ]
+    },
+    {
+      "paragraph": 80,
+      "source": "7.3 复数的三角表示（选学/了解）",
+      "type": "structure-or-metadata",
+      "targets": []
+    },
+    {
+      "paragraph": 81,
+      "source": "三角形式：z = r(cosθ + i·sinθ)，r 为模，θ 为辐角；乘除时模相乘除、辐角相加减（棣莫弗定理背景）。",
+      "type": "content",
+      "targets": [
+        {
+          "lesson": "b2-complex-geometry",
+          "kind": "note",
+          "index": 3,
+          "title": "选学：三角表示",
+          "content": {
+            "title": "选学：三角表示",
+            "formula": "z=r(cosθ+i sinθ)，r=|z|≥0",
+            "text": "非零时辐角相差2kπ等价。乘法模相乘、角相加，除法模相除、角相减且分母非零；0无确定辐角。本课不要求将选学作为基础四则运算前提。"
+          }
+        },
+        {
+          "lesson": "b2-complex-geometry",
+          "kind": "example",
+          "index": 2,
+          "title": "选学：乘i旋转",
+          "content": {
+            "title": "选学：乘i旋转",
+            "question": "z=√3+i，将其乘i并描述变化。",
+            "steps": [
+              "模r=2，辐角可取30°，z=2(cos30°+i sin30°)。",
+              "乘i得−1+√3i，模仍2。",
+              "辐角120°，逆时针旋转90°；也可直接用i²=−1展开检验。"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "paragraph": 82,
+      "source": "第八章 立体几何初步",
+      "type": "structure-or-metadata",
+      "targets": []
+    },
+    {
+      "paragraph": 83,
+      "source": "8.1 基本立体图形",
+      "type": "structure-or-metadata",
+      "targets": []
+    },
+    {
+      "paragraph": 84,
+      "source": "多面体：棱柱（两个面互相平行且全等，侧棱平行且相等——直棱柱侧棱垂直底面，正棱柱底面是正多边形）、棱锥（一个面是多边形，其余是共顶点的三角形）、棱台（用平行于棱锥底面的平面截棱锥得到）。",
+      "type": "content",
+      "targets": [
+        {
+          "lesson": "b2-solid-shapes",
+          "kind": "note",
+          "index": 0,
+          "title": "多面体结构",
+          "content": {
+            "title": "多面体结构",
+            "formula": "棱柱、棱锥、棱台",
+            "text": "棱柱两底平行全等、侧棱平行相等；直棱柱侧棱垂直底面，正棱柱还要求底面正多边形。棱锥侧面共顶点，棱台由平行底面平面截棱锥得到。"
+          }
+        }
+      ]
+    },
+    {
+      "paragraph": 85,
+      "source": "旋转体：圆柱（矩形绕一边旋转）、圆锥（直角三角形绕一直角边旋转）、圆台、球。",
+      "type": "content",
+      "targets": [
+        {
+          "lesson": "b2-solid-shapes",
+          "kind": "note",
+          "index": 1,
+          "title": "旋转体",
+          "content": {
+            "title": "旋转体",
+            "formula": "矩形绕一边转成圆柱；直角三角形绕直角边转成圆锥",
+            "text": "圆台可由截圆锥得到；球由半圆绕直径所在直线旋转形成。母线、轴、高与底半径分别标记。"
+          }
+        }
+      ]
+    },
+    {
+      "paragraph": 86,
+      "source": "球的截面：截面是圆，球心到截面圆心的连线垂直于截面；r² = R² − d²（r 截面圆半径，R 球半径，d 距离）。",
+      "type": "content",
+      "targets": [
+        {
+          "lesson": "b2-solid-shapes",
+          "kind": "note",
+          "index": 2,
+          "title": "球的截面",
+          "content": {
+            "title": "球的截面",
+            "formula": "d<R：r²=R²−d²；d=R切点；d>R无交点",
+            "text": "球心到截面圆心连线垂直截面。过球心的截面为大圆，半径最大R；切点不能称半径为正的截面圆。"
+          }
+        }
+      ]
+    },
+    {
+      "paragraph": 87,
+      "source": "简单组合体：由柱、锥、台、球等基本几何体组合或挖去而成。",
+      "type": "content",
+      "targets": [
+        {
+          "lesson": "b2-solid-shapes",
+          "kind": "note",
+          "index": 3,
+          "title": "组合与挖空",
+          "content": {
+            "title": "组合与挖空",
+            "formula": "先分清构成基本体，再标外露边界",
+            "text": "体积可按无重叠部分加减；表面积只数外露面，接触面/内部挖孔的处理不同。观察投影可能遮挡，旋转视角辅助识别而非替代定义。"
+          }
+        }
+      ]
+    },
+    {
+      "paragraph": 88,
+      "source": "8.2 立体图形的直观图（斜二测画法）",
+      "type": "structure-or-metadata",
+      "targets": []
+    },
+    {
+      "paragraph": 89,
+      "source": "规则：① 原图中互相垂直的 x、y 轴画成 x′、y′ 轴，夹角 45°（或 135°）；② 平行于 x 轴的线段长度不变，平行于 y 轴的线段长度减半；③ 平行关系保持不变。",
+      "type": "content",
+      "targets": [
+        {
+          "lesson": "b2-oblique",
+          "kind": "note",
+          "index": 0,
+          "title": "建立两条新轴",
+          "content": {
+            "title": "建立两条新轴",
+            "formula": "x′、y′夹角45°或135°",
+            "text": "原平面互相垂直坐标轴在纸上不再垂直；先定新轴再作平行线定位，不凭观感任意缩短。"
+          }
+        },
+        {
+          "lesson": "b2-oblique",
+          "kind": "note",
+          "index": 1,
+          "title": "方向对应的长度规则",
+          "content": {
+            "title": "方向对应的长度规则",
+            "formula": "平行x轴长度不变；平行y轴长度减半",
+            "text": "保持平行关系，角度一般不保持。斜向线段须先分解到两轴方向，不能一律减半。"
+          }
+        }
+      ]
+    },
+    {
+      "paragraph": 90,
+      "source": "面积关系：S_直观图 = (√2/4)·S_原图；S_原图 = 2√2·S_直观图。",
+      "type": "content",
+      "targets": [
+        {
+          "lesson": "b2-oblique",
+          "kind": "note",
+          "index": 2,
+          "title": "面积比例",
+          "content": {
+            "title": "面积比例",
+            "formula": "S图=(√2/4)S原；S原=2√2S图",
+            "text": "一方向缩半，又有sin45°因子。135°的正弦相同；此比例针对原平面图形的斜二测表示，不直接套任意空间表面。"
+          }
+        }
+      ]
+    },
+    {
+      "paragraph": 91,
+      "source": "★ 易错：斜二测中平行于 y 轴的线段\"减半\"，判断直观图与原图关系时容易忽略面积比。",
+      "type": "content",
+      "targets": [
+        {
+          "lesson": "b2-oblique",
+          "kind": "note",
+          "index": 3,
+          "title": "读图要反向还原",
+          "content": {
+            "title": "读图要反向还原",
+            "formula": "图中y′向长度×2，x′向不变",
+            "text": "先辨轴方向再恢复；平行四边形直观图可能来自矩形。已知图上斜边并不直接等于原矩形的对角线。"
+          }
+        }
+      ]
+    },
+    {
+      "paragraph": 92,
+      "source": "8.3 简单几何体的表面积与体积",
+      "type": "structure-or-metadata",
+      "targets": []
+    },
+    {
+      "paragraph": 93,
+      "source": "柱体体积 V = Sh；锥体体积 V = (1/3)Sh；台体体积 V = (1/3)(S′+S+√(S′S))h",
+      "type": "content",
+      "targets": [
+        {
+          "lesson": "b2-solid-volume",
+          "kind": "note",
+          "index": 0,
+          "title": "柱锥体积",
+          "content": {
+            "title": "柱锥体积",
+            "formula": "柱V=Sh；锥V=Sh/3",
+            "text": "高是两平行底面间或顶点到底面的垂距，不是斜棱/母线。同底同高锥是柱的1/3，截面积相等的等高立体可用祖暅思想比较体积。"
+          }
+        },
+        {
+          "lesson": "b2-solid-volume",
+          "kind": "note",
+          "index": 1,
+          "title": "台体体积",
+          "content": {
+            "title": "台体体积",
+            "formula": "V=(S+S′+√(SS′))h/3",
+            "text": "两底面积S、S′对应平行截面所得棱台/圆台；圆台可写πh(R²+Rr+r²)/3。r=0退化为锥、r=R为柱可检验。"
+          }
+        }
+      ]
+    },
+    {
+      "paragraph": 94,
+      "source": "球的体积 V = (4/3)πR³；球的表面积 S = 4πR²",
+      "type": "content",
+      "targets": [
+        {
+          "lesson": "b2-solid-volume",
+          "kind": "note",
+          "index": 2,
+          "title": "球与切接",
+          "content": {
+            "title": "球与切接",
+            "formula": "V球=4πR³/3；轴截面可转平面圆问题",
+            "text": "球的最小外切直圆柱半径R、高2R，球柱体积比2/3。切接还要检验中心、半径和高度，不能只比较体积。"
+          }
+        },
+        {
+          "lesson": "b2-solid-surface",
+          "kind": "note",
+          "index": 0,
+          "title": "柱体展开要分类型",
+          "content": {
+            "title": "柱体展开要分类型",
+            "formula": "圆柱侧面积2πrh，表面积2πrh+2πr²",
+            "text": "直圆柱母线l=h，侧面展开矩形宽2πr、高h；整个展开还有两个圆底。直棱柱侧面由矩形组成，一般棱柱不能一律用圆柱图。"
+          }
+        },
+        {
+          "lesson": "b2-solid-surface",
+          "kind": "note",
+          "index": 1,
+          "title": "圆锥扇形",
+          "content": {
+            "title": "圆锥扇形",
+            "formula": "S侧=πrl；展开扇形θ=360°r/l",
+            "text": "扇形半径为母线l，弧长等于底周长2πr；完整表面积加底πr²。有效直圆锥l>r，高h=√(l²−r²)。"
+          }
+        },
+        {
+          "lesson": "b2-solid-surface",
+          "kind": "note",
+          "index": 2,
+          "title": "圆台与球",
+          "content": {
+            "title": "圆台与球",
+            "formula": "圆台S侧=π(R+r)l；球S=4πR²",
+            "text": "圆台母线与高满足l²=h²+(R−r)²；圆台表面积再加两底。球表面积无平面展开公式，不能用投影圆面积替代。"
+          }
+        }
+      ]
+    },
+    {
+      "paragraph": 95,
+      "source": "圆柱侧面积 S_侧 = 2πrl；圆锥侧面积 S_侧 = πrl（l 为母线）；圆台侧面积 S_侧 = π(r+R)l",
+      "type": "content",
+      "targets": [
+        {
+          "lesson": "b2-solid-surface",
+          "kind": "note",
+          "index": 0,
+          "title": "柱体展开要分类型",
+          "content": {
+            "title": "柱体展开要分类型",
+            "formula": "圆柱侧面积2πrh，表面积2πrh+2πr²",
+            "text": "直圆柱母线l=h，侧面展开矩形宽2πr、高h；整个展开还有两个圆底。直棱柱侧面由矩形组成，一般棱柱不能一律用圆柱图。"
+          }
+        },
+        {
+          "lesson": "b2-solid-surface",
+          "kind": "note",
+          "index": 1,
+          "title": "圆锥扇形",
+          "content": {
+            "title": "圆锥扇形",
+            "formula": "S侧=πrl；展开扇形θ=360°r/l",
+            "text": "扇形半径为母线l，弧长等于底周长2πr；完整表面积加底πr²。有效直圆锥l>r，高h=√(l²−r²)。"
+          }
+        },
+        {
+          "lesson": "b2-solid-surface",
+          "kind": "note",
+          "index": 2,
+          "title": "圆台与球",
+          "content": {
+            "title": "圆台与球",
+            "formula": "圆台S侧=π(R+r)l；球S=4πR²",
+            "text": "圆台母线与高满足l²=h²+(R−r)²；圆台表面积再加两底。球表面积无平面展开公式，不能用投影圆面积替代。"
+          }
+        }
+      ]
+    },
+    {
+      "paragraph": 96,
+      "source": "柱体展开图：矩形（一边为底面周长，一边为高）。",
+      "type": "content",
+      "targets": [
+        {
+          "lesson": "b2-solid-surface",
+          "kind": "note",
+          "index": 0,
+          "title": "柱体展开要分类型",
+          "content": {
+            "title": "柱体展开要分类型",
+            "formula": "圆柱侧面积2πrh，表面积2πrh+2πr²",
+            "text": "直圆柱母线l=h，侧面展开矩形宽2πr、高h；整个展开还有两个圆底。直棱柱侧面由矩形组成，一般棱柱不能一律用圆柱图。"
+          }
+        }
+      ]
+    },
+    {
+      "paragraph": 97,
+      "source": "圆锥展开图：扇形，扇形半径 = 母线 l，弧长 = 底面周长 2πr，故侧面展开扇形圆心角 = (r/l)·360°。",
+      "type": "content",
+      "targets": [
+        {
+          "lesson": "b2-solid-surface",
+          "kind": "note",
+          "index": 1,
+          "title": "圆锥扇形",
+          "content": {
+            "title": "圆锥扇形",
+            "formula": "S侧=πrl；展开扇形θ=360°r/l",
+            "text": "扇形半径为母线l，弧长等于底周长2πr；完整表面积加底πr²。有效直圆锥l>r，高h=√(l²−r²)。"
+          }
+        }
+      ]
+    },
+    {
+      "paragraph": 98,
+      "source": "等底等高时，锥体体积是柱体的 1/3（\"祖暅原理\"相关考点）。",
+      "type": "content",
+      "targets": [
+        {
+          "lesson": "b2-solid-volume",
+          "kind": "note",
+          "index": 0,
+          "title": "柱锥体积",
+          "content": {
+            "title": "柱锥体积",
+            "formula": "柱V=Sh；锥V=Sh/3",
+            "text": "高是两平行底面间或顶点到底面的垂距，不是斜棱/母线。同底同高锥是柱的1/3，截面积相等的等高立体可用祖暅思想比较体积。"
+          }
+        },
+        {
+          "lesson": "b2-solid-volume",
+          "kind": "example",
+          "index": 0,
+          "title": "同底高比较",
+          "content": {
+            "title": "同底高比较",
+            "question": "正方形底边2，高3，求柱锥体积。",
+            "steps": [
+              "底面积S=4。",
+              "柱V=4×3=12；锥V=4×3/3=4。",
+              "锥柱比1/3，长度单位为厘米时体积单位为立方厘米。"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "paragraph": 99,
+      "source": "★ 高频考法：组合体表面积注意重叠面不计；体积问题常用\"等体积法\"转换顶点（如求点到平面距离）；球与柱、锥的切接问题画出轴截面转化为平面问题。",
+      "type": "content",
+      "targets": [
+        {
+          "lesson": "b2-solid-surface",
+          "kind": "note",
+          "index": 3,
+          "title": "组合外露表面",
+          "content": {
+            "title": "组合外露表面",
+            "formula": "外露面积=各体面积和−被遮接触面面积",
+            "text": "一处两物体接触圆面，两侧均不外露，通常扣两份圆面积。挖空后暴露的新内表面要加上，不能只做相同体积减法。"
+          }
+        },
+        {
+          "lesson": "b2-solid-surface",
+          "kind": "example",
+          "index": 1,
+          "title": "叠柱扣面",
+          "content": {
+            "title": "叠柱扣面",
+            "question": "两个半径2、高3的封闭圆柱上下粘合，求外表面积。",
+            "steps": [
+              "每个表面积2π×2×3+2π×4=20π。",
+              "接触的两个圆面合计8π，需扣掉。",
+              "外表面积40π−8π=32π；也等于高6整柱的24π+8π。"
+            ]
+          }
+        },
+        {
+          "lesson": "b2-solid-volume",
+          "kind": "note",
+          "index": 3,
+          "title": "等体积转高",
+          "content": {
+            "title": "等体积转高",
+            "formula": "同一锥V=(1/3)S底h ⇒ h=3V/S底",
+            "text": "选方便的底面求同一四面体体积，再换底求垂距。组合体积按不重叠部分加减，接触面不改变体积和。"
+          }
+        },
+        {
+          "lesson": "b2-solid-volume",
+          "kind": "example",
+          "index": 3,
+          "title": "等体积求垂距",
+          "content": {
+            "title": "等体积求垂距",
+            "question": "四面体体积4，某底面面积6，求对顶点到该底面距离。",
+            "steps": [
+              "锥体体积V=Sh/3，高必须是垂距。",
+              "h=3V/S=3×4/6=2。",
+              "原来用其他底算出体积也不改变这个结果；斜棱长度不能直接代替h。"
+            ]
+          }
+        },
+        {
+          "lesson": "b2-solid-volume",
+          "kind": "example",
+          "index": 4,
+          "title": "圆锥内切球的轴截面",
+          "content": {
+            "title": "圆锥内切球的轴截面",
+            "question": "直圆锥底半径3、高4，求内切球半径。",
+            "steps": [
+              "轴截面是底边6、腰长√(3²+4²)=5的等腰三角形，面积12、半周长8。",
+              "内切圆半径ρ=S/s=12/8=1.5；绕轴旋转后成为同时切底面和锥面的球。",
+              "球半径1.5，体积4π×1.5³/3=4.5π；空间切接由对称轴截面解决。"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "paragraph": 100,
+      "source": "8.4 空间点、直线、平面之间的位置关系",
+      "type": "structure-or-metadata",
+      "targets": []
+    },
+    {
+      "paragraph": 101,
+      "source": "平面的基本性质（三个公理）：① 不共线三点确定一个平面；② 直线上两点在平面内，则直线在平面内；③ 两平面有一个公共点，则它们有且只有一条过该点的公共直线。",
+      "type": "content",
+      "targets": [
+        {
+          "lesson": "b2-space-position",
+          "kind": "note",
+          "index": 0,
+          "title": "平面的基本性质",
+          "content": {
+            "title": "平面的基本性质",
+            "formula": "不共线三点确定一面；直线上两点在面内则整线在面内",
+            "text": "两不同平面有公共点，则恰有一条过该点的公共直线。两面重合时公共点是整个平面，须先排除。"
+          }
+        }
+      ]
+    },
+    {
+      "paragraph": 102,
+      "source": "推论：一条直线和直线外一点确定一个平面；两条相交直线确定一个平面；两条平行直线确定一个平面。",
+      "type": "content",
+      "targets": [
+        {
+          "lesson": "b2-space-position",
+          "kind": "note",
+          "index": 1,
+          "title": "确定平面的推论",
+          "content": {
+            "title": "确定平面的推论",
+            "formula": "一直线与线外一点、两相交线、两平行线各确定一面",
+            "text": "三点共线无法唯一确定一面；平行线两条须为不同直线。画图有限区域只是无限平面的示意。"
+          }
+        }
+      ]
+    },
+    {
+      "paragraph": 103,
+      "source": "直线与直线：相交、平行、异面（不同在任何一个平面内，无公共点，既不平行也不相交）。",
+      "type": "content",
+      "targets": [
+        {
+          "lesson": "b2-space-position",
+          "kind": "note",
+          "index": 2,
+          "title": "线线、线面、面面分类",
+          "content": {
+            "title": "线线、线面、面面分类",
+            "formula": "线线：相交/平行/异面；线面：包含/相交/平行",
+            "text": "不同两面平行或相交成线。异面线不在同一个平面，既不平行也不相交；照片上的交叉不是空间交点。"
+          }
+        }
+      ]
+    },
+    {
+      "paragraph": 104,
+      "source": "直线与平面：在平面内、相交（1个公共点）、平行（无公共点）。",
+      "type": "content",
+      "targets": [
+        {
+          "lesson": "b2-space-position",
+          "kind": "note",
+          "index": 2,
+          "title": "线线、线面、面面分类",
+          "content": {
+            "title": "线线、线面、面面分类",
+            "formula": "线线：相交/平行/异面；线面：包含/相交/平行",
+            "text": "不同两面平行或相交成线。异面线不在同一个平面，既不平行也不相交；照片上的交叉不是空间交点。"
+          }
+        }
+      ]
+    },
+    {
+      "paragraph": 105,
+      "source": "平面与平面：平行（无公共点）、相交（一条公共直线）。",
+      "type": "content",
+      "targets": [
+        {
+          "lesson": "b2-space-position",
+          "kind": "note",
+          "index": 2,
+          "title": "线线、线面、面面分类",
+          "content": {
+            "title": "线线、线面、面面分类",
+            "formula": "线线：相交/平行/异面；线面：包含/相交/平行",
+            "text": "不同两面平行或相交成线。异面线不在同一个平面，既不平行也不相交；照片上的交叉不是空间交点。"
+          }
+        }
+      ]
+    },
+    {
+      "paragraph": 106,
+      "source": "等角定理：空间中如果两个角的两边分别对应平行，那么这两个角相等或互补。",
+      "type": "content",
+      "targets": [
+        {
+          "lesson": "b2-space-position",
+          "kind": "note",
+          "index": 3,
+          "title": "异面角与等角定理",
+          "content": {
+            "title": "异面角与等角定理",
+            "formula": "异面所成角取(0°,90°]",
+            "text": "平移一线使相交，再取较小的方向角；两角的边分别平行时角相等或互补，不能一律判相等。判断异面常用假设共面推矛盾。"
+          }
+        },
+        {
+          "lesson": "b2-space-position",
+          "kind": "example",
+          "index": 2,
+          "title": "角的较小分支",
+          "content": {
+            "title": "角的较小分支",
+            "question": "两异面线选定方向夹角150°，求直线所成角。",
+            "steps": [
+              "直线没有固定朝向，可将一个方向反向。",
+              "较小角=180°−150°=30°。",
+              "异面线角取锐角或直角；若方向平行角0°，则不是异面线。"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "paragraph": 107,
+      "source": "异面直线所成角：平移其中一条使之相交，所成锐角或直角，范围 (0°, 90°]。",
+      "type": "content",
+      "targets": [
+        {
+          "lesson": "b2-space-position",
+          "kind": "note",
+          "index": 3,
+          "title": "异面角与等角定理",
+          "content": {
+            "title": "异面角与等角定理",
+            "formula": "异面所成角取(0°,90°]",
+            "text": "平移一线使相交，再取较小的方向角；两角的边分别平行时角相等或互补，不能一律判相等。判断异面常用假设共面推矛盾。"
+          }
+        },
+        {
+          "lesson": "b2-space-position",
+          "kind": "example",
+          "index": 2,
+          "title": "角的较小分支",
+          "content": {
+            "title": "角的较小分支",
+            "question": "两异面线选定方向夹角150°，求直线所成角。",
+            "steps": [
+              "直线没有固定朝向，可将一个方向反向。",
+              "较小角=180°−150°=30°。",
+              "异面线角取锐角或直角；若方向平行角0°，则不是异面线。"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "paragraph": 108,
+      "source": "★ 判断异面直线常用\"反证法\"：假设共面，则与已知条件矛盾。",
+      "type": "content",
+      "targets": [
+        {
+          "lesson": "b2-space-position",
+          "kind": "example",
+          "index": 0,
+          "title": "反证异面",
+          "content": {
+            "title": "反证异面",
+            "question": "正方体ABCD−A₁B₁C₁D₁中，证明AB与CC₁异面。",
+            "steps": [
+              "若共面，该面包含直线AB与点C，且C不在AB上。",
+              "因此只能是底面ABC所在面；但C₁不在底面，矛盾。",
+              "故不共面，是异面直线。投影交叉与否不影响此证明。"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "paragraph": 109,
+      "source": "8.5 空间直线、平面的平行",
+      "type": "structure-or-metadata",
+      "targets": []
+    },
+    {
+      "paragraph": 110,
+      "source": "线面平行判定：平面外一条直线与此平面内的一条直线平行，则该直线与此平面平行（a⊄α，b⊂α，a∥b ⟹ a∥α）",
+      "type": "content",
+      "targets": [
+        {
+          "lesson": "b2-space-parallel",
+          "kind": "note",
+          "index": 0,
+          "title": "线面平行判定",
+          "content": {
+            "title": "线面平行判定",
+            "formula": "a⊄α，b⊂α，a∥b ⇒ a∥α",
+            "text": "平面外条件不能漏；a在α内也能平行α内另一线，却不与面平行。"
+          }
+        },
+        {
+          "lesson": "b2-space-parallel",
+          "kind": "example",
+          "index": 0,
+          "title": "四面体中点线",
+          "content": {
+            "title": "四面体中点线",
+            "question": "四面体SABC，M、N分别为SA、SB中点，证明MN∥平面ABC。",
+            "steps": [
+              "在△SAB中，中位线MN∥AB。",
+              "AB⊂平面ABC；M在底面外，故MN不包含于底面。",
+              "由线面平行判定MN∥平面ABC。"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "paragraph": 111,
+      "source": "线面平行性质：一条直线与一个平面平行，则过这条直线的任一平面与此平面的交线与该直线平行（a∥α，a⊂β，α∩β=b ⟹ a∥b）",
+      "type": "content",
+      "targets": [
+        {
+          "lesson": "b2-space-parallel",
+          "kind": "note",
+          "index": 1,
+          "title": "线面平行性质",
+          "content": {
+            "title": "线面平行性质",
+            "formula": "a∥α，a⊂β，α∩β=b ⇒ a∥b",
+            "text": "需要第三平面β与α确有交线，不能声称a平行α内任意线。"
+          }
+        },
+        {
+          "lesson": "b2-space-parallel",
+          "kind": "example",
+          "index": 2,
+          "title": "用第三面找交线",
+          "content": {
+            "title": "用第三面找交线",
+            "question": "正方体中，用侧面ABB₁A₁截两平行底面，交线是什么关系？",
+            "steps": [
+              "侧面与底面ABCD交于AB，与顶面交于A₁B₁。",
+              "顶面与底面平行，侧面分别与它们相交。",
+              "由平行平面性质AB∥A₁B₁；线段AA₁、BB₁夹于两底间且平行，长度相等。"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "paragraph": 112,
+      "source": "面面平行判定：一个平面内的两条相交直线与另一个平面平行，则两平面平行",
+      "type": "content",
+      "targets": [
+        {
+          "lesson": "b2-space-parallel",
+          "kind": "note",
+          "index": 2,
+          "title": "面面平行的判定与性质",
+          "content": {
+            "title": "面面平行的判定与性质",
+            "formula": "一面内两条相交线都平行另一面 ⇒ 两面平行",
+            "text": "平行两面被第三面相交，所得两交线平行；一面内任意直线均平行另一面。只看一条线或两条平行线不够。"
+          }
+        },
+        {
+          "lesson": "b2-space-parallel",
+          "kind": "example",
+          "index": 1,
+          "title": "正方体两底平行",
+          "content": {
+            "title": "正方体两底平行",
+            "question": "证明正方体顶面A₁B₁C₁D₁与底面ABCD平行。",
+            "steps": [
+              "顶面相交线A₁B₁、A₁D₁分别平行底面内AB、AD。",
+              "两顶边均在底面外，由线面平行判定它们都平行底面。",
+              "顶面内两条相交线满足判定，故顶底两面平行。"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "paragraph": 113,
+      "source": "面面平行性质：两平面平行，则一个平面内的直线必平行于另一个平面；第三平面与它们相交则交线平行",
+      "type": "content",
+      "targets": [
+        {
+          "lesson": "b2-space-parallel",
+          "kind": "note",
+          "index": 2,
+          "title": "面面平行的判定与性质",
+          "content": {
+            "title": "面面平行的判定与性质",
+            "formula": "一面内两条相交线都平行另一面 ⇒ 两面平行",
+            "text": "平行两面被第三面相交，所得两交线平行；一面内任意直线均平行另一面。只看一条线或两条平行线不够。"
+          }
+        },
+        {
+          "lesson": "b2-space-parallel",
+          "kind": "example",
+          "index": 2,
+          "title": "用第三面找交线",
+          "content": {
+            "title": "用第三面找交线",
+            "question": "正方体中，用侧面ABB₁A₁截两平行底面，交线是什么关系？",
+            "steps": [
+              "侧面与底面ABCD交于AB，与顶面交于A₁B₁。",
+              "顶面与底面平行，侧面分别与它们相交。",
+              "由平行平面性质AB∥A₁B₁；线段AA₁、BB₁夹于两底间且平行，长度相等。"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "paragraph": 114,
+      "source": "重要结论：夹在两个平行平面间的平行线段相等；经过平面外一点有且只有一个平面与已知平面平行。",
+      "type": "content",
+      "targets": [
+        {
+          "lesson": "b2-space-parallel",
+          "kind": "note",
+          "index": 3,
+          "title": "距离与构造结论",
+          "content": {
+            "title": "距离与构造结论",
+            "formula": "夹在两平行面间的平行线段相等",
+            "text": "经过面外一点有唯一平面平行已知面。证明链常用线线→线面→面面，逐次核查包含、相交、面外条件。"
+          }
+        },
+        {
+          "lesson": "b2-space-parallel",
+          "kind": "example",
+          "index": 2,
+          "title": "用第三面找交线",
+          "content": {
+            "title": "用第三面找交线",
+            "question": "正方体中，用侧面ABB₁A₁截两平行底面，交线是什么关系？",
+            "steps": [
+              "侧面与底面ABCD交于AB，与顶面交于A₁B₁。",
+              "顶面与底面平行，侧面分别与它们相交。",
+              "由平行平面性质AB∥A₁B₁；线段AA₁、BB₁夹于两底间且平行，长度相等。"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "paragraph": 115,
+      "source": "证明平行关系的转化链：线线平行 ⟹ 线面平行 ⟹ 面面平行。",
+      "type": "content",
+      "targets": [
+        {
+          "lesson": "b2-space-parallel",
+          "kind": "note",
+          "index": 0,
+          "title": "线面平行判定",
+          "content": {
+            "title": "线面平行判定",
+            "formula": "a⊄α，b⊂α，a∥b ⇒ a∥α",
+            "text": "平面外条件不能漏；a在α内也能平行α内另一线，却不与面平行。"
+          }
+        },
+        {
+          "lesson": "b2-space-parallel",
+          "kind": "note",
+          "index": 1,
+          "title": "线面平行性质",
+          "content": {
+            "title": "线面平行性质",
+            "formula": "a∥α，a⊂β，α∩β=b ⇒ a∥b",
+            "text": "需要第三平面β与α确有交线，不能声称a平行α内任意线。"
+          }
+        },
+        {
+          "lesson": "b2-space-parallel",
+          "kind": "note",
+          "index": 2,
+          "title": "面面平行的判定与性质",
+          "content": {
+            "title": "面面平行的判定与性质",
+            "formula": "一面内两条相交线都平行另一面 ⇒ 两面平行",
+            "text": "平行两面被第三面相交，所得两交线平行；一面内任意直线均平行另一面。只看一条线或两条平行线不够。"
+          }
+        }
+      ]
+    },
+    {
+      "paragraph": 116,
+      "source": "8.6 空间直线、平面的垂直",
+      "type": "structure-or-metadata",
+      "targets": []
+    },
+    {
+      "paragraph": 117,
+      "source": "一、线线垂直与线面垂直",
+      "type": "structure-or-metadata",
+      "targets": []
+    },
+    {
+      "paragraph": 118,
+      "source": "线面垂直判定：一条直线与一个平面内的两条相交直线都垂直，则该直线与此平面垂直",
+      "type": "content",
+      "targets": [
+        {
+          "lesson": "b2-space-perpendicular",
+          "kind": "note",
+          "index": 0,
+          "title": "线面垂直判定",
+          "content": {
+            "title": "线面垂直判定",
+            "formula": "l⊥a、l⊥b，a,b⊂α且a∩b≠∅ ⇒ l⊥α",
+            "text": "两条线须相交，不能用平行线代替。空间线线垂直说的是方向角90°，不强制两线相交。"
+          }
+        },
+        {
+          "lesson": "b2-space-perpendicular",
+          "kind": "example",
+          "index": 0,
+          "title": "两方向判定",
+          "content": {
+            "title": "两方向判定",
+            "question": "四棱锥S−ABCD，底ABCD为正方形，SA⊥AB、SA⊥AD，证明SA⊥底面。",
+            "steps": [
+              "AB、AD是底面内相交于A的两条直线。",
+              "SA同时垂直这两方向，满足线面垂直判定。",
+              "所以SA⊥平面ABCD，进而SA也垂直BC等底面内直线。"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "paragraph": 119,
+      "source": "线面垂直性质：垂直于同一个平面的两条直线平行。",
+      "type": "content",
+      "targets": [
+        {
+          "lesson": "b2-space-perpendicular",
+          "kind": "note",
+          "index": 1,
+          "title": "线面垂直性质",
+          "content": {
+            "title": "线面垂直性质",
+            "formula": "l⊥α ⇒ l垂直α内各条直线；同垂直一面两线平行",
+            "text": "证明线线垂直可先证一线垂直另一线所在平面。几何工具包括勾股逆定理、直径圆周角、菱形对角线等。"
+          }
+        }
+      ]
+    },
+    {
+      "paragraph": 120,
+      "source": "点到平面距离、直线到平面距离（线面平行时）的定义。",
+      "type": "content",
+      "targets": [
+        {
+          "lesson": "b2-space-angle-distance",
+          "kind": "note",
+          "index": 1,
+          "title": "点面与平行线面距离",
+          "content": {
+            "title": "点面与平行线面距离",
+            "formula": "点到面取垂线段长度；线面平行时任一点到面距离相同",
+            "text": "在直角△OPH中，PH=OPsinθ；斜段OP通常较长。若直线与面相交，不能拿线外一点的高度当整条线面距离。"
+          }
+        }
+      ]
+    },
+    {
+      "paragraph": 121,
+      "source": "直线与平面所成角：直线与其在平面内的射影所成的角，范围 [0°, 90°]。",
+      "type": "content",
+      "targets": [
+        {
+          "lesson": "b2-space-angle-distance",
+          "kind": "note",
+          "index": 0,
+          "title": "线面角先作射影",
+          "content": {
+            "title": "线面角先作射影",
+            "formula": "直线与其正投影所成角，范围[0°,90°]",
+            "text": "平行或在面内时0°；垂直时射影退化为一点，按定义角90°。不要凭屏幕投影直接量真实角。"
+          }
+        }
+      ]
+    },
+    {
+      "paragraph": 122,
+      "source": "二、二面角与面面垂直",
+      "type": "structure-or-metadata",
+      "targets": []
+    },
+    {
+      "paragraph": 123,
+      "source": "二面角：从一条直线出发的两个半平面所成的图形；二面角的平面角：棱上一点在两个半平面内分别作棱的垂线，两垂线的夹角，范围 [0°, 180°]。",
+      "type": "content",
+      "targets": [
+        {
+          "lesson": "b2-space-angle-distance",
+          "kind": "note",
+          "index": 2,
+          "title": "二面角的平面角",
+          "content": {
+            "title": "二面角的平面角",
+            "formula": "棱上一点，在两半平面内各作垂棱射线；角范围[0°,180°]",
+            "text": "半平面方向决定锐钝。异面线角取小角，二面角不照搬；0°/180°是重合/展平边界，面面垂直对应90°。"
+          }
+        }
+      ]
+    },
+    {
+      "paragraph": 124,
+      "source": "面面垂直判定：一个平面过另一个平面的垂线，则两平面垂直（找线面垂直是关键）。",
+      "type": "content",
+      "targets": [
+        {
+          "lesson": "b2-space-perpendicular",
+          "kind": "note",
+          "index": 2,
+          "title": "面面垂直判定",
+          "content": {
+            "title": "面面垂直判定",
+            "formula": "一面包含另一面的垂线 ⇒ 两面垂直",
+            "text": "关键是找到线面垂直，不是只找两面各一条互相垂直的线。"
+          }
+        },
+        {
+          "lesson": "b2-space-perpendicular",
+          "kind": "example",
+          "index": 1,
+          "title": "从线到面",
+          "content": {
+            "title": "从线到面",
+            "question": "已知SA⊥平面ABCD，证明平面SAB⊥平面ABCD。",
+            "steps": [
+              "SA包含于平面SAB。",
+              "SA又是底面的垂线。",
+              "一个平面经过另一面的垂线，故平面SAB垂直底面。"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "paragraph": 125,
+      "source": "面面垂直性质：两个平面垂直，则一个平面内垂直于交线的直线与另一个平面垂直。",
+      "type": "content",
+      "targets": [
+        {
+          "lesson": "b2-space-perpendicular",
+          "kind": "note",
+          "index": 3,
+          "title": "面面垂直性质",
+          "content": {
+            "title": "面面垂直性质",
+            "formula": "α⊥β，交线c；α内l⊥c ⇒ l⊥β",
+            "text": "不是α内任意l都垂直β，必须垂直交线。一般证明链线线→线面→面面，每步写清包含和交点。"
+          }
+        },
+        {
+          "lesson": "b2-space-perpendicular",
+          "kind": "example",
+          "index": 2,
+          "title": "性质中的交线",
+          "content": {
+            "title": "性质中的交线",
+            "question": "正方体侧面ABB₁A₁与底面ABCD垂直，证明AA₁⊥底面。",
+            "steps": [
+              "两面交线为AB。",
+              "AA₁在侧面内，且由侧面正方形AA₁⊥AB。",
+              "据面面垂直性质AA₁⊥底面；侧面内的AB本身却不垂直底面，说明“任意线”错误。"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "paragraph": 126,
+      "source": "求线面角：sinθ = |cos<a→, n→>|（a→ 直线方向向量，n→ 平面法向量）——空间向量法（选学拓展）",
+      "type": "content",
+      "targets": [
+        {
+          "lesson": "b2-space-angle-distance",
+          "kind": "note",
+          "index": 3,
+          "title": "选学：空间向量核对",
+          "content": {
+            "title": "选学：空间向量核对",
+            "formula": "sinθ=|u·n|/(|u||n|)；d=|AP·n|/|n|",
+            "text": "u为非零方向向量，n为非零法向量，A在平面内。二面角用法向量还须判锐钝；基础解法先用几何射影/直角三角形，不把选学当先修。"
+          }
+        },
+        {
+          "lesson": "b2-space-angle-distance",
+          "kind": "example",
+          "index": 2,
+          "title": "选学：点面距离",
+          "content": {
+            "title": "选学：点面距离",
+            "question": "平面x+2y+2z=0，P(1,2,2)，求距离。",
+            "steps": [
+              "取平面内A=(0,0,0)，法向量n=(1,2,2)，|n|=3。",
+              "AP·n=1+4+4=9。",
+              "d=|9|/3=3；此处AP恰沿法向量，也可用垂距几何解释。"
+            ]
+          }
+        },
+        {
+          "lesson": "b2-space-angle-distance",
+          "kind": "lab",
+          "index": 1,
+          "title": "二面角有钝角吗",
+          "content": {
+            "id": "b2-s-dihedral",
+            "title": "二面角有钝角吗",
+            "prompt": "从公共棱作两条垂棱射线，张开t度，平面角属于哪类？",
+            "options": [
+              "小于90°",
+              "90°",
+              "大于90°"
+            ],
+            "controls": [
+              {
+                "key": "t",
+                "label": "半平面张开角（度）",
+                "min": 0,
+                "max": 180,
+                "step": 30,
+                "value": 120
+              }
+            ],
+            "presets": [
+              [
+                "锐角",
+                {
+                  "t": 30
+                }
+              ],
+              [
+                "直角",
+                {
+                  "t": 90
+                }
+              ],
+              [
+                "钝角",
+                {
+                  "t": 150
+                }
+              ],
+              [
+                "展平边界",
+                {
+                  "t": 180
+                }
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "paragraph": 127,
+      "source": "★ 高频考法：垂直关系的证明关键是\"线线垂直 → 线面垂直 → 面面垂直\"的转化；证明线线垂直常先证一线垂直于另一线所在平面（如直径所对圆周角、菱形对角线、等腰三角形三线合一、勾股定理逆定理等）。",
+      "type": "content",
+      "targets": [
+        {
+          "lesson": "b2-space-perpendicular",
+          "kind": "note",
+          "index": 1,
+          "title": "线面垂直性质",
+          "content": {
+            "title": "线面垂直性质",
+            "formula": "l⊥α ⇒ l垂直α内各条直线；同垂直一面两线平行",
+            "text": "证明线线垂直可先证一线垂直另一线所在平面。几何工具包括勾股逆定理、直径圆周角、菱形对角线等。"
+          }
+        },
+        {
+          "lesson": "b2-space-perpendicular",
+          "kind": "example",
+          "index": 0,
+          "title": "两方向判定",
+          "content": {
+            "title": "两方向判定",
+            "question": "四棱锥S−ABCD，底ABCD为正方形，SA⊥AB、SA⊥AD，证明SA⊥底面。",
+            "steps": [
+              "AB、AD是底面内相交于A的两条直线。",
+              "SA同时垂直这两方向，满足线面垂直判定。",
+              "所以SA⊥平面ABCD，进而SA也垂直BC等底面内直线。"
+            ]
+          }
+        },
+        {
+          "lesson": "b2-space-perpendicular",
+          "kind": "example",
+          "index": 1,
+          "title": "从线到面",
+          "content": {
+            "title": "从线到面",
+            "question": "已知SA⊥平面ABCD，证明平面SAB⊥平面ABCD。",
+            "steps": [
+              "SA包含于平面SAB。",
+              "SA又是底面的垂线。",
+              "一个平面经过另一面的垂线，故平面SAB垂直底面。"
+            ]
+          }
+        },
+        {
+          "lesson": "b2-space-perpendicular",
+          "kind": "example",
+          "index": 2,
+          "title": "性质中的交线",
+          "content": {
+            "title": "性质中的交线",
+            "question": "正方体侧面ABB₁A₁与底面ABCD垂直，证明AA₁⊥底面。",
+            "steps": [
+              "两面交线为AB。",
+              "AA₁在侧面内，且由侧面正方形AA₁⊥AB。",
+              "据面面垂直性质AA₁⊥底面；侧面内的AB本身却不垂直底面，说明“任意线”错误。"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "paragraph": 128,
+      "source": "三、空间向量及其应用（选学）",
+      "type": "structure-or-metadata",
+      "targets": []
+    },
+    {
+      "paragraph": 129,
+      "source": "空间向量坐标运算与平面向量类似（多一个 z 分量）；用方向向量与法向量求线面角、二面角（注意二面角与法向量夹角的关系需判断锐钝）。",
+      "type": "content",
+      "targets": [
+        {
+          "lesson": "b2-space-angle-distance",
+          "kind": "note",
+          "index": 3,
+          "title": "选学：空间向量核对",
+          "content": {
+            "title": "选学：空间向量核对",
+            "formula": "sinθ=|u·n|/(|u||n|)；d=|AP·n|/|n|",
+            "text": "u为非零方向向量，n为非零法向量，A在平面内。二面角用法向量还须判锐钝；基础解法先用几何射影/直角三角形，不把选学当先修。"
+          }
+        },
+        {
+          "lesson": "b2-space-angle-distance",
+          "kind": "example",
+          "index": 2,
+          "title": "选学：点面距离",
+          "content": {
+            "title": "选学：点面距离",
+            "question": "平面x+2y+2z=0，P(1,2,2)，求距离。",
+            "steps": [
+              "取平面内A=(0,0,0)，法向量n=(1,2,2)，|n|=3。",
+              "AP·n=1+4+4=9。",
+              "d=|9|/3=3；此处AP恰沿法向量，也可用垂距几何解释。"
+            ]
+          }
+        },
+        {
+          "lesson": "b2-space-angle-distance",
+          "kind": "lab",
+          "index": 1,
+          "title": "二面角有钝角吗",
+          "content": {
+            "id": "b2-s-dihedral",
+            "title": "二面角有钝角吗",
+            "prompt": "从公共棱作两条垂棱射线，张开t度，平面角属于哪类？",
+            "options": [
+              "小于90°",
+              "90°",
+              "大于90°"
+            ],
+            "controls": [
+              {
+                "key": "t",
+                "label": "半平面张开角（度）",
+                "min": 0,
+                "max": 180,
+                "step": 30,
+                "value": 120
+              }
+            ],
+            "presets": [
+              [
+                "锐角",
+                {
+                  "t": 30
+                }
+              ],
+              [
+                "直角",
+                {
+                  "t": 90
+                }
+              ],
+              [
+                "钝角",
+                {
+                  "t": 150
+                }
+              ],
+              [
+                "展平边界",
+                {
+                  "t": 180
+                }
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "paragraph": 130,
+      "source": "距离公式：点到平面距离 d = |AP→·n→|/|n→|。",
+      "type": "content",
+      "targets": [
+        {
+          "lesson": "b2-space-angle-distance",
+          "kind": "note",
+          "index": 3,
+          "title": "选学：空间向量核对",
+          "content": {
+            "title": "选学：空间向量核对",
+            "formula": "sinθ=|u·n|/(|u||n|)；d=|AP·n|/|n|",
+            "text": "u为非零方向向量，n为非零法向量，A在平面内。二面角用法向量还须判锐钝；基础解法先用几何射影/直角三角形，不把选学当先修。"
+          }
+        },
+        {
+          "lesson": "b2-space-angle-distance",
+          "kind": "example",
+          "index": 2,
+          "title": "选学：点面距离",
+          "content": {
+            "title": "选学：点面距离",
+            "question": "平面x+2y+2z=0，P(1,2,2)，求距离。",
+            "steps": [
+              "取平面内A=(0,0,0)，法向量n=(1,2,2)，|n|=3。",
+              "AP·n=1+4+4=9。",
+              "d=|9|/3=3；此处AP恰沿法向量，也可用垂距几何解释。"
+            ]
+          }
+        },
+        {
+          "lesson": "b2-space-angle-distance",
+          "kind": "lab",
+          "index": 1,
+          "title": "二面角有钝角吗",
+          "content": {
+            "id": "b2-s-dihedral",
+            "title": "二面角有钝角吗",
+            "prompt": "从公共棱作两条垂棱射线，张开t度，平面角属于哪类？",
+            "options": [
+              "小于90°",
+              "90°",
+              "大于90°"
+            ],
+            "controls": [
+              {
+                "key": "t",
+                "label": "半平面张开角（度）",
+                "min": 0,
+                "max": 180,
+                "step": 30,
+                "value": 120
+              }
+            ],
+            "presets": [
+              [
+                "锐角",
+                {
+                  "t": 30
+                }
+              ],
+              [
+                "直角",
+                {
+                  "t": 90
+                }
+              ],
+              [
+                "钝角",
+                {
+                  "t": 150
+                }
+              ],
+              [
+                "展平边界",
+                {
+                  "t": 180
+                }
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "paragraph": 131,
+      "source": "第九章 统计",
+      "type": "structure-or-metadata",
+      "targets": []
+    },
+    {
+      "paragraph": 132,
+      "source": "9.1 随机抽样",
+      "type": "structure-or-metadata",
+      "targets": []
+    },
+    {
+      "paragraph": 133,
+      "source": "统计基本概念：总体、个体、样本、样本容量；样本估计总体的思想。",
+      "type": "content",
+      "targets": [
+        {
+          "lesson": "b2-random-sampling",
+          "kind": "note",
+          "index": 0,
+          "title": "调查对象与样本容量",
+          "content": {
+            "title": "调查对象与样本容量",
+            "formula": "总体：研究对象全体；个体：每个研究对象",
+            "text": "样本是抽取的个体集合，样本容量是个体数量，不是测量值的单位。用样本估计总体要检查抽样是否有偏。"
+          }
+        }
+      ]
+    },
+    {
+      "paragraph": 134,
+      "source": "简单随机抽样：抽签法、随机数法；特点：逐个抽取、不放回、等可能性；适用于总体个数较少。",
+      "type": "content",
+      "targets": [
+        {
+          "lesson": "b2-random-sampling",
+          "kind": "note",
+          "index": 1,
+          "title": "简单随机抽样",
+          "content": {
+            "title": "简单随机抽样",
+            "formula": "有限总体中，按规定样本量等可能选取样本",
+            "text": "本课演示不放回抽签与随机数法；每个个体抽中机会相同，重复编号须跳过。样本容量不能超过总体容量。"
+          }
+        }
+      ]
+    },
+    {
+      "paragraph": 135,
+      "source": "分层随机抽样：总体由差异明显的几部分组成时，按各层比例抽取：每层样本量 = 该层个体数 × (样本容量/总体容量)；各层可采用简单随机抽样；分层抽样仍是等可能抽样。",
+      "type": "content",
+      "targets": [
+        {
+          "lesson": "b2-stratified",
+          "kind": "note",
+          "index": 0,
+          "title": "按比例分配",
+          "content": {
+            "title": "按比例分配",
+            "formula": "nᵢ=Nᵢ·n/N",
+            "text": "先分层，再在层内简单随机抽样。严格同比例使各个体抽中概率相同；人数必须整数，取整后抽样比可能不同。"
+          }
+        }
+      ]
+    },
+    {
+      "paragraph": 136,
+      "source": "平均数与方差的加权形式：分层抽样中样本均值 x̄ = Σ(W_i·x̄_i)，W_i 为层权；样本方差 s² = ΣW_i[s_i² + (x̄_i − x̄)²]。",
+      "type": "content",
+      "targets": [
+        {
+          "lesson": "b2-stratified",
+          "kind": "note",
+          "index": 1,
+          "title": "两类权重",
+          "content": {
+            "title": "两类权重",
+            "formula": "描述合并样本Wᵢ=nᵢ/n；估总体层权Wᵢ=Nᵢ/N",
+            "text": "总体层人数权重与实际样本层人数权重不能混用。严格比例抽样时两者相同；非比例样本直接合并可能不代表总体。"
+          }
+        },
+        {
+          "lesson": "b2-stratified",
+          "kind": "note",
+          "index": 2,
+          "title": "均值合并",
+          "content": {
+            "title": "均值合并",
+            "formula": "x̄=ΣWᵢx̄ᵢ，ΣWᵢ=1",
+            "text": "各层均值按所研究对象的层权加权，只有层权相等才能简单平均。"
+          }
+        },
+        {
+          "lesson": "b2-stratified",
+          "kind": "note",
+          "index": 3,
+          "title": "方差分解",
+          "content": {
+            "title": "方差分解",
+            "formula": "s²=ΣWᵢ[sᵢ²+(x̄ᵢ−x̄)²]",
+            "text": "层内与层间差异都贡献总方差。本课程描述性样本方差均采用分母各层nᵢ/总n，不与n−1无偏方差混用。"
+          }
+        }
+      ]
+    },
+    {
+      "paragraph": 137,
+      "source": "★ 高频考法：① 根据分层比例求某层应抽取人数（按比例分配）；② 由样本数据估计总体数量。",
+      "type": "content",
+      "targets": [
+        {
+          "lesson": "b2-stratified",
+          "kind": "example",
+          "index": 0,
+          "title": "比例配额",
+          "content": {
+            "title": "比例配额",
+            "question": "总体两层20人、40人，抽6人，求各层人数。",
+            "steps": [
+              "总人数60，共同抽样比6/60=1/10。",
+              "配额20/10=2、40/10=4，均为整数。",
+              "两层分别抽2、4人；若n=5会有分数配额，不能直接默默四舍五入并称相同比例。"
+            ]
+          }
+        },
+        {
+          "lesson": "b2-random-sampling",
+          "kind": "example",
+          "index": 2,
+          "title": "估计总体数量",
+          "content": {
+            "title": "估计总体数量",
+            "question": "随机抽100人，其中30人每天运动超过1小时，全校1200人，估计人数。",
+            "steps": [
+              "样本比例30/100=0.3。",
+              "估计人数1200×0.3=360。",
+              "这是约360人的估计，抽样波动使真实人数未必正好360。"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "paragraph": 138,
+      "source": "9.2 用样本估计总体",
+      "type": "structure-or-metadata",
+      "targets": []
+    },
+    {
+      "paragraph": 139,
+      "source": "一、集中趋势",
+      "type": "structure-or-metadata",
+      "targets": []
+    },
+    {
+      "paragraph": 140,
+      "source": "平均数 x̄ = (x₁+x₂+…+xₙ)/n；加权平均数 x̄ = Σ(x_i·f_i)/Σf_i",
+      "type": "content",
+      "targets": [
+        {
+          "lesson": "b2-data-center",
+          "kind": "note",
+          "index": 0,
+          "title": "平均与加权平均",
+          "content": {
+            "title": "平均与加权平均",
+            "formula": "x̄=Σxᵢ/n；加权x̄=Σxᵢfᵢ/Σfᵢ",
+            "text": "极端值会明显拉动平均数；频数权重与观测值相乘，不把频率再当重复次数叠加。"
+          }
+        }
+      ]
+    },
+    {
+      "paragraph": 141,
+      "source": "中位数：从小到大排列后位于中间位置的数（奇数个取中间，偶数个取中间两数平均）。",
+      "type": "content",
+      "targets": [
+        {
+          "lesson": "b2-data-center",
+          "kind": "note",
+          "index": 1,
+          "title": "中位数先排序",
+          "content": {
+            "title": "中位数先排序",
+            "formula": "奇数取中间项，偶数取中间两项均值",
+            "text": "中位数看排序位置，不看输入顺序；通常比均值对极端值稳健，但不能说任何改动都不改变中位数。"
+          }
+        }
+      ]
+    },
+    {
+      "paragraph": 142,
+      "source": "众数：出现次数最多的数（可能不止一个）。",
+      "type": "content",
+      "targets": [
+        {
+          "lesson": "b2-data-center",
+          "kind": "note",
+          "index": 2,
+          "title": "众数与并列",
+          "content": {
+            "title": "众数与并列",
+            "formula": "出现次数最多的值可不止一个",
+            "text": "并列最多的值均是众数；本课程对全部不重复的数据显示“无明显众数”，不会任取唯一众数。"
+          }
+        }
+      ]
+    },
+    {
+      "paragraph": 143,
+      "source": "平均数受极端值影响大；中位数、众数较稳健。",
+      "type": "content",
+      "targets": [
+        {
+          "lesson": "b2-data-center",
+          "kind": "note",
+          "index": 0,
+          "title": "平均与加权平均",
+          "content": {
+            "title": "平均与加权平均",
+            "formula": "x̄=Σxᵢ/n；加权x̄=Σxᵢfᵢ/Σfᵢ",
+            "text": "极端值会明显拉动平均数；频数权重与观测值相乘，不把频率再当重复次数叠加。"
+          }
+        },
+        {
+          "lesson": "b2-data-center",
+          "kind": "note",
+          "index": 1,
+          "title": "中位数先排序",
+          "content": {
+            "title": "中位数先排序",
+            "formula": "奇数取中间项，偶数取中间两项均值",
+            "text": "中位数看排序位置，不看输入顺序；通常比均值对极端值稳健，但不能说任何改动都不改变中位数。"
+          }
+        },
+        {
+          "lesson": "b2-data-center",
+          "kind": "example",
+          "index": 0,
+          "title": "极端值的影响",
+          "content": {
+            "title": "极端值的影响",
+            "question": "数据1、2、2、3、12，求均值、中位数、众数。",
+            "steps": [
+              "已排序，总和20，均值20/5=4。",
+              "第三项为2，中位数2。",
+              "2出现两次最多，众数2；均值大于典型中间值。"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "paragraph": 144,
+      "source": "二、离散程度",
+      "type": "structure-or-metadata",
+      "targets": []
+    },
+    {
+      "paragraph": 145,
+      "source": "方差 s² = (1/n)Σ(x_i − x̄)²；标准差 s = √s²",
+      "type": "content",
+      "targets": [
+        {
+          "lesson": "b2-data-spread",
+          "kind": "note",
+          "index": 0,
+          "title": "描述性方差",
+          "content": {
+            "title": "描述性方差",
+            "formula": "s²=(1/n)Σ(xᵢ−x̄)²",
+            "text": "衡量数据偏离均值的平方平均。非负；全部数据相同才为0。这里分母n，切勿混用其他统计任务中的n−1公式。"
+          }
+        },
+        {
+          "lesson": "b2-data-spread",
+          "kind": "note",
+          "index": 1,
+          "title": "计算恒等式",
+          "content": {
+            "title": "计算恒等式",
+            "formula": "s²=(1/n)Σxᵢ²−x̄²",
+            "text": "两式等价，手算可选方便的一式；计算机用离均差形式减少大数相减精度损失。"
+          }
+        }
+      ]
+    },
+    {
+      "paragraph": 146,
+      "source": "方差计算技巧：s² = (1/n)Σx_i² − x̄²",
+      "type": "content",
+      "targets": [
+        {
+          "lesson": "b2-data-spread",
+          "kind": "note",
+          "index": 1,
+          "title": "计算恒等式",
+          "content": {
+            "title": "计算恒等式",
+            "formula": "s²=(1/n)Σxᵢ²−x̄²",
+            "text": "两式等价，手算可选方便的一式；计算机用离均差形式减少大数相减精度损失。"
+          }
+        }
+      ]
+    },
+    {
+      "paragraph": 147,
+      "source": "方差/标准差越小，数据越稳定、波动越小。",
+      "type": "content",
+      "targets": [
+        {
+          "lesson": "b2-data-spread",
+          "kind": "note",
+          "index": 2,
+          "title": "标准差与单位",
+          "content": {
+            "title": "标准差与单位",
+            "formula": "s=√s²",
+            "text": "标准差与原数值同单位；方差单位为原单位平方。在同类数据/尺度下方差较小表示波动较小，不跨单位直接比大小。"
+          }
+        }
+      ]
+    },
+    {
+      "paragraph": 148,
+      "source": "新数据 ax_i + b 的均值 a·x̄+b，方差 a²s²（注意 b 不影响方差）。",
+      "type": "content",
+      "targets": [
+        {
+          "lesson": "b2-data-spread",
+          "kind": "note",
+          "index": 3,
+          "title": "整体变换",
+          "content": {
+            "title": "整体变换",
+            "formula": "yᵢ=axᵢ+b：ȳ=ax̄+b，sᵧ²=a²sₓ²",
+            "text": "加常数只平移，负倍数翻转但平方系数非负；a=0全部成为常量，方差0，标准差为|a|s。"
+          }
+        }
+      ]
+    },
+    {
+      "paragraph": 149,
+      "source": "三、频率分布表与频率分布直方图",
+      "type": "structure-or-metadata",
+      "targets": []
+    },
+    {
+      "paragraph": 150,
+      "source": "作图步骤：求极差 → 定组距与组数 → 分组 → 列频率分布表 → 画直方图。",
+      "type": "content",
+      "targets": [
+        {
+          "lesson": "b2-histogram",
+          "kind": "note",
+          "index": 0,
+          "title": "分组步骤",
+          "content": {
+            "title": "分组步骤",
+            "formula": "极差→组距与组数→频数/频率表→直方图",
+            "text": "端点归属规则统一，常用左闭右开、最后组含右端点，不能遗漏或重复计数。频率=频数/n。"
+          }
+        }
+      ]
+    },
+    {
+      "paragraph": 151,
+      "source": "直方图纵轴为\"频率/组距\"，小矩形面积 = 频率，所有矩形面积之和 = 1。",
+      "type": "content",
+      "targets": [
+        {
+          "lesson": "b2-histogram",
+          "kind": "note",
+          "index": 1,
+          "title": "面积而非高度",
+          "content": {
+            "title": "面积而非高度",
+            "formula": "柱高=频率/组距；面积=频率；总面积1",
+            "text": "不同组距时不能单看高度判断频率。未知柱高或宽度可借总面积1列方程，频数需再乘样本容量。"
+          }
+        }
+      ]
+    },
+    {
+      "paragraph": 152,
+      "source": "估计：众数 ≈ 最高矩形底边中点；中位数：左右面积各 0.5 处的横坐标；平均数 ≈ Σ(各矩形底边中点 × 对应频率)。",
+      "type": "content",
+      "targets": [
+        {
+          "lesson": "b2-histogram",
+          "kind": "note",
+          "index": 2,
+          "title": "集中趋势的分组估计",
+          "content": {
+            "title": "集中趋势的分组估计",
+            "formula": "均值≈Σ组中值×频率",
+            "text": "众数常估为最高频率密度柱底边中点；中位数按累计面积达到0.5的位置，在组内均匀假设下线性估计，均为近似。"
+          }
+        },
+        {
+          "lesson": "b2-histogram",
+          "kind": "example",
+          "index": 2,
+          "title": "估均值与中位数",
+          "content": {
+            "title": "估均值与中位数",
+            "question": "两组[0,2)、[2,4]，频率1/4、3/4，估均值与中位数。",
+            "steps": [
+              "组中值1、3，均值≈1×1/4+3×3/4=2.5。",
+              "到2时累计面积1/4，还需1/4；第二组密度3/8。",
+              "中位数≈2+(1/4)/(3/8)=8/3；这是组内均匀估计，非原始数据精确值。"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "paragraph": 153,
+      "source": "总体百分位数：一组数据的第 p 百分位数：计算 i = n×p%，若 i 不是整数取第 [i]+1 项，若 i 是整数取第 i 与第 i+1 项的平均数。",
+      "type": "content",
+      "targets": [
+        {
+          "lesson": "b2-data-center",
+          "kind": "note",
+          "index": 3,
+          "title": "本课百分位规则",
+          "content": {
+            "title": "本课百分位规则",
+            "formula": "i=n·p/100；非整数取第⌊i⌋+1项，整数取第i、i+1项平均",
+            "text": "适用于0<p<100且非空排序数据。p=0约定最小值，p=100最大值，避免数组越界。不同软件的插值定义可能不同，题目给出规则时按题意。"
+          }
+        },
+        {
+          "lesson": "b2-data-center",
+          "kind": "example",
+          "index": 2,
+          "title": "整数与非整数位置",
+          "content": {
+            "title": "整数与非整数位置",
+            "question": "数据1、2、3、4，求第25、40、100百分位数。",
+            "steps": [
+              "p=25时i=1为整数，取第1、2项平均1.5。",
+              "p=40时i=1.6，取第2项为2。",
+              "p=100按端点约定取最大值4，不访问第5项。"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "paragraph": 154,
+      "source": "★ 高频考法：由直方图求频率（面积）、频数（频率×总数）、中位数/平均数估计；频率分布直方图中\"面积和为1\"是列方程求未知组距/纵坐标的突破口。",
+      "type": "content",
+      "targets": [
+        {
+          "lesson": "b2-histogram",
+          "kind": "note",
+          "index": 1,
+          "title": "面积而非高度",
+          "content": {
+            "title": "面积而非高度",
+            "formula": "柱高=频率/组距；面积=频率；总面积1",
+            "text": "不同组距时不能单看高度判断频率。未知柱高或宽度可借总面积1列方程，频数需再乘样本容量。"
+          }
+        },
+        {
+          "lesson": "b2-histogram",
+          "kind": "note",
+          "index": 2,
+          "title": "集中趋势的分组估计",
+          "content": {
+            "title": "集中趋势的分组估计",
+            "formula": "均值≈Σ组中值×频率",
+            "text": "众数常估为最高频率密度柱底边中点；中位数按累计面积达到0.5的位置，在组内均匀假设下线性估计，均为近似。"
+          }
+        },
+        {
+          "lesson": "b2-histogram",
+          "kind": "note",
+          "index": 3,
+          "title": "从样本推向总体",
+          "content": {
+            "title": "从样本推向总体",
+            "formula": "估总体某段人数≈N×该段样本频率",
+            "text": "需要合理抽样。直方图不保留每个原始值，不能唯一还原精确均值；综合题先算配额/样本频数，再确认概率模型。"
+          }
+        },
+        {
+          "lesson": "b2-histogram",
+          "kind": "example",
+          "index": 0,
+          "title": "不等宽读图",
+          "content": {
+            "title": "不等宽读图",
+            "question": "一组区间[0,2)，柱高0.1，样本50，求频率和频数。",
+            "steps": [
+              "组距2，频率=2×0.1=0.2。",
+              "频数=0.2×50=10。",
+              "不能把0.1直接作为频率，否则人数少算一半。"
+            ]
+          }
+        },
+        {
+          "lesson": "b2-histogram",
+          "kind": "example",
+          "index": 1,
+          "title": "总面积求高",
+          "content": {
+            "title": "总面积求高",
+            "question": "两组[0,1)、[1,4]，第一组频率1/4，求第二组柱高。",
+            "steps": [
+              "第二组频率1−1/4=3/4。",
+              "第二组宽3，密度=(3/4)/3=1/4。",
+              "两根柱同高但面积分别1/4、3/4，人数比例为1:3。"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "paragraph": 155,
+      "source": "第十章 概率",
+      "type": "structure-or-metadata",
+      "targets": []
+    },
+    {
+      "paragraph": 156,
+      "source": "10.1 随机事件与概率",
+      "type": "structure-or-metadata",
+      "targets": []
+    },
+    {
+      "paragraph": 157,
+      "source": "事件分类：必然事件、不可能事件（统称确定事件）、随机事件。",
+      "type": "content",
+      "targets": [
+        {
+          "lesson": "b2-events",
+          "kind": "note",
+          "index": 0,
+          "title": "样本空间与事件",
+          "content": {
+            "title": "样本空间与事件",
+            "formula": "Ω是所有样本点，事件A⊆Ω",
+            "text": "必然事件Ω、不可能事件∅统称确定事件；试验前不能确定是否发生的叫随机事件。事件发生指结果落入该子集。"
+          }
+        }
+      ]
+    },
+    {
+      "paragraph": 158,
+      "source": "事件的关系：包含（B⊇A）、相等、并事件（和事件 A∪B，至少一个发生）、交事件（积事件 A∩B，同时发生）、互斥事件（不能同时发生，A∩B=∅）、对立事件（互斥且必有一个发生，A∪B=Ω）。",
+      "type": "content",
+      "targets": [
+        {
+          "lesson": "b2-events",
+          "kind": "note",
+          "index": 1,
+          "title": "包含、相等、交并",
+          "content": {
+            "title": "包含、相等、交并",
+            "formula": "A⊆B；A∩B同时发生；A∪B至少一个发生",
+            "text": "A=B表示样本点完全相同；并中的“或”包含两者都发生，不是只能一个。"
+          }
+        },
+        {
+          "lesson": "b2-events",
+          "kind": "note",
+          "index": 2,
+          "title": "互斥与对立",
+          "content": {
+            "title": "互斥与对立",
+            "formula": "互斥A∩B=∅；对立还须A∪B=Ω",
+            "text": "对立一定互斥，互斥未必对立；补事件Ā=ΩA。画集合/列举样本点帮助核对条件。"
+          }
+        }
+      ]
+    },
+    {
+      "paragraph": 159,
+      "source": "概率的基本性质：0 ≤ P(A) ≤ 1；P(必然事件)=1，P(不可能事件)=0；互斥时 P(A∪B)=P(A)+P(B)；对立时 P(A)=1−P(Ā)。",
+      "type": "content",
+      "targets": [
+        {
+          "lesson": "b2-events",
+          "kind": "note",
+          "index": 3,
+          "title": "概率基本性质",
+          "content": {
+            "title": "概率基本性质",
+            "formula": "0≤P(A)≤1，P(Ω)=1，P(∅)=0",
+            "text": "互斥时P(A∪B)=P(A)+P(B)，一般情况须减P(A∩B)。对立事件满足P(Ā)=1−P(A)。"
+          }
+        }
+      ]
+    },
+    {
+      "paragraph": 160,
+      "source": "古典概型：① 有限性（样本点有限）；② 等可能性。P(A) = A 包含的样本点数 / 样本点总数。",
+      "type": "content",
+      "targets": [
+        {
+          "lesson": "b2-classical",
+          "kind": "note",
+          "index": 0,
+          "title": "古典概型的两个条件",
+          "content": {
+            "title": "古典概型的两个条件",
+            "formula": "样本点有限且等可能；P(A)=|A|/|Ω|",
+            "text": "不能把不等可能的概括结果当样本点等权相除；编号和区分试验次序通常有助于找到等可能基本结果。"
+          }
+        }
+      ]
+    },
+    {
+      "paragraph": 161,
+      "source": "求古典概型概率：列举法、列表法、画树状图法（注意\"有序\"与\"无序\"的区别，如掷两枚骰子、取球问题）。",
+      "type": "content",
+      "targets": [
+        {
+          "lesson": "b2-classical",
+          "kind": "note",
+          "index": 1,
+          "title": "列举、列表与树图",
+          "content": {
+            "title": "列举、列表与树图",
+            "formula": "每条完整路径代表一次完整试验结果",
+            "text": "两骰可用6×6表，有序结果(1,2)与(2,1)不同。抽球如使用无序组合，须确保各组合等可能并一致计数。"
+          }
+        },
+        {
+          "lesson": "b2-classical",
+          "kind": "example",
+          "index": 0,
+          "title": "骰子点数和",
+          "content": {
+            "title": "骰子点数和",
+            "question": "两枚均匀独立骰，求点数和为8的概率。",
+            "steps": [
+              "Ω有36个有序点对，均等可能。",
+              "和8的点：(2,6)、(3,5)、(4,4)、(5,3)、(6,2)，共5。",
+              "概率5/36，不能按11种和直接写1/11。"
+            ]
+          }
+        },
+        {
+          "lesson": "b2-classical",
+          "kind": "example",
+          "index": 1,
+          "title": "无放回取球",
+          "content": {
+            "title": "无放回取球",
+            "question": "R1、R2、B1中连续不放回取两次，求全红概率。",
+            "steps": [
+              "有序结果共3×2=6个。",
+              "全红仅(R1,R2)、(R2,R1)两个。",
+              "概率2/6=1/3；无序口径则1个红红组合/3个总组合，同样1/3。"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "paragraph": 162,
+      "source": "★ 易错：① 互斥不一定对立，对立一定互斥；② \"有放回\"与\"无放回\"抽样样本点数不同；③ 计算时保证样本点等可能（如两个相同球的情况易错算）。",
+      "type": "content",
+      "targets": [
+        {
+          "lesson": "b2-classical",
+          "kind": "note",
+          "index": 2,
+          "title": "有无放回",
+          "content": {
+            "title": "有无放回",
+            "formula": "放回后下一次可抽同一编号；无放回则不可",
+            "text": "R1、R2、B1有放回两次有9个有序点，无放回有6个；同颜色不同球不可随意合并成等可能结果。"
+          }
+        },
+        {
+          "lesson": "b2-classical",
+          "kind": "note",
+          "index": 3,
+          "title": "计数的共同口径",
+          "content": {
+            "title": "计数的共同口径",
+            "formula": "有利点和总点必须都按有序或都按无序",
+            "text": "先写试验规则、可区分性与事件，再列样本点；避免分子无序分母有序，或将第一次已抽球再次计入。"
+          }
+        },
+        {
+          "lesson": "b2-events",
+          "kind": "example",
+          "index": 0,
+          "title": "互斥不对立",
+          "content": {
+            "title": "互斥不对立",
+            "question": "掷骰，A为偶数，B为点数1，判断关系。",
+            "steps": [
+              "A={2,4,6}，B={1}，交集空。",
+              "所以互斥；但并集{1,2,4,6}漏掉3、5。",
+              "不对立，P(A)+P(B)=1/2+1/6=2/3≠1。"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "paragraph": 163,
+      "source": "10.2 事件的相互独立性",
+      "type": "structure-or-metadata",
+      "targets": []
+    },
+    {
+      "paragraph": 164,
+      "source": "P(AB) = P(A)·P(B)（A、B 相互独立）",
+      "type": "content",
+      "targets": [
+        {
+          "lesson": "b2-independent",
+          "kind": "note",
+          "index": 0,
+          "title": "独立的等式",
+          "content": {
+            "title": "独立的等式",
+            "formula": "P(A∩B)=P(A)P(B)",
+            "text": "一事件发生不影响另一事件发生概率是直观含义。不能只凭生活中“看起来无关”就使用乘法，题设应给出或模型能验证独立性。"
+          }
+        }
+      ]
+    },
+    {
+      "paragraph": 165,
+      "source": "独立：一个事件的发生不影响另一个事件发生的概率。",
+      "type": "content",
+      "targets": [
+        {
+          "lesson": "b2-independent",
+          "kind": "note",
+          "index": 0,
+          "title": "独立的等式",
+          "content": {
+            "title": "独立的等式",
+            "formula": "P(A∩B)=P(A)P(B)",
+            "text": "一事件发生不影响另一事件发生概率是直观含义。不能只凭生活中“看起来无关”就使用乘法，题设应给出或模型能验证独立性。"
+          }
+        }
+      ]
+    },
+    {
+      "paragraph": 166,
+      "source": "必然事件、不可能事件与任何事件独立；若 A、B 独立，则 Ā 与 B、A 与 B̄、Ā 与 B̄ 也相互独立。",
+      "type": "content",
+      "targets": [
+        {
+          "lesson": "b2-independent",
+          "kind": "note",
+          "index": 1,
+          "title": "互斥与独立不同",
+          "content": {
+            "title": "互斥与独立不同",
+            "formula": "互斥交集概率0；正概率独立时交集概率>0",
+            "text": "所以正概率互斥事件不独立。必然事件、不可能事件与任何事件独立，零概率边界不能漏。"
+          }
+        },
+        {
+          "lesson": "b2-independent",
+          "kind": "note",
+          "index": 2,
+          "title": "补事件仍独立",
+          "content": {
+            "title": "补事件仍独立",
+            "formula": "A、B独立⇒Ā与B、A与B̄、Ā与B̄均独立",
+            "text": "可由概率减法推导，例如P(Ā∩B)=P(B)−P(A∩B)=(1−P(A))P(B)。"
+          }
+        }
+      ]
+    },
+    {
+      "paragraph": 167,
+      "source": "与互斥的区别：互斥强调\"不能同时发生\"（针对同一试验的事件关系），独立强调\"互不影响\"（强调概率计算）。",
+      "type": "content",
+      "targets": [
+        {
+          "lesson": "b2-independent",
+          "kind": "note",
+          "index": 1,
+          "title": "互斥与独立不同",
+          "content": {
+            "title": "互斥与独立不同",
+            "formula": "互斥交集概率0；正概率独立时交集概率>0",
+            "text": "所以正概率互斥事件不独立。必然事件、不可能事件与任何事件独立，零概率边界不能漏。"
+          }
+        },
+        {
+          "lesson": "b2-independent",
+          "kind": "example",
+          "index": 1,
+          "title": "正概率互斥不独立",
+          "content": {
+            "title": "正概率互斥不独立",
+            "question": "同一枚均匀硬币，A正、B反，是否独立？",
+            "steps": [
+              "P(A)=P(B)=1/2，乘积1/4。",
+              "交集为空，P(A∩B)=0。",
+              "不等于乘积，所以互斥且对立，但不独立。"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "paragraph": 168,
+      "source": "10.3 频率与概率",
+      "type": "structure-or-metadata",
+      "targets": []
+    },
+    {
+      "paragraph": 169,
+      "source": "频率的稳定性：大量重复试验中频率稳定在概率附近，用频率估计概率（随机模拟/蒙特卡洛方法）。",
+      "type": "content",
+      "targets": [
+        {
+          "lesson": "b2-frequency",
+          "kind": "note",
+          "index": 0,
+          "title": "频率与概率",
+          "content": {
+            "title": "频率与概率",
+            "formula": "频率=m/n；概率描述试验规律",
+            "text": "有限次结果会波动。大量独立同条件重复试验中频率通常稳定在概率附近，但不保证每一步误差变小或恰好等于概率。"
+          }
+        }
+      ]
+    },
+    {
+      "paragraph": 170,
+      "source": "用计算器或计算机产生随机数模拟试验，估计概率。",
+      "type": "content",
+      "targets": [
+        {
+          "lesson": "b2-frequency",
+          "kind": "note",
+          "index": 1,
+          "title": "计算机随机模拟",
+          "content": {
+            "title": "计算机随机模拟",
+            "formula": "明确试验规则、随机机制、次数与事件计数",
+            "text": "课堂用固定种子的伪随机数以便复现；同种子延长次数可观察同一路径前缀。模拟结果是估计，不代替古典概型精确列举。"
+          }
+        }
+      ]
+    },
+    {
+      "paragraph": 171,
+      "source": "★ 高频考法：与统计结合的解答题（分层抽样 + 古典概型/独立事件求概率）；比赛、闯关、\"至少\"\"至多\"问题常用对立事件转化。",
+      "type": "content",
+      "targets": [
+        {
+          "lesson": "b2-frequency",
+          "kind": "note",
+          "index": 2,
+          "title": "从分层到概率",
+          "content": {
+            "title": "从分层到概率",
+            "formula": "先按总体比例分配样本，再写二次抽取样本空间",
+            "text": "无放回下一次构成会变，不能自动用相同概率独立相乘。总体比例、样本比例、事件概率分清研究对象。"
+          }
+        },
+        {
+          "lesson": "b2-frequency",
+          "kind": "example",
+          "index": 1,
+          "title": "分层后再取人",
+          "content": {
+            "title": "分层后再取人",
+            "question": "总体两层12、6人，按比例抽6人，再从样本中不放回取2人，求都前层概率。",
+            "steps": [
+              "分层配额4、2，样本共6人。",
+              "有序总点6×5=30，有利4×3=12。",
+              "概率12/30=2/5；不是(4/6)²，因无放回两次不独立。"
+            ]
+          }
+        },
+        {
+          "lesson": "b2-independent",
+          "kind": "note",
+          "index": 3,
+          "title": "至少、至多、恰好",
+          "content": {
+            "title": "至少、至多、恰好",
+            "formula": "至少一次=1−全失败；至多一次=1−两次全成功",
+            "text": "两次独立成功率p、q时，恰好一次=p(1−q)+(1−p)q；两条恰好一次路径互斥，才可相加。"
+          }
+        },
+        {
+          "lesson": "b2-independent",
+          "kind": "example",
+          "index": 2,
+          "title": "两关至少与恰好",
+          "content": {
+            "title": "两关至少与恰好",
+            "question": "两关独立，通过率0.5、0.8，求至少过一关与恰好过一关。",
+            "steps": [
+              "全失败概率0.5×0.2=0.1。",
+              "至少过一关1−0.1=0.9。",
+              "恰好过一关=0.5×0.2+0.5×0.8=0.5，两条路径互斥。"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "paragraph": 172,
+      "source": "附：高频考点清单与备考建议",
+      "type": "structure-or-metadata",
+      "targets": []
+    },
+    {
+      "paragraph": 173,
+      "source": "一、按题型分布的高频考点",
+      "type": "structure-or-metadata",
+      "targets": []
+    },
+    {
+      "paragraph": 174,
+      "source": "小题高频：复数运算与模、平面向量数量积（垂直/夹角/模）、抽样方法计算、直方图读图、古典概型与独立事件概率。",
+      "type": "content",
+      "targets": [
+        {
+          "lesson": "b2-complex-concept",
+          "kind": "note",
+          "index": 0,
+          "title": "定义与分量",
+          "content": {
+            "title": "定义与分量",
+            "formula": "z=a+bi，a,b∈R；i²=−1",
+            "text": "a为实部，b为虚部，两者都是实数。i是虚数单位，不能把i当作未知实数去开平方比较大小。"
+          }
+        },
+        {
+          "lesson": "b2-complex-concept",
+          "kind": "note",
+          "index": 2,
+          "title": "复平面",
+          "content": {
+            "title": "复平面",
+            "formula": "点Z(a,b) ↔ z=a+bi",
+            "text": "横轴为实轴，纵轴为虚轴；虚轴除原点外对应纯虚数。象限判断用实部与虚部正负。"
+          }
+        },
+        {
+          "lesson": "b2-vector-dot",
+          "kind": "note",
+          "index": 0,
+          "title": "数量积的两种表示",
+          "content": {
+            "title": "数量积的两种表示",
+            "formula": "a·b=|a||b|cosθ=x₁x₂+y₁y₂",
+            "text": "数量积结果是实数。θ仅对非零向量定义，范围[0°,180°]；θ=0°/180°不是锐角/钝角。"
+          }
+        },
+        {
+          "lesson": "b2-vector-dot",
+          "kind": "note",
+          "index": 1,
+          "title": "有向投影与垂直",
+          "content": {
+            "title": "有向投影与垂直",
+            "formula": "projₐb=(a·b)/|a|，a≠0",
+            "text": "投影可正可负，投影长度取绝对值。非零两向量点积为0对应夹角90°；零向量点积也为0但无确定夹角。"
+          }
+        },
+        {
+          "lesson": "b2-stratified",
+          "kind": "note",
+          "index": 0,
+          "title": "按比例分配",
+          "content": {
+            "title": "按比例分配",
+            "formula": "nᵢ=Nᵢ·n/N",
+            "text": "先分层，再在层内简单随机抽样。严格同比例使各个体抽中概率相同；人数必须整数，取整后抽样比可能不同。"
+          }
+        },
+        {
+          "lesson": "b2-histogram",
+          "kind": "note",
+          "index": 1,
+          "title": "面积而非高度",
+          "content": {
+            "title": "面积而非高度",
+            "formula": "柱高=频率/组距；面积=频率；总面积1",
+            "text": "不同组距时不能单看高度判断频率。未知柱高或宽度可借总面积1列方程，频数需再乘样本容量。"
+          }
+        },
+        {
+          "lesson": "b2-classical",
+          "kind": "note",
+          "index": 0,
+          "title": "古典概型的两个条件",
+          "content": {
+            "title": "古典概型的两个条件",
+            "formula": "样本点有限且等可能；P(A)=|A|/|Ω|",
+            "text": "不能把不等可能的概括结果当样本点等权相除；编号和区分试验次序通常有助于找到等可能基本结果。"
+          }
+        },
+        {
+          "lesson": "b2-independent",
+          "kind": "note",
+          "index": 0,
+          "title": "独立的等式",
+          "content": {
+            "title": "独立的等式",
+            "formula": "P(A∩B)=P(A)P(B)",
+            "text": "一事件发生不影响另一事件发生概率是直观含义。不能只凭生活中“看起来无关”就使用乘法，题设应给出或模型能验证独立性。"
+          }
+        }
+      ]
+    },
+    {
+      "paragraph": 175,
+      "source": "大题高频：① 解三角形（正余弦定理+面积公式+三角恒等变换）；② 立体几何（线面平行/垂直证明+体积/表面积计算，或向量法求角）；③ 统计概率综合（频率分布直方图+分层抽样+概率计算）。",
+      "type": "content",
+      "targets": [
+        {
+          "lesson": "b2-triangle-area",
+          "kind": "example",
+          "index": 0,
+          "title": "面积上界与可达",
+          "content": {
+            "title": "面积上界与可达",
+            "question": "两边4、6夹角A，求面积最大值。",
+            "steps": [
+              "S=½×4×6sinA=12sinA。",
+              "有效内角0<A<180°，sinA≤1。",
+              "A=90°能够取到，最大面积12平方单位。"
+            ]
+          }
+        },
+        {
+          "lesson": "b2-triangle-area",
+          "kind": "example",
+          "index": 3,
+          "title": "周长约束的最值",
+          "content": {
+            "title": "周长约束的最值",
+            "question": "等腰三角形周长12，求面积最大值。",
+            "steps": [
+              "设底边2x，腰6−x，0<x<3，高h=√((6−x)²−x²)=√(36−12x)。",
+              "面积平方S²=x²(36−12x)。用x+x+(6−2x)=6且三项为正，基本不等式得x²(6−2x)≤8。",
+              "S²=6x²(6−2x)≤48，在x=2时三项相等取等；三边都是4，最大S=4√3。"
+            ]
+          }
+        },
+        {
+          "lesson": "b2-triangle-area",
+          "kind": "example",
+          "index": 4,
+          "title": "边角互化与恒等变换",
+          "content": {
+            "title": "边角互化与恒等变换",
+            "question": "在△ABC中证明a cosB+b cosA=c。",
+            "steps": [
+              "正弦定理给a=2RsinA、b=2RsinB。",
+              "左边=2R(sinAcosB+sinBcosA)=2Rsin(A+B)。",
+              "A+B=180°−C，故sin(A+B)=sinC；左边=2RsinC=c。"
+            ]
+          }
+        },
+        {
+          "lesson": "b2-space-parallel",
+          "kind": "example",
+          "index": 0,
+          "title": "四面体中点线",
+          "content": {
+            "title": "四面体中点线",
+            "question": "四面体SABC，M、N分别为SA、SB中点，证明MN∥平面ABC。",
+            "steps": [
+              "在△SAB中，中位线MN∥AB。",
+              "AB⊂平面ABC；M在底面外，故MN不包含于底面。",
+              "由线面平行判定MN∥平面ABC。"
+            ]
+          }
+        },
+        {
+          "lesson": "b2-space-parallel",
+          "kind": "example",
+          "index": 1,
+          "title": "正方体两底平行",
+          "content": {
+            "title": "正方体两底平行",
+            "question": "证明正方体顶面A₁B₁C₁D₁与底面ABCD平行。",
+            "steps": [
+              "顶面相交线A₁B₁、A₁D₁分别平行底面内AB、AD。",
+              "两顶边均在底面外，由线面平行判定它们都平行底面。",
+              "顶面内两条相交线满足判定，故顶底两面平行。"
+            ]
+          }
+        },
+        {
+          "lesson": "b2-solid-volume",
+          "kind": "example",
+          "index": 0,
+          "title": "同底高比较",
+          "content": {
+            "title": "同底高比较",
+            "question": "正方形底边2，高3，求柱锥体积。",
+            "steps": [
+              "底面积S=4。",
+              "柱V=4×3=12；锥V=4×3/3=4。",
+              "锥柱比1/3，长度单位为厘米时体积单位为立方厘米。"
+            ]
+          }
+        },
+        {
+          "lesson": "b2-solid-volume",
+          "kind": "example",
+          "index": 2,
+          "title": "球的外切圆柱",
+          "content": {
+            "title": "球的外切圆柱",
+            "question": "球半径2，求最小外切直圆柱体积与球柱比。",
+            "steps": [
+              "圆柱半径2、高4，体积π×4×4=16π。",
+              "球体积4π×8/3=32π/3。",
+              "比值(32π/3)/(16π)=2/3；轴截面圆内切矩形说明尺寸刚好。"
+            ]
+          }
+        },
+        {
+          "lesson": "b2-solid-volume",
+          "kind": "example",
+          "index": 3,
+          "title": "等体积求垂距",
+          "content": {
+            "title": "等体积求垂距",
+            "question": "四面体体积4，某底面面积6，求对顶点到该底面距离。",
+            "steps": [
+              "锥体体积V=Sh/3，高必须是垂距。",
+              "h=3V/S=3×4/6=2。",
+              "原来用其他底算出体积也不改变这个结果；斜棱长度不能直接代替h。"
+            ]
+          }
+        },
+        {
+          "lesson": "b2-solid-volume",
+          "kind": "example",
+          "index": 4,
+          "title": "圆锥内切球的轴截面",
+          "content": {
+            "title": "圆锥内切球的轴截面",
+            "question": "直圆锥底半径3、高4，求内切球半径。",
+            "steps": [
+              "轴截面是底边6、腰长√(3²+4²)=5的等腰三角形，面积12、半周长8。",
+              "内切圆半径ρ=S/s=12/8=1.5；绕轴旋转后成为同时切底面和锥面的球。",
+              "球半径1.5，体积4π×1.5³/3=4.5π；空间切接由对称轴截面解决。"
+            ]
+          }
+        },
+        {
+          "lesson": "b2-frequency",
+          "kind": "example",
+          "index": 1,
+          "title": "分层后再取人",
+          "content": {
+            "title": "分层后再取人",
+            "question": "总体两层12、6人，按比例抽6人，再从样本中不放回取2人，求都前层概率。",
+            "steps": [
+              "分层配额4、2，样本共6人。",
+              "有序总点6×5=30，有利4×3=12。",
+              "概率12/30=2/5；不是(4/6)²，因无放回两次不独立。"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "paragraph": 176,
+      "source": "易错清单：向量夹角范围与投影方向、SSA 多解讨论、异面直线所成角范围、斜二测面积比、直方图纵轴含义（频率/组距而非频率）、百分位数取数规则、\"至少有一个\"用对立事件。",
+      "type": "content",
+      "targets": [
+        {
+          "lesson": "b2-vector-dot",
+          "kind": "note",
+          "index": 0,
+          "title": "数量积的两种表示",
+          "content": {
+            "title": "数量积的两种表示",
+            "formula": "a·b=|a||b|cosθ=x₁x₂+y₁y₂",
+            "text": "数量积结果是实数。θ仅对非零向量定义，范围[0°,180°]；θ=0°/180°不是锐角/钝角。"
+          }
+        },
+        {
+          "lesson": "b2-vector-dot",
+          "kind": "note",
+          "index": 1,
+          "title": "有向投影与垂直",
+          "content": {
+            "title": "有向投影与垂直",
+            "formula": "projₐb=(a·b)/|a|，a≠0",
+            "text": "投影可正可负，投影长度取绝对值。非零两向量点积为0对应夹角90°；零向量点积也为0但无确定夹角。"
+          }
+        },
+        {
+          "lesson": "b2-sine-rule",
+          "kind": "note",
+          "index": 2,
+          "title": "用高度分类",
+          "content": {
+            "title": "用高度分类",
+            "formula": "锐角A时h=b sinA",
+            "text": "a<h无解，a=h一解，h<a<b两解，a≥b一解。A为直角或钝角时须a>b才一解，否则无解；数据有效性先检查。"
+          }
+        },
+        {
+          "lesson": "b2-space-position",
+          "kind": "note",
+          "index": 3,
+          "title": "异面角与等角定理",
+          "content": {
+            "title": "异面角与等角定理",
+            "formula": "异面所成角取(0°,90°]",
+            "text": "平移一线使相交，再取较小的方向角；两角的边分别平行时角相等或互补，不能一律判相等。判断异面常用假设共面推矛盾。"
+          }
+        },
+        {
+          "lesson": "b2-oblique",
+          "kind": "note",
+          "index": 2,
+          "title": "面积比例",
+          "content": {
+            "title": "面积比例",
+            "formula": "S图=(√2/4)S原；S原=2√2S图",
+            "text": "一方向缩半，又有sin45°因子。135°的正弦相同；此比例针对原平面图形的斜二测表示，不直接套任意空间表面。"
+          }
+        },
+        {
+          "lesson": "b2-histogram",
+          "kind": "note",
+          "index": 1,
+          "title": "面积而非高度",
+          "content": {
+            "title": "面积而非高度",
+            "formula": "柱高=频率/组距；面积=频率；总面积1",
+            "text": "不同组距时不能单看高度判断频率。未知柱高或宽度可借总面积1列方程，频数需再乘样本容量。"
+          }
+        },
+        {
+          "lesson": "b2-data-center",
+          "kind": "note",
+          "index": 3,
+          "title": "本课百分位规则",
+          "content": {
+            "title": "本课百分位规则",
+            "formula": "i=n·p/100；非整数取第⌊i⌋+1项，整数取第i、i+1项平均",
+            "text": "适用于0<p<100且非空排序数据。p=0约定最小值，p=100最大值，避免数组越界。不同软件的插值定义可能不同，题目给出规则时按题意。"
+          }
+        },
+        {
+          "lesson": "b2-independent",
+          "kind": "note",
+          "index": 3,
+          "title": "至少、至多、恰好",
+          "content": {
+            "title": "至少、至多、恰好",
+            "formula": "至少一次=1−全失败；至多一次=1−两次全成功",
+            "text": "两次独立成功率p、q时，恰好一次=p(1−q)+(1−p)q；两条恰好一次路径互斥，才可相加。"
+          }
+        }
+      ]
+    },
+    {
+      "paragraph": 177,
+      "source": "二、核心公式速记卡",
+      "type": "structure-or-metadata",
+      "targets": []
+    },
+    {
+      "paragraph": 178,
+      "source": "数量积：a→·b→ = |a→||b→|cosθ = x₁x₂+y₁y₂；垂直 ⟺ x₁x₂+y₁y₂=0；平行 ⟺ x₁y₂−x₂y₁=0",
+      "type": "content",
+      "targets": [
+        {
+          "lesson": "b2-vector-dot",
+          "kind": "note",
+          "index": 0,
+          "title": "数量积的两种表示",
+          "content": {
+            "title": "数量积的两种表示",
+            "formula": "a·b=|a||b|cosθ=x₁x₂+y₁y₂",
+            "text": "数量积结果是实数。θ仅对非零向量定义，范围[0°,180°]；θ=0°/180°不是锐角/钝角。"
+          }
+        },
+        {
+          "lesson": "b2-vector-dot",
+          "kind": "note",
+          "index": 1,
+          "title": "有向投影与垂直",
+          "content": {
+            "title": "有向投影与垂直",
+            "formula": "projₐb=(a·b)/|a|，a≠0",
+            "text": "投影可正可负，投影长度取绝对值。非零两向量点积为0对应夹角90°；零向量点积也为0但无确定夹角。"
+          }
+        },
+        {
+          "lesson": "b2-vector-scale",
+          "kind": "note",
+          "index": 3,
+          "title": "三点共线与坐标",
+          "content": {
+            "title": "三点共线与坐标",
+            "formula": "AB=λAC（C≠A）；x₁y₂−x₂y₁=0",
+            "text": "行列式为0可处理分量为0的情形，避免用坐标比除零。判断三点时先看点是否重合；证明共线仍要写明对应向量。"
+          }
+        }
+      ]
+    },
+    {
+      "paragraph": 179,
+      "source": "正弦定理 a/sinA = 2R；余弦定理 a² = b²+c²−2bc·cosA；面积 S = (1/2)ab·sinC",
+      "type": "content",
+      "targets": [
+        {
+          "lesson": "b2-sine-rule",
+          "kind": "note",
+          "index": 0,
+          "title": "正弦定理",
+          "content": {
+            "title": "正弦定理",
+            "formula": "a/sinA=b/sinB=c/sinC=2R",
+            "text": "三角形内角均在(0°,180°)，边与对角一一对应，R为外接圆半径。已知两角一边可先求第三角。"
+          }
+        },
+        {
+          "lesson": "b2-cosine-rule",
+          "kind": "note",
+          "index": 0,
+          "title": "边和对角",
+          "content": {
+            "title": "边和对角",
+            "formula": "a²=b²+c²−2bc cosA",
+            "text": "边a必须与角A相对，b、c是构成A的两边。可由向量差模平方推导，是勾股定理的推广。"
+          }
+        },
+        {
+          "lesson": "b2-triangle-area",
+          "kind": "note",
+          "index": 0,
+          "title": "两边与夹角求面积",
+          "content": {
+            "title": "两边与夹角求面积",
+            "formula": "S=½ab sinC=½bc sinA=½ac sinB",
+            "text": "所用角必须是两条边的夹角。固定b、c时sinA≤1，A=90°取面积上界bc/2。"
+          }
+        }
+      ]
+    },
+    {
+      "paragraph": 180,
+      "source": "z·z̄ = |z|² = a²+b²；i²=−1，i 的幂周期为 4",
+      "type": "content",
+      "targets": [
+        {
+          "lesson": "b2-complex-geometry",
+          "kind": "note",
+          "index": 1,
+          "title": "模与乘积",
+          "content": {
+            "title": "模与乘积",
+            "formula": "|z|=√(a²+b²)，z z̄=a²+b²=|z|²",
+            "text": "模是对应点到原点距离，非负实数。相同模对应同一个以原点为圆心的圆，不等于复数相等。"
+          }
+        },
+        {
+          "lesson": "b2-complex-arithmetic",
+          "kind": "note",
+          "index": 3,
+          "title": "i的周期性",
+          "content": {
+            "title": "i的周期性",
+            "formula": "i⁰=1，i¹=i，i²=−1，i³=−i，i⁴=1",
+            "text": "非负整数指数按模4余数循环。(1+i)²=2i，(1−i)²=−2i；注意负号与指数范围。"
+          }
+        }
+      ]
+    },
+    {
+      "paragraph": 181,
+      "source": "V_柱=Sh；V_锥=(1/3)Sh；V_球=(4/3)πR³；S_球=4πR²",
+      "type": "content",
+      "targets": [
+        {
+          "lesson": "b2-solid-volume",
+          "kind": "note",
+          "index": 0,
+          "title": "柱锥体积",
+          "content": {
+            "title": "柱锥体积",
+            "formula": "柱V=Sh；锥V=Sh/3",
+            "text": "高是两平行底面间或顶点到底面的垂距，不是斜棱/母线。同底同高锥是柱的1/3，截面积相等的等高立体可用祖暅思想比较体积。"
+          }
+        },
+        {
+          "lesson": "b2-solid-volume",
+          "kind": "note",
+          "index": 2,
+          "title": "球与切接",
+          "content": {
+            "title": "球与切接",
+            "formula": "V球=4πR³/3；轴截面可转平面圆问题",
+            "text": "球的最小外切直圆柱半径R、高2R，球柱体积比2/3。切接还要检验中心、半径和高度，不能只比较体积。"
+          }
+        },
+        {
+          "lesson": "b2-solid-surface",
+          "kind": "note",
+          "index": 2,
+          "title": "圆台与球",
+          "content": {
+            "title": "圆台与球",
+            "formula": "圆台S侧=π(R+r)l；球S=4πR²",
+            "text": "圆台母线与高满足l²=h²+(R−r)²；圆台表面积再加两底。球表面积无平面展开公式，不能用投影圆面积替代。"
+          }
+        }
+      ]
+    },
+    {
+      "paragraph": 182,
+      "source": "s² = (1/n)Σ(x_i−x̄)² = (1/n)Σx_i² − x̄²",
+      "type": "content",
+      "targets": [
+        {
+          "lesson": "b2-data-spread",
+          "kind": "note",
+          "index": 0,
+          "title": "描述性方差",
+          "content": {
+            "title": "描述性方差",
+            "formula": "s²=(1/n)Σ(xᵢ−x̄)²",
+            "text": "衡量数据偏离均值的平方平均。非负；全部数据相同才为0。这里分母n，切勿混用其他统计任务中的n−1公式。"
+          }
+        },
+        {
+          "lesson": "b2-data-spread",
+          "kind": "note",
+          "index": 1,
+          "title": "计算恒等式",
+          "content": {
+            "title": "计算恒等式",
+            "formula": "s²=(1/n)Σxᵢ²−x̄²",
+            "text": "两式等价，手算可选方便的一式；计算机用离均差形式减少大数相减精度损失。"
+          }
+        }
+      ]
+    },
+    {
+      "paragraph": 183,
+      "source": "古典概型 P(A)=样本点数之比；独立事件 P(AB)=P(A)P(B)；对立事件 P(A)=1−P(Ā)",
+      "type": "content",
+      "targets": [
+        {
+          "lesson": "b2-classical",
+          "kind": "note",
+          "index": 0,
+          "title": "古典概型的两个条件",
+          "content": {
+            "title": "古典概型的两个条件",
+            "formula": "样本点有限且等可能；P(A)=|A|/|Ω|",
+            "text": "不能把不等可能的概括结果当样本点等权相除；编号和区分试验次序通常有助于找到等可能基本结果。"
+          }
+        },
+        {
+          "lesson": "b2-independent",
+          "kind": "note",
+          "index": 0,
+          "title": "独立的等式",
+          "content": {
+            "title": "独立的等式",
+            "formula": "P(A∩B)=P(A)P(B)",
+            "text": "一事件发生不影响另一事件发生概率是直观含义。不能只凭生活中“看起来无关”就使用乘法，题设应给出或模型能验证独立性。"
+          }
+        },
+        {
+          "lesson": "b2-independent",
+          "kind": "note",
+          "index": 3,
+          "title": "至少、至多、恰好",
+          "content": {
+            "title": "至少、至多、恰好",
+            "formula": "至少一次=1−全失败；至多一次=1−两次全成功",
+            "text": "两次独立成功率p、q时，恰好一次=p(1−q)+(1−p)q；两条恰好一次路径互斥，才可相加。"
+          }
+        }
+      ]
+    },
+    {
+      "paragraph": 184,
+      "source": "注：以上内容按人教A版（2019）必修第二册整理，不同版本教材章节顺序略有差异（旧人教版必修2含立体几何、直线与圆、概率），请以所用教材目录为准对照复习。",
+      "type": "structure-or-metadata",
+      "targets": []
+    }
+  ]
+}

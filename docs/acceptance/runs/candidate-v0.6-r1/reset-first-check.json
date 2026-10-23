@@ -1,0 +1,579 @@
+{
+  "safety": {
+    "shiftTabTrap": true,
+    "tabTrap": true,
+    "escapeCloses": true,
+    "cancelPreserves": true,
+    "resetOnlyCurrent": false,
+    "resetCurrentStartsFresh": true,
+    "legacyUnaffected": true
+  },
+  "changes": [
+    {
+      "id": "line",
+      "keys": [
+        "view",
+        "labs",
+        "answers"
+      ]
+    },
+    {
+      "id": "lines",
+      "keys": [
+        "view",
+        "labs",
+        "answers"
+      ]
+    },
+    {
+      "id": "circle",
+      "keys": [
+        "view",
+        "labs",
+        "answers"
+      ]
+    },
+    {
+      "id": "circles",
+      "keys": [
+        "view",
+        "labs",
+        "answers"
+      ]
+    },
+    {
+      "id": "methods",
+      "keys": [
+        "view",
+        "labs",
+        "answers"
+      ]
+    },
+    {
+      "id": "space-vectors",
+      "keys": [
+        "view",
+        "labs",
+        "answers"
+      ]
+    },
+    {
+      "id": "space-relations",
+      "keys": [
+        "view",
+        "labs",
+        "answers"
+      ]
+    },
+    {
+      "id": "space-angles",
+      "keys": [
+        "view",
+        "labs",
+        "answers"
+      ]
+    },
+    {
+      "id": "space-distance",
+      "keys": [
+        "view",
+        "labs",
+        "answers"
+      ]
+    },
+    {
+      "id": "space-solids",
+      "keys": [
+        "view",
+        "labs",
+        "answers"
+      ]
+    },
+    {
+      "id": "space-constructions",
+      "keys": [
+        "view",
+        "labs",
+        "answers"
+      ]
+    },
+    {
+      "id": "ellipse",
+      "keys": [
+        "view",
+        "labs",
+        "answers"
+      ]
+    },
+    {
+      "id": "hyperbola",
+      "keys": [
+        "view",
+        "labs",
+        "answers"
+      ]
+    },
+    {
+      "id": "parabola",
+      "keys": [
+        "view",
+        "labs",
+        "answers"
+      ]
+    },
+    {
+      "id": "conic-focus",
+      "keys": [
+        "view",
+        "labs",
+        "answers"
+      ]
+    },
+    {
+      "id": "conic-intersections",
+      "keys": [
+        "view",
+        "labs",
+        "answers"
+      ]
+    },
+    {
+      "id": "conic-midpoint",
+      "keys": [
+        "view",
+        "labs",
+        "answers"
+      ]
+    },
+    {
+      "id": "conic-methods",
+      "keys": [
+        "view",
+        "labs",
+        "answers"
+      ]
+    },
+    {
+      "id": "b1-set-concept",
+      "keys": [
+        "view",
+        "labs",
+        "answers"
+      ]
+    },
+    {
+      "id": "b1-set-relations",
+      "keys": [
+        "view",
+        "labs",
+        "answers"
+      ]
+    },
+    {
+      "id": "b1-set-operations",
+      "keys": [
+        "view",
+        "labs",
+        "answers"
+      ]
+    },
+    {
+      "id": "b1-conditions",
+      "keys": [
+        "view",
+        "labs",
+        "answers"
+      ]
+    },
+    {
+      "id": "b1-quantifiers",
+      "keys": [
+        "view",
+        "labs",
+        "answers"
+      ]
+    },
+    {
+      "id": "b1-inequality-rules",
+      "keys": [
+        "view",
+        "labs",
+        "answers"
+      ]
+    },
+    {
+      "id": "b1-amgm",
+      "keys": [
+        "view",
+        "labs",
+        "answers"
+      ]
+    },
+    {
+      "id": "b1-quadratic",
+      "keys": [
+        "view",
+        "labs",
+        "answers"
+      ]
+    },
+    {
+      "id": "b1-function-concept",
+      "keys": [
+        "view",
+        "labs",
+        "answers"
+      ]
+    },
+    {
+      "id": "b1-function-properties",
+      "keys": [
+        "view",
+        "labs",
+        "answers"
+      ]
+    },
+    {
+      "id": "b1-power",
+      "keys": [
+        "view",
+        "labs",
+        "answers"
+      ]
+    },
+    {
+      "id": "b1-model-one",
+      "keys": [
+        "view",
+        "labs",
+        "answers"
+      ]
+    },
+    {
+      "id": "b1-exponents",
+      "keys": [
+        "view",
+        "labs",
+        "answers"
+      ]
+    },
+    {
+      "id": "b1-exponential",
+      "keys": [
+        "view",
+        "labs",
+        "answers"
+      ]
+    },
+    {
+      "id": "b1-logarithms",
+      "keys": [
+        "view",
+        "labs",
+        "answers"
+      ]
+    },
+    {
+      "id": "b1-log-function",
+      "keys": [
+        "view",
+        "labs",
+        "answers"
+      ]
+    },
+    {
+      "id": "b1-model-two",
+      "keys": [
+        "view",
+        "labs",
+        "answers"
+      ]
+    },
+    {
+      "id": "b1-angles",
+      "keys": [
+        "view",
+        "labs",
+        "answers"
+      ]
+    },
+    {
+      "id": "b1-trig-definition",
+      "keys": [
+        "view",
+        "labs",
+        "answers"
+      ]
+    },
+    {
+      "id": "b1-trig-reduction",
+      "keys": [
+        "view",
+        "labs",
+        "answers"
+      ]
+    },
+    {
+      "id": "b1-trig-graphs",
+      "keys": [
+        "view",
+        "labs",
+        "answers"
+      ]
+    },
+    {
+      "id": "b1-trig-identities",
+      "keys": [
+        "view",
+        "labs",
+        "answers"
+      ]
+    },
+    {
+      "id": "b1-sine-parameters",
+      "keys": [
+        "view",
+        "labs",
+        "answers"
+      ]
+    },
+    {
+      "id": "b1-trig-model",
+      "keys": [
+        "view",
+        "labs",
+        "answers"
+      ]
+    },
+    {
+      "id": "b2-vector-concept",
+      "keys": [
+        "view",
+        "labs",
+        "answers"
+      ]
+    },
+    {
+      "id": "b2-vector-add",
+      "keys": [
+        "view",
+        "labs",
+        "answers"
+      ]
+    },
+    {
+      "id": "b2-vector-scale",
+      "keys": [
+        "view",
+        "labs",
+        "answers"
+      ]
+    },
+    {
+      "id": "b2-vector-basis",
+      "keys": [
+        "view",
+        "labs",
+        "answers"
+      ]
+    },
+    {
+      "id": "b2-vector-dot",
+      "keys": [
+        "view",
+        "labs",
+        "answers"
+      ]
+    },
+    {
+      "id": "b2-cosine-rule",
+      "keys": [
+        "view",
+        "labs",
+        "answers"
+      ]
+    },
+    {
+      "id": "b2-sine-rule",
+      "keys": [
+        "view",
+        "labs",
+        "answers"
+      ]
+    },
+    {
+      "id": "b2-triangle-area",
+      "keys": [
+        "view",
+        "labs",
+        "answers"
+      ]
+    },
+    {
+      "id": "b2-complex-concept",
+      "keys": [
+        "view",
+        "labs",
+        "answers"
+      ]
+    },
+    {
+      "id": "b2-complex-arithmetic",
+      "keys": [
+        "view",
+        "labs",
+        "answers"
+      ]
+    },
+    {
+      "id": "b2-complex-geometry",
+      "keys": [
+        "view",
+        "labs",
+        "answers"
+      ]
+    },
+    {
+      "id": "b2-solid-shapes",
+      "keys": [
+        "view",
+        "labs",
+        "answers"
+      ]
+    },
+    {
+      "id": "b2-oblique",
+      "keys": [
+        "view",
+        "labs",
+        "answers"
+      ]
+    },
+    {
+      "id": "b2-solid-surface",
+      "keys": [
+        "view",
+        "labs",
+        "answers"
+      ]
+    },
+    {
+      "id": "b2-solid-volume",
+      "keys": [
+        "view",
+        "labs",
+        "answers"
+      ]
+    },
+    {
+      "id": "b2-space-position",
+      "keys": [
+        "view",
+        "labs",
+        "answers"
+      ]
+    },
+    {
+      "id": "b2-space-parallel",
+      "keys": [
+        "view",
+        "labs",
+        "answers"
+      ]
+    },
+    {
+      "id": "b2-space-perpendicular",
+      "keys": [
+        "view",
+        "labs",
+        "answers"
+      ]
+    },
+    {
+      "id": "b2-space-angle-distance",
+      "keys": [
+        "view",
+        "labs",
+        "answers"
+      ]
+    },
+    {
+      "id": "b2-random-sampling",
+      "keys": [
+        "view",
+        "labs",
+        "answers"
+      ]
+    },
+    {
+      "id": "b2-stratified",
+      "keys": [
+        "view",
+        "labs",
+        "answers"
+      ]
+    },
+    {
+      "id": "b2-data-center",
+      "keys": [
+        "view",
+        "labs",
+        "answers"
+      ]
+    },
+    {
+      "id": "b2-data-spread",
+      "keys": [
+        "view",
+        "labs",
+        "answers"
+      ]
+    },
+    {
+      "id": "b2-histogram",
+      "keys": [
+        "view",
+        "labs",
+        "answers"
+      ]
+    },
+    {
+      "id": "b2-events",
+      "keys": [
+        "view",
+        "labs",
+        "answers"
+      ]
+    },
+    {
+      "id": "b2-classical",
+      "keys": [
+        "view",
+        "labs",
+        "answers"
+      ]
+    },
+    {
+      "id": "b2-independent",
+      "keys": [
+        "view",
+        "labs",
+        "answers"
+      ]
+    },
+    {
+      "id": "b2-frequency",
+      "keys": [
+        "stage",
+        "unlocked",
+        "scene",
+        "lab",
+        "view",
+        "labs",
+        "examples",
+        "answers",
+        "complete"
+      ]
+    }
+  ]
+}

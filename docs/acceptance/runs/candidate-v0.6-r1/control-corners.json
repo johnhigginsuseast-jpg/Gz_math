@@ -1,0 +1,142 @@
+[
+  {
+    "corners": 4,
+    "id": "b2-vector-concept",
+    "invalidInputs": 8
+  },
+  {
+    "corners": 4,
+    "id": "b2-vector-add",
+    "invalidInputs": 8
+  },
+  {
+    "corners": 4,
+    "id": "b2-vector-scale",
+    "invalidInputs": 8
+  },
+  {
+    "corners": 4,
+    "id": "b2-vector-basis",
+    "invalidInputs": 8
+  },
+  {
+    "corners": 4,
+    "id": "b2-vector-dot",
+    "invalidInputs": 8
+  },
+  {
+    "corners": 4,
+    "id": "b2-cosine-rule",
+    "invalidInputs": 8
+  },
+  {
+    "corners": 4,
+    "id": "b2-sine-rule",
+    "invalidInputs": 8
+  },
+  {
+    "corners": 4,
+    "id": "b2-triangle-area",
+    "invalidInputs": 8
+  },
+  {
+    "corners": 8,
+    "id": "b2-complex-concept",
+    "invalidInputs": 8
+  },
+  {
+    "corners": 10,
+    "id": "b2-complex-arithmetic",
+    "invalidInputs": 8
+  },
+  {
+    "corners": 8,
+    "id": "b2-complex-geometry",
+    "invalidInputs": 8
+  },
+  {
+    "corners": 4,
+    "id": "b2-solid-shapes",
+    "invalidInputs": 8
+  },
+  {
+    "corners": 6,
+    "id": "b2-oblique",
+    "invalidInputs": 8
+  },
+  {
+    "corners": 4,
+    "id": "b2-solid-surface",
+    "invalidInputs": 8
+  },
+  {
+    "corners": 4,
+    "id": "b2-solid-volume",
+    "invalidInputs": 8
+  },
+  {
+    "corners": 8,
+    "id": "b2-space-position",
+    "invalidInputs": 8
+  },
+  {
+    "corners": 4,
+    "id": "b2-space-parallel",
+    "invalidInputs": 8
+  },
+  {
+    "corners": 4,
+    "id": "b2-space-perpendicular",
+    "invalidInputs": 8
+  },
+  {
+    "corners": 4,
+    "id": "b2-space-angle-distance",
+    "invalidInputs": 8
+  },
+  {
+    "corners": 8,
+    "id": "b2-random-sampling",
+    "invalidInputs": 8
+  },
+  {
+    "corners": 4,
+    "id": "b2-stratified",
+    "invalidInputs": 8
+  },
+  {
+    "corners": 4,
+    "id": "b2-data-center",
+    "invalidInputs": 8
+  },
+  {
+    "corners": 6,
+    "id": "b2-data-spread",
+    "invalidInputs": 8
+  },
+  {
+    "corners": 4,
+    "id": "b2-histogram",
+    "invalidInputs": 8
+  },
+  {
+    "corners": 4,
+    "id": "b2-events",
+    "invalidInputs": 8
+  },
+  {
+    "corners": 4,
+    "id": "b2-classical",
+    "invalidInputs": 8
+  },
+  {
+    "corners": 4,
+    "id": "b2-independent",
+    "invalidInputs": 8
+  },
+  {
+    "corners": 6,
+    "id": "b2-frequency",
+    "invalidInputs": 8
+  }
+]

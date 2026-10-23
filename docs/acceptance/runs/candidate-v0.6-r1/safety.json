@@ -1,0 +1,15 @@
+{
+  "shiftTabTrap": true,
+  "tabTrap": true,
+  "escapeCloses": true,
+  "cancelPreserves": true,
+  "resetOnlyCurrent": true,
+  "resetCurrentStartsFresh": true,
+  "legacyUnaffected": true,
+  "rangeKeyboard": true,
+  "writeFailureNotice": true,
+  "readFailureNotice": true,
+  "readFailurePreserves": true,
+  "corruptNotice": true,
+  "corruptLegacyPreserved": true
+}

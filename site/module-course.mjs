@@ -2,6 +2,7 @@ import { control, lab, note, example, quiz } from './lesson-data.mjs';
 import { solidLessons } from './solid-course.mjs';
 import { conicLessons } from './conic-course.mjs';
 import { bookLessons } from './book-course.mjs';
+import { book2Lessons } from './book2-course.mjs';
 
 const lineLessons = [
   {
@@ -166,8 +167,9 @@ export const modules = [
   { id:'lines',title:'直线与圆的方程',subtitle:'直线、圆与位置关系，用方程连接图形与方法',symbol:'⊘',number:'02',lessonIds:lineLessons.map(l=>l.id) },
   { id:'conics',title:'圆锥曲线',subtitle:'从距离定义出发，探索焦点、弦、轨迹与综合题',symbol:'⬭',number:'03',lessonIds:conicLessons.map(l=>l.id) },
   { id:'book',title:'必修一',subtitle:'集合与逻辑、不等式、函数、指数对数、三角函数，五章循序探究',symbol:'f(x)',number:'04',lessonIds:bookLessons.map(l=>l.id) },
+  { id:'book2',title:'必修二',subtitle:'平面向量、复数、立体几何初步、统计与概率，五章循序探究',symbol:'Ω',number:'05',lessonIds:book2Lessons.map(l=>l.id) },
 ];
-export const lessons = [...lineLessons.map(l=>({...l,moduleId:'lines'})),...solidLessons.map(l=>({...l,moduleId:'solid'})),...conicLessons.map(l=>({...l,moduleId:'conics'})),...bookLessons.map(l=>({...l,moduleId:'book'}))];
+export const lessons = [...lineLessons.map(l=>({...l,moduleId:'lines'})),...solidLessons.map(l=>({...l,moduleId:'solid'})),...conicLessons.map(l=>({...l,moduleId:'conics'})),...bookLessons.map(l=>({...l,moduleId:'book'})),...book2Lessons.map(l=>({...l,moduleId:'book2'}))];
 export const moduleKey = 'geometry-module-v1';
 
 export function freshLesson(lesson) {

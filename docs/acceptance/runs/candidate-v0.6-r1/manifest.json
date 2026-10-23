@@ -1,0 +1,287 @@
+{
+  "candidate": "candidate-v0.6-r1",
+  "createdAt": "2026-10-23T17:30:26.6148936+08:00",
+  "head": "52950f946b7168139694e3f5e73d70e452ef1d2b",
+  "status": [
+    " M AI_CHANGELOG.md",
+    " M docs/project-status.md",
+    " M package.json",
+    " M server.mjs",
+    " M site/index.html",
+    " M site/module-app.mjs",
+    " M site/module-course.mjs",
+    " M site/module.css",
+    " M tests/advanced.test.mjs",
+    " M tests/book.test.mjs",
+    " M tests/module.test.mjs",
+    "?? docs/acceptance/criteria-v0.6.md",
+    "?? docs/phases/v0.6-requirements.md",
+    "?? docs/requirements/requirements-v0.6.md",
+    "?? docs/requirements/source-coverage-v0.6.json",
+    "?? docs/requirements/source-extract-v0.6.txt",
+    "?? docs/requirements/source-map-v0.6.md",
+    "?? docs/testing/v0.6/",
+    "?? site/book2-complex-labs.mjs",
+    "?? site/book2-complex.mjs",
+    "?? site/book2-course.mjs",
+    "?? site/book2-data-labs.mjs",
+    "?? site/book2-labs.mjs",
+    "?? site/book2-math.mjs",
+    "?? site/book2-probability.mjs",
+    "?? site/book2-solid-labs.mjs",
+    "?? site/book2-solid.mjs",
+    "?? site/book2-statistics.mjs",
+    "?? site/book2-vector-labs.mjs",
+    "?? site/book2-vectors.mjs",
+    "?? tests/book2.test.mjs",
+    "?? \"\\351\\253\\230\\344\\270\\255\\346\\225\\260\\345\\255\\246\\345\\277\\205\\344\\277\\256\\344\\272\\214\\347\\237\\245\\350\\257\\206\\347\\202\\271\\350\\200\\203\\347\\202\\271\\346\\225\\264\\347\\220\\206.docx\""
+  ],
+  "files": [
+    {
+      "path": "docs/acceptance/criteria-v0.6.md",
+      "sha256": "fd085289adffd3394d18ed446895348197d24f22a19884b0321f3f02ae7b67b9"
+    },
+    {
+      "path": "docs/requirements/requirements-v0.6.md",
+      "sha256": "b9303f2ad8399d44cc5ac420b36a853b82466d38e48401578b43c7e2087eab2c"
+    },
+    {
+      "path": "docs/requirements/source-coverage-v0.6.json",
+      "sha256": "6a6ccce42eac84a48b87bc5ea98c1675d459e22e2a39f5a87b96bc5eec9234a0"
+    },
+    {
+      "path": "docs/requirements/source-extract-v0.6.txt",
+      "sha256": "0c106fcbfa7f6f08c4bd144aff3eabdfd0a1ad36dffa6a332057acd93c489130"
+    },
+    {
+      "path": "docs/requirements/source-map-v0.6.md",
+      "sha256": "0d449f47f1a2ce773a2cbbac39233bafafc2286a575a69e346aeed51fbcbc26c"
+    },
+    {
+      "path": "docs/testing/v0.6/browser-flow.js",
+      "sha256": "29b112d2b8e537f03a4b09a74786629e2f21189a251fb1f1301bd3304eb8c833"
+    },
+    {
+      "path": "docs/testing/v0.6/fixtures/v0.5-actual-legacy.json",
+      "sha256": "0c6e80e2a7a38b474f9f879574c69f68396a11c8ad8c64417f3eb7031d960011"
+    },
+    {
+      "path": "docs/testing/v0.6/fixtures/v0.5-actual-module.json",
+      "sha256": "14529f4ed38ed13ee0e47e6d5df79fba97d7b2285e5dfea1a432991351526079"
+    },
+    {
+      "path": "docs/testing/v0.6/lab-expectations.json",
+      "sha256": "013df34b5b94a3399051048a388a094254e0f37b853b9bce2b80030f9b1cb6c0"
+    },
+    {
+      "path": "docs/testing/v0.6/quiz-expectations.json",
+      "sha256": "10794086bdc2362ab15cd6ae5e8091d50cc002679b5b1167175cd75a5cb6d084"
+    },
+    {
+      "path": "package.json",
+      "sha256": "89a9df10d0fa8f5b019f7181480ba32d319dfad8b5dfd9266f267bd6b56f41f1"
+    },
+    {
+      "path": "server.mjs",
+      "sha256": "043120eb7ffc2dba7ab44b220a889a42570dae85bde0711d959d49e4cef7a323"
+    },
+    {
+      "path": "site/advanced-labs.mjs",
+      "sha256": "efdda79e31d6cfeada403d0d5ebba724f5143aaa405683ea8d48a806ce3a604f"
+    },
+    {
+      "path": "site/advanced-math.mjs",
+      "sha256": "c06d88dcbfafddb3e161ea55cd0af13e7730faf5f2823d77d721750763b210cc"
+    },
+    {
+      "path": "site/app.mjs",
+      "sha256": "9887ae2a58eaf2b60fddccd7e71b7492611cb8572080fd559f8865704e809145"
+    },
+    {
+      "path": "site/assets/logo.svg",
+      "sha256": "33502fb20cf08efaf88d09a7418532fd497784a2268b1eee38dba8e46c52b740"
+    },
+    {
+      "path": "site/book-course.mjs",
+      "sha256": "df1249cac3eee331416a66e8aaeee954121db20999167c5a0f2f99dcf5fbab91"
+    },
+    {
+      "path": "site/book-explog.mjs",
+      "sha256": "9bab802ebb4dc8159c74c99ff69073a1b0a0861a465a3f7b78e49eab42a871e6"
+    },
+    {
+      "path": "site/book-functions.mjs",
+      "sha256": "0e0587c834be0a4caf26511fd06e4bcf4fab716f1d10258c7d69f6cfca4d0096"
+    },
+    {
+      "path": "site/book-inequalities.mjs",
+      "sha256": "681702e4629da282fd37b6eed7f288a33da9cf311fbe3a1b79152f59c1104243"
+    },
+    {
+      "path": "site/book-labs.mjs",
+      "sha256": "5cab84dd3b9178bfa6fb37c72d6d73ad0d1b6ba2d6f237fcb09e7251f7cbe07e"
+    },
+    {
+      "path": "site/book-math.mjs",
+      "sha256": "7f3e946a10c6074bfb4f7e921791006abc56e3147690f29ffb1e55edf7bcd87b"
+    },
+    {
+      "path": "site/book-sets.mjs",
+      "sha256": "23f635fa7ba5903b70888a4ce6a9cad5c7831078d2c0734c04f0af5e325e9110"
+    },
+    {
+      "path": "site/book-trig.mjs",
+      "sha256": "51e5fa529f7cafeb80cde08a727846761d7030fe422383dc984504ffe61a056f"
+    },
+    {
+      "path": "site/book2-complex-labs.mjs",
+      "sha256": "5b3194446a49aa1a0ec65cf145bf6aad1ad5da6483fedfac9334fd3c9772dc50"
+    },
+    {
+      "path": "site/book2-complex.mjs",
+      "sha256": "6cd86b4e83d3cf6a89c875a1f61e3d32f04b585865464496f7556dc39dbfe517"
+    },
+    {
+      "path": "site/book2-course.mjs",
+      "sha256": "c2716fe108669509aaebfc6691393f6b2e2fb9e249261c22de2ae15d3515e0e2"
+    },
+    {
+      "path": "site/book2-data-labs.mjs",
+      "sha256": "66ff6af0ef7b9b77544fa62ef970bb80b2a5ccd95a493e098e3df02f9ed1c139"
+    },
+    {
+      "path": "site/book2-labs.mjs",
+      "sha256": "92c42c681b7f405c7ca261e9353691b7d9c2584182a67032264b6d221fe3d3f3"
+    },
+    {
+      "path": "site/book2-math.mjs",
+      "sha256": "c21fdc6249399239594a9911e946d2810dfb425097e42a4e322ffa24a6630c3b"
+    },
+    {
+      "path": "site/book2-probability.mjs",
+      "sha256": "de20692e8376dde4bee52121282194988c33282e75229a762901bc2448724882"
+    },
+    {
+      "path": "site/book2-solid-labs.mjs",
+      "sha256": "74beb9aadea95888d54e3e0d0823be347897090f4d19770cacc2d1a9d5b4c760"
+    },
+    {
+      "path": "site/book2-solid.mjs",
+      "sha256": "626d4c0cefd7367f9878863b5f4091b02d3153abcc63e4f6312c5fe041073a66"
+    },
+    {
+      "path": "site/book2-statistics.mjs",
+      "sha256": "975891beaa80f940c19e3d87d962626c9f1baa7e2c5e7c261ea75e07e10b8586"
+    },
+    {
+      "path": "site/book2-vector-labs.mjs",
+      "sha256": "6802251085ad16f23f98372af47abfc2be13c672f6f95e9aa18122e3a4cd4b28"
+    },
+    {
+      "path": "site/book2-vectors.mjs",
+      "sha256": "c16ba95a1a001a53190bd1b6708366b0fe6d51438584a67fcc270b57ba36179d"
+    },
+    {
+      "path": "site/boot.mjs",
+      "sha256": "7488e2b2b6806c016b7e80a4f02b88cd01887a08366cb14a0921fc3873516fd3"
+    },
+    {
+      "path": "site/conic-course.mjs",
+      "sha256": "4e8e71b64699160ffbd894584130b3e6062e35e099e70084101df9773a11f9e6"
+    },
+    {
+      "path": "site/course.mjs",
+      "sha256": "685a0f90621fde0012733ee76d6adb1f0c73a794a5dac39bb18871269deb641b"
+    },
+    {
+      "path": "site/index.html",
+      "sha256": "96f5e77437bed827ad4f87521878a62303408002ef2fe0a86bede9fa8551ed8f"
+    },
+    {
+      "path": "site/lesson-data.mjs",
+      "sha256": "128d2112a9b6293278ffd96067597a890a183a8292e5a6933d335b3e184beae7"
+    },
+    {
+      "path": "site/math.mjs",
+      "sha256": "0e2fac2235cb0e0d973e1fa343ba79f7dfe062572526c3b3cec9aab735e1d8db"
+    },
+    {
+      "path": "site/module-app.mjs",
+      "sha256": "b1a6464744f59a1dd7e07e772ba419e57176383068224e1a5f02ce38f209c1ce"
+    },
+    {
+      "path": "site/module-course.mjs",
+      "sha256": "84bdd3e21241729762f76ed023ff0dd2670c190569cd605493fb5be095ccc393"
+    },
+    {
+      "path": "site/module-math.mjs",
+      "sha256": "dac4ca024e7d70a49ef865737e8140fc390ebd67a1646a03d6fc09a97cee89d2"
+    },
+    {
+      "path": "site/module.css",
+      "sha256": "78dbb0d851843596a4dde38ee09f656cca339267ff40d4a74270d9c827c79331"
+    },
+    {
+      "path": "site/solid-course.mjs",
+      "sha256": "41136f593d1b2a089d17664431c61d471a1500454a5919290132013a9aa35fa7"
+    },
+    {
+      "path": "site/state.mjs",
+      "sha256": "4b7e6b7eeef01ae91914d82286b9f2a34f24fa81ca23d36331669dea022e6a92"
+    },
+    {
+      "path": "site/styles.css",
+      "sha256": "9fc199643ae5fd2054755a1ab931225dffcf248c037d94fa32b4dd35d494ec32"
+    },
+    {
+      "path": "tests/advanced.test.mjs",
+      "sha256": "4732921fa13c9d264af4ec932e5088e976e59b9cacfaf5e87e94799252c5df31"
+    },
+    {
+      "path": "tests/book.test.mjs",
+      "sha256": "dff41dd77d1903b0c036910643f4fc9dc194b244958a9f9403956eec0e0e229e"
+    },
+    {
+      "path": "tests/book2.test.mjs",
+      "sha256": "a9d2fc4dfbda33b4c3326e55fa461743945d76b3570e6e5b3a36890ebe38a113"
+    },
+    {
+      "path": "tests/math.test.mjs",
+      "sha256": "dae36b3a6933c7b911c916b44750a3a9872779975da82b1bf0a48d7f7cbc234f"
+    },
+    {
+      "path": "tests/module.test.mjs",
+      "sha256": "d7cb89de6150dcc2600d44183563a331d50c858f78600d2e3ea31155b21d9f65"
+    },
+    {
+      "path": "tests/server.test.mjs",
+      "sha256": "f69e16b7bd9b0b5a4ff3c1edbfa70ebad317568da588f249aa67daa80e089612"
+    },
+    {
+      "path": "tests/state.test.mjs",
+      "sha256": "2d616fabacf2176e00b73f5a621d316e01520b9588577c1013e412584bb1bc15"
+    },
+    {
+      "path": "tests/topics.test.mjs",
+      "sha256": "faccc8370125c50ac6c8bd8e82b433790f5191fe8ff4af93aba9be3314360cd7"
+    }
+  ],
+  "sources": [
+    {
+      "path": "高二上数学_立体几何_直线与圆_圆锥曲线考点.docx",
+      "sha256": "2d070b664a5b88c86cdaf9d79db39b4e0098599f407c389dc76a01b90bfe6cbf"
+    },
+    {
+      "path": "高中数学必修二知识点考点整理.docx",
+      "sha256": "77c01f79060f77102eb4049d21af7dc258b9d35adbe420cc789e8d297d1b99c4"
+    },
+    {
+      "path": "高中数学必修一知识点考点全梳理.docx",
+      "sha256": "766f03ba72d1d7573e9cd8914b31fde42bc306b4970ed75f217ff3dde74b144d"
+    },
+    {
+      "path": "高中数学知识点详解.docx",
+      "sha256": "213ab71eaf55e88bc1f110a5f5738d4ea6af6cdcfd44ba10f429aad3004c50cf"
+    }
+  ]
+}

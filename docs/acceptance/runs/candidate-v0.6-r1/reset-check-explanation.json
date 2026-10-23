@@ -1,0 +1,7 @@
+{
+  "reason": "First comparison used JSON key order; direct deep comparison then encountered cross-context object prototypes. Normalize the structured response through JSON and compare field values. Only b2-frequency changes; all 69 other normal-course states are equal.",
+  "resetOnlyCurrent": true,
+  "changedLessons": [
+    "b2-frequency"
+  ]
+}
