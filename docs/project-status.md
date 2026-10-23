@@ -1,6 +1,8 @@
 # 项目状态
 
-## 当前迭代 v0.7 / IN_PROGRESS
+## 当前迭代 v0.7 / DELIVERED
+
+发布完成：源码a960cf5fb4e147e425bab85c9317628542ee8a01推送原main，Pages39974311421 success；44线上资源一致、公开新课全部操作/刷新100%且恢复两键。候选v0.7-r1的AC-056–065十项全PASS；95课已上线，交付见delivery/v0.7.md和completion-audit.json。下段保留发布前本地验收记录。
 
 2026-10-23：用户回复“确认 v0.7，继续开发”，确认requirements/requirements-v0.7.md、acceptance/criteria-v0.7.md与source-map-v0.7.md。已实现数列11课、导数13课，新增48实验72例题120练习，共95课；保留原71课与记录。v0.7-r1冻结64文件，74自动测试、24课全流程184情形、136角点/192无效输入、432三宽布局/18入口、16存储/键盘等检查及旧71课回归通过。AC-056–064 PASS、AC-065本地部分通过，外部推送与Pages实际验证待执行，未提前交付。五份资料保留用户当前目录，四旧原件哈希一致。详见testing/v0.7与acceptance/runs/candidate-v0.7-r1/。
 

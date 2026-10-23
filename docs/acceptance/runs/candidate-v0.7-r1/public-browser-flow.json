@@ -1,0 +1,23 @@
+{
+  "checkedAt": "2026-10-23T15:01:08.833Z",
+  "flow": {
+    "cases": 9,
+    "complete": true,
+    "examples": 3,
+    "id": "e2-zeros",
+    "labs": 2,
+    "quizzes": 5,
+    "steps": 9
+  },
+  "reload": {
+    "complete": true,
+    "corrected": true,
+    "progress": "100"
+  },
+  "recordsRestored": true,
+  "consoleErrors": 0,
+  "originalRecordKeys": {
+    "module": false,
+    "legacy": false
+  }
+}
