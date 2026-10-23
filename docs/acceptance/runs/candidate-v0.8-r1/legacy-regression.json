@@ -1,0 +1,21 @@
+{
+  "back": "?module=elective1",
+  "stages": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "topics": [
+    "position",
+    "chord",
+    "extrema",
+    "moving",
+    "tangent"
+  ],
+  "returned": true
+}

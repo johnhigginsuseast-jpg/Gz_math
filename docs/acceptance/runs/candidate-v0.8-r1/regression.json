@@ -1,0 +1,146 @@
+[
+  {
+    "cases": 8,
+    "id": "line",
+    "labs": 2,
+    "progress": 100,
+    "quizzes": 5,
+    "stages": 5
+  },
+  {
+    "cases": 9,
+    "id": "lines",
+    "labs": 2,
+    "progress": 100,
+    "quizzes": 6,
+    "stages": 5
+  },
+  {
+    "cases": 8,
+    "id": "circle",
+    "labs": 2,
+    "progress": 100,
+    "quizzes": 5,
+    "stages": 5
+  },
+  {
+    "cases": 8,
+    "id": "circles",
+    "labs": 1,
+    "progress": 100,
+    "quizzes": 6,
+    "stages": 5
+  },
+  {
+    "cases": 16,
+    "id": "methods",
+    "labs": 4,
+    "progress": 100,
+    "quizzes": 8,
+    "stages": 5
+  },
+  {
+    "cases": 8,
+    "id": "space-vectors",
+    "labs": 2,
+    "progress": 100,
+    "quizzes": 5,
+    "stages": 5
+  },
+  {
+    "cases": 14,
+    "id": "space-relations",
+    "labs": 3,
+    "progress": 100,
+    "quizzes": 5,
+    "stages": 5
+  },
+  {
+    "cases": 12,
+    "id": "space-angles",
+    "labs": 3,
+    "progress": 100,
+    "quizzes": 5,
+    "stages": 5
+  },
+  {
+    "cases": 7,
+    "id": "space-distance",
+    "labs": 2,
+    "progress": 100,
+    "quizzes": 5,
+    "stages": 5
+  },
+  {
+    "cases": 8,
+    "id": "space-solids",
+    "labs": 2,
+    "progress": 100,
+    "quizzes": 5,
+    "stages": 5
+  },
+  {
+    "cases": 17,
+    "id": "space-constructions",
+    "labs": 4,
+    "progress": 100,
+    "quizzes": 6,
+    "stages": 5
+  },
+  {
+    "cases": 8,
+    "id": "ellipse",
+    "labs": 2,
+    "progress": 100,
+    "quizzes": 5,
+    "stages": 5
+  },
+  {
+    "cases": 8,
+    "id": "hyperbola",
+    "labs": 2,
+    "progress": 100,
+    "quizzes": 5,
+    "stages": 5
+  },
+  {
+    "cases": 9,
+    "id": "parabola",
+    "labs": 2,
+    "progress": 100,
+    "quizzes": 5,
+    "stages": 5
+  },
+  {
+    "cases": 10,
+    "id": "conic-focus",
+    "labs": 3,
+    "progress": 100,
+    "quizzes": 6,
+    "stages": 5
+  },
+  {
+    "cases": 10,
+    "id": "conic-intersections",
+    "labs": 2,
+    "progress": 100,
+    "quizzes": 5,
+    "stages": 5
+  },
+  {
+    "cases": 11,
+    "id": "conic-midpoint",
+    "labs": 2,
+    "progress": 100,
+    "quizzes": 5,
+    "stages": 5
+  },
+  {
+    "cases": 12,
+    "id": "conic-methods",
+    "labs": 3,
+    "progress": 100,
+    "quizzes": 6,
+    "stages": 5
+  }
+]

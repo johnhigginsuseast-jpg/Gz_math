@@ -1,0 +1,281 @@
+[
+  {
+    "query": "?module=solid",
+    "courses": 19,
+    "title": "选择性必修一"
+  },
+  {
+    "query": "?module=lines",
+    "courses": 19,
+    "title": "选择性必修一"
+  },
+  {
+    "query": "?module=conics",
+    "courses": 19,
+    "title": "选择性必修一"
+  },
+  {
+    "query": "?module=lines&lesson=line",
+    "group": "选择性必修一",
+    "id": "line",
+    "progress": "100",
+    "title": "直线的方程"
+  },
+  {
+    "query": "?module=lines&lesson=lines",
+    "group": "选择性必修一",
+    "id": "lines",
+    "progress": "100",
+    "title": "两直线的位置关系与距离"
+  },
+  {
+    "query": "?module=lines&lesson=circle",
+    "group": "选择性必修一",
+    "id": "circle",
+    "progress": "100",
+    "title": "圆的方程"
+  },
+  {
+    "query": "?module=lines&lesson=line-circle",
+    "back": "?module=elective1",
+    "id": "line-circle",
+    "stages": 8
+  },
+  {
+    "query": "?module=lines&lesson=circles",
+    "group": "选择性必修一",
+    "id": "circles",
+    "progress": "100",
+    "title": "圆与圆的位置关系"
+  },
+  {
+    "query": "?module=lines&lesson=methods",
+    "group": "选择性必修一",
+    "id": "methods",
+    "progress": "100",
+    "title": "对称、定点、圆系与轨迹"
+  },
+  {
+    "query": "?module=solid&lesson=space-vectors",
+    "group": "选择性必修一",
+    "id": "space-vectors",
+    "progress": "100",
+    "title": "空间坐标与向量"
+  },
+  {
+    "query": "?module=solid&lesson=space-relations",
+    "group": "选择性必修一",
+    "id": "space-relations",
+    "progress": "100",
+    "title": "空间位置关系"
+  },
+  {
+    "query": "?module=solid&lesson=space-angles",
+    "group": "选择性必修一",
+    "id": "space-angles",
+    "progress": "100",
+    "title": "三种空间角"
+  },
+  {
+    "query": "?module=solid&lesson=space-distance",
+    "group": "选择性必修一",
+    "id": "space-distance",
+    "progress": "100",
+    "title": "空间距离与等体积法"
+  },
+  {
+    "query": "?module=solid&lesson=space-solids",
+    "group": "选择性必修一",
+    "id": "space-solids",
+    "progress": "100",
+    "title": "几何体的面积与体积"
+  },
+  {
+    "query": "?module=solid&lesson=space-constructions",
+    "group": "选择性必修一",
+    "id": "space-constructions",
+    "progress": "100",
+    "title": "截面、翻折、展开与球"
+  },
+  {
+    "query": "?module=conics&lesson=ellipse",
+    "group": "选择性必修一",
+    "id": "ellipse",
+    "progress": "100",
+    "title": "椭圆的定义与方程"
+  },
+  {
+    "query": "?module=conics&lesson=hyperbola",
+    "group": "选择性必修一",
+    "id": "hyperbola",
+    "progress": "100",
+    "title": "双曲线的定义与方程"
+  },
+  {
+    "query": "?module=conics&lesson=parabola",
+    "group": "选择性必修一",
+    "id": "parabola",
+    "progress": "100",
+    "title": "抛物线的定义与切线"
+  },
+  {
+    "query": "?module=conics&lesson=conic-focus",
+    "group": "选择性必修一",
+    "id": "conic-focus",
+    "progress": "100",
+    "title": "焦点三角形与焦点弦"
+  },
+  {
+    "query": "?module=conics&lesson=conic-intersections",
+    "group": "选择性必修一",
+    "id": "conic-intersections",
+    "progress": "100",
+    "title": "直线与圆锥曲线联立"
+  },
+  {
+    "query": "?module=conics&lesson=conic-midpoint",
+    "group": "选择性必修一",
+    "id": "conic-midpoint",
+    "progress": "100",
+    "title": "点差法与中点弦"
+  },
+  {
+    "query": "?module=conics&lesson=conic-methods",
+    "group": "选择性必修一",
+    "id": "conic-methods",
+    "progress": "100",
+    "title": "定点、定值、最值与存在性"
+  },
+  {
+    "query": "?lesson=line",
+    "group": "选择性必修一",
+    "id": "line",
+    "progress": "100",
+    "title": "直线的方程"
+  },
+  {
+    "query": "?lesson=lines",
+    "group": "选择性必修一",
+    "id": "lines",
+    "progress": "100",
+    "title": "两直线的位置关系与距离"
+  },
+  {
+    "query": "?lesson=circle",
+    "group": "选择性必修一",
+    "id": "circle",
+    "progress": "100",
+    "title": "圆的方程"
+  },
+  {
+    "query": "?lesson=line-circle",
+    "back": "?module=elective1",
+    "id": "line-circle",
+    "stages": 8
+  },
+  {
+    "query": "?lesson=circles",
+    "group": "选择性必修一",
+    "id": "circles",
+    "progress": "100",
+    "title": "圆与圆的位置关系"
+  },
+  {
+    "query": "?lesson=methods",
+    "group": "选择性必修一",
+    "id": "methods",
+    "progress": "100",
+    "title": "对称、定点、圆系与轨迹"
+  },
+  {
+    "query": "?lesson=space-vectors",
+    "group": "选择性必修一",
+    "id": "space-vectors",
+    "progress": "100",
+    "title": "空间坐标与向量"
+  },
+  {
+    "query": "?lesson=space-relations",
+    "group": "选择性必修一",
+    "id": "space-relations",
+    "progress": "100",
+    "title": "空间位置关系"
+  },
+  {
+    "query": "?lesson=space-angles",
+    "group": "选择性必修一",
+    "id": "space-angles",
+    "progress": "100",
+    "title": "三种空间角"
+  },
+  {
+    "query": "?lesson=space-distance",
+    "group": "选择性必修一",
+    "id": "space-distance",
+    "progress": "100",
+    "title": "空间距离与等体积法"
+  },
+  {
+    "query": "?lesson=space-solids",
+    "group": "选择性必修一",
+    "id": "space-solids",
+    "progress": "100",
+    "title": "几何体的面积与体积"
+  },
+  {
+    "query": "?lesson=space-constructions",
+    "group": "选择性必修一",
+    "id": "space-constructions",
+    "progress": "100",
+    "title": "截面、翻折、展开与球"
+  },
+  {
+    "query": "?lesson=ellipse",
+    "group": "选择性必修一",
+    "id": "ellipse",
+    "progress": "100",
+    "title": "椭圆的定义与方程"
+  },
+  {
+    "query": "?lesson=hyperbola",
+    "group": "选择性必修一",
+    "id": "hyperbola",
+    "progress": "100",
+    "title": "双曲线的定义与方程"
+  },
+  {
+    "query": "?lesson=parabola",
+    "group": "选择性必修一",
+    "id": "parabola",
+    "progress": "100",
+    "title": "抛物线的定义与切线"
+  },
+  {
+    "query": "?lesson=conic-focus",
+    "group": "选择性必修一",
+    "id": "conic-focus",
+    "progress": "100",
+    "title": "焦点三角形与焦点弦"
+  },
+  {
+    "query": "?lesson=conic-intersections",
+    "group": "选择性必修一",
+    "id": "conic-intersections",
+    "progress": "100",
+    "title": "直线与圆锥曲线联立"
+  },
+  {
+    "query": "?lesson=conic-midpoint",
+    "group": "选择性必修一",
+    "id": "conic-midpoint",
+    "progress": "100",
+    "title": "点差法与中点弦"
+  },
+  {
+    "query": "?lesson=conic-methods",
+    "group": "选择性必修一",
+    "id": "conic-methods",
+    "progress": "100",
+    "title": "定点、定值、最值与存在性"
+  }
+]

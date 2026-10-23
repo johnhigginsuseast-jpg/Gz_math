@@ -1,0 +1,22 @@
+{
+  "candidate": "v0.8-r1",
+  "checkedAt": "2026-10-23T15:47:00.236Z",
+  "frozenFiles": 60,
+  "sourceFiles": 5,
+  "automaticTests": 77,
+  "routes": 41,
+  "ordinaryCourses": 18,
+  "experimentCases": 183,
+  "legacyStages": 8,
+  "legacyTopics": 5,
+  "courseLayouts": 345,
+  "legacyLayouts": 24,
+  "moduleLayouts": 12,
+  "recordFieldsPreserved": 94,
+  "legacyKeyPreserved": true,
+  "keyboard": true,
+  "currentOnlyReset": true,
+  "consoleErrors": 0,
+  "localCriteria": "AC-066–069 PASS",
+  "publication": "PENDING"
+}

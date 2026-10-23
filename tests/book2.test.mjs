@@ -45,7 +45,7 @@ test('必修二空间：全部预设与控件角点，斜二测/展开/体积/�
  assert.deepEqual([2,3,4].map(t=>solidBookModel('b2-s-section',{t}).answer),[0,1,2]);
 });
 test('五章28课、56实验、至少84例题140练习，95课唯一ID与全新进度',()=>{
- assert.equal(modules.length,6);assert.equal(lessons.length,95);assert.equal(book2Lessons.length,28);assert.deepEqual(book2Chapters.map(c=>c.lessons.length),[8,3,8,5,4]);
+ assert.equal(modules.length,4);assert.equal(lessons.length,95);assert.equal(book2Lessons.length,28);assert.deepEqual(book2Chapters.map(c=>c.lessons.length),[8,3,8,5,4]);
  assert.equal(new Set(lessons.map(l=>l.id)).size,95);assert.equal(book2Labs.length,56);assert.equal(new Set(book2Lessons.flatMap(l=>l.labs.map(b=>b.id))).size,56);
  const state=restoreModule(null);
  for(const l of book2Lessons){assert.ok(l.scene&&l.sceneQ&&l.sceneOptions.length>=2&&l.chapter);assert.ok(l.labs.length>=2&&l.notes.length>=4&&l.examples.length>=3&&l.quizzes.length>=5,l.id);for(const e of l.examples)assert.ok(e.steps.length>=3);for(const q of l.quizzes)assert.ok(q.options[q.answer]&&q.explanation);assert.equal(state.lessons[l.id].complete,false);for(const b of l.labs)assert.ok(book2Model(b.id,Object.fromEntries(b.controls.map(c=>[c.key,c.value]))));}

@@ -1,0 +1,3107 @@
+[
+  {
+    "controlIssues": 0,
+    "id": "space-vectors",
+    "lab": null,
+    "overflow": false,
+    "stage": 0,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "space-vectors",
+    "lab": 0,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "space-vectors",
+    "lab": 1,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "space-vectors",
+    "lab": null,
+    "overflow": false,
+    "stage": 2,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "space-vectors",
+    "lab": null,
+    "overflow": false,
+    "stage": 3,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "space-vectors",
+    "lab": null,
+    "overflow": false,
+    "stage": 4,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "space-relations",
+    "lab": null,
+    "overflow": false,
+    "stage": 0,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "space-relations",
+    "lab": 0,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "space-relations",
+    "lab": 1,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "space-relations",
+    "lab": 2,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "space-relations",
+    "lab": null,
+    "overflow": false,
+    "stage": 2,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "space-relations",
+    "lab": null,
+    "overflow": false,
+    "stage": 3,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "space-relations",
+    "lab": null,
+    "overflow": false,
+    "stage": 4,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "space-angles",
+    "lab": null,
+    "overflow": false,
+    "stage": 0,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "space-angles",
+    "lab": 0,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "space-angles",
+    "lab": 1,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "space-angles",
+    "lab": 2,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "space-angles",
+    "lab": null,
+    "overflow": false,
+    "stage": 2,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "space-angles",
+    "lab": null,
+    "overflow": false,
+    "stage": 3,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "space-angles",
+    "lab": null,
+    "overflow": false,
+    "stage": 4,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "space-distance",
+    "lab": null,
+    "overflow": false,
+    "stage": 0,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "space-distance",
+    "lab": 0,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "space-distance",
+    "lab": 1,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "space-distance",
+    "lab": null,
+    "overflow": false,
+    "stage": 2,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "space-distance",
+    "lab": null,
+    "overflow": false,
+    "stage": 3,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "space-distance",
+    "lab": null,
+    "overflow": false,
+    "stage": 4,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "space-solids",
+    "lab": null,
+    "overflow": false,
+    "stage": 0,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "space-solids",
+    "lab": 0,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "space-solids",
+    "lab": 1,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "space-solids",
+    "lab": null,
+    "overflow": false,
+    "stage": 2,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "space-solids",
+    "lab": null,
+    "overflow": false,
+    "stage": 3,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "space-solids",
+    "lab": null,
+    "overflow": false,
+    "stage": 4,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "space-constructions",
+    "lab": null,
+    "overflow": false,
+    "stage": 0,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "space-constructions",
+    "lab": 0,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "space-constructions",
+    "lab": 1,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "space-constructions",
+    "lab": 2,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "space-constructions",
+    "lab": 3,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "space-constructions",
+    "lab": null,
+    "overflow": false,
+    "stage": 2,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "space-constructions",
+    "lab": null,
+    "overflow": false,
+    "stage": 3,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "space-constructions",
+    "lab": null,
+    "overflow": false,
+    "stage": 4,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "line",
+    "lab": null,
+    "overflow": false,
+    "stage": 0,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "line",
+    "lab": 0,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "line",
+    "lab": 1,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "line",
+    "lab": null,
+    "overflow": false,
+    "stage": 2,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "line",
+    "lab": null,
+    "overflow": false,
+    "stage": 3,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "line",
+    "lab": null,
+    "overflow": false,
+    "stage": 4,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "lines",
+    "lab": null,
+    "overflow": false,
+    "stage": 0,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "lines",
+    "lab": 0,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "lines",
+    "lab": 1,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "lines",
+    "lab": null,
+    "overflow": false,
+    "stage": 2,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "lines",
+    "lab": null,
+    "overflow": false,
+    "stage": 3,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "lines",
+    "lab": null,
+    "overflow": false,
+    "stage": 4,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "circle",
+    "lab": null,
+    "overflow": false,
+    "stage": 0,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "circle",
+    "lab": 0,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "circle",
+    "lab": 1,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "circle",
+    "lab": null,
+    "overflow": false,
+    "stage": 2,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "circle",
+    "lab": null,
+    "overflow": false,
+    "stage": 3,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "circle",
+    "lab": null,
+    "overflow": false,
+    "stage": 4,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "circles",
+    "lab": null,
+    "overflow": false,
+    "stage": 0,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "circles",
+    "lab": 0,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "circles",
+    "lab": null,
+    "overflow": false,
+    "stage": 2,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "circles",
+    "lab": null,
+    "overflow": false,
+    "stage": 3,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "circles",
+    "lab": null,
+    "overflow": false,
+    "stage": 4,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "methods",
+    "lab": null,
+    "overflow": false,
+    "stage": 0,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "methods",
+    "lab": 0,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "methods",
+    "lab": 1,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "methods",
+    "lab": 2,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "methods",
+    "lab": 3,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "methods",
+    "lab": null,
+    "overflow": false,
+    "stage": 2,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "methods",
+    "lab": null,
+    "overflow": false,
+    "stage": 3,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "methods",
+    "lab": null,
+    "overflow": false,
+    "stage": 4,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "ellipse",
+    "lab": null,
+    "overflow": false,
+    "stage": 0,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "ellipse",
+    "lab": 0,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "ellipse",
+    "lab": 1,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "ellipse",
+    "lab": null,
+    "overflow": false,
+    "stage": 2,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "ellipse",
+    "lab": null,
+    "overflow": false,
+    "stage": 3,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "ellipse",
+    "lab": null,
+    "overflow": false,
+    "stage": 4,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "hyperbola",
+    "lab": null,
+    "overflow": false,
+    "stage": 0,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "hyperbola",
+    "lab": 0,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "hyperbola",
+    "lab": 1,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "hyperbola",
+    "lab": null,
+    "overflow": false,
+    "stage": 2,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "hyperbola",
+    "lab": null,
+    "overflow": false,
+    "stage": 3,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "hyperbola",
+    "lab": null,
+    "overflow": false,
+    "stage": 4,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "parabola",
+    "lab": null,
+    "overflow": false,
+    "stage": 0,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "parabola",
+    "lab": 0,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "parabola",
+    "lab": 1,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "parabola",
+    "lab": null,
+    "overflow": false,
+    "stage": 2,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "parabola",
+    "lab": null,
+    "overflow": false,
+    "stage": 3,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "parabola",
+    "lab": null,
+    "overflow": false,
+    "stage": 4,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "conic-focus",
+    "lab": null,
+    "overflow": false,
+    "stage": 0,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "conic-focus",
+    "lab": 0,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "conic-focus",
+    "lab": 1,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "conic-focus",
+    "lab": 2,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "conic-focus",
+    "lab": null,
+    "overflow": false,
+    "stage": 2,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "conic-focus",
+    "lab": null,
+    "overflow": false,
+    "stage": 3,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "conic-focus",
+    "lab": null,
+    "overflow": false,
+    "stage": 4,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "conic-intersections",
+    "lab": null,
+    "overflow": false,
+    "stage": 0,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "conic-intersections",
+    "lab": 0,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "conic-intersections",
+    "lab": 1,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "conic-intersections",
+    "lab": null,
+    "overflow": false,
+    "stage": 2,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "conic-intersections",
+    "lab": null,
+    "overflow": false,
+    "stage": 3,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "conic-intersections",
+    "lab": null,
+    "overflow": false,
+    "stage": 4,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "conic-midpoint",
+    "lab": null,
+    "overflow": false,
+    "stage": 0,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "conic-midpoint",
+    "lab": 0,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "conic-midpoint",
+    "lab": 1,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "conic-midpoint",
+    "lab": null,
+    "overflow": false,
+    "stage": 2,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "conic-midpoint",
+    "lab": null,
+    "overflow": false,
+    "stage": 3,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "conic-midpoint",
+    "lab": null,
+    "overflow": false,
+    "stage": 4,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "conic-methods",
+    "lab": null,
+    "overflow": false,
+    "stage": 0,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "conic-methods",
+    "lab": 0,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "conic-methods",
+    "lab": 1,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "conic-methods",
+    "lab": 2,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "conic-methods",
+    "lab": null,
+    "overflow": false,
+    "stage": 2,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "conic-methods",
+    "lab": null,
+    "overflow": false,
+    "stage": 3,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "conic-methods",
+    "lab": null,
+    "overflow": false,
+    "stage": 4,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "controlIssues": 0,
+    "id": "space-vectors",
+    "lab": null,
+    "overflow": false,
+    "stage": 0,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "space-vectors",
+    "lab": 0,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "space-vectors",
+    "lab": 1,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "space-vectors",
+    "lab": null,
+    "overflow": false,
+    "stage": 2,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "space-vectors",
+    "lab": null,
+    "overflow": false,
+    "stage": 3,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "space-vectors",
+    "lab": null,
+    "overflow": false,
+    "stage": 4,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "space-relations",
+    "lab": null,
+    "overflow": false,
+    "stage": 0,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "space-relations",
+    "lab": 0,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "space-relations",
+    "lab": 1,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "space-relations",
+    "lab": 2,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "space-relations",
+    "lab": null,
+    "overflow": false,
+    "stage": 2,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "space-relations",
+    "lab": null,
+    "overflow": false,
+    "stage": 3,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "space-relations",
+    "lab": null,
+    "overflow": false,
+    "stage": 4,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "space-angles",
+    "lab": null,
+    "overflow": false,
+    "stage": 0,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "space-angles",
+    "lab": 0,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "space-angles",
+    "lab": 1,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "space-angles",
+    "lab": 2,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "space-angles",
+    "lab": null,
+    "overflow": false,
+    "stage": 2,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "space-angles",
+    "lab": null,
+    "overflow": false,
+    "stage": 3,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "space-angles",
+    "lab": null,
+    "overflow": false,
+    "stage": 4,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "space-distance",
+    "lab": null,
+    "overflow": false,
+    "stage": 0,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "space-distance",
+    "lab": 0,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "space-distance",
+    "lab": 1,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "space-distance",
+    "lab": null,
+    "overflow": false,
+    "stage": 2,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "space-distance",
+    "lab": null,
+    "overflow": false,
+    "stage": 3,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "space-distance",
+    "lab": null,
+    "overflow": false,
+    "stage": 4,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "space-solids",
+    "lab": null,
+    "overflow": false,
+    "stage": 0,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "space-solids",
+    "lab": 0,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "space-solids",
+    "lab": 1,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "space-solids",
+    "lab": null,
+    "overflow": false,
+    "stage": 2,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "space-solids",
+    "lab": null,
+    "overflow": false,
+    "stage": 3,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "space-solids",
+    "lab": null,
+    "overflow": false,
+    "stage": 4,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "space-constructions",
+    "lab": null,
+    "overflow": false,
+    "stage": 0,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "space-constructions",
+    "lab": 0,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "space-constructions",
+    "lab": 1,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "space-constructions",
+    "lab": 2,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "space-constructions",
+    "lab": 3,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "space-constructions",
+    "lab": null,
+    "overflow": false,
+    "stage": 2,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "space-constructions",
+    "lab": null,
+    "overflow": false,
+    "stage": 3,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "space-constructions",
+    "lab": null,
+    "overflow": false,
+    "stage": 4,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "line",
+    "lab": null,
+    "overflow": false,
+    "stage": 0,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "line",
+    "lab": 0,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "line",
+    "lab": 1,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "line",
+    "lab": null,
+    "overflow": false,
+    "stage": 2,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "line",
+    "lab": null,
+    "overflow": false,
+    "stage": 3,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "line",
+    "lab": null,
+    "overflow": false,
+    "stage": 4,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "lines",
+    "lab": null,
+    "overflow": false,
+    "stage": 0,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "lines",
+    "lab": 0,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "lines",
+    "lab": 1,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "lines",
+    "lab": null,
+    "overflow": false,
+    "stage": 2,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "lines",
+    "lab": null,
+    "overflow": false,
+    "stage": 3,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "lines",
+    "lab": null,
+    "overflow": false,
+    "stage": 4,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "circle",
+    "lab": null,
+    "overflow": false,
+    "stage": 0,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "circle",
+    "lab": 0,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "circle",
+    "lab": 1,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "circle",
+    "lab": null,
+    "overflow": false,
+    "stage": 2,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "circle",
+    "lab": null,
+    "overflow": false,
+    "stage": 3,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "circle",
+    "lab": null,
+    "overflow": false,
+    "stage": 4,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "circles",
+    "lab": null,
+    "overflow": false,
+    "stage": 0,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "circles",
+    "lab": 0,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "circles",
+    "lab": null,
+    "overflow": false,
+    "stage": 2,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "circles",
+    "lab": null,
+    "overflow": false,
+    "stage": 3,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "circles",
+    "lab": null,
+    "overflow": false,
+    "stage": 4,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "methods",
+    "lab": null,
+    "overflow": false,
+    "stage": 0,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "methods",
+    "lab": 0,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "methods",
+    "lab": 1,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "methods",
+    "lab": 2,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "methods",
+    "lab": 3,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "methods",
+    "lab": null,
+    "overflow": false,
+    "stage": 2,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "methods",
+    "lab": null,
+    "overflow": false,
+    "stage": 3,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "methods",
+    "lab": null,
+    "overflow": false,
+    "stage": 4,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "ellipse",
+    "lab": null,
+    "overflow": false,
+    "stage": 0,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "ellipse",
+    "lab": 0,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "ellipse",
+    "lab": 1,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "ellipse",
+    "lab": null,
+    "overflow": false,
+    "stage": 2,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "ellipse",
+    "lab": null,
+    "overflow": false,
+    "stage": 3,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "ellipse",
+    "lab": null,
+    "overflow": false,
+    "stage": 4,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "hyperbola",
+    "lab": null,
+    "overflow": false,
+    "stage": 0,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "hyperbola",
+    "lab": 0,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "hyperbola",
+    "lab": 1,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "hyperbola",
+    "lab": null,
+    "overflow": false,
+    "stage": 2,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "hyperbola",
+    "lab": null,
+    "overflow": false,
+    "stage": 3,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "hyperbola",
+    "lab": null,
+    "overflow": false,
+    "stage": 4,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "parabola",
+    "lab": null,
+    "overflow": false,
+    "stage": 0,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "parabola",
+    "lab": 0,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "parabola",
+    "lab": 1,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "parabola",
+    "lab": null,
+    "overflow": false,
+    "stage": 2,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "parabola",
+    "lab": null,
+    "overflow": false,
+    "stage": 3,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "parabola",
+    "lab": null,
+    "overflow": false,
+    "stage": 4,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "conic-focus",
+    "lab": null,
+    "overflow": false,
+    "stage": 0,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "conic-focus",
+    "lab": 0,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "conic-focus",
+    "lab": 1,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "conic-focus",
+    "lab": 2,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "conic-focus",
+    "lab": null,
+    "overflow": false,
+    "stage": 2,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "conic-focus",
+    "lab": null,
+    "overflow": false,
+    "stage": 3,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "conic-focus",
+    "lab": null,
+    "overflow": false,
+    "stage": 4,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "conic-intersections",
+    "lab": null,
+    "overflow": false,
+    "stage": 0,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "conic-intersections",
+    "lab": 0,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "conic-intersections",
+    "lab": 1,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "conic-intersections",
+    "lab": null,
+    "overflow": false,
+    "stage": 2,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "conic-intersections",
+    "lab": null,
+    "overflow": false,
+    "stage": 3,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "conic-intersections",
+    "lab": null,
+    "overflow": false,
+    "stage": 4,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "conic-midpoint",
+    "lab": null,
+    "overflow": false,
+    "stage": 0,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "conic-midpoint",
+    "lab": 0,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "conic-midpoint",
+    "lab": 1,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "conic-midpoint",
+    "lab": null,
+    "overflow": false,
+    "stage": 2,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "conic-midpoint",
+    "lab": null,
+    "overflow": false,
+    "stage": 3,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "conic-midpoint",
+    "lab": null,
+    "overflow": false,
+    "stage": 4,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "conic-methods",
+    "lab": null,
+    "overflow": false,
+    "stage": 0,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "conic-methods",
+    "lab": 0,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "conic-methods",
+    "lab": 1,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "conic-methods",
+    "lab": 2,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "conic-methods",
+    "lab": null,
+    "overflow": false,
+    "stage": 2,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "conic-methods",
+    "lab": null,
+    "overflow": false,
+    "stage": 3,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "conic-methods",
+    "lab": null,
+    "overflow": false,
+    "stage": 4,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "controlIssues": 0,
+    "id": "space-vectors",
+    "lab": null,
+    "overflow": false,
+    "stage": 0,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "space-vectors",
+    "lab": 0,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "space-vectors",
+    "lab": 1,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "space-vectors",
+    "lab": null,
+    "overflow": false,
+    "stage": 2,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "space-vectors",
+    "lab": null,
+    "overflow": false,
+    "stage": 3,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "space-vectors",
+    "lab": null,
+    "overflow": false,
+    "stage": 4,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "space-relations",
+    "lab": null,
+    "overflow": false,
+    "stage": 0,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "space-relations",
+    "lab": 0,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "space-relations",
+    "lab": 1,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "space-relations",
+    "lab": 2,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "space-relations",
+    "lab": null,
+    "overflow": false,
+    "stage": 2,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "space-relations",
+    "lab": null,
+    "overflow": false,
+    "stage": 3,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "space-relations",
+    "lab": null,
+    "overflow": false,
+    "stage": 4,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "space-angles",
+    "lab": null,
+    "overflow": false,
+    "stage": 0,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "space-angles",
+    "lab": 0,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "space-angles",
+    "lab": 1,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "space-angles",
+    "lab": 2,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "space-angles",
+    "lab": null,
+    "overflow": false,
+    "stage": 2,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "space-angles",
+    "lab": null,
+    "overflow": false,
+    "stage": 3,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "space-angles",
+    "lab": null,
+    "overflow": false,
+    "stage": 4,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "space-distance",
+    "lab": null,
+    "overflow": false,
+    "stage": 0,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "space-distance",
+    "lab": 0,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "space-distance",
+    "lab": 1,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "space-distance",
+    "lab": null,
+    "overflow": false,
+    "stage": 2,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "space-distance",
+    "lab": null,
+    "overflow": false,
+    "stage": 3,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "space-distance",
+    "lab": null,
+    "overflow": false,
+    "stage": 4,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "space-solids",
+    "lab": null,
+    "overflow": false,
+    "stage": 0,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "space-solids",
+    "lab": 0,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "space-solids",
+    "lab": 1,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "space-solids",
+    "lab": null,
+    "overflow": false,
+    "stage": 2,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "space-solids",
+    "lab": null,
+    "overflow": false,
+    "stage": 3,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "space-solids",
+    "lab": null,
+    "overflow": false,
+    "stage": 4,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "space-constructions",
+    "lab": null,
+    "overflow": false,
+    "stage": 0,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "space-constructions",
+    "lab": 0,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "space-constructions",
+    "lab": 1,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "space-constructions",
+    "lab": 2,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "space-constructions",
+    "lab": 3,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "space-constructions",
+    "lab": null,
+    "overflow": false,
+    "stage": 2,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "space-constructions",
+    "lab": null,
+    "overflow": false,
+    "stage": 3,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "space-constructions",
+    "lab": null,
+    "overflow": false,
+    "stage": 4,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "line",
+    "lab": null,
+    "overflow": false,
+    "stage": 0,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "line",
+    "lab": 0,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "line",
+    "lab": 1,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "line",
+    "lab": null,
+    "overflow": false,
+    "stage": 2,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "line",
+    "lab": null,
+    "overflow": false,
+    "stage": 3,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "line",
+    "lab": null,
+    "overflow": false,
+    "stage": 4,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "lines",
+    "lab": null,
+    "overflow": false,
+    "stage": 0,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "lines",
+    "lab": 0,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "lines",
+    "lab": 1,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "lines",
+    "lab": null,
+    "overflow": false,
+    "stage": 2,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "lines",
+    "lab": null,
+    "overflow": false,
+    "stage": 3,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "lines",
+    "lab": null,
+    "overflow": false,
+    "stage": 4,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "circle",
+    "lab": null,
+    "overflow": false,
+    "stage": 0,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "circle",
+    "lab": 0,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "circle",
+    "lab": 1,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "circle",
+    "lab": null,
+    "overflow": false,
+    "stage": 2,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "circle",
+    "lab": null,
+    "overflow": false,
+    "stage": 3,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "circle",
+    "lab": null,
+    "overflow": false,
+    "stage": 4,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "circles",
+    "lab": null,
+    "overflow": false,
+    "stage": 0,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "circles",
+    "lab": 0,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "circles",
+    "lab": null,
+    "overflow": false,
+    "stage": 2,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "circles",
+    "lab": null,
+    "overflow": false,
+    "stage": 3,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "circles",
+    "lab": null,
+    "overflow": false,
+    "stage": 4,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "methods",
+    "lab": null,
+    "overflow": false,
+    "stage": 0,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "methods",
+    "lab": 0,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "methods",
+    "lab": 1,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "methods",
+    "lab": 2,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "methods",
+    "lab": 3,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "methods",
+    "lab": null,
+    "overflow": false,
+    "stage": 2,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "methods",
+    "lab": null,
+    "overflow": false,
+    "stage": 3,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "methods",
+    "lab": null,
+    "overflow": false,
+    "stage": 4,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "ellipse",
+    "lab": null,
+    "overflow": false,
+    "stage": 0,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "ellipse",
+    "lab": 0,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "ellipse",
+    "lab": 1,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "ellipse",
+    "lab": null,
+    "overflow": false,
+    "stage": 2,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "ellipse",
+    "lab": null,
+    "overflow": false,
+    "stage": 3,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "ellipse",
+    "lab": null,
+    "overflow": false,
+    "stage": 4,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "hyperbola",
+    "lab": null,
+    "overflow": false,
+    "stage": 0,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "hyperbola",
+    "lab": 0,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "hyperbola",
+    "lab": 1,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "hyperbola",
+    "lab": null,
+    "overflow": false,
+    "stage": 2,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "hyperbola",
+    "lab": null,
+    "overflow": false,
+    "stage": 3,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "hyperbola",
+    "lab": null,
+    "overflow": false,
+    "stage": 4,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "parabola",
+    "lab": null,
+    "overflow": false,
+    "stage": 0,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "parabola",
+    "lab": 0,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "parabola",
+    "lab": 1,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "parabola",
+    "lab": null,
+    "overflow": false,
+    "stage": 2,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "parabola",
+    "lab": null,
+    "overflow": false,
+    "stage": 3,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "parabola",
+    "lab": null,
+    "overflow": false,
+    "stage": 4,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "conic-focus",
+    "lab": null,
+    "overflow": false,
+    "stage": 0,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "conic-focus",
+    "lab": 0,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "conic-focus",
+    "lab": 1,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "conic-focus",
+    "lab": 2,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "conic-focus",
+    "lab": null,
+    "overflow": false,
+    "stage": 2,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "conic-focus",
+    "lab": null,
+    "overflow": false,
+    "stage": 3,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "conic-focus",
+    "lab": null,
+    "overflow": false,
+    "stage": 4,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "conic-intersections",
+    "lab": null,
+    "overflow": false,
+    "stage": 0,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "conic-intersections",
+    "lab": 0,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "conic-intersections",
+    "lab": 1,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "conic-intersections",
+    "lab": null,
+    "overflow": false,
+    "stage": 2,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "conic-intersections",
+    "lab": null,
+    "overflow": false,
+    "stage": 3,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "conic-intersections",
+    "lab": null,
+    "overflow": false,
+    "stage": 4,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "conic-midpoint",
+    "lab": null,
+    "overflow": false,
+    "stage": 0,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "conic-midpoint",
+    "lab": 0,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "conic-midpoint",
+    "lab": 1,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "conic-midpoint",
+    "lab": null,
+    "overflow": false,
+    "stage": 2,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "conic-midpoint",
+    "lab": null,
+    "overflow": false,
+    "stage": 3,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "conic-midpoint",
+    "lab": null,
+    "overflow": false,
+    "stage": 4,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "conic-methods",
+    "lab": null,
+    "overflow": false,
+    "stage": 0,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "conic-methods",
+    "lab": 0,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "conic-methods",
+    "lab": 1,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "conic-methods",
+    "lab": 2,
+    "overflow": false,
+    "stage": 1,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "conic-methods",
+    "lab": null,
+    "overflow": false,
+    "stage": 2,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "conic-methods",
+    "lab": null,
+    "overflow": false,
+    "stage": 3,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "controlIssues": 0,
+    "id": "conic-methods",
+    "lab": null,
+    "overflow": false,
+    "stage": 4,
+    "svgIssues": 0,
+    "width": 390
+  }
+]

@@ -90,7 +90,7 @@ test('阿波罗尼斯轨迹上的采样点满足原距离比，λ=1退化垂直�
 
 test('所有课程进度隔离、未知/损坏记录安全恢复，答题正确不等于所有环节完成', () => {
   const original = restoreModule(null);
-  assert.equal(modules.length, 6); assert.equal(lessons.filter(l=>l.moduleId==='lines').length, 6); assert.equal(lessons.filter(l => l.legacy).length, 1);
+  assert.equal(modules.length, 4); assert.equal(lessons.filter(l=>l.chapter==='第二章 · 直线与圆的方程').length, 6); assert.equal(lessons.filter(l => l.legacy).length, 1);
   for (const lesson of lessons.filter(l => !l.legacy)) {
     const s = freshLesson(lesson);
     assert.equal(lessonProgress(lesson, s), 0);
@@ -103,14 +103,14 @@ test('所有课程进度隔离、未知/损坏记录安全恢复，答题正确�
   assert.ok(Object.values(restored.lessons).every(s => !s.complete && s.unlocked === 0));
   assert.equal(restoreModule('{').recovered, true);
   assert.equal(restoreModule('{"version":99}').recovered, true);
-  const l = lessons[0], s = freshLesson(l);
+  const l = lessons.find(l=>l.id==='line'), s = freshLesson(l);
   s.scene = 1; s.stage = 4; s.labs.angle.values.alpha = 999; s.labs.angle.guess = 88;
   const clean = restoreModule(JSON.stringify({ version: 1, lessons: { line: s } })).lessons.line;
   assert.equal(clean.stage, 0); assert.equal(clean.labs.angle.values.alpha, 30); assert.equal(clean.labs.angle.guess, null);
 });
 
 test('完整新课可刷新恢复，记录与订正历史保留，旧课键不复用', () => {
-  const lesson = lessons[0], s = freshLesson(lesson);
+  const lesson = lessons.find(l=>l.id==='line'), s = freshLesson(lesson);
   s.scene = 1; s.stage = 4; s.unlocked = 4;
   for (const l of lesson.labs) { s.labs[l.id].guess = 0; s.labs[l.id].shown = true; s.labs[l.id].records.push({ guess: 0, observation: 0, summary: '实际观察' }); }
   s.examples = lesson.examples.map(e => e.steps.length);

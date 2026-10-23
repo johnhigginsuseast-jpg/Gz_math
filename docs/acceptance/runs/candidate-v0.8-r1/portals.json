@@ -1,0 +1,203 @@
+[
+  {
+    "chapters": [
+      "第一章 · 集合与常用逻辑用语",
+      "第二章 · 一元二次函数、方程和不等式",
+      "第三章 · 函数的概念与性质",
+      "第四章 · 指数函数与对数函数",
+      "第五章 · 三角函数"
+    ],
+    "controlIssues": 0,
+    "count": 24,
+    "id": "book",
+    "lab": null,
+    "overflow": false,
+    "progress": "0 / 24",
+    "stage": null,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "chapters": [
+      "第六章 · 平面向量及其应用",
+      "第七章 · 复数",
+      "第八章 · 立体几何初步",
+      "第九章 · 统计",
+      "第十章 · 概率"
+    ],
+    "controlIssues": 0,
+    "count": 28,
+    "id": "book2",
+    "lab": null,
+    "overflow": false,
+    "progress": "0 / 28",
+    "stage": null,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "chapters": [
+      "第一章 · 立体几何",
+      "第二章 · 直线与圆的方程",
+      "第三章 · 圆锥曲线"
+    ],
+    "controlIssues": 0,
+    "count": 19,
+    "id": "elective1",
+    "lab": null,
+    "overflow": false,
+    "progress": "0 / 19",
+    "stage": null,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "chapters": [
+      "第四章 · 数列",
+      "第五章 · 导数及其应用"
+    ],
+    "controlIssues": 0,
+    "count": 24,
+    "id": "elective2",
+    "lab": null,
+    "overflow": false,
+    "progress": "0 / 24",
+    "stage": null,
+    "svgIssues": 0,
+    "width": 1440
+  },
+  {
+    "chapters": [
+      "第一章 · 集合与常用逻辑用语",
+      "第二章 · 一元二次函数、方程和不等式",
+      "第三章 · 函数的概念与性质",
+      "第四章 · 指数函数与对数函数",
+      "第五章 · 三角函数"
+    ],
+    "controlIssues": 0,
+    "count": 24,
+    "id": "book",
+    "lab": null,
+    "overflow": false,
+    "progress": "0 / 24",
+    "stage": null,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "chapters": [
+      "第六章 · 平面向量及其应用",
+      "第七章 · 复数",
+      "第八章 · 立体几何初步",
+      "第九章 · 统计",
+      "第十章 · 概率"
+    ],
+    "controlIssues": 0,
+    "count": 28,
+    "id": "book2",
+    "lab": null,
+    "overflow": false,
+    "progress": "0 / 28",
+    "stage": null,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "chapters": [
+      "第一章 · 立体几何",
+      "第二章 · 直线与圆的方程",
+      "第三章 · 圆锥曲线"
+    ],
+    "controlIssues": 0,
+    "count": 19,
+    "id": "elective1",
+    "lab": null,
+    "overflow": false,
+    "progress": "0 / 19",
+    "stage": null,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "chapters": [
+      "第四章 · 数列",
+      "第五章 · 导数及其应用"
+    ],
+    "controlIssues": 0,
+    "count": 24,
+    "id": "elective2",
+    "lab": null,
+    "overflow": false,
+    "progress": "0 / 24",
+    "stage": null,
+    "svgIssues": 0,
+    "width": 768
+  },
+  {
+    "chapters": [
+      "第一章 · 集合与常用逻辑用语",
+      "第二章 · 一元二次函数、方程和不等式",
+      "第三章 · 函数的概念与性质",
+      "第四章 · 指数函数与对数函数",
+      "第五章 · 三角函数"
+    ],
+    "controlIssues": 0,
+    "count": 24,
+    "id": "book",
+    "lab": null,
+    "overflow": false,
+    "progress": "0 / 24",
+    "stage": null,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "chapters": [
+      "第六章 · 平面向量及其应用",
+      "第七章 · 复数",
+      "第八章 · 立体几何初步",
+      "第九章 · 统计",
+      "第十章 · 概率"
+    ],
+    "controlIssues": 0,
+    "count": 28,
+    "id": "book2",
+    "lab": null,
+    "overflow": false,
+    "progress": "0 / 28",
+    "stage": null,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "chapters": [
+      "第一章 · 立体几何",
+      "第二章 · 直线与圆的方程",
+      "第三章 · 圆锥曲线"
+    ],
+    "controlIssues": 0,
+    "count": 19,
+    "id": "elective1",
+    "lab": null,
+    "overflow": false,
+    "progress": "0 / 19",
+    "stage": null,
+    "svgIssues": 0,
+    "width": 390
+  },
+  {
+    "chapters": [
+      "第四章 · 数列",
+      "第五章 · 导数及其应用"
+    ],
+    "controlIssues": 0,
+    "count": 24,
+    "id": "elective2",
+    "lab": null,
+    "overflow": false,
+    "progress": "0 / 24",
+    "stage": null,
+    "svgIssues": 0,
+    "width": 390
+  }
+]
