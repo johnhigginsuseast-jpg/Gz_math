@@ -1,0 +1,30 @@
+{
+  "candidate": "v0.8-r1",
+  "checkedAt": "2026-10-23T15:52:32.662Z",
+  "sourceCommit": "0c5068469407e20cf354ef933e34729724017eff",
+  "workflowId": 39981382374,
+  "site": "https://johnhigginsuseast-jpg.github.io/Gz_math/?module=elective1",
+  "automaticTests": 77,
+  "allCourses": 95,
+  "chapterCounts": [
+    6,
+    6,
+    7
+  ],
+  "modules": 4,
+  "oldRoutes": 41,
+  "ordinaryRecordsPreserved": 94,
+  "legacyKeyPreserved": true,
+  "experimentCases": 183,
+  "layouts": 381,
+  "keyboard": true,
+  "currentOnlyReset": true,
+  "publishedFiles": 44,
+  "publicOldCourseInteractive": true,
+  "publicReload": true,
+  "publicRecordsRestored": true,
+  "sourceFilesUnchanged": 5,
+  "frozenFiles": 60,
+  "allRequiredCriteria": "AC-066–070 PASS",
+  "scope": "Directory classification only; no new math content. CSS viewports are not real phone/Safari tests."
+}

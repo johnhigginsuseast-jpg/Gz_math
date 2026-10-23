@@ -1,0 +1,56 @@
+{
+  "elective2Count": 24,
+  "elective2Chapters": [
+    "第四章 · 数列",
+    "第五章 · 导数及其应用"
+  ],
+  "home": [
+    {
+      "meta": "24节课 · 0/24已完成进入模块 →",
+      "name": "必修一"
+    },
+    {
+      "meta": "28节课 · 0/28已完成进入模块 →",
+      "name": "必修二"
+    },
+    {
+      "meta": "19节课 · 0/19已完成进入模块 →",
+      "name": "选择性必修一"
+    },
+    {
+      "meta": "24节课 · 0/24已完成进入模块 →",
+      "name": "选择性必修二"
+    }
+  ],
+  "elective1": {
+    "chapters": [
+      "第一章 · 立体几何",
+      "第二章 · 直线与圆的方程",
+      "第三章 · 圆锥曲线"
+    ],
+    "count": 19
+  },
+  "aliases": [
+    {
+      "alias": "solid",
+      "courses": 19,
+      "title": "选择性必修一"
+    },
+    {
+      "alias": "lines",
+      "courses": 19,
+      "title": "选择性必修一"
+    },
+    {
+      "alias": "conics",
+      "courses": 19,
+      "title": "选择性必修一"
+    }
+  ],
+  "oldCourseInteractive": true,
+  "reload": true,
+  "legacyBack": "?module=elective1",
+  "legacyReturned": true,
+  "recordsRestored": true,
+  "consoleErrors": 0
+}
