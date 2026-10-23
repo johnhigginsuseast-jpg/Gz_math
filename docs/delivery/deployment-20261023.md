@@ -10,4 +10,5 @@
 - 打包范围：仅 `site/` 的 17 个网页文件，复制至忽略的 `dist/`；逐文件 SHA256 核对零差异。Word 原始材料、测试记录与本机配置不在网站静态目录。
 - 部署包：忽略的 `outputs/geometry-site.tar.gz`。
 - 应用代码未修改；此前 41 项自动测试与语法检查通过。本次未重新执行线上浏览器交互验收或真实手机验收。
-- GitHub 目标：`https://github.com/johnhigginsuseast-jpg/Gz_math.git`；记录时本机 Git 正等待用户完成设备登录，不能将 Sites 源仓库同步视为 GitHub 上传完成。
+- GitHub 目标：`https://github.com/johnhigginsuseast-jpg/Gz_math.git`；用户完成官方设备登录后，`master` 已上传并核对为 `aa245568ef2249733c2ba12e40555e799997243c`。
+- 远端默认 `main` 随后存在初始化 README 提交 `2ba2613`；合并时保留双方历史与项目完整说明，不使用强制推送。
